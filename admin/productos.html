@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="icon" href="../casadruettologo1.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Productos | Casa Druetto</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="../assets/css/css2.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/admin-styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="admin-body">
+
+    <!-- ─── SIDEBAR NAVEGACIÓN ─── -->
+    <aside class="admin-sidebar">
+        <div class="admin-sidebar-brand">
+            <i class="fas fa-tractor"></i>
+            <span>DRUETTO</span> Admin
+        </div>
+        <ul class="admin-nav">
+            <li class="admin-nav-item">
+                <a href="dashboard.html"><i class="fas fa-chart-line"></i> Dashboard</a>
+            </li>
+            <li class="admin-nav-item active">
+                <a href="productos.html"><i class="fas fa-boxes-stacked"></i> Productos</a>
+            </li>
+            <li class="admin-nav-item">
+                <a href="categorias.html"><i class="fas fa-tags"></i> Categorías</a>
+            </li>
+            <li class="admin-nav-item">
+                <a href="configuracion.html"><i class="fas fa-sliders"></i> Configuración</a>
+            </li>
+            <li class="admin-nav-item" style="margin-top: auto; border-top: 1px solid var(--admin-border);">
+                <a href="../tienda.html" target="_blank"><i class="fas fa-shopping-bag"></i> Ir a la Tienda</a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- ─── CONTENIDO PRINCIPAL ─── -->
+    <main class="admin-layout-main">
+        
+        <!-- Top Bar -->
+        <header class="admin-topbar">
+            <h2 class="admin-topbar-title">Administración del Catálogo</h2>
+            <div class="admin-topbar-user">
+                <span id="admin-email-display">contacto@casadruetto.com.ar</span>
+                <button onclick="logoutAdmin()" class="admin-btn-logout" title="Cerrar Sesión">
+                    <i class="fas fa-sign-out-alt"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- Contenido Principal -->
+        <div class="admin-content-view">
+            
+            <!-- Herramientas de Carga y Actualización Masiva -->
+            <div style="display:grid; grid-template-columns: 1.2fr 1fr; gap:1.5rem; margin-bottom: 2rem;">
+                
+                <!-- Ajustador de Precios Masivo -->
+                <div class="admin-data-container" style="margin-bottom:0;">
+                    <h3 style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:600;margin-bottom:1rem;"><i class="fas fa-percentage"></i> Ajuste de Precios en Bloque</h3>
+                    <div style="display:flex; gap:0.75rem; align-items:center;">
+                        <select id="adjust-category-filter" style="flex:1; padding:0.65rem; background-color:var(--admin-bg-surface); border:1px solid var(--admin-border); color:#fff; border-radius:4px;">
+                            <option value="all">Todas las Categorías</option>
+                            <!-- Llenado dinámico -->
+                        </select>
+                        <input type="number" id="adjust-percentage" placeholder="Ej: 10 o -5" style="width:100px; padding:0.65rem; background-color:var(--admin-bg-surface); border:1px solid var(--admin-border); color:#fff; border-radius:4px;">
+                        <button class="btn" style="padding:0.65rem 1.25rem;" onclick="applyBulkPriceAdjustment()">Ajustar</button>
+                    </div>
+                    <small style="color:var(--admin-text-muted); display:block; margin-top:0.5rem;">Aplica una suba o baja porcentual sobre el precio final.</small>
+                </div>
+
+                <!-- Importar / Exportar Planilla CSV -->
+                <div class="admin-data-container" style="margin-bottom:0; display:flex; flex-direction:column; justify-content:center;">
+                    <h3 style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:600;margin-bottom:1rem;"><i class="fas fa-file-csv"></i> Importador Masivo</h3>
+                    <div style="display:flex; gap:1rem;">
+                        <button class="btn btn-secondary" onclick="exportCatalogCSV()" style="flex:1; justify-content:center;"><i class="fas fa-file-export"></i> Exportar CSV</button>
+                        
+                        <label class="btn" style="flex:1; justify-content:center; cursor:pointer;">
+                            <i class="fas fa-file-import"></i> Importar CSV
+                            <input type="file" id="csv-file-input" accept=".csv" style="display:none;" onchange="handleCSVImport(event)">
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Tabla General de Productos -->
+            <div class="admin-data-container">
+                <div class="admin-container-header">
+                    <h3 style="font-family:'Montserrat',sans-serif;font-size:1.1rem;font-weight:600;">Listado de Productos</h3>
+                    <button class="btn" onclick="openProductCreateModal()"><i class="fas fa-plus"></i> Agregar Producto</button>
+                </div>
+
+                <table class="admin-table" id="admin-products-table">
+                    <thead>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Producto</th>
+                            <th>Precio (USD)</th>
+                            <th>Categoría</th>
+                            <th>Stock</th>
+                            <th>Estado</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="admin-products-tbody">
+                        <tr>
+                            <td colspan="7" style="text-align:center; color:#888; padding: 2rem;">Cargando catálogo oficial...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- ─── MODAL FORMULARIO AGREGAR/EDITAR PRODUCTO ─── -->
+    <div class="admin-form-modal" id="product-modal">
+        <div class="admin-modal-content">
+            <div class="admin-modal-header">
+                <h3 id="modal-title" style="font-family:'Montserrat',sans-serif;font-weight:700;">Editar Producto</h3>
+                <button class="cart-close-btn" onclick="toggleProductModal(false)">&times;</button>
+            </div>
+            
+            <!-- Selector de Pestañas del Formulario -->
+            <div class="admin-tabs">
+                <button class="admin-tab active" onclick="switchFormTab('tab-details', this)">1. Detalles</button>
+                <button class="admin-tab" onclick="switchFormTab('tab-gallery', this)">2. Galería de Imágenes</button>
+                <button class="admin-tab" onclick="switchFormTab('tab-specs', this)">3. Ficha Técnica</button>
+                <button class="admin-tab" onclick="switchFormTab('tab-mercadolibre', this)">4. Mercado Libre</button>
+            </div>
+
+            <div class="admin-modal-body">
+                <form id="product-form" onsubmit="event.preventDefault(); saveProductForm();">
+                    <input type="hidden" id="product-id">
+
+                    <!-- PESTAÑA 1: DETALLES -->
+                    <div class="admin-tab-pane active" id="tab-details">
+                        <div class="form-grid">
+                            <div class="form-control full-width">
+                                <label>Nombre del Producto *</label>
+                                <input type="text" id="product-name" required placeholder="Ej: Tractor John Deere 6125J">
+                            </div>
+                            <div class="form-control">
+                                <label>Código Único (SKU) *</label>
+                                <input type="text" id="product-code" required placeholder="Ej: JD-6125J">
+                            </div>
+                            <div class="form-control">
+                                <label>Precio de Venta (USD) *</label>
+                                <input type="number" id="product-price" required placeholder="Ej: 85000">
+                            </div>
+                            <div class="form-control">
+                                <label>Categoría *</label>
+                                <select id="product-category" required>
+                                    <option value="" disabled selected>Seleccionar...</option>
+                                    <!-- Llenado dinámico -->
+                                </select>
+                            </div>
+                            <div class="form-control">
+                                <label>Marca</label>
+                                <input type="text" id="product-brand" placeholder="Ej: John Deere">
+                            </div>
+                            <div class="form-control">
+                                <label>Condición *</label>
+                                <select id="product-condition" required>
+                                    <option value="Nuevo">Nuevo</option>
+                                    <option value="Usado">Usado</option>
+                                    <option value="Restaurado">Restaurado</option>
+                                </select>
+                            </div>
+                            <div class="form-control">
+                                <label>Stock Disponible *</label>
+                                <input type="number" id="product-stock" required placeholder="Ej: 5">
+                            </div>
+                            <div class="form-control full-width">
+                                <label>Descripción Comercial *</label>
+                                <textarea id="product-desc" required placeholder="Ficha comercial atractiva para el cliente..."></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PESTAÑA 2: GALERIA -->
+                    <div class="admin-tab-pane" id="tab-gallery">
+                        <div class="form-control full-width">
+                            <label>URLs de las Imágenes (Separadas por coma)</label>
+                            <textarea id="product-images" placeholder="Ej: assets/img/foto1.png, assets/img/foto2.png" style="height:150px;"></textarea>
+                            <small style="color:var(--admin-text-muted); margin-top:0.5rem; display:block;">Pega las rutas de las fotos locales o enlaces oficiales de internet.</small>
+                        </div>
+                    </div>
+
+                    <!-- PESTAÑA 3: FICHA TECNICA -->
+                    <div class="admin-tab-pane" id="tab-specs">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+                            <h4 style="color:var(--admin-text-muted); font-size:0.9rem;">Especificaciones Técnicas del Equipo</h4>
+                            <button type="button" class="btn" style="padding:0.4rem 1rem; font-size:0.75rem;" onclick="addSpecRow()"><i class="fas fa-plus"></i> Agregar Fila</button>
+                        </div>
+                        <div id="specs-builder-container">
+                            <!-- Creador dinámico -->
+                        </div>
+                    </div>
+
+                    <!-- PESTAÑA 4: MERCADO LIBRE -->
+                    <div class="admin-tab-pane" id="tab-mercadolibre">
+                        <div class="form-control full-width" style="background-color:var(--admin-bg-surface); padding:1.5rem; border-radius:6px; border:1px solid var(--admin-border); margin-bottom:1.5rem;">
+                            <h4 style="color:var(--admin-accent); font-family:'Montserrat',sans-serif; margin-bottom:0.5rem;"><i class="fas fa-link"></i> Publicación Externa</h4>
+                            <p style="color:var(--admin-text-muted); font-size:0.85rem; margin-bottom:1rem;">Si este producto ya está publicado en Mercado Libre, pega el enlace a continuación para habilitar la opción de derivación de compra.</p>
+                            
+                            <label style="font-size: 0.8rem; font-weight: bold; display: block; margin-bottom: 0.5rem;">Link de Mercado Libre</label>
+                            <input type="url" id="product-ml-link" placeholder="https://articulo.mercadolibre.com.ar/..." style="width:100%; padding:0.75rem; background-color:var(--admin-bg-dark); border:1px solid var(--admin-border); color:#fff; border-radius:4px;">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="admin-modal-footer">
+                <button class="btn btn-secondary" onclick="toggleProductModal(false)">Cancelar</button>
+                <button class="btn" onclick="saveProductForm()">Guardar Cambios</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Scripts -->
+    <script type="module" src="../js/firebase-config.js"></script>
+    <script type="module" src="../js/auth.js"></script>
+    <script type="module" src="../js/admin.js"></script>
+    
+    <script>
+        // Lógica de pestañas del modal (formulario)
+        function switchFormTab(tabId, element) {
+            document.querySelectorAll('.admin-tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.admin-tab-pane').forEach(p => p.classList.remove('active'));
+            
+            element.classList.add('active');
+            document.getElementById(tabId).classList.add('active');
+        }
+    </script>
+</body>
+</html>

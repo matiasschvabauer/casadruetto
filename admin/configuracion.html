@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="icon" href="../casadruettologo1.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración de Tienda | Casa Druetto</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="../assets/css/css2.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/admin-styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="admin-body">
+
+    <!-- ─── SIDEBAR NAVEGACIÓN ─── -->
+    <aside class="admin-sidebar">
+        <div class="admin-sidebar-brand">
+            <i class="fas fa-tractor"></i>
+            <span>DRUETTO</span> Admin
+        </div>
+        <ul class="admin-nav">
+            <li class="admin-nav-item">
+                <a href="dashboard.html"><i class="fas fa-chart-line"></i> Dashboard</a>
+            </li>
+            <li class="admin-nav-item">
+                <a href="productos.html"><i class="fas fa-boxes-stacked"></i> Productos</a>
+            </li>
+            <li class="admin-nav-item">
+                <a href="categorias.html"><i class="fas fa-tags"></i> Categorías</a>
+            </li>
+            <li class="admin-nav-item active">
+                <a href="configuracion.html"><i class="fas fa-sliders"></i> Configuración</a>
+            </li>
+            <li class="admin-nav-item" style="margin-top: auto; border-top: 1px solid var(--admin-border);">
+                <a href="../tienda.html" target="_blank"><i class="fas fa-shopping-bag"></i> Ir a la Tienda</a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- ─── CONTENIDO PRINCIPAL ─── -->
+    <main class="admin-layout-main">
+        
+        <!-- Top Bar -->
+        <header class="admin-topbar">
+            <h2 class="admin-topbar-title">Configuración Comercial de la Tienda</h2>
+            <div class="admin-topbar-user">
+                <span id="admin-email-display">contacto@casadruetto.com.ar</span>
+                <button onclick="logoutAdmin()" class="admin-btn-logout" title="Cerrar Sesión">
+                    <i class="fas fa-sign-out-alt"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- Contenedor -->
+        <div class="admin-content-view">
+            
+            <div class="admin-data-container" id="admin-config-form">
+                <h3 style="font-family:'Montserrat',sans-serif;font-size:1.1rem;font-weight:600;margin-bottom:1.5rem;"><i class="fas fa-cogs"></i> Datos Operativos y de Cobro</h3>
+
+                <form onsubmit="event.preventDefault(); saveConfigForm();">
+                    
+                    <div class="form-grid">
+                        
+                        <!-- WhatsApp Comercial -->
+                        <div class="form-control">
+                            <label>Número de WhatsApp para Pedidos (Código de país sin signos) *</label>
+                            <input type="text" id="conf-wa" required placeholder="Ej: 5493404521246">
+                            <small style="color:var(--admin-text-muted); margin-top:0.25rem;">El formato de Argentina debe comenzar con 549, seguido del código de área sin el 15 (ej: 5493404521246).</small>
+                        </div>
+
+                        <!-- Dirección física -->
+                        <div class="form-control">
+                            <label>Dirección de la Sucursal Física</label>
+                            <input type="text" id="conf-address" placeholder="Ej: Gálvez, Santa Fe, Argentina">
+                        </div>
+
+                        <!-- Datos Bancarios CBU -->
+                        <div class="form-control full-width">
+                            <label>Datos Bancarios para Transferencia (Alias, CBU, Banco, CUIT)</label>
+                            <textarea id="conf-bank" placeholder="Ej: Banco Nación - Alias: CASA.DRUETTO.AGRO - CBU: 0110123456789012345678" style="height:80px;"></textarea>
+                            <small style="color:var(--admin-text-muted); margin-top:0.25rem;">Se le mostrará al cliente al elegir el checkout por Transferencia.</small>
+                        </div>
+
+                        <!-- Mercado Pago Token -->
+                        <div class="form-control full-width" style="border-top:1px solid var(--admin-border); padding-top:1.5rem; margin-top:1rem;">
+                            <h4 style="color:var(--admin-accent); font-family:'Montserrat',sans-serif; margin-bottom:0.75rem;"><i class="fab fa-cc-visa"></i> Pasarela Mercado Pago</h4>
+                            <label>Access Token de Mercado Pago (Producción / Prueba)</label>
+                            <input type="password" id="conf-mp-token" placeholder="APP_USR-...">
+                            <small style="color:var(--admin-text-muted); margin-top:0.25rem;">Permite automatizar los botones de cobro online con tarjetas en la tienda. Dejar en blanco si desea procesar todo manualmente vía WhatsApp/Transferencia.</small>
+                        </div>
+
+                        <!-- Mercado Libre OAuth Credenciales -->
+                        <div class="form-control full-width" style="border-top:1px solid var(--admin-border); padding-top:1.5rem; margin-top:1rem;">
+                            <h4 style="color:var(--admin-accent); font-family:'Montserrat',sans-serif; margin-bottom:0.75rem;"><i class="fas fa-sync"></i> Conexión Mercado Libre API</h4>
+                            <p style="color:var(--admin-text-muted); font-size:0.85rem; margin-bottom:1rem; line-height:1.4;">Para sincronizar de forma directa el stock y precios de tus productos con tus publicaciones de Mercado Libre. Configura las credenciales de tu aplicación de Mercado Libre:</p>
+                        </div>
+
+                        <div class="form-control">
+                            <label>App Client ID</label>
+                            <input type="text" id="conf-ml-client-id" placeholder="Ingresa tu Client ID">
+                        </div>
+
+                        <div class="form-control">
+                            <label>App Client Secret</label>
+                            <input type="password" id="conf-ml-client-secret" placeholder="Ingresa tu Client Secret">
+                        </div>
+
+                    </div>
+
+                    <div style="margin-top:2rem; display:flex; justify-content:flex-end;">
+                        <button class="btn" type="submit">
+                            <i class="fas fa-save"></i> Guardar Ajustes Comerciales
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Custom Scripts -->
+    <script type="module" src="../js/firebase-config.js"></script>
+    <script type="module" src="../js/auth.js"></script>
+    <script type="module" src="../js/admin.js"></script>
+</body>
+</html>

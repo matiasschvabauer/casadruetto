@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="icon" href="../casadruettologo1.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso Administrativo | Casa Druetto</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="../assets/css/css2.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/admin-styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="admin-body">
+
+    <div class="admin-login-wrapper">
+        <div class="admin-login-box">
+            
+            <div style="text-align:center; margin-bottom:1.5rem;">
+                <img src="../assets/img/casadruettologo1.png" style="width:80px; margin: 0 auto 1rem; display:block;" alt="Logo">
+                <h2 style="font-family:'Montserrat',sans-serif; font-size:1.35rem; font-weight:800; color:#111827; margin-bottom:0.25rem;">Panel de Administración</h2>
+                <p style="color:var(--admin-text-muted); font-size:0.8rem; margin-top:0.25rem;">Acceso exclusivo para administradores.</p>
+            </div>
+
+            <form onsubmit="event.preventDefault(); window.loginAdmin(document.getElementById('login-email').value, document.getElementById('login-pass').value);">
+                <div class="form-control" style="margin-bottom: 1rem;">
+                    <input type="email" id="login-email" required placeholder="Email" style="width:100%; padding:0.75rem; background-color:#f3f4f6; border:1px solid #e5e7eb; border-radius:4px; font-size:0.85rem; color:#111827; outline:none;">
+                </div>
+
+                <div class="form-control" style="margin-bottom: 1.5rem;">
+                    <input type="password" id="login-pass" required placeholder="Contraseña" style="width:100%; padding:0.75rem; background-color:#f3f4f6; border:1px solid #e5e7eb; border-radius:4px; font-size:0.85rem; color:#111827; outline:none;">
+                </div>
+
+                <div id="login-error" style="background-color:rgba(244,67,54,0.15); border:1px solid var(--admin-danger); color:#d32f2f; padding:0.75rem; border-radius:4px; margin-bottom:1.5rem; font-size:0.85rem; display:none; text-align:center;">
+                    Credenciales incorrectas.
+                </div>
+
+                <button class="btn btn-secondary" id="login-btn" style="width:100%; justify-content:center; padding: 0.85rem; font-weight:800; letter-spacing:0.5px;" type="submit">
+                    INGRESAR
+                </button>
+            </form>
+
+            <div style="text-align:center; margin-top:2rem;">
+                <a href="../tienda.html" style="color:var(--admin-accent); font-size:0.9rem; font-weight:600;"><i class="fas fa-arrow-left"></i> Volver a la Tienda</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Scripts de Autenticación -->
+    <script type="module" src="../js/firebase-config.js"></script>
+    <script type="module" src="../js/auth.js"></script>
+</body>
+</html>

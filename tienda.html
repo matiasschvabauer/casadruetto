@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="icon" href="casadruettologo1.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Equipos | Casa Druetto</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="assets/css/css2.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ─── HEADER ─── -->
+    <header class="main-header">
+        <!-- Fila Superior: Logo, Buscador, Redes y Carrito -->
+        <div class="header-top-row">
+            <a href="index.html" class="logo-link">
+                <div class="logo-circle-container">
+                    <img src="assets/img/casadruettologo1.png" alt="75 Años" class="logo-image-badge">
+                </div>
+                <span class="logo-text">CASA <span>DRUETTO</span></span>
+            </a>
+            
+            <div class="header-search-bar">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" placeholder="Buscar maquinaria, repuestos..." onkeyup="if(event.key === 'Enter') { window.location.href = 'tienda.html?search=' + encodeURIComponent(this.value); }">
+            </div>
+            
+            <div class="header-actions">
+                <a href="https://www.facebook.com/casadruetto" target="_blank" class="header-social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/casadruetto/" target="_blank" class="header-social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="admin/login.html" class="admin-login-link" title="Panel de Administración">
+                    <i class="fas fa-user"></i>
+                </a>
+                <button onclick="toggleCart(true)" class="cart-icon-btn" title="Ver Carrito">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-badge">0</span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Fila Inferior: Menú de Navegación -->
+        <nav class="header-nav-row">
+            <ul class="nav-menu">
+                <li><a href="tienda.html" class="nav-link active">Tienda Completa</a></li>
+                <li><a href="tienda.html?category=Maquinaria%20Agrícola" class="nav-link">Maquinaria</a></li>
+                <li><a href="tienda.html?category=Agricultura%20de%20Precisión" class="nav-link">Agricultura Precisión</a></li>
+                <li><a href="tienda.html?category=Repuestos%20y%20Accesorios" class="nav-link">Repuestos</a></li>
+                <li><a href="tienda.html?category=Drones%20DJI" class="nav-link">Drones DJI</a></li>
+                <li><a href="quienes-somos.html" class="nav-link">Nosotros</a></li>
+                <li><a href="servicios.html" class="nav-link">Servicios</a></li>
+                <li><a href="galeria.html" class="nav-link">Galería</a></li>
+                <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Características Rápidas -->
+        <div class="header-features-row">
+            <span>🚜 75 Años de Experiencia</span>
+            <span>🚚 Envíos a Todo el País</span>
+            <span>🛡️ Garantía y Confianza</span>
+            <span>🧑‍💼 Atención Personalizada</span>
+        </div>
+    </header>
+
+    <!-- ─── MAIN STORE LAYOUT ─── -->
+    <main class="section">
+        <div class="section-header" style="margin-bottom: 2rem;">
+            <h2 class="section-title">Tienda Virtual Casa Druetto</h2>
+            <p class="section-subtitle">Adquiere tus equipos directamente con nosotros o a través de Mercado Libre.</p>
+        </div>
+
+        <div class="store-container">
+            
+            <!-- ─── SIDEBAR FILTERS ─── -->
+            <aside class="store-filters-sidebar">
+                <div class="filter-group">
+                    <h4>Búsqueda Directa</h4>
+                    <input type="text" id="filter-search-input" placeholder="Nombre, código, marca...">
+                </div>
+
+                <div class="filter-group">
+                    <h4>Categoría</h4>
+                    <select id="filter-category">
+                        <option value="all">Todas las Categorías</option>
+                        <option value="Maquinaria Agrícola">Maquinaria Agrícola</option>
+                        <option value="Agricultura de Precisión">Agricultura de Precisión</option>
+                        <option value="Drones DJI">Drones DJI</option>
+                        <option value="Repuestos y Accesorios">Repuestos y Accesorios</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <h4>Marca</h4>
+                    <select id="filter-brand">
+                        <option value="all">Todas las Marcas</option>
+                        <option value="DJI">DJI</option>
+                        <option value="John Deere">John Deere</option>
+                        <option value="Trimble">Trimble</option>
+                        <option value="Fiat">Fiat</option>
+                        <option value="UDOR">UDOR</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <h4>Condición del Equipo</h4>
+                    <select id="filter-condition">
+                        <option value="all">Cualquier Condición</option>
+                        <option value="Nuevo">Nuevo</option>
+                        <option value="Usado">Usado</option>
+                        <option value="Restaurado">Restaurado</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <h4>Rango de Precio (USD)</h4>
+                    <div class="filter-price-inputs">
+                        <input type="number" id="filter-price-min" placeholder="Min">
+                        <input type="number" id="filter-price-max" placeholder="Max">
+                    </div>
+                </div>
+
+                <button class="btn" style="width:100%; justify-content:center; padding: 0.65rem;" onclick="applyCatalogFilters()">
+                    <i class="fas fa-filter"></i> Aplicar Filtros
+                </button>
+            </aside>
+
+            <!-- ─── CATALOG SECTION ─── -->
+            <section class="store-catalog-section">
+                
+                <div class="catalog-search-row">
+                    <div class="search-input-wrap">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="catalog-main-search" placeholder="Buscar en el catálogo de Casa Druetto..." oninput="syncAndSearch(this.value)">
+                    </div>
+                    <div class="sort-select-wrap">
+                        <select id="catalog-sort" onchange="applyCatalogFilters()">
+                            <option value="recent">Recientes</option>
+                            <option value="price_asc">Precio: Menor a Mayor</option>
+                            <option value="price_desc">Precio: Mayor a Menor</option>
+                        </select>
+                    </div>
+                    <div class="sort-select-wrap">
+                        <select id="catalog-limit" onchange="changeLimit(this.value)">
+                            <option value="30">Mostrar: 30</option>
+                            <option value="60">Mostrar: 60</option>
+                            <option value="120">Mostrar: 120</option>
+                            <option value="300">Mostrar: 300</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Product Grid -->
+                <div class="store-catalog-grid" id="store-catalog-grid">
+                    <!-- Se llena dinámicamente con products.js -->
+                </div>
+
+                <!-- Paginación -->
+                <div class="catalog-pagination" id="catalog-pagination"></div>
+            </section>
+        </div>
+    </main>
+
+    <!-- ─── FOOTER ─── -->
+    <footer class="main-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="logo-link" style="margin-bottom: 1rem;">
+                    <div class="logo-circle-container" style="width:36px; height:36px;">
+                        <img src="assets/img/casadruettologo1.png" alt="75 Años" class="logo-image-badge">
+                    </div>
+                    <span class="logo-text" style="font-size:1.15rem;">CASA <span>DRUETTO</span></span>
+                </div>
+                <p>Soluciones para el agro: maquinaria agrícola, agricultura de precisión, repuestos y servicios técnicos.</p>
+                <div class="footer-social-row">
+                    <a href="https://www.facebook.com/casadruetto" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/casadruetto/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="tienda.html">Tienda Online</a></li>
+                    <li><a href="tienda.html?category=Maquinaria%20Agrícola">Maquinaria Agrícola</a></li>
+                    <li><a href="tienda.html?category=Agricultura%20de%20Precisión">Agricultura de Precisión</a></li>
+                    <li><a href="tienda.html?category=Repuestos%20y%20Accesorios">Repuestos y Accesorios</a></li>
+                    <li><a href="tienda.html?category=Drones%20DJI">Drones DJI</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Información</h3>
+                <ul>
+                    <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                    <li><a href="terminos-y-condiciones.html">Términos y Condiciones</a></li>
+                    <li><a href="politica-de-privacidad.html">Política de Privacidad</a></li>
+                    <li><a href="garantia-y-devoluciones.html">Garantías y Devoluciones</a></li>
+                    <li><a href="politicas-de-envio.html">Políticas de Envío</a></li>
+                    <li><a href="mapa-del-sitio.html">Mapa del Sitio</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Av. Jorge Newbery 247, S2252 Gálvez, Santa Fe</p>
+                <p><i class="fab fa-whatsapp"></i> +54 9 3404 52-1246</p>
+                <p><i class="fas fa-envelope"></i> contacto@casadruetto.com.ar</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Casa Druetto. Todos los derechos reservados.</span>
+            <span>Desarrollado por <a href="https://matiasschvabauer.github.io/portafolio/" target="_blank" rel="noopener noreferrer" style="color:var(--accent-color); font-weight:700;">Schvabauer Matias</a></span>
+        </div>
+    </footer>
+
+    <!-- ─── FLOATING WHATSAPP WIDGET ─── -->
+    <a href="https://wa.me/5493404521246" class="floating-widget-wa" target="_blank" title="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Custom Scripts -->
+    <script type="module">
+        import { loadProductsData } from './js/products.js';
+        
+        // Cargar los productos de inmediato al entrar en la tienda
+        document.addEventListener('DOMContentLoaded', async () => {
+            await loadProductsData();
+            
+            // Leer y aplicar parámetros de la URL
+            const params = new URLSearchParams(window.location.search);
+            const catParam = params.get('category');
+            const searchParam = params.get('search');
+            
+            if (catParam) {
+                const catSelect = document.getElementById('filter-category');
+                if (catSelect) catSelect.value = catParam;
+            }
+            if (searchParam) {
+                const searchInput = document.getElementById('filter-search-input');
+                const mainSearchInput = document.getElementById('catalog-main-search');
+                if (searchInput) searchInput.value = searchParam;
+                if (mainSearchInput) mainSearchInput.value = searchParam;
+            }
+            
+            applyCatalogFilters();
+        });
+
+        // Sincroniza la barra de búsqueda superior y lateral
+        window.syncAndSearch = function(val) {
+            document.getElementById('filter-search-input').value = val;
+            applyCatalogFilters();
+        };
+
+        // Cambiar de página
+        window.changePage = function(pageNumber) {
+            window.currentPage = pageNumber;
+            applyCatalogFilters(false); // No resetear la página a 1
+            // Hacer scroll suave hacia arriba de la sección de productos
+            const targetElement = document.querySelector('.store-catalog-section');
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+            }
+        };
+
+        // Cambiar límite de productos por página
+        window.changeLimit = function(limit) {
+            window.productsPerPage = parseInt(limit, 10);
+            window.currentPage = 1;
+            applyCatalogFilters(false);
+        };
+
+        // Aplica todos los filtros seleccionados
+        window.applyCatalogFilters = function(resetPage = true) {
+            if (resetPage) {
+                window.currentPage = 1;
+            }
+            const search = document.getElementById('filter-search-input').value;
+            const category = document.getElementById('filter-category').value;
+            const brand = document.getElementById('filter-brand').value;
+            const condition = document.getElementById('filter-condition').value;
+            const priceMin = document.getElementById('filter-price-min').value;
+            const priceMax = document.getElementById('filter-price-max').value;
+            const order = document.getElementById('catalog-sort').value;
+
+            window.renderStoreCatalog('store-catalog-grid', {
+                search,
+                category,
+                brand,
+                condition,
+                priceMin,
+                priceMax,
+                order
+            });
+        };
+    </script>
+    <script type="module" src="js/firebase-config.js"></script>
+    <script type="module" src="js/cart.js"></script>
+    <script type="module" src="js/products.js"></script>
+</body>
+</html>

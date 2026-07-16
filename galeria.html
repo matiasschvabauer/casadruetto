@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="icon" href="casadruettologo1.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Trabajos | Casa Druetto</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="assets/css/css2.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ─── HEADER ─── -->
+    <header class="main-header">
+        <!-- Fila Superior: Logo, Buscador, Redes y Carrito -->
+        <div class="header-top-row">
+            <a href="index.html" class="logo-link">
+                <div class="logo-circle-container">
+                    <img src="assets/img/casadruettologo1.png" alt="75 Años" class="logo-image-badge">
+                </div>
+                <span class="logo-text">CASA <span>DRUETTO</span></span>
+            </a>
+            
+            <div class="header-search-bar">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" placeholder="Buscar maquinaria, repuestos..." onkeyup="if(event.key === 'Enter') { window.location.href = 'tienda.html?search=' + encodeURIComponent(this.value); }">
+            </div>
+            
+            <div class="header-actions">
+                <a href="https://www.facebook.com/casadruetto" target="_blank" class="header-social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/casadruetto/" target="_blank" class="header-social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="admin/login.html" class="admin-login-link" title="Panel de Administración">
+                    <i class="fas fa-user"></i>
+                </a>
+                <button onclick="toggleCart(true)" class="cart-icon-btn" title="Ver Carrito">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-badge">0</span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Fila Inferior: Menú de Navegación -->
+        <nav class="header-nav-row">
+            <ul class="nav-menu">
+                <li><a href="tienda.html" class="nav-link">Tienda Completa</a></li>
+                <li><a href="tienda.html?category=Maquinaria%20Agrícola" class="nav-link">Maquinaria</a></li>
+                <li><a href="tienda.html?category=Agricultura%20de%20Precisión" class="nav-link">Agricultura Precisión</a></li>
+                <li><a href="tienda.html?category=Repuestos%20y%20Accesorios" class="nav-link">Repuestos</a></li>
+                <li><a href="tienda.html?category=Drones%20DJI" class="nav-link">Drones DJI</a></li>
+                <li><a href="quienes-somos.html" class="nav-link">Nosotros</a></li>
+                <li><a href="servicios.html" class="nav-link">Servicios</a></li>
+                <li><a href="galeria.html" class="nav-link active">Galería</a></li>
+                <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Características Rápidas -->
+        <div class="header-features-row">
+            <span>🚜 75 Años de Experiencia</span>
+            <span>🚚 Envíos a Todo el País</span>
+            <span>🛡️ Garantía y Confianza</span>
+            <span>🧑‍💼 Atención Personalizada</span>
+        </div>
+    </header>
+
+    <!-- ─── GALLERY MAIN CONTENT ─── -->
+    <main class="section">
+        <section class="gallery-section animate-on-scroll">
+            <div class="section-header">
+                <h2 class="section-title">Galería de Trabajos</h2>
+                <p class="section-subtitle">Una muestra de nuestras restauraciones de maquinaria histórica, instalaciones de tecnología a campo y soporte técnico especializado.</p>
+            </div>
+            <div class="gallery-grid">
+                <!-- Item 1 -->
+                <div class="gallery-item">
+                    <img src="assets/img/1c213b02c106d92e2cf10cb8f72b5b44.png" alt="Restauración Fiat 700">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span>Restauración Completa</span>
+                            <h4>Fiat 700 - Pintura Poliuretánica</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="gallery-item">
+                    <img src="assets/img/48683dec82d4eaf8dd7e5eb4ef7bf4d9.jpg" alt="Fase de Arenado">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span>Taller de Mecánica</span>
+                            <h4>Fase de Arenado y Estructura</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="gallery-item">
+                    <img src="assets/img/8edfac4772a77b9e7df9391427de01bd.jpg" alt="Calibración Trimble GFX">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span>Agricultura de Precisión</span>
+                            <h4>Instalación y Configuración Trimble GFX</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="gallery-item">
+                    <img src="assets/img/b3f28557c245459b451d255276ebd1f2.png" alt="Soporte Casa Druetto">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span>Nuestra Casa</span>
+                            <h4>Instalaciones y Taller Central</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ─── FOOTER ─── -->
+    <footer class="main-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="logo-link" style="margin-bottom: 1rem;">
+                    <div class="logo-circle-container" style="width:36px; height:36px;">
+                        <img src="assets/img/casadruettologo1.png" alt="75 Años" class="logo-image-badge">
+                    </div>
+                    <span class="logo-text" style="font-size:1.15rem;">CASA <span>DRUETTO</span></span>
+                </div>
+                <p>Soluciones para el agro: maquinaria agrícola, agricultura de precisión, repuestos y servicios técnicos.</p>
+                <div class="footer-social-row">
+                    <a href="https://www.facebook.com/casadruetto" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/casadruetto/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="tienda.html">Tienda Online</a></li>
+                    <li><a href="tienda.html?category=Maquinaria%20Agrícola">Maquinaria Agrícola</a></li>
+                    <li><a href="tienda.html?category=Agricultura%20de%20Precisión">Agricultura de Precisión</a></li>
+                    <li><a href="tienda.html?category=Repuestos%20y%20Accesorios">Repuestos y Accesorios</a></li>
+                    <li><a href="tienda.html?category=Drones%20DJI">Drones DJI</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Información</h3>
+                <ul>
+                    <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                    <li><a href="terminos-y-condiciones.html">Términos y Condiciones</a></li>
+                    <li><a href="politica-de-privacidad.html">Política de Privacidad</a></li>
+                    <li><a href="garantia-y-devoluciones.html">Garantías y Devoluciones</a></li>
+                    <li><a href="politicas-de-envio.html">Políticas de Envío</a></li>
+                    <li><a href="mapa-del-sitio.html">Mapa del Sitio</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Av. Jorge Newbery 247, S2252 Gálvez, Santa Fe</p>
+                <p><i class="fab fa-whatsapp"></i> +54 9 3404 52-1246</p>
+                <p><i class="fas fa-envelope"></i> contacto@casadruetto.com.ar</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Casa Druetto. Todos los derechos reservados.</span>
+            <span>Desarrollado por <a href="https://matiasschvabauer.github.io/portafolio/" target="_blank" rel="noopener noreferrer" style="color:var(--accent-color); font-weight:700;">Schvabauer Matias</a></span>
+        </div>
+    </footer>
+
+    <!-- ─── FLOATING WHATSAPP WIDGET ─── -->
+    <a href="https://wa.me/5493404521246" class="floating-widget-wa" target="_blank" title="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Custom Scripts -->
+    <script type="module" src="js/firebase-config.js"></script>
+    <script type="module" src="js/cart.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('appeared');
+                        entry.target.classList.add('is-in-view');
+                    } else {
+                        entry.target.classList.remove('is-in-view');
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+
+            document.querySelectorAll('.animate-on-scroll').forEach(el => {
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>

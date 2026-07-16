@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="icon" href="casadruettologo1.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios Especializados | Casa Druetto</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="assets/css/css2.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ─── HEADER ─── -->
+    <header class="main-header">
+        <!-- Fila Superior: Logo, Buscador, Redes y Carrito -->
+        <div class="header-top-row">
+            <a href="index.html" class="logo-link">
+                <div class="logo-circle-container">
+                    <img src="assets/img/casadruettologo1.png" alt="75 Años" class="logo-image-badge">
+                </div>
+                <span class="logo-text">CASA <span>DRUETTO</span></span>
+            </a>
+            
+            <div class="header-search-bar">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" placeholder="Buscar maquinaria, repuestos..." onkeyup="if(event.key === 'Enter') { window.location.href = 'tienda.html?search=' + encodeURIComponent(this.value); }">
+            </div>
+            
+            <div class="header-actions">
+                <a href="https://www.facebook.com/casadruetto" target="_blank" class="header-social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/casadruetto/" target="_blank" class="header-social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="admin/login.html" class="admin-login-link" title="Panel de Administración">
+                    <i class="fas fa-user"></i>
+                </a>
+                <button onclick="toggleCart(true)" class="cart-icon-btn" title="Ver Carrito">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-badge">0</span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Fila Inferior: Menú de Navegación -->
+        <nav class="header-nav-row">
+            <ul class="nav-menu">
+                <li><a href="tienda.html" class="nav-link">Tienda Completa</a></li>
+                <li><a href="tienda.html?category=Maquinaria%20Agrícola" class="nav-link">Maquinaria</a></li>
+                <li><a href="tienda.html?category=Agricultura%20de%20Precisión" class="nav-link">Agricultura Precisión</a></li>
+                <li><a href="tienda.html?category=Repuestos%20y%20Accesorios" class="nav-link">Repuestos</a></li>
+                <li><a href="tienda.html?category=Drones%20DJI" class="nav-link">Drones DJI</a></li>
+                <li><a href="quienes-somos.html" class="nav-link">Nosotros</a></li>
+                <li><a href="servicios.html" class="nav-link active">Servicios</a></li>
+                <li><a href="galeria.html" class="nav-link">Galería</a></li>
+                <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Características Rápidas -->
+        <div class="header-features-row">
+            <span>🚜 75 Años de Experiencia</span>
+            <span>🚚 Envíos a Todo el País</span>
+            <span>🛡️ Garantía y Confianza</span>
+            <span>🧑‍💼 Atención Personalizada</span>
+        </div>
+    </header>
+
+    <!-- ─── SERVICES MAIN CONTENT ─── -->
+    <main class="section">
+        <div class="section-header animate-on-scroll">
+            <h2 class="section-title">SERVICIO TÉCNICO Y SERVICIOS</h2>
+            <p class="section-subtitle" style="max-width: 800px; margin: 0 auto;">En Casa Druetto contamos con más de 75 años de trayectoria respaldando a los productores. Nuestro equipo de profesionales está altamente capacitado para brindar soluciones rápidas y efectivas a campo o en nuestros talleres.</p>
+        </div>
+
+        <div class="services-grid">
+            <!-- Servicio 1 -->
+            <div class="service-card animate-on-scroll delay-100">
+                <i class="fas fa-screwdriver-wrench service-card-icon"></i>
+                <h3>Mantenimiento de Maquinaria Agrícola</h3>
+                <p>Ofrecemos servicio técnico integral para sembradoras, cosechadoras, pulverizadoras y tractores. Realizamos mantenimiento preventivo, reparaciones a campo y puesta a punto de equipos.</p>
+            </div>
+
+            <!-- Servicio 2 -->
+            <div class="service-card animate-on-scroll delay-200">
+                <i class="fas fa-desktop service-card-icon"></i>
+                <h3>Agricultura de Precisión y Drones</h3>
+                <p>Somos expertos en tecnología para el agro. Instalamos y reparamos monitores de siembra, pilotos automáticos, banderilleros satelitales y brindamos soporte oficial para drones DJI Agriculture.</p>
+            </div>
+
+            <!-- Servicio 3 -->
+            <div class="service-card animate-on-scroll delay-300">
+                <i class="fas fa-gears service-card-icon"></i>
+                <h3>Taller Especializado y Repuestos</h3>
+                <p>Contamos con talleres propios equipados con tecnología de diagnóstico avanzado y un amplio stock de repuestos originales para garantizar que tu equipo vuelva a trabajar en el menor tiempo posible.</p>
+            </div>
+
+            <!-- Servicio 4 -->
+            <div class="service-card animate-on-scroll delay-400">
+                <i class="fas fa-shield-halved service-card-icon"></i>
+                <h3>Servicio Oficial Autorizado</h3>
+                <p>Al ser concesionarios y representantes oficiales de marcas líderes, nuestras reparaciones mantienen la garantía de fábrica de tu inversión, asegurando calidad y tranquilidad.</p>
+            </div>
+        </div>
+
+        <!-- CTA SECTION -->
+        <div class="services-cta-section animate-on-scroll">
+            <h2>¿Necesitás asistencia técnica?</h2>
+            <p>Escribinos por WhatsApp y coordinamos un turno de reparación en taller o asistencia directa en tu lote.</p>
+            <a href="https://wa.me/5493404521246" target="_blank" class="btn" style="padding: 1rem 2.5rem; font-size: 1rem; border-radius: 8px; display: inline-flex; justify-content: center; align-items: center; gap: 0.5rem;">
+                <i class="fab fa-whatsapp" style="font-size: 1.25rem;"></i> Contactar al Servicio Técnico
+            </a>
+        </div>
+    </main>
+
+    <!-- ─── FOOTER ─── -->
+    <footer class="main-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="logo-link" style="margin-bottom: 1rem;">
+                    <div class="logo-circle-container" style="width:36px; height:36px;">
+                        <img src="assets/img/casadruettologo1.png" alt="75 Años" class="logo-image-badge">
+                    </div>
+                    <span class="logo-text" style="font-size:1.15rem;">CASA <span>DRUETTO</span></span>
+                </div>
+                <p>Soluciones para el agro: maquinaria agrícola, agricultura de precisión, repuestos y servicios técnicos.</p>
+                <div class="footer-social-row">
+                    <a href="https://www.facebook.com/casadruetto" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/casadruetto/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="tienda.html">Tienda Online</a></li>
+                    <li><a href="tienda.html?category=Maquinaria%20Agrícola">Maquinaria Agrícola</a></li>
+                    <li><a href="tienda.html?category=Agricultura%20de%20Precisión">Agricultura de Precisión</a></li>
+                    <li><a href="tienda.html?category=Repuestos%20y%20Accesorios">Repuestos y Accesorios</a></li>
+                    <li><a href="tienda.html?category=Drones%20DJI">Drones DJI</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Información</h3>
+                <ul>
+                    <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                    <li><a href="terminos-y-condiciones.html">Términos y Condiciones</a></li>
+                    <li><a href="politica-de-privacidad.html">Política de Privacidad</a></li>
+                    <li><a href="garantia-y-devoluciones.html">Garantías y Devoluciones</a></li>
+                    <li><a href="politicas-de-envio.html">Políticas de Envío</a></li>
+                    <li><a href="mapa-del-sitio.html">Mapa del Sitio</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Av. Jorge Newbery 247, S2252 Gálvez, Santa Fe</p>
+                <p><i class="fab fa-whatsapp"></i> +54 9 3404 52-1246</p>
+                <p><i class="fas fa-envelope"></i> contacto@casadruetto.com.ar</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Casa Druetto. Todos los derechos reservados.</span>
+            <span>Desarrollado por <a href="https://matiasschvabauer.github.io/portafolio/" target="_blank" rel="noopener noreferrer" style="color:var(--accent-color); font-weight:700;">Schvabauer Matias</a></span>
+        </div>
+    </footer>
+
+    <!-- ─── FLOATING WHATSAPP WIDGET ─── -->
+    <a href="https://wa.me/5493404521246" class="floating-widget-wa" target="_blank" title="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Custom Scripts -->
+    <script type="module" src="js/firebase-config.js"></script>
+    <script type="module" src="js/cart.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('appeared');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.15 });
+
+            document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+        });
+    </script>
+</body>
+</html>

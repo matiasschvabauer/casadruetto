@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="icon" href="../casadruettologo1.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Administrador | Casa Druetto</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="../assets/css/css2.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/admin-styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="admin-body">
+
+    <!-- ─── SIDEBAR NAVEGACIÓN ─── -->
+    <aside class="admin-sidebar">
+        <div class="admin-sidebar-brand">
+            <i class="fas fa-tractor"></i>
+            <span>DRUETTO</span> Admin
+        </div>
+        <ul class="admin-nav">
+            <li class="admin-nav-item active">
+                <a href="dashboard.html"><i class="fas fa-chart-line"></i> Dashboard</a>
+            </li>
+            <li class="admin-nav-item">
+                <a href="productos.html"><i class="fas fa-boxes-stacked"></i> Productos</a>
+            </li>
+            <li class="admin-nav-item">
+                <a href="categorias.html"><i class="fas fa-tags"></i> Categorías</a>
+            </li>
+            <li class="admin-nav-item">
+                <a href="configuracion.html"><i class="fas fa-sliders"></i> Configuración</a>
+            </li>
+            <li class="admin-nav-item" style="margin-top: auto; border-top: 1px solid var(--admin-border);">
+                <a href="../tienda.html" target="_blank"><i class="fas fa-shopping-bag"></i> Ir a la Tienda</a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- ─── CONTENIDO PRINCIPAL ─── -->
+    <main class="admin-layout-main">
+        
+        <!-- Top Bar -->
+        <header class="admin-topbar">
+            <h2 class="admin-topbar-title">Resumen de Actividad</h2>
+            <div class="admin-topbar-user">
+                <span id="admin-email-display">contacto@casadruetto.com.ar</span>
+                <button onclick="logoutAdmin()" class="admin-btn-logout" title="Cerrar Sesión">
+                    <i class="fas fa-sign-out-alt"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- Contenedor -->
+        <div class="admin-content-view" id="admin-stats-view">
+            
+            <!-- Grid de Métricas -->
+            <div class="admin-stats-grid">
+                
+                <div class="admin-stat-card">
+                    <div class="admin-stat-info">
+                        <h3>Productos Activos</h3>
+                        <p id="stat-active-products">0</p>
+                    </div>
+                    <div class="admin-stat-icon">
+                        <i class="fas fa-box"></i>
+                    </div>
+                </div>
+
+                <div class="admin-stat-card">
+                    <div class="admin-stat-info">
+                        <h3>Órdenes Totales</h3>
+                        <p id="stat-total-orders">0</p>
+                    </div>
+                    <div class="admin-stat-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+
+                <div class="admin-stat-card">
+                    <div class="admin-stat-info">
+                        <h3>Facturación Local</h3>
+                        <p id="stat-revenue">$0.00</p>
+                    </div>
+                    <div class="admin-stat-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                </div>
+
+                <div class="admin-stat-card">
+                    <div class="admin-stat-info">
+                        <h3>Ticket Promedio</h3>
+                        <p id="stat-avg-ticket">$0.00</p>
+                    </div>
+                    <div class="admin-stat-icon">
+                        <i class="fas fa-receipt"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Tabla de Órdenes Recientes -->
+            <div class="admin-data-container">
+                <div class="admin-container-header">
+                    <h3 style="font-family:'Montserrat',sans-serif;font-size:1.1rem;font-weight:600;">Pedidos Recientes</h3>
+                </div>
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>Orden ID</th>
+                            <th>Cliente</th>
+                            <th>Total</th>
+                            <th>Estado</th>
+                            <th>Fecha</th>
+                        </tr>
+                    </thead>
+                    <tbody id="recent-orders-tbody">
+                        <tr>
+                            <td colspan="5" style="text-align:center; color:#888; padding: 2rem;">Cargando órdenes de la tienda...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Custom Scripts -->
+    <script type="module" src="../js/firebase-config.js"></script>
+    <script type="module" src="../js/auth.js"></script>
+    <script type="module" src="../js/admin.js"></script>
+</body>
+</html>

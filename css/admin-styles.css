@@ -1,0 +1,439 @@
+/* ═══════════════════════════════════════════════════════════════════
+   admin-styles.css — Hoja de Estilo para el Panel (Original Light)
+   ═══════════════════════════════════════════════════════════════════ */
+
+:root {
+    --admin-bg-dark: #f3f4f6;       /* Fondo gris claro general */
+    --admin-bg-panel: #ffffff;      /* Paneles y tarjetas blancas */
+    --admin-bg-surface: #f9fafb;    /* Superficies internas */
+    --admin-border: #e5e7eb;        /* Bordes claros */
+    --admin-accent: #eab308;        /* Amarillo corporativo */
+    --admin-text-main: #111827;     /* Texto principal oscuro */
+    --admin-text-muted: #4b5563;    /* Texto secundario */
+    --admin-success: #10b981;       /* Éxito */
+    --admin-danger: #ef4444;        /* Error/Peligro */
+}
+
+body.admin-body {
+    background-color: var(--admin-bg-dark);
+    color: var(--admin-text-main);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+}
+
+/* ─── Sidebar de Navegación ─── */
+.admin-sidebar {
+    width: 260px;
+    background-color: var(--admin-bg-panel);
+    border-right: 1px solid var(--admin-border);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 0;
+}
+
+.admin-sidebar-brand {
+    padding: 0 1.5rem 2rem;
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: var(--admin-text-main);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    border-bottom: 1px solid var(--admin-border);
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.admin-sidebar-brand span {
+    color: var(--admin-accent);
+}
+
+.admin-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.admin-nav-item a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.85rem 1.5rem;
+    color: var(--admin-text-muted);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.admin-nav-item a:hover, .admin-nav-item.active a {
+    color: var(--admin-text-main);
+    background-color: var(--admin-bg-dark);
+    border-radius: 6px;
+    margin: 0 0.75rem;
+    padding: 0.85rem 1.15rem;
+}
+
+.admin-nav-item.active a {
+    color: var(--admin-text-main);
+    font-weight: 800;
+}
+
+.admin-nav-item a i {
+    width: 20px;
+    font-size: 1.1rem;
+    color: var(--admin-text-muted);
+}
+
+.admin-nav-item.active a i {
+    color: var(--admin-accent);
+}
+
+/* ─── Contenido Principal ─── */
+.admin-layout-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.admin-topbar {
+    height: 70px;
+    background-color: var(--admin-bg-panel);
+    border-bottom: 1px solid var(--admin-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.admin-topbar-title {
+    font-size: 1.25rem;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.admin-topbar-user {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.admin-topbar-user span {
+    font-size: 0.85rem;
+    color: var(--admin-text-muted);
+    font-weight: bold;
+}
+
+.admin-btn-logout {
+    background: transparent;
+    color: var(--admin-text-muted);
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.admin-btn-logout:hover {
+    color: var(--admin-danger);
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.admin-content-view {
+    padding: 2rem;
+    flex: 1;
+}
+
+/* ─── Tarjetas de Estadísticas ─── */
+.admin-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.admin-stat-card {
+    background-color: var(--admin-bg-panel);
+    border: 1px solid var(--admin-border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.admin-stat-info h3 {
+    font-size: 0.75rem;
+    color: var(--admin-text-muted);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.admin-stat-info p {
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.admin-stat-icon {
+    font-size: 1.75rem;
+    color: var(--admin-accent);
+    background: rgba(234, 179, 8, 0.08);
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ─── Contenedor y Tablas de Datos ─── */
+.admin-data-container {
+    background-color: var(--admin-bg-panel);
+    border: 1px solid var(--admin-border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.admin-container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.admin-table th, .admin-table td {
+    padding: 0.9rem 1.25rem;
+    text-align: left;
+    border-bottom: 1px solid var(--admin-border);
+}
+
+.admin-table th {
+    font-weight: 800;
+    color: var(--admin-text-muted);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    background-color: var(--admin-bg-surface);
+}
+
+.admin-table tbody tr:hover {
+    background-color: var(--admin-bg-surface);
+}
+
+.admin-actions-cell {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.admin-btn-action {
+    background: transparent;
+    color: var(--admin-text-muted);
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--admin-border);
+}
+.admin-btn-action:hover {
+    color: var(--admin-accent);
+    border-color: var(--admin-accent);
+    background-color: rgba(234, 179, 8, 0.05);
+}
+.admin-btn-action.delete-btn:hover {
+    color: var(--admin-danger);
+    border-color: var(--admin-danger);
+    background-color: rgba(239, 68, 68, 0.05);
+}
+
+/* ─── Formularios y Modales ─── */
+.admin-form-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-form-modal.open {
+    display: flex;
+}
+
+.admin-modal-content {
+    background-color: var(--admin-bg-panel);
+    border: 1px solid var(--admin-border);
+    width: 90%;
+    max-width: 800px;
+    border-radius: 8px;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.admin-modal-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--admin-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-modal-body {
+    padding: 1.5rem;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.admin-modal-footer {
+    padding: 1.25rem 1.5rem;
+    border-top: 1px solid var(--admin-border);
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+/* Sistema de Pestañas */
+.admin-tabs {
+    display: flex;
+    border-bottom: 1px solid var(--admin-border);
+    margin-bottom: 1.5rem;
+    overflow-x: auto;
+    background-color: var(--admin-bg-surface);
+    padding: 0 1rem;
+}
+
+.admin-tab {
+    padding: 0.85rem 1.25rem;
+    color: var(--admin-text-muted);
+    font-weight: 700;
+    font-size: 0.8rem;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid transparent;
+    white-space: nowrap;
+}
+
+.admin-tab.active {
+    color: var(--admin-accent);
+    border-bottom-color: var(--admin-accent);
+}
+
+.admin-tab-pane {
+    display: none;
+}
+
+.admin-tab-pane.active {
+    display: block;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form-control.full-width {
+    grid-column: 1 / -1;
+}
+
+.form-control label {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: var(--admin-text-muted);
+}
+
+.form-control input, .form-control select, .form-control textarea {
+    padding: 0.65rem 0.85rem;
+    background-color: #ffffff;
+    border: 1px solid var(--admin-border);
+    color: var(--admin-text-main);
+    border-radius: 4px;
+    font-size: 0.85rem;
+    outline: none;
+}
+
+.form-control input:focus, .form-control select:focus, .form-control textarea:focus {
+    border-color: var(--admin-accent);
+}
+
+.form-control textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Ficha Técnica Dinámica */
+.specs-builder-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Área de Carga CSV Drop */
+.csv-upload-zone {
+    border: 2px dashed var(--admin-border);
+    border-radius: 6px;
+    padding: 2.5rem;
+    text-align: center;
+    background-color: var(--admin-bg-surface);
+    cursor: pointer;
+    transition: var(--transition-smooth);
+    margin-bottom: 1.5rem;
+}
+
+.csv-upload-zone:hover {
+    border-color: var(--admin-accent);
+}
+
+.csv-upload-zone i {
+    font-size: 3rem;
+    color: var(--admin-accent);
+    margin-bottom: 1rem;
+}
+
+.csv-upload-zone p {
+    color: var(--admin-text-muted);
+}
+
+/* Login Admin */
+.admin-login-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--admin-bg-dark);
+}
+
+.admin-login-box {
+    width: 100%;
+    max-width: 400px;
+    background-color: var(--admin-bg-panel);
+    border: 1px solid var(--admin-border);
+    border-radius: 8px;
+    padding: 2.5rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}

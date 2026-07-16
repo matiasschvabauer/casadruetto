@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="icon" href="casadruettologo1.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garantía y Devoluciones | Casa Druetto</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="assets/css/css2.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ─── HEADER ─── -->
+    <header class="main-header">
+        <!-- Fila Superior: Logo, Buscador, Redes y Carrito -->
+        <div class="header-top-row">
+            <a href="index.html" class="logo-link">
+                <div class="logo-circle-container">
+                    <img src="assets/img/casadruettologo1.png" alt="75 Años" class="logo-image-badge">
+                </div>
+                <span class="logo-text">CASA <span>DRUETTO</span></span>
+            </a>
+            
+            <div class="header-search-bar">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" placeholder="Buscar maquinaria, repuestos..." onkeyup="if(event.key === 'Enter') { window.location.href = 'tienda.html?search=' + encodeURIComponent(this.value); }">
+            </div>
+            
+            <div class="header-actions">
+                <a href="https://www.facebook.com/casadruetto" target="_blank" class="header-social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/casadruetto/" target="_blank" class="header-social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="admin/login.html" class="admin-login-link" title="Panel de Administración">
+                    <i class="fas fa-user"></i>
+                </a>
+                <button onclick="toggleCart(true)" class="cart-icon-btn" title="Ver Carrito">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-badge">0</span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Fila Inferior: Menú de Navegación -->
+        <nav class="header-nav-row">
+            <ul class="nav-menu">
+                <li><a href="tienda.html" class="nav-link">Tienda Completa</a></li>
+                <li><a href="tienda.html?category=Maquinaria%20Agrícola" class="nav-link">Maquinaria</a></li>
+                <li><a href="tienda.html?category=Agricultura%20de%20Precisión" class="nav-link">Agricultura Precisión</a></li>
+                <li><a href="tienda.html?category=Repuestos%20y%20Accesorios" class="nav-link">Repuestos</a></li>
+                <li><a href="tienda.html?category=Drones%20DJI" class="nav-link">Drones DJI</a></li>
+                <li><a href="quienes-somos.html" class="nav-link">Nosotros</a></li>
+                <li><a href="servicios.html" class="nav-link">Servicios</a></li>
+                <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Características Rápidas -->
+        <div class="header-features-row">
+            <span>🚜 75 Años de Experiencia</span>
+            <span>🚚 Envíos a Todo el País</span>
+            <span>🛡️ Garantía y Confianza</span>
+            <span>🧑‍💼 Atención Personalizada</span>
+        </div>
+    </header>
+
+    <!-- ─── MAIN CONTENT ─── -->
+    <main class="section" style="max-width: 900px; margin: 0 auto; padding: 3rem 1.5rem;">
+        <div style="background:#ffffff; border:1px solid var(--border-color); border-radius:8px; padding:2.5rem; box-shadow: var(--shadow-premium);">
+            <h1 style="font-size:2rem; margin-bottom:0.5rem; color:#111827;">Garantía y Devoluciones</h1>
+            <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:2rem; border-bottom:1px solid var(--border-color); padding-bottom:1rem;">Garantía oficial y política de cambios comerciales</p>
+            
+            <div style="font-size:0.9rem; color:var(--text-primary); line-height:1.7;">
+                <h3 style="font-size:1.1rem; margin-top:1.5rem; margin-bottom:0.5rem;">Cobertura de Garantía</h3>
+                <p style="margin-bottom:1.5rem;">En Casa Druetto brindamos garantía escrita sobre la calidad de nuestra maquinaria agrícola, repuestos originales y equipos de agricultura de precisión, sujeta estrictamente a las condiciones y plazos establecidos por cada fabricante oficial. La garantía no cubre roturas por mala instalación, golpes, uso indebido, falta de mantenimiento ni el desgaste normal esperado por el trabajo a campo.</p>
+                
+                <h3 style="font-size:1.1rem; margin-top:1.5rem; margin-bottom:0.5rem;">Políticas de Cambios y Devoluciones</h3>
+                
+                <ul style="margin-left:1.5rem; margin-bottom:1.5rem; list-style-type:disc;">
+                    <li style="margin-bottom:0.75rem;"><strong>Plazos:</strong> Tenés hasta 10 días corridos desde la recepción del producto para solicitar un cambio o devolución de repuestos.</li>
+                    <li style="margin-bottom:0.75rem;"><strong>Condiciones:</strong> El producto debe encontrarse sin uso, no debe haber sido instalado ni modificado, en perfecto estado y con su empaque original intacto.</li>
+                    <li style="margin-bottom:0.75rem;"><strong>Excepciones:</strong> Por políticas del rubro, no se aceptan cambios ni devoluciones en repuestos eléctricos o electrónicos, salvo que el servicio técnico oficial determine una evidente falla de fábrica.</li>
+                    <li style="margin-bottom:0.75rem;"><strong>Costos de envío:</strong> El envío por un error de compra del cliente corre por su cuenta. Si el cambio se debe a un error de despacho nuestro o un defecto de fábrica notificado dentro de las 48 hs de recibido, asumiremos el costo total del envío.</li>
+                </ul>
+            </div>
+            
+            <div style="margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid var(--border-color); text-align:center;">
+                <a href="index.html" class="btn btn-secondary">Volver al Inicio</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- ─── FOOTER ─── -->
+    <footer class="main-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="logo-link" style="margin-bottom: 1rem;">
+                    <div class="logo-circle-container" style="width:36px; height:36px;">
+                        <img src="assets/img/casadruettologo1.png" alt="75 Años" class="logo-image-badge">
+                    </div>
+                    <span class="logo-text" style="font-size:1.15rem;">CASA <span>DRUETTO</span></span>
+                </div>
+                <p>Soluciones para el agro: maquinaria agrícola, agricultura de precisión, repuestos y servicios técnicos.</p>
+                <div class="footer-social-row">
+                    <a href="https://www.facebook.com/casadruetto" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/casadruetto/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="tienda.html">Tienda Online</a></li>
+                    <li><a href="tienda.html?category=Maquinaria%20Agrícola">Maquinaria Agrícola</a></li>
+                    <li><a href="tienda.html?category=Agricultura%20de%20Precisión">Agricultura de Precisión</a></li>
+                    <li><a href="tienda.html?category=Repuestos%20y%20Accesorios">Repuestos y Accesorios</a></li>
+                    <li><a href="tienda.html?category=Drones%20DJI">Drones DJI</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Información</h3>
+                <ul>
+                    <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                    <li><a href="terminos-y-condiciones.html">Términos y Condiciones</a></li>
+                    <li><a href="politica-de-privacidad.html">Política de Privacidad</a></li>
+                    <li><a href="garantia-y-devoluciones.html">Garantías y Devoluciones</a></li>
+                    <li><a href="politicas-de-envio.html">Políticas de Envío</a></li>
+                    <li><a href="mapa-del-sitio.html">Mapa del Sitio</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Av. Jorge Newbery 247, S2252 Gálvez, Santa Fe</p>
+                <p><i class="fab fa-whatsapp"></i> +54 9 3404 52-1246</p>
+                <p><i class="fas fa-envelope"></i> contacto@casadruetto.com.ar</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Casa Druetto. Todos los derechos reservados.</span>
+            <span>Desarrollado por <a href="https://matiasschvabauer.github.io/portafolio/" target="_blank" rel="noopener noreferrer" style="color:var(--accent-color); font-weight:700;">Schvabauer Matias</a></span>
+        </div>
+    </footer>
+
+    <!-- ─── FLOATING WHATSAPP WIDGET ─── -->
+    <div class="whatsapp-widget">
+        <div class="whatsapp-tooltip">¿Podemos ayudarte? Chateá con nosotros por WhatsApp.</div>
+        <a href="https://wa.me/5493404521246" class="whatsapp-bubble" target="_blank" title="Contactar por WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Firebase SDK Scripts -->
+    <script type="module" src="js/firebase-config.js"></script>
+    <script type="module" src="js/cart.js"></script>
+</body>
+</html>
