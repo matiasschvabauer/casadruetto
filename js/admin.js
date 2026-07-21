@@ -23,20 +23,18 @@ let ordersList = [];
 
 
 // ─── Inicialización Dinámica ───
-document.addEventListener('DOMContentLoaded', async () => {
-    // Verificar sesión (si no es login.html)
-    if (!window.location.pathname.includes('login.html')) {
-        const isAdmin = window.isAdminUser();
-        if (!isAdmin) {
-            window.location.href = "login.html";
-            return;
-        }
+window.addEventListener('authReady', async (e) => {
+    const { isLoggedIn } = e.detail;
+    
+    // Si no está logueado y estamos en una página de admin (excepto login), handleAuthRedirect nos redirigirá
+    if (!isLoggedIn && !window.location.pathname.includes('login.html')) {
+        return;
+    }
 
-        // Inyectar datos del admin en la barra superior
-        const adminEmailEl = document.getElementById('admin-email-display');
-        if (adminEmailEl) {
-            adminEmailEl.innerText = window.getCurrentUserEmail() || 'Administrador';
-        }
+    // Inyectar datos del admin en la barra superior
+    const adminEmailEl = document.getElementById('admin-email-display');
+    if (adminEmailEl) {
+        adminEmailEl.innerText = window.getCurrentUserEmail() || 'Administrador';
     }
 
     // Identificar qué panel estamos controlando
@@ -50,6 +48,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         initConfigView();
     }
 });
+
 
 // ─── A. DASHBOARD VIEW ─────────────────────────────────────────────
 async function initDashboard() {

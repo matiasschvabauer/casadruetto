@@ -98,13 +98,19 @@ if (useFirebase) {
 function handleAuthRedirect(isLoggedIn) {
     const path = window.location.pathname;
     
-    // Si estamos en login y ya está logueado -> ir a dashboard
-    if (path.includes('login.html') && isLoggedIn) {
-        window.location.href = "dashboard.html";
-    }
-    
     // Si estamos en cualquier otra página de administración (ej. dashboard, productos, etc.) y no está logueado -> ir a login
     if (!path.includes('login.html') && path.includes('/admin/') && !isLoggedIn) {
         window.location.href = "login.html";
+        return;
     }
+
+    // Si estamos en login y ya está logueado -> ir a dashboard
+    if (path.includes('login.html') && isLoggedIn) {
+        window.location.href = "dashboard.html";
+        return;
+    }
+
+    // Disparar evento para inicializar la vista de administración correspondientemente
+    window.dispatchEvent(new CustomEvent('authReady', { detail: { isLoggedIn } }));
 }
+
