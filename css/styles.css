@@ -245,19 +245,114 @@ button {
     position: relative;
     height: 55vh;
     min-height: 380px;
-    background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('../assets/img/b3f28557c245459b451d255276ebd1f2.png');
-    background-size: cover;
-    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: #ffffff;
     padding: 2rem;
+    overflow: hidden;
+}
+
+.hero-slides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.hero-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    z-index: 0;
+}
+
+.hero-slide.active {
+    opacity: 1;
 }
 
 .hero-content {
+    position: relative;
     max-width: 800px;
+    z-index: 2;
+}
+
+/* Controls */
+.hero-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    cursor: pointer;
+    z-index: 3;
+    transition: background 0.3s ease, transform 0.3s ease;
+    backdrop-filter: blur(4px);
+}
+
+.hero-control:hover {
+    background: var(--accent-color);
+    color: #111827;
+}
+
+.prev-control {
+    left: 1.5rem;
+}
+
+.next-control {
+    right: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .hero-control {
+        width: 38px;
+        height: 38px;
+        font-size: 0.95rem;
+    }
+    .prev-control { left: 0.75rem; }
+    .next-control { right: 0.75rem; }
+}
+
+/* Indicators */
+.hero-indicators {
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.75rem;
+    z-index: 3;
+}
+
+.hero-indicators .indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.hero-indicators .indicator.active {
+    background: var(--accent-color);
+    transform: scale(1.2);
 }
 
 .hero-title {
@@ -2692,5 +2787,259 @@ button {
     opacity: 0.4;
     cursor: not-allowed;
 }
+
+/* ─── Contenedor y Canvas del Tobogán Verde y Amarillo (Estilo Agroguardati) ─── */
+.tobogan-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#tobogan-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.tobogan-container > .section {
+    position: relative;
+    z-index: 1;
+}
+
+/* ─── Sección Nuestros Aliados Estratégicos (Marcas Proveedoras) ─── */
+.brand-partners-section {
+    padding: 3rem 1.5rem 5rem 1.5rem;
+}
+
+.brand-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.brand-card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.88);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(229, 231, 235, 0.8);
+    border-radius: 16px;
+    padding: 1.75rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.brand-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #0a8742, #facc15);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.brand-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(234, 179, 8, 0.4);
+    box-shadow: 0 16px 25px -5px rgba(10, 135, 66, 0.12), 0 8px 10px -6px rgba(234, 179, 8, 0.08);
+    background: rgba(255, 255, 255, 0.96);
+}
+
+.brand-card:hover::before {
+    opacity: 1;
+}
+
+.brand-logo-wrapper {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.brand-logo-wrapper img {
+    max-height: 100%;
+    max-width: 90%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+    filter: grayscale(15%);
+    transition: all 0.3s ease;
+}
+
+
+.brand-card:hover .brand-logo-wrapper img {
+    filter: grayscale(0%);
+    transform: scale(1.06);
+}
+
+.brand-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #15803d;
+    background-color: rgba(22, 163, 74, 0.1);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    margin-bottom: 0.75rem;
+}
+
+.brand-desc {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.4;
+    margin-bottom: 1.25rem;
+}
+
+.brand-link-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #111827;
+    transition: all 0.2s ease;
+}
+
+.brand-card:hover .brand-link-btn {
+    color: #ca8a04;
+}
+
+.brand-link-btn i {
+    font-size: 0.75rem;
+    transition: transform 0.2s ease;
+}
+
+.brand-card:hover .brand-link-btn i {
+    transform: translateX(4px);
+}
+
+/* ─── Comparador de Imágenes Antes/Después ─── */
+.comparison-slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 380px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow-premium);
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: ew-resize;
+    border: 1px solid var(--border-color);
+}
+
+.comparison-slider img.slider-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.before-image-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.before-image-wrapper img.before-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+    max-width: none;
+}
+
+.slider-handle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 4px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    z-index: 3;
+    cursor: ew-resize;
+    transform: translateX(-50%);
+}
+
+.handle-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 42px;
+    height: 42px;
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent-color);
+    font-size: 1.1rem;
+    transition: transform 0.1s ease;
+}
+
+.comparison-slider:active .handle-button {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* Badges / Etiquetas */
+.slider-badge {
+    position: absolute;
+    z-index: 4;
+    padding: 0.35rem 0.85rem;
+    background: rgba(17, 24, 39, 0.75);
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+    pointer-events: none;
+}
+
+.before-badge {
+    top: 1rem;
+    left: 1rem;
+}
+
+.after-badge {
+    top: 1rem;
+    right: 1rem;
+}
+
+
+
 
 

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="currentColor">
+  <!-- 3/4 Perspective Modern Tractor Vector Graphic (Smooth Wheels) -->
+  <g>
+    <!-- Rear Left Big Wheel -->
+    <ellipse cx="490" cy="310" rx="95" ry="115" />
+    <!-- Rear Right Big Wheel -->
+    <ellipse cx="230" cy="350" rx="100" ry="120" />
+    <ellipse cx="230" cy="350" rx="55" ry="70" fill="#ffffff" />
+    <ellipse cx="230" cy="350" rx="35" ry="45" />
+
+    <!-- Front Right Wheel -->
+    <ellipse cx="100" cy="340" rx="65" ry="80" />
+    <ellipse cx="100" cy="340" rx="35" ry="45" fill="#ffffff" />
+    <ellipse cx="100" cy="340" rx="20" ry="26" />
+
+    <!-- Front Left Wheel -->
+    <ellipse cx="320" cy="280" rx="50" ry="65" />
+
+    <!-- Main Chassis & Engine Hood -->
+    <path d="M 100 240 L 110 200 L 350 180 L 370 280 L 270 300 L 100 270 Z" />
+
+    <!-- Hood Front Grill Lines -->
+    <path d="M 115 210 L 112 245 M 125 210 L 122 248 M 135 210 L 132 250 M 145 208 L 142 252 M 155 206 L 152 254 M 165 205 L 162 256 M 175 204 L 172 258" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+
+    <!-- Hood Accent Line -->
+    <path d="M 110 200 L 350 180 L 355 200 L 115 215 Z" fill="#ffffff" opacity="0.3" />
+
+    <!-- Cabin Structure -->
+    <path d="M 270 185 L 290 50 L 450 65 L 480 200 L 370 240 Z" />
+
+    <!-- Cabin Roof -->
+    <path d="M 275 55 L 285 35 L 470 45 L 460 70 Z" />
+    <!-- Roof Lights -->
+    <rect x="300" y="42" width="25" height="10" rx="3" fill="#ffffff" />
+    <rect x="340" y="44" width="25" height="10" rx="3" fill="#ffffff" />
+    <rect x="380" y="46" width="25" height="10" rx="3" fill="#ffffff" />
+    <rect x="420" y="48" width="25" height="10" rx="3" fill="#ffffff" />
+
+    <!-- Cabin Windows (White cutouts) -->
+    <!-- Front Windshield -->
+    <path d="M 295 65 L 360 72 L 355 175 L 285 175 Z" fill="#ffffff" />
+    <!-- Side Door Window -->
+    <path d="M 375 73 L 440 80 L 445 160 L 370 175 Z" fill="#ffffff" />
+    <!-- Seat Silhouette inside cabin window -->
+    <path d="M 395 105 L 420 110 L 425 155 L 390 155 Z" />
+
+    <!-- Rear Fender / Mudguard -->
+    <path d="M 360 210 C 370 130, 480 130, 520 220 L 480 250 C 450 180, 390 180, 360 240 Z" />
+
+    <!-- Exhaust Chimney Pipe -->
+    <path d="M 330 180 L 335 25 L 348 25 L 343 180 Z" />
+    <path d="M 333 25 L 333 15 L 350 15 L 350 25 Z" />
+
+    <!-- Side Mirrors -->
+    <path d="M 285 75 L 255 70 L 255 95 L 285 90 Z" />
+  </g>
+</svg>

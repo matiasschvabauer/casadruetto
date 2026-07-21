@@ -8,13 +8,14 @@ import { getStorage } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-s
 import { getAuth } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js";
 
 // Reemplazar con las credenciales del nuevo proyecto de Firebase cuando esté listo
+
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY_HERE",
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT_ID.appspot.com",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
+    apiKey: "AIzaSyBbcpIukZJcQL1zR3IHH7UhBE0-xMVTkEM",
+    authDomain: "casa-druetto.firebaseapp.com",
+    projectId: "casa-druetto",
+    storageBucket: "casa-druetto.firebasestorage.app",
+    messagingSenderId: "659125798479",
+    appId: "1:659125798479:web:91a6b90020513aa10a0c3a"
 };
 
 let app, db, storage, auth;

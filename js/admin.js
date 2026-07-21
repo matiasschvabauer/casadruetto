@@ -3,18 +3,24 @@
 // ═══════════════════════════════════════════════════════════════════
 
 import { db, useFirebase, localDb } from './firebase-config.js';
-import { 
-    collection, 
-    getDocs, 
-    doc, 
-    setDoc, 
+import {
+    collection,
+    getDocs,
+    doc,
+    setDoc,
     deleteDoc,
     addDoc
 } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
 
+// Configuración de Cloudinary (para subida de imágenes de productos)
+// Reemplaza con los valores de tu propia cuenta/preset cuando los tengas creados.
+const CLOUDINARY_URL = "https://api.cloudinary.com/v1_1/doissrwhj/image/upload";
+const CLOUDINARY_PRESET = "druetto_preset";
+
 let productsList = [];
 let categoriesList = [];
 let ordersList = [];
+
 
 // ─── Inicialización Dinámica ───
 document.addEventListener('DOMContentLoaded', async () => {
@@ -25,7 +31,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             window.location.href = "login.html";
             return;
         }
-        
+
         // Inyectar datos del admin en la barra superior
         const adminEmailEl = document.getElementById('admin-email-display');
         if (adminEmailEl) {
@@ -48,18 +54,18 @@ document.addEventListener('DOMContentLoaded', async () => {
 // ─── A. DASHBOARD VIEW ─────────────────────────────────────────────
 async function initDashboard() {
     await loadAllData();
-    
+
     // Métricas clave
     document.getElementById('stat-active-products').innerText = productsList.length;
     document.getElementById('stat-total-orders').innerText = ordersList.length;
-    
+
     let totalRevenue = 0;
     ordersList.forEach(o => {
         if (o.status !== 'cancelled') totalRevenue += parseFloat(o.total) || 0;
     });
-    
+
     document.getElementById('stat-revenue').innerText = `$${totalRevenue.toLocaleString('es-AR', { minimumFractionDigits: 2 })}`;
-    
+
     const avgTicket = ordersList.length > 0 ? totalRevenue / ordersList.length : 0;
     document.getElementById('stat-avg-ticket').innerText = `$${avgTicket.toLocaleString('es-AR', { minimumFractionDigits: 2 })}`;
 
@@ -120,7 +126,7 @@ function renderProductsTable() {
     if (!tbody) return;
 
     tbody.innerHTML = '';
-    
+
     if (productsList.length === 0) {
         tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;color:#888;">El catálogo está vacío.</td></tr>';
         return;
@@ -148,7 +154,7 @@ function renderProductsTable() {
 }
 
 // Abrir Modal Crear
-window.openProductCreateModal = function() {
+window.openProductCreateModal = function () {
     document.getElementById('modal-title').innerText = "Nuevo Producto";
     document.getElementById('product-form').reset();
     document.getElementById('product-id').value = "";
@@ -158,7 +164,7 @@ window.openProductCreateModal = function() {
 };
 
 // Abrir Modal Editar
-window.openProductEditModal = function(id) {
+window.openProductEditModal = function (id) {
     const p = productsList.find(x => x.id === id);
     if (!p) return;
 
@@ -181,7 +187,7 @@ window.openProductEditModal = function(id) {
 };
 
 // Toggle Modal
-window.toggleProductModal = function(open) {
+window.toggleProductModal = function (open) {
     const modal = document.getElementById('product-modal');
     if (modal) {
         if (open) modal.classList.add('open');
@@ -190,7 +196,7 @@ window.toggleProductModal = function(open) {
 };
 
 // Guardar Producto (Crear/Editar)
-window.saveProductForm = async function() {
+window.saveProductForm = async function () {
     const id = document.getElementById('product-id').value;
     const name = document.getElementById('product-name').value;
     const code = document.getElementById('product-code').value;
@@ -203,7 +209,48 @@ window.saveProductForm = async function() {
     const imagesStr = document.getElementById('product-images').value;
     const mercadolibreLink = document.getElementById('product-ml-link').value;
 
-    const images = imagesStr ? imagesStr.split(',').map(img => img.trim()).filter(Boolean) : [];
+    const existingImages = imagesStr ? imagesStr.split(',').map(img => img.trim()).filter(Boolean) : [];
+    const uploadedImages = [];
+
+    // Subir imágenes locales seleccionadas a Cloudinary
+    const fileInput = document.getElementById('product-file-input');
+    if (fileInput && fileInput.files.length > 0) {
+        const progressContainer = document.getElementById('upload-progress-container');
+        const statusText = document.getElementById('upload-status-text');
+
+        if (progressContainer) progressContainer.style.display = 'block';
+
+        try {
+            for (let i = 0; i < fileInput.files.length; i++) {
+                const file = fileInput.files[i];
+                if (statusText) statusText.innerText = `Subiendo imagen ${i + 1} de ${fileInput.files.length}...`;
+
+                const fd = new FormData();
+                fd.append('file', file);
+                fd.append('upload_preset', CLOUDINARY_PRESET);
+
+                const res = await fetch(CLOUDINARY_URL, {
+                    method: 'POST',
+                    body: fd
+                });
+
+                if (!res.ok) throw new Error(`Error en subida de imagen a Cloudinary (Status: ${res.status})`);
+
+                const data = await res.json();
+                if (data.secure_url) {
+                    uploadedImages.push(data.secure_url);
+                }
+            }
+        } catch (uploadErr) {
+            console.error("Error al subir imágenes a Cloudinary:", uploadErr);
+            alert("Ocurrió un error al subir alguna de las imágenes locales. Se continuará guardando el producto con las imágenes ya subidas.");
+        } finally {
+            if (progressContainer) progressContainer.style.display = 'none';
+            fileInput.value = ''; // Limpiar selector
+        }
+    }
+
+    const images = [...existingImages, ...uploadedImages];
 
     // Capturar specs de las filas
     const specRows = document.querySelectorAll('.specs-builder-row');
@@ -246,7 +293,7 @@ window.saveProductForm = async function() {
 };
 
 // Eliminar Producto
-window.deleteProductAction = async function(id) {
+window.deleteProductAction = async function (id) {
     if (!confirm("¿Está seguro de que desea eliminar este producto?")) return;
     try {
         if (useFirebase) {
@@ -267,7 +314,7 @@ function renderSpecsBuilder() {
     if (!container) return;
 
     container.innerHTML = '';
-    
+
     const entries = Object.entries(activeSpecs);
     if (entries.length === 0) {
         // Fila vacía inicial
@@ -279,7 +326,7 @@ function renderSpecsBuilder() {
     }
 }
 
-window.addSpecRow = function(key = '', val = '') {
+window.addSpecRow = function (key = '', val = '') {
     const container = document.getElementById('specs-builder-container');
     if (!container) return;
 
@@ -294,7 +341,7 @@ window.addSpecRow = function(key = '', val = '') {
 };
 
 // ─── C. IMPORTAR / EXPORTAR CATÁLOGO MASIVO (CSV) ────────────────
-window.exportCatalogCSV = function() {
+window.exportCatalogCSV = function () {
     if (productsList.length === 0) {
         alert("No hay productos en el catálogo para exportar.");
         return;
@@ -308,7 +355,7 @@ window.exportCatalogCSV = function() {
         const descEscaped = p.desc ? p.desc.replace(/"/g, '""') : '';
         const nameEscaped = p.name ? p.name.replace(/"/g, '""') : '';
         const imgUrls = p.images?.join(';') || '';
-        
+
         csvContent += `"${p.code}","${nameEscaped}","${p.category}","${p.brand || ''}","${p.condition}",${p.price},${p.stock},"${imgUrls}","${descEscaped}"\n`;
     });
 
@@ -322,12 +369,12 @@ window.exportCatalogCSV = function() {
 };
 
 // Procesar importación CSV
-window.handleCSVImport = function(event) {
+window.handleCSVImport = function (event) {
     const file = event.target.files[0];
     if (!file) return;
 
     const reader = new FileReader();
-    reader.onload = async function(e) {
+    reader.onload = async function (e) {
         const text = e.target.result;
         await parseAndImportProducts(text);
     };
@@ -381,7 +428,7 @@ async function parseAndImportProducts(csvText) {
 
         // Buscar si ya existe por código
         const existing = productsList.find(p => p.code === code);
-        
+
         try {
             if (useFirebase) {
                 const docId = existing ? existing.id : doc(collection(db, "druetto_products")).id;
@@ -403,7 +450,7 @@ async function parseAndImportProducts(csvText) {
 };
 
 // ─── D. ACTUALIZACIÓN MASIVA DE PRECIOS ──────────────────────────
-window.applyBulkPriceAdjustment = async function() {
+window.applyBulkPriceAdjustment = async function () {
     const category = document.getElementById('adjust-category-filter').value;
     const pct = parseFloat(document.getElementById('adjust-percentage').value) || 0;
 
@@ -457,7 +504,7 @@ function renderCategoriesTable() {
     if (!tbody) return;
 
     tbody.innerHTML = '';
-    
+
     if (categoriesList.length === 0) {
         // Si no hay categorías, precargar unas por defecto
         const defaultCats = [
@@ -485,7 +532,7 @@ function renderCategoriesTable() {
     });
 }
 
-window.addNewCategory = async function() {
+window.addNewCategory = async function () {
     const name = document.getElementById('new-cat-name').value.trim();
     if (!name) return;
 
@@ -509,7 +556,7 @@ window.addNewCategory = async function() {
     }
 };
 
-window.deleteCategoryAction = async function(id) {
+window.deleteCategoryAction = async function (id) {
     if (!confirm("¿Desea borrar esta categoría?")) return;
     try {
         if (useFirebase) {
@@ -533,11 +580,11 @@ function initConfigView() {
             document.getElementById('conf-address').value = data.address || '';
             document.getElementById('conf-bank').value = data.bankDetails || '';
             document.getElementById('conf-mp-token').value = data.mpToken || '';
-        } catch(e) {}
+        } catch (e) { }
     }
 }
 
-window.saveConfigForm = function() {
+window.saveConfigForm = function () {
     const whatsappNumber = document.getElementById('conf-wa').value.trim();
     const address = document.getElementById('conf-address').value.trim();
     const bankDetails = document.getElementById('conf-bank').value.trim();
@@ -576,7 +623,7 @@ async function loadAllData() {
             categoriesList = await localDb.getCollection("categories");
             ordersList = await localDb.getCollection("orders");
         }
-    } catch(e) {
+    } catch (e) {
         console.error("Global data loading error:", e);
     }
 }

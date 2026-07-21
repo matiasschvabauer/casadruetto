@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="currentColor">
+  <!-- 3/4 Perspective DJI Drone Vector Graphic -->
+  <g>
+    <!-- Main Body Chassis -->
+    <path d="M 230 140 C 270 110, 360 115, 410 160 C 430 180, 430 220, 400 245 C 340 280, 240 270, 195 230 C 175 210, 185 170, 230 140 Z" />
+
+    <!-- Top Body Panel Detail (Cutout accent) -->
+    <path d="M 245 155 C 275 130, 345 135, 385 172 C 395 185, 390 205, 370 220 C 330 245, 255 240, 220 210 C 205 195, 215 170, 245 155 Z" fill="#ffffff" />
+    <path d="M 255 165 C 280 145, 335 148, 370 178 C 380 190, 375 200, 360 210 C 325 230, 265 225, 235 200 C 225 190, 230 175, 255 165 Z" />
+
+    <!-- Front Camera Gimbal Assembly -->
+    <path d="M 220 220 C 210 240, 230 275, 265 275 C 290 275, 305 250, 295 230 Z" />
+    <!-- Camera Lens Ring -->
+    <circle cx="245" cy="248" r="14" fill="#ffffff" />
+    <circle cx="245" cy="248" r="8" />
+
+    <!-- Front Left Arm -->
+    <path d="M 215 205 L 75 185 L 60 225 L 85 240 L 205 235 Z" />
+    <path d="M 60 225 L 50 290 L 72 290 L 78 240 Z" /> <!-- Landing Gear Front Left -->
+    <!-- Front Left Motor & Rotor Blade -->
+    <ellipse cx="68" cy="205" rx="18" ry="12" />
+    <!-- Rotor Blade Front Left -->
+    <path d="M 15 170 C 40 180, 110 230, 125 240 C 100 230, 30 180, 15 170 Z" />
+    <path d="M 120 170 C 95 180, 25 230, 10 240 C 35 230, 105 180, 120 170 Z" opacity="0.85" />
+
+    <!-- Front Right Arm -->
+    <path d="M 370 235 L 500 240 L 525 280 L 485 295 L 340 255 Z" />
+    <path d="M 505 265 L 515 330 L 535 330 L 525 280 Z" /> <!-- Landing Gear Front Right -->
+    <!-- Front Right Motor & Rotor Blade -->
+    <ellipse cx="505" cy="260" rx="20" ry="14" />
+    <!-- Rotor Blade Front Right -->
+    <path d="M 390 280 C 450 260, 570 300, 590 310 C 530 310, 410 290, 390 280 Z" />
+
+    <!-- Rear Left Arm -->
+    <path d="M 260 135 L 140 100 L 130 125 L 240 160 Z" />
+    <!-- Rear Left Motor & Rotor Blade -->
+    <ellipse cx="135" cy="112" rx="14" ry="9" />
+    <!-- Rotor Blade Rear Left -->
+    <path d="M 80 85 C 110 95, 190 130, 200 135 C 170 130, 90 95, 80 85 Z" />
+
+    <!-- Rear Right Arm -->
+    <path d="M 380 150 L 510 135 L 530 160 L 410 185 Z" />
+    <!-- Rear Right Motor & Rotor Blade -->
+    <ellipse cx="520" cy="148" rx="16" ry="10" />
+    <!-- Rotor Blade Rear Right -->
+    <path d="M 440 120 C 480 130, 570 170, 585 180 C 545 170, 455 130, 440 120 Z" />
+  </g>
+</svg>
