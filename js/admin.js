@@ -135,7 +135,8 @@ function renderProductsTable() {
 
     productsList.forEach(p => {
         const tr = document.createElement('tr');
-        const imgUrl = p.images?.[0] ? (p.images[0].startsWith('http') || p.images[0].startsWith('data:') || p.images[0].startsWith('../') ? p.images[0] : '../' + p.images[0]) : '../assets/img/default.png';
+        const imgUrl = p.images?.[0] ? (p.images[0].startsWith('http') || p.images[0].startsWith('data:') || p.images[0].startsWith('../') ? p.images[0] : '../' + p.images[0]) : '../assets/img/casadruettologo1.png';
+
         tr.innerHTML = `
             <td><img src="${imgUrl}" style="width:45px; height:45px; object-fit:contain; background:#000; border-radius:4px;"></td>
             <td><strong>${p.name}</strong><br><small style="color:var(--admin-text-muted);">Cód: ${p.code}</small></td>
@@ -197,7 +198,19 @@ window.toggleProductModal = function (open) {
 };
 
 // Guardar Producto (Crear/Editar)
+// Guardar Producto (Crear/Editar)
 window.saveProductForm = async function () {
+    const saveBtn = document.getElementById('btn-save-product');
+    const cancelBtn = document.getElementById('btn-cancel-product');
+    const originalSaveHtml = saveBtn ? saveBtn.innerHTML : "Guardar Cambios";
+
+    // Bloquear UI
+    if (saveBtn) {
+        saveBtn.disabled = true;
+        saveBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Subiendo...';
+    }
+    if (cancelBtn) cancelBtn.disabled = true;
+
     const id = document.getElementById('product-id').value;
     const name = document.getElementById('product-name').value;
     const code = document.getElementById('product-code').value;
@@ -276,6 +289,11 @@ window.saveProductForm = async function () {
         mercadolibreLink
     };
 
+    // Cambiar estado a Guardando
+    if (saveBtn) {
+        saveBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Guardando...';
+    }
+
     try {
         if (useFirebase) {
             const docId = id || doc(collection(db, "druetto_products")).id;
@@ -289,7 +307,14 @@ window.saveProductForm = async function () {
         await initProductsView();
     } catch (e) {
         console.error("Error al guardar producto:", e);
-        alert("Error al guardar: " + e.message);
+        alert("Error al guardar en base de datos: " + e.message + "\n\n(Si estás usando extensiones bloqueadoras de publicidad o escudos de privacidad, desactívalas temporalmente para esta página, ya que pueden bloquear la conexión con la base de datos de Firebase).");
+    } finally {
+        // Habilitar UI
+        if (saveBtn) {
+            saveBtn.disabled = false;
+            saveBtn.innerHTML = originalSaveHtml;
+        }
+        if (cancelBtn) cancelBtn.disabled = false;
     }
 };
 
