@@ -625,43 +625,20 @@ async function loadAllData() {
                 categoriesList = defaultCats;
             }
 
-            // Autosemilla de Productos Iniciales
+            // Autosemilla de Productos Iniciales Completo
             if (productsList.length === 0) {
-                const seedProducts = [
-                    {
-                        "id": "dji_agras_t40",
-                        "name": "Drone Agrícola DJI Agras T40",
-                        "code": "DJI-AGRAS-T40",
-                        "desc": "El DJI Agras T40 redefine la pulverización agrícola. Equipado con un diseño revolucionario de rotor doble coaxial, permite cargar un peso de pulverización de 40 kg y un peso de esparcido de 50 kg.",
-                        "price": 26500,
-                        "category": "Drones DJI",
-                        "condition": "Nuevo",
-                        "brand": "DJI",
-                        "model": "Agras T40",
-                        "stock": 3,
-                        "images": ["assets/img/b3f28557c245459b451d255276ebd1f2.png"],
-                        "specs": { "Capacidad del Tanque": "40 Litros" }
-                    },
-                    {
-                        "id": "jd_6125j_tractor",
-                        "name": "Tractor John Deere 6125J",
-                        "code": "JD-6125J",
-                        "desc": "Excelente rendimiento y bajo consumo. Motor John Deere PowerTech de 4 cilindros y 4.5 L, transmisión PowrQuad de 16 marchas.",
-                        "price": 85000,
-                        "category": "Maquinaria Agrícola",
-                        "condition": "Usado",
-                        "brand": "John Deere",
-                        "model": "6125J",
-                        "stock": 1,
-                        "images": ["assets/img/1c213b02c106d92e2cf10cb8f72b5b44.png"],
-                        "specs": { "Potencia del Motor": "125 HP" }
+                try {
+                    const { SEED_PRODUCTS } = await import('./products.js');
+                    for (const p of SEED_PRODUCTS) {
+                        await setDoc(doc(db, "druetto_products", p.id), p);
                     }
-                ];
-                for (const p of seedProducts) {
-                    await setDoc(doc(db, "druetto_products", p.id), p);
+                    productsList = [...SEED_PRODUCTS];
+                    console.log("[Firebase Seeding] Catálogo completo sembrado con éxito en Firestore.");
+                } catch (importErr) {
+                    console.error("Error importando/sembrando productos semilla en admin:", importErr);
                 }
-                productsList = seedProducts;
             }
+
 
             // Intento de órdenes
             try {

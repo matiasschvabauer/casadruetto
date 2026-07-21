@@ -6,7 +6,8 @@ import { db, useFirebase, localDb } from './firebase-config.js';
 import { collection, getDocs, doc, getDoc } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
 
 // Catálogo Oficial Semilla (para inicialización automática)
-const SEED_PRODUCTS = [
+export const SEED_PRODUCTS = [
+
     {
         "id": "dji_agras_t40",
         "name": "Drone Agrícola DJI Agras T40",
