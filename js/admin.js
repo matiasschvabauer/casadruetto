@@ -95,8 +95,52 @@ async function initDashboard() {
 
 // ─── B. PRODUCT MANAGEMENT VIEW ────────────────────────────────────
 let activeSpecs = {};
+let currentProductImages = [];
+
+// Renderizar las miniaturas de imágenes del producto en el modal de edición
+function renderModalImages() {
+    const container = document.getElementById('product-images-container');
+    if (!container) return;
+
+    container.innerHTML = '';
+
+    if (currentProductImages.length === 0) {
+        container.innerHTML = '<span style="color:var(--admin-text-muted); font-size:0.85rem; padding:0.5rem 0;">No hay imágenes cargadas aún. Sube archivos locales abajo.</span>';
+        return;
+    }
+
+    currentProductImages.forEach((img, idx) => {
+        const div = document.createElement('div');
+        div.style.cssText = 'position:relative; width:80px; height:80px; background:#0f172a; border:1px solid var(--admin-border); border-radius:6px; display:flex; align-items:center; justify-content:center; overflow:hidden; padding:4px;';
+
+        const image = document.createElement('img');
+        const displayUrl = img.startsWith('http') || img.startsWith('data:') || img.startsWith('../') ? img : '../' + img;
+        image.src = displayUrl;
+        image.style.cssText = 'width:100%; height:100%; object-fit:contain; border-radius:4px;';
+
+        const deleteBtn = document.createElement('button');
+        deleteBtn.type = 'button';
+        deleteBtn.innerHTML = '✕';
+        deleteBtn.title = 'Eliminar esta imagen';
+        deleteBtn.style.cssText = 'position:absolute; top:3px; right:3px; width:18px; height:18px; border-radius:50%; background:rgba(239, 68, 68, 0.9); border:none; color:white; font-size:0.65rem; cursor:pointer; display:flex; align-items:center; justify-content:center; font-weight:bold; transition: background 0.2s;';
+
+        deleteBtn.addEventListener('mouseover', () => { deleteBtn.style.background = '#dc2626'; });
+        deleteBtn.addEventListener('mouseout', () => { deleteBtn.style.background = 'rgba(239, 68, 68, 0.9)'; });
+
+        deleteBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            currentProductImages.splice(idx, 1);
+            renderModalImages();
+        });
+
+        div.appendChild(image);
+        div.appendChild(deleteBtn);
+        container.appendChild(div);
+    });
+}
 
 async function initProductsView() {
+
     await loadAllData();
     renderProductsTable();
     populateCategoryDropdowns();
@@ -160,6 +204,8 @@ window.openProductCreateModal = function () {
     document.getElementById('modal-title').innerText = "Nuevo Producto";
     document.getElementById('product-form').reset();
     document.getElementById('product-id').value = "";
+    currentProductImages = [];
+    renderModalImages();
     activeSpecs = {};
     renderSpecsBuilder();
     toggleProductModal(true);
@@ -180,6 +226,10 @@ window.openProductEditModal = function (id) {
     document.getElementById('product-brand').value = p.brand || '';
     document.getElementById('product-condition').value = p.condition;
     document.getElementById('product-stock').value = p.stock;
+    
+    currentProductImages = p.images ? [...p.images] : [];
+    renderModalImages();
+    
     document.getElementById('product-images').value = p.images?.join(', ') || '';
     document.getElementById('product-ml-link').value = p.mercadolibreLink || '';
 
@@ -223,7 +273,6 @@ window.saveProductForm = async function () {
     const imagesStr = document.getElementById('product-images').value;
     const mercadolibreLink = document.getElementById('product-ml-link').value;
 
-    const existingImages = imagesStr ? imagesStr.split(',').map(img => img.trim()).filter(Boolean) : [];
     const uploadedImages = [];
 
     // Subir imágenes locales seleccionadas a Cloudinary
@@ -264,7 +313,8 @@ window.saveProductForm = async function () {
         }
     }
 
-    const images = [...existingImages, ...uploadedImages];
+    const images = [...currentProductImages, ...uploadedImages];
+
 
     // Capturar specs de las filas
     const specRows = document.querySelectorAll('.specs-builder-row');
