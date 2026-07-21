@@ -187,16 +187,20 @@
 
                     <!-- PESTAÑA 2: GALERIA -->
                     <div class="admin-tab-pane" id="tab-gallery">
+                        <!-- Administrador Visual de Imágenes -->
                         <div class="form-control full-width">
-                            <label>URLs de las Imágenes (Separadas por coma)</label>
-                            <textarea id="product-images" placeholder="Ej: assets/img/foto1.png, assets/img/foto2.png" style="height:80px;"></textarea>
-                            <small style="color:var(--admin-text-muted); margin-top:0.5rem; display:block;">Enlaces de las fotos asignadas a este producto.</small>
+                            <label>Imágenes Cargadas del Producto</label>
+                            <div id="product-images-container" style="display:flex; flex-wrap:wrap; gap:0.75rem; margin-top:0.5rem; min-height:80px; background-color:var(--admin-bg-dark); border:1px solid var(--admin-border); padding:1rem; border-radius:6px;">
+                                <!-- Llenado dinámico con vistas previas y botón de eliminar -->
+                            </div>
+                            <!-- Campo oculto para mantener las URLs actuales -->
+                            <input type="hidden" id="product-images">
                         </div>
                         
                         <div class="form-control full-width" style="margin-top:1.5rem; padding-top:1.5rem; border-top:1px solid var(--admin-border);">
-                            <label>Subir Imágenes desde tu Dispositivo (Cloudinary)</label>
+                            <label><i class="fas fa-cloud-upload-alt"></i> Subir Nuevas Imágenes (Cloudinary)</label>
                             <input type="file" id="product-file-input" accept="image/*" multiple style="background-color:var(--admin-bg-dark); padding:0.65rem; border:1px solid var(--admin-border); width:100%; border-radius:4px; color:#fff; font-family:var(--font-body);">
-                            <small style="color:var(--admin-text-muted); margin-top:0.5rem; display:block;">Sube imágenes locales directamente al almacenamiento en la nube.</small>
+                            <small style="color:var(--admin-text-muted); margin-top:0.5rem; display:block;">Sube imágenes locales que se añadirán automáticamente a la galería.</small>
                         </div>
 
                         <!-- Indicador de Progreso de Carga -->
@@ -204,6 +208,7 @@
                             <i class="fas fa-spinner fa-spin"></i> <span id="upload-status-text">Subiendo archivos a Cloudinary...</span>
                         </div>
                     </div>
+
 
 
                     <!-- PESTAÑA 3: FICHA TECNICA -->
