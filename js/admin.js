@@ -96,19 +96,47 @@ async function initDashboard() {
 // ─── B. PRODUCT MANAGEMENT VIEW ────────────────────────────────────
 let activeSpecs = {};
 let currentProductImages = [];
+let localFilesToUpload = [];
+
+// Configurar el escuchador de selección de archivos locales
+function setupFileInputListener() {
+    const fileInput = document.getElementById('product-file-input');
+    if (fileInput) {
+        // Remover listeners previos para evitar duplicados
+        const newFileInput = fileInput.cloneNode(true);
+        fileInput.parentNode.replaceChild(newFileInput, fileInput);
+        
+        newFileInput.addEventListener('change', (e) => {
+            const files = e.target.files;
+            if (!files) return;
+            for (let i = 0; i < files.length; i++) {
+                localFilesToUpload.push(files[i]);
+            }
+            renderModalImages();
+            newFileInput.value = ''; // Limpiar selector nativo
+        });
+    }
+}
 
 // Renderizar las miniaturas de imágenes del producto en el modal de edición
 function renderModalImages() {
     const container = document.getElementById('product-images-container');
+    const notice = document.getElementById('pending-upload-notice');
     if (!container) return;
 
     container.innerHTML = '';
 
-    if (currentProductImages.length === 0) {
-        container.innerHTML = '<span style="color:var(--admin-text-muted); font-size:0.85rem; padding:0.5rem 0;">No hay imágenes cargadas aún. Sube archivos locales abajo.</span>';
+    // Mostrar u ocultar el aviso según si hay imágenes locales listas
+    if (notice) {
+        notice.style.display = localFilesToUpload.length > 0 ? 'block' : 'none';
+    }
+
+    if (currentProductImages.length === 0 && localFilesToUpload.length === 0) {
+        container.innerHTML = '<span style="color:var(--admin-text-muted); font-size:0.85rem; padding:0.5rem 0;">No hay imágenes seleccionadas. Elige archivos locales abajo.</span>';
         return;
     }
 
+    // 1. Renderizar imágenes ya guardadas en la base de datos
     currentProductImages.forEach((img, idx) => {
         const div = document.createElement('div');
         div.style.cssText = 'position:relative; width:80px; height:80px; background:#0f172a; border:1px solid var(--admin-border); border-radius:6px; display:flex; align-items:center; justify-content:center; overflow:hidden; padding:4px;';
@@ -137,7 +165,43 @@ function renderModalImages() {
         div.appendChild(deleteBtn);
         container.appendChild(div);
     });
+
+    // 2. Renderizar imágenes locales en cola (pendientes de subida)
+    localFilesToUpload.forEach((file, idx) => {
+        const div = document.createElement('div');
+        div.style.cssText = 'position:relative; width:80px; height:80px; background:#0f172a; border:2px dashed #f59e0b; border-radius:6px; display:flex; align-items:center; justify-content:center; overflow:hidden; padding:4px;';
+
+        const image = document.createElement('img');
+        image.src = URL.createObjectURL(file);
+        image.style.cssText = 'width:100%; height:100%; object-fit:contain; border-radius:4px; opacity:0.8;';
+
+        // Etiqueta flotante "Por subir"
+        const badge = document.createElement('span');
+        badge.innerText = 'Por subir';
+        badge.style.cssText = 'position:absolute; bottom:2px; left:2px; right:2px; background:rgba(245, 158, 11, 0.9); color:black; font-size:0.55rem; text-align:center; font-weight:bold; border-radius:2px; padding:1px 0; pointer-events:none;';
+
+        const deleteBtn = document.createElement('button');
+        deleteBtn.type = 'button';
+        deleteBtn.innerHTML = '✕';
+        deleteBtn.title = 'Quitar de la cola';
+        deleteBtn.style.cssText = 'position:absolute; top:3px; right:3px; width:18px; height:18px; border-radius:50%; background:rgba(239, 68, 68, 0.9); border:none; color:white; font-size:0.65rem; cursor:pointer; display:flex; align-items:center; justify-content:center; font-weight:bold; transition: background 0.2s;';
+
+        deleteBtn.addEventListener('mouseover', () => { deleteBtn.style.background = '#dc2626'; });
+        deleteBtn.addEventListener('mouseout', () => { deleteBtn.style.background = 'rgba(239, 68, 68, 0.9)'; });
+
+        deleteBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            localFilesToUpload.splice(idx, 1);
+            renderModalImages();
+        });
+
+        div.appendChild(image);
+        div.appendChild(badge);
+        div.appendChild(deleteBtn);
+        container.appendChild(div);
+    });
 }
+
 
 async function initProductsView() {
 
@@ -205,7 +269,9 @@ window.openProductCreateModal = function () {
     document.getElementById('product-form').reset();
     document.getElementById('product-id').value = "";
     currentProductImages = [];
+    localFilesToUpload = [];
     renderModalImages();
+    setupFileInputListener();
     activeSpecs = {};
     renderSpecsBuilder();
     toggleProductModal(true);
@@ -228,7 +294,9 @@ window.openProductEditModal = function (id) {
     document.getElementById('product-stock').value = p.stock;
     
     currentProductImages = p.images ? [...p.images] : [];
+    localFilesToUpload = [];
     renderModalImages();
+    setupFileInputListener();
     
     document.getElementById('product-images').value = p.images?.join(', ') || '';
     document.getElementById('product-ml-link').value = p.mercadolibreLink || '';
@@ -275,18 +343,17 @@ window.saveProductForm = async function () {
 
     const uploadedImages = [];
 
-    // Subir imágenes locales seleccionadas a Cloudinary
-    const fileInput = document.getElementById('product-file-input');
-    if (fileInput && fileInput.files.length > 0) {
+    // Subir imágenes locales acumuladas en la cola a Cloudinary
+    if (localFilesToUpload.length > 0) {
         const progressContainer = document.getElementById('upload-progress-container');
         const statusText = document.getElementById('upload-status-text');
 
         if (progressContainer) progressContainer.style.display = 'block';
 
         try {
-            for (let i = 0; i < fileInput.files.length; i++) {
-                const file = fileInput.files[i];
-                if (statusText) statusText.innerText = `Subiendo imagen ${i + 1} de ${fileInput.files.length}...`;
+            for (let i = 0; i < localFilesToUpload.length; i++) {
+                const file = localFilesToUpload[i];
+                if (statusText) statusText.innerText = `Subiendo imagen ${i + 1} de ${localFilesToUpload.length}...`;
 
                 const fd = new FormData();
                 fd.append('file', file);
@@ -304,16 +371,17 @@ window.saveProductForm = async function () {
                     uploadedImages.push(data.secure_url);
                 }
             }
+            localFilesToUpload = []; // Limpiar cola tras subida exitosa
         } catch (uploadErr) {
             console.error("Error al subir imágenes a Cloudinary:", uploadErr);
             alert("Ocurrió un error al subir alguna de las imágenes locales. Se continuará guardando el producto con las imágenes ya subidas.");
         } finally {
             if (progressContainer) progressContainer.style.display = 'none';
-            fileInput.value = ''; // Limpiar selector
         }
     }
 
     const images = [...currentProductImages, ...uploadedImages];
+
 
 
     // Capturar specs de las filas
