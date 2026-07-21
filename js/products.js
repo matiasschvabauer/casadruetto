@@ -3,7 +3,8 @@
 // ═══════════════════════════════════════════════════════════════════
 
 import { db, useFirebase, localDb } from './firebase-config.js';
-import { collection, getDocs, doc, getDoc } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
+import { collection, getDocs, doc, getDoc, writeBatch } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
+
 
 // Catálogo Oficial Semilla (para inicialización automática)
 export const SEED_PRODUCTS = [
@@ -3698,16 +3699,20 @@ export async function loadProductsData() {
                 fbList.push({ id: doc.id, ...doc.data() });
             });
             
-            if (fbList.length > 0) {
+            if (fbList.length >= 15) {
                 products = fbList;
             } else {
-                // Seed vacío, inicializar con defaults en Firestore
-                const { doc, setDoc } = await import("https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js");
+                // Catálogo incompleto o vacío, inicializar/actualizar con defaults de forma atómica en un lote
+                const batch = writeBatch(db);
                 for (const p of SEED_PRODUCTS) {
-                    await setDoc(doc(db, "druetto_products", p.id), p);
+                    const docRef = doc(db, "druetto_products", p.id);
+                    batch.set(docRef, p);
                 }
+                await batch.commit();
                 products = [...SEED_PRODUCTS];
+                console.log("[Firebase Seeding Store] Catálogo completo (" + SEED_PRODUCTS.length + " productos) sembrado con éxito en Firestore.");
             }
+
         } else {
             // Local fallback
             const localList = await localDb.getCollection("products");

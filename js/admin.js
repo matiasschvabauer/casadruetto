@@ -9,8 +9,10 @@ import {
     doc,
     setDoc,
     deleteDoc,
-    addDoc
+    addDoc,
+    writeBatch
 } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
+
 
 // Configuración de Cloudinary (para subida de imágenes de productos)
 // Reemplaza con los valores de tu propia cuenta/preset cuando los tengas creados.
@@ -625,19 +627,25 @@ async function loadAllData() {
                 categoriesList = defaultCats;
             }
 
-            // Autosemilla de Productos Iniciales Completo
-            if (productsList.length === 0) {
+            // Autosemilla de Productos Iniciales Completo (Lote/Batch atómico rápido)
+            if (productsList.length < 15) {
                 try {
                     const { SEED_PRODUCTS } = await import('./products.js');
+                    const batch = writeBatch(db);
+                    
                     for (const p of SEED_PRODUCTS) {
-                        await setDoc(doc(db, "druetto_products", p.id), p);
+                        const docRef = doc(db, "druetto_products", p.id);
+                        batch.set(docRef, p);
                     }
+                    
+                    await batch.commit();
                     productsList = [...SEED_PRODUCTS];
-                    console.log("[Firebase Seeding] Catálogo completo sembrado con éxito en Firestore.");
+                    console.log("[Firebase Seeding] Catálogo completo (" + SEED_PRODUCTS.length + " productos) sembrado con éxito en un lote (batch) de Firestore.");
                 } catch (importErr) {
-                    console.error("Error importando/sembrando productos semilla en admin:", importErr);
+                    console.error("Error importando/sembrando productos semilla en lote en admin:", importErr);
                 }
             }
+
 
 
             // Intento de órdenes
