@@ -611,6 +611,58 @@ async function loadAllData() {
             const catSnap = await getDocs(collection(db, "druetto_categories"));
             categoriesList = catSnap.docs.map(doc => ({ id: doc.id, ...doc.data() }));
 
+            // Autosemilla de Categorías Oficiales
+            if (categoriesList.length === 0) {
+                const defaultCats = [
+                    { id: "cat_maq", name: "Maquinaria Agrícola", slug: "maquinaria" },
+                    { id: "cat_agp", name: "Agricultura de Precisión", slug: "precision" },
+                    { id: "cat_rep", name: "Repuestos y Accesorios", slug: "repuestos" },
+                    { id: "cat_dro", name: "Drones DJI", slug: "drones" }
+                ];
+                for (const c of defaultCats) {
+                    await setDoc(doc(db, "druetto_categories", c.id), c);
+                }
+                categoriesList = defaultCats;
+            }
+
+            // Autosemilla de Productos Iniciales
+            if (productsList.length === 0) {
+                const seedProducts = [
+                    {
+                        "id": "dji_agras_t40",
+                        "name": "Drone Agrícola DJI Agras T40",
+                        "code": "DJI-AGRAS-T40",
+                        "desc": "El DJI Agras T40 redefine la pulverización agrícola. Equipado con un diseño revolucionario de rotor doble coaxial, permite cargar un peso de pulverización de 40 kg y un peso de esparcido de 50 kg.",
+                        "price": 26500,
+                        "category": "Drones DJI",
+                        "condition": "Nuevo",
+                        "brand": "DJI",
+                        "model": "Agras T40",
+                        "stock": 3,
+                        "images": ["assets/img/b3f28557c245459b451d255276ebd1f2.png"],
+                        "specs": { "Capacidad del Tanque": "40 Litros" }
+                    },
+                    {
+                        "id": "jd_6125j_tractor",
+                        "name": "Tractor John Deere 6125J",
+                        "code": "JD-6125J",
+                        "desc": "Excelente rendimiento y bajo consumo. Motor John Deere PowerTech de 4 cilindros y 4.5 L, transmisión PowrQuad de 16 marchas.",
+                        "price": 85000,
+                        "category": "Maquinaria Agrícola",
+                        "condition": "Usado",
+                        "brand": "John Deere",
+                        "model": "6125J",
+                        "stock": 1,
+                        "images": ["assets/img/1c213b02c106d92e2cf10cb8f72b5b44.png"],
+                        "specs": { "Potencia del Motor": "125 HP" }
+                    }
+                ];
+                for (const p of seedProducts) {
+                    await setDoc(doc(db, "druetto_products", p.id), p);
+                }
+                productsList = seedProducts;
+            }
+
             // Intento de órdenes
             try {
                 const orderSnap = await getDocs(collection(db, "druetto_orders"));
@@ -626,3 +678,4 @@ async function loadAllData() {
         console.error("Global data loading error:", e);
     }
 }
+
