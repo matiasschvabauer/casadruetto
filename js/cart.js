@@ -291,4 +291,33 @@ document.addEventListener('DOMContentLoaded', () => {
     while (tempDiv.firstChild) {
         document.body.appendChild(tempDiv.firstChild);
     }
+
+    // Inyectar botón de menú hamburguesa responsivo dinámicamente si no existe
+    const headerActions = document.querySelector('.header-actions');
+    if (headerActions && !document.getElementById('mobile-menu-toggle')) {
+        const toggleBtn = document.createElement('button');
+        toggleBtn.className = 'mobile-menu-toggle';
+        toggleBtn.id = 'mobile-menu-toggle';
+        toggleBtn.setAttribute('aria-label', 'Abrir menú');
+        toggleBtn.innerHTML = '<i class="fas fa-bars"></i>';
+        
+        // Insertar el botón al final de headerActions
+        headerActions.appendChild(toggleBtn);
+        
+        // Manejar el toggle del menú
+        const navContainer = document.querySelector('.header-nav-row') || document.querySelector('.nav-menu');
+        if (navContainer) {
+            toggleBtn.addEventListener('click', () => {
+                navContainer.classList.toggle('active');
+                const icon = toggleBtn.querySelector('i');
+                if (icon) {
+                    if (navContainer.classList.contains('active')) {
+                        icon.className = 'fas fa-times';
+                    } else {
+                        icon.className = 'fas fa-bars';
+                    }
+                }
+            });
+        }
+    }
 });

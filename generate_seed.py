@@ -167,17 +167,32 @@ def main():
         name = name.replace("filtro aire", "Filtro de aire").replace("Filtro de hidr ulico", "Filtro hidráulico")
         name = name.replace("combs", "combustible")
         
-        # Categorías en la tienda: Maquinaria Agrícola, Agricultura de Precisión, Drones DJI, Repuestos y Accesorios
-        category = "Repuestos y Accesorios"
-        brand = "John Deere"
+        # Categorías y marcas dinámicas de la fila del CSV
+        category = str(row['Categoria']).strip() if (pd.notna(row.get('Categoria')) and str(row.get('Categoria')).strip()) else "Repuestos y Accesorios"
+        brand = str(row['Marca']).strip() if (pd.notna(row.get('Marca')) and str(row.get('Marca')).strip()) else "John Deere"
         
         price = float(row['Precio']) if pd.notna(row['Precio']) else 0.0
         stock = int(row['Stock']) if pd.notna(row['Stock']) else 0
-        desc = generate_description(name, code, brand)
+        
+        # Descripción dinámica
+        if pd.notna(row.get('Descripcion')) and str(row.get('Descripcion')).strip():
+            desc = str(row['Descripcion']).strip()
+        else:
+            desc = generate_description(name, code, brand)
+            
+        # Imágenes dinámicas
+        img_val = str(row.get('ImagenesUrls')).strip() if pd.notna(row.get('ImagenesUrls')) else ""
+        images = img_val.split(';') if img_val else ["assets/img/casadruettologo1.png"]
         
         # Identificador único amigable
-        pid = f"jd_{code.lower().replace('-', '_')}"
-        
+        brand_lower = brand.lower()
+        if "vial" in code or "vial" in brand_lower:
+            pid = f"vial_{code.lower().replace('-', '_')}"
+        elif "2507" in code or "2508" in code or "spraytec" in brand_lower:
+            pid = f"coa_{code.lower()}"
+        else:
+            pid = f"jd_{code.lower().replace('-', '_')}"
+            
         product_obj = {
             "id": pid,
             "name": name,
@@ -189,7 +204,7 @@ def main():
             "brand": brand,
             "model": "Original",
             "stock": stock,
-            "images": ["assets/img/casadruettologo1.png"],
+            "images": images,
             "videos": [],
             "mercadolibreLink": "",
             "specs": {
@@ -216,7 +231,16 @@ def main():
         price = float(row['Precio']) if pd.notna(row['Precio']) else 0.0
         # Forzar un stock mínimo de 2 unidades para pruebas y compra en la tienda
         stock = 2
-        desc = generate_description(name, code, brand)
+        
+        # Descripción dinámica
+        if pd.notna(row.get('Descripcion')) and str(row.get('Descripcion')).strip():
+            desc = str(row['Descripcion']).strip()
+        else:
+            desc = generate_description(name, code, brand)
+            
+        # Imágenes dinámicas
+        img_val = str(row.get('ImagenesUrls')).strip() if pd.notna(row.get('ImagenesUrls')) else ""
+        images = img_val.split(';') if img_val else ["assets/img/casadruettologo1.png"]
         
         pid = f"udor_{code.lower().replace('-', '_')}"
         
@@ -231,7 +255,7 @@ def main():
             "brand": brand,
             "model": "EcoTank",
             "stock": stock,
-            "images": ["assets/img/casadruettologo1.png"],
+            "images": images,
             "videos": [],
             "mercadolibreLink": "",
             "specs": {
@@ -246,7 +270,24 @@ def main():
         
     print(f"Total productos en catálogo generado: {len(seed_products_list)}")
     
-    # 5. Escribir a js/products.js
+    # 5. Sobrescribir imágenes desde el archivo persistente mapped_images.json si existe
+    mapped_json_path = os.path.join(base_dir, "mapped_images.json")
+    if os.path.exists(mapped_json_path):
+        try:
+            with open(mapped_json_path, 'r', encoding='utf-8') as f:
+                mapped_images = json.load(f)
+            
+            override_count = 0
+            for product_obj in seed_products_list:
+                pid = product_obj["id"]
+                if pid in mapped_images:
+                    product_obj["images"] = [u.strip() for u in mapped_images[pid].split(';') if u.strip()]
+                    override_count += 1
+            print(f"Sobrescritas {override_count} imágenes desde mapped_images.json.")
+        except Exception as e:
+            print(f"Error aplicando mapped_images.json: {e}")
+            
+    # 6. Escribir a js/products.js
     # Formatear la lista como JS literal
     products_js_content = json.dumps(seed_products_list, indent=4, ensure_ascii=False)
     

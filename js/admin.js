@@ -807,3 +807,104 @@ async function loadAllData() {
     }
 }
 
+// ─── F. SINCRONIZAR PRECIOS Y PRODUCTOS DESDE CÓDIGO (PRODUCTS.JS) ──
+window.syncPricesFromCode = async function() {
+    if (productsList.length === 0) {
+        alert("El catálogo local está vacío. Espere a que carguen los productos.");
+        return;
+    }
+    
+    // Importar SEED_PRODUCTS
+    let SEED_PRODUCTS;
+    try {
+        const prodModule = await import('./products.js');
+        SEED_PRODUCTS = prodModule.SEED_PRODUCTS;
+    } catch (e) {
+        console.error("Error al importar products.js:", e);
+        alert("Error al cargar los productos de products.js.");
+        return;
+    }
+
+    // Filtrar desactualizados y nuevos
+    const updates = [];
+    const newProducts = [];
+    
+    for (const localProduct of SEED_PRODUCTS) {
+        const dbProduct = productsList.find(p => p.code === localProduct.code);
+        if (dbProduct) {
+            const priceChanged = dbProduct.price !== localProduct.price;
+            
+            const localImgs = localProduct.images || [];
+            const dbImgs = dbProduct.images || [];
+            const imagesChanged = JSON.stringify(localImgs) !== JSON.stringify(dbImgs);
+            
+            if (priceChanged || imagesChanged) {
+                updates.push({ dbProduct, localProduct, priceChanged, imagesChanged });
+            }
+        } else {
+            newProducts.push(localProduct);
+        }
+    }
+
+    if (updates.length === 0 && newProducts.length === 0) {
+        alert("La base de datos ya está completamente sincronizada con el código.");
+        return;
+    }
+
+    let confirmMsg = "Se encontraron los siguientes cambios pendientes:\n";
+    if (updates.length > 0) {
+        confirmMsg += `• ${updates.length} productos con precios o imágenes desactualizados.\n`;
+    }
+    if (newProducts.length > 0) {
+        confirmMsg += `• ${newProducts.length} productos nuevos que no existen en la base de datos.\n`;
+    }
+    confirmMsg += `\n¿Desea aplicar estos cambios en la base de datos de ${useFirebase ? 'Firestore (Firebase)' : 'Local (localStorage)'}?`;
+    
+    if (!confirm(confirmMsg)) return;
+
+    let updateCount = 0;
+    let insertCount = 0;
+    let failCount = 0;
+
+    // 1. Aplicar actualizaciones
+    for (const item of updates) {
+        const p = item.dbProduct;
+        p.price = item.localProduct.price;
+        p.images = item.localProduct.images;
+        p.desc = item.localProduct.desc;
+        p.brand = item.localProduct.brand;
+        p.category = item.localProduct.category;
+        
+        try {
+            if (useFirebase) {
+                await setDoc(doc(db, "druetto_products", p.id), p);
+            } else {
+                await localDb.setDoc("products", p.id, p);
+            }
+            updateCount++;
+        } catch (e) {
+            console.error(`Error al actualizar producto ${p.code}:`, e);
+            failCount++;
+        }
+    }
+
+    // 2. Aplicar inserciones de productos nuevos
+    for (const p of newProducts) {
+        try {
+            if (useFirebase) {
+                await setDoc(doc(db, "druetto_products", p.id), p);
+            } else {
+                await localDb.setDoc("products", p.id, p);
+            }
+            insertCount++;
+        } catch (e) {
+            console.error(`Error al insertar producto nuevo ${p.code}:`, e);
+            failCount++;
+        }
+    }
+
+    alert(`Sincronización de base de datos finalizada:\n\n• Productos actualizados (precio/imagen): ${updateCount}\n• Productos nuevos agregados: ${insertCount}\n• Errores: ${failCount}`);
+    await initProductsView();
+};
+
+

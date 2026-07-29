@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
+    
     <link rel="icon" href="casadruettologo1.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,7 +34,7 @@
             
             <div class="header-actions">
                 <a href="https://www.facebook.com/casadruetto" target="_blank" class="header-social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/casadruetto/" target="_blank" class="header-social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/casa_druetto/" target="_blank" class="header-social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
                 <a href="admin/login.html" class="admin-login-link" title="Panel de Administración">
                     <i class="fas fa-user"></i>
                 </a>
@@ -126,6 +128,7 @@
                     
                     <div class="ml-price-container">
                         <span id="detail-price" class="ml-price">$0.00</span>
+                        <span id="detail-price-ars" class="ml-price-ars" style="font-size: 1.2rem; color: var(--success-color); font-weight: 700; display: block; margin-top: 0.2rem; margin-bottom: 0.2rem;">Cargando pesos...</span>
                         <span class="ml-price-tax-info">en 12x de $... pago sin interés</span>
                         <span class="ml-mp-link">Ver los medios de pago</span>
                     </div>
@@ -146,6 +149,17 @@
                             <span class="ml-info-title">Retiro gratis en sucursal</span>
                             <span class="ml-info-subtitle">Av. Jorge Newbery 247, Gálvez, Santa Fe.</span>
                         </div>
+                    </div>
+
+                    <!-- Shipping Calculator Widget -->
+                    <div class="shipping-calculator-box" style="margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border: 1px solid var(--border-color); border-radius: 8px;">
+                        <h4 class="calc-title" style="margin: 0 0 0.4rem 0; font-size: 0.9rem; font-weight: 700; display: flex; align-items: center; gap: 0.45rem; color: var(--text-primary);"><i class="fas fa-truck-moving"></i> Calcular costo de envío</h4>
+                        <p class="calc-desc" style="margin: 0 0 0.65rem 0; font-size: 0.75rem; color: var(--text-secondary); line-height: 1.35;">Ingresá tu código postal para cotizar por Correo Argentino y Andreani:</p>
+                        <div class="calc-input-row" style="display: flex; gap: 0.5rem; margin-bottom: 0.65rem;">
+                            <input type="text" id="calc-zipcode" placeholder="Ej: S2252 o 2000" maxlength="8" style="flex: 1; padding: 0.55rem 0.75rem; border: 1px solid var(--border-color); border-radius: 6px; font-size: 0.85rem; outline: none; background-color: #fff; color: var(--text-primary);">
+                            <button id="calc-btn" class="calc-button" style="padding: 0.55rem 1rem; background-color: var(--text-primary); color: #fff; border: none; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer;">Calcular</button>
+                        </div>
+                        <div id="calc-results" class="calc-results-container" style="display: none; margin-top: 0.65rem; border-top: 1px solid var(--border-color); padding-top: 0.65rem; flex-direction: column;"></div>
                     </div>
 
                     <div class="ml-stock-info">
@@ -240,7 +254,7 @@
                 <p>Soluciones para el agro: maquinaria agrícola, agricultura de precisión, repuestos y servicios técnicos.</p>
                 <div class="footer-social-row">
                     <a href="https://www.facebook.com/casadruetto" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/casadruetto/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/casa_druetto/" target="_blank"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="footer-col">

@@ -58,7 +58,7 @@
         <div class="admin-content-view">
             
             <!-- Herramientas de Carga y Actualización Masiva -->
-            <div style="display:grid; grid-template-columns: 1.2fr 1fr; gap:1.5rem; margin-bottom: 2rem;">
+            <div style="display:grid; grid-template-columns: 1.2fr 1fr 1fr; gap:1.5rem; margin-bottom: 2rem;">
                 
                 <!-- Ajustador de Precios Masivo -->
                 <div class="admin-data-container" style="margin-bottom:0;">
@@ -85,6 +85,12 @@
                             <input type="file" id="csv-file-input" accept=".csv" style="display:none;" onchange="handleCSVImport(event)">
                         </label>
                     </div>
+                </div>
+
+                <!-- Sincronizar Precios de Código -->
+                <div class="admin-data-container" style="margin-bottom:0; display:flex; flex-direction:column; justify-content:center;">
+                    <h3 style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:600;margin-bottom:1rem;"><i class="fas fa-sync"></i> Sincronizar Base de Datos</h3>
+                    <button class="btn" onclick="syncPricesFromCode()" style="background-color: #10b981; justify-content:center; width: 100%;"><i class="fas fa-refresh"></i> Sincronizar Precios</button>
                 </div>
 
             </div>
