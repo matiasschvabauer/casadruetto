@@ -2,14 +2,16 @@
 <html lang="es">
 
 <head>
+    <script src="js/mobile-detect.js"></script>
 
     
     <link rel="icon" href="casadruettologo1.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casa Druetto</title>
-    <!-- Google Fonts -->
+    <!-- Google Fonts & Material Symbols -->
     <link rel="stylesheet" href="assets/css/css2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom CSS -->
@@ -53,6 +55,7 @@
         <!-- Fila Inferior: Menú de Navegación -->
         <nav class="header-nav-row">
             <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Inicio</a></li>
                 <li><a href="tienda.html" class="nav-link">Tienda Completa</a></li>
                 <li><a href="tienda.html?category=Maquinaria%20Agrícola" class="nav-link">Maquinaria</a></li>
                 <li><a href="tienda.html?category=Agricultura%20de%20Precisión" class="nav-link">Agricultura
@@ -68,10 +71,10 @@
 
         <!-- Características Rápidas -->
         <div class="header-features-row">
-            <span>🚜 75 Años de Experiencia</span>
-            <span>🚚 Envíos a Todo el País</span>
-            <span>🛡️ Garantía y Confianza</span>
-            <span>🧑‍💼 Atención Personalizada</span>
+            <span class="feature-item"><span class="material-symbols-outlined feature-icon">agriculture</span> 75 Años de Experiencia</span>
+            <span class="feature-item"><span class="material-symbols-outlined feature-icon">delivery_truck_speed</span> Envíos a Todo el País</span>
+            <span class="feature-item"><span class="material-symbols-outlined feature-icon">shield_with_heart</span> Garantía y Confianza</span>
+            <span class="feature-item"><span class="material-symbols-outlined feature-icon">handshake</span> Atención Personalizada</span>
         </div>
     </header>
 
@@ -384,9 +387,11 @@
     </footer>
 
     <!-- ─── FLOATING WHATSAPP WIDGET ─── -->
-    <a href="https://wa.me/5493404521246" class="floating-widget-wa" target="_blank" title="Contactar por WhatsApp">
-        <i class="fab fa-whatsapp"></i>
-    </a>
+    <div class="whatsapp-widget">
+        <a href="https://wa.me/5493404521246" class="whatsapp-bubble" target="_blank" title="Contactar por WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
 
     <!-- Firebase SDK Scripts (Required for module context matching) -->
     <script type="module" src="js/firebase-config.js"></script>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="icon" href="casadruettologo1.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mapa del Sitio Móvil | Casa Druetto</title>
+    <link rel="stylesheet" href="assets/css/css2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/mobile-styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/mobile-detect.js"></script>
+</head>
+<body class="m-body">
+
+    <header class="m-header">
+        <div class="m-header-top">
+            <a href="m_index.html" class="m-logo-link">
+                <img src="assets/img/casadruettologo1.png" alt="75 Años" class="m-logo-badge">
+                <span class="m-logo-text">CASA <span>DRUETTO</span></span>
+            </a>
+            <div class="m-header-actions">
+                <button onclick="toggleCart(true)" class="m-header-btn"><i class="fas fa-shopping-cart"></i><span id="cart-badge" class="m-cart-badge">0</span></button>
+                <button onclick="toggleMobileDrawer(true)" class="m-header-btn"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <main class="m-section">
+        <div style="background:#fff; border-radius:10px; padding:1.25rem; border:1px solid #e5e7eb;">
+            <h1 style="font-size:1.3rem; font-weight:800; color:#111827; margin-bottom:1rem;">Mapa del Sitio Móvil</h1>
+            <ul style="list-style:none; display:flex; flex-direction:column; gap:0.75rem; font-size:0.9rem; font-weight:700;">
+                <li><a href="m_index.html" style="color:#10b981; text-decoration:none;"><i class="fas fa-angle-right"></i> Inicio</a></li>
+                <li><a href="m_tienda.html" style="color:#10b981; text-decoration:none;"><i class="fas fa-angle-right"></i> Tienda Completa</a></li>
+                <li><a href="m_quienes-somos.html" style="color:#10b981; text-decoration:none;"><i class="fas fa-angle-right"></i> Quiénes Somos</a></li>
+                <li><a href="m_servicios.html" style="color:#10b981; text-decoration:none;"><i class="fas fa-angle-right"></i> Servicios</a></li>
+                <li><a href="m_galeria.html" style="color:#10b981; text-decoration:none;"><i class="fas fa-angle-right"></i> Galería de Trabajos</a></li>
+                <li><a href="m_contacto.html" style="color:#10b981; text-decoration:none;"><i class="fas fa-angle-right"></i> Contacto</a></li>
+                <li><a href="m_politicas-de-envio.html" style="color:#10b981; text-decoration:none;"><i class="fas fa-angle-right"></i> Políticas de Envío</a></li>
+                <li><a href="m_terminos-y-condiciones.html" style="color:#10b981; text-decoration:none;"><i class="fas fa-angle-right"></i> Términos y Condiciones</a></li>
+            </ul>
+        </div>
+    </main>
+
+    <a href="https://wa.me/5493404521246" class="m-floating-wa" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+    <nav class="m-bottom-nav">
+        <a href="m_index.html" class="m-nav-item"><i class="fas fa-home"></i><span>Inicio</span></a>
+        <a href="m_tienda.html" class="m-nav-item"><i class="fas fa-store"></i><span>Tienda</span></a>
+        <button onclick="toggleCart(true)" class="m-nav-item"><i class="fas fa-shopping-cart"></i><span>Carrito</span></button>
+        <a href="m_contacto.html" class="m-nav-item"><i class="fas fa-envelope"></i><span>Contacto</span></a>
+    </nav>
+
+    <script type="module" src="js/firebase-config.js"></script>
+    <script type="module" src="js/cart.js"></script>
+    <script src="js/mobile-app.js"></script>
+</body>
+</html>

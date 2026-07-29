@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <script src="js/mobile-detect.js"></script>
 
     
     <link rel="icon" href="casadruettologo1.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalle de Equipo | Casa Druetto</title>
-    <!-- Google Fonts -->
+    <!-- Google Fonts & Material Symbols -->
     <link rel="stylesheet" href="assets/css/css2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom CSS -->
@@ -48,6 +50,7 @@
         <!-- Fila Inferior: Menú de Navegación -->
         <nav class="header-nav-row">
             <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
                 <li><a href="tienda.html" class="nav-link">Tienda Completa</a></li>
                 <li><a href="tienda.html?category=Maquinaria%20Agrícola" class="nav-link">Maquinaria</a></li>
                 <li><a href="tienda.html?category=Agricultura%20de%20Precisión" class="nav-link">Agricultura Precisión</a></li>
@@ -62,10 +65,10 @@
         
         <!-- Características Rápidas -->
         <div class="header-features-row">
-            <span>🚜 75 Años de Experiencia</span>
-            <span>🚚 Envíos a Todo el País</span>
-            <span>🛡️ Garantía y Confianza</span>
-            <span>🧑‍💼 Atención Personalizada</span>
+            <span class="feature-item"><span class="material-symbols-outlined feature-icon">agriculture</span> 75 Años de Experiencia</span>
+            <span class="feature-item"><span class="material-symbols-outlined feature-icon">delivery_truck_speed</span> Envíos a Todo el País</span>
+            <span class="feature-item"><span class="material-symbols-outlined feature-icon">shield_with_heart</span> Garantía y Confianza</span>
+            <span class="feature-item"><span class="material-symbols-outlined feature-icon">handshake</span> Atención Personalizada</span>
         </div>
     </header>
 
@@ -113,7 +116,6 @@
                 <div class="ml-purchase-card">
                     <div class="ml-meta-row">
                         <span id="detail-condition" class="ml-condition-text">Nuevo</span>
-                        <span class="ml-sold-text">| +100 vendidos</span>
                         <span style="margin-left: auto; font-size: 0.8rem; color: var(--text-secondary);">Código: <strong id="detail-code">--</strong></span>
                     </div>
                     
@@ -129,15 +131,14 @@
                     <div class="ml-price-container">
                         <span id="detail-price" class="ml-price">$0.00</span>
                         <span id="detail-price-ars" class="ml-price-ars" style="font-size: 1.2rem; color: var(--success-color); font-weight: 700; display: block; margin-top: 0.2rem; margin-bottom: 0.2rem;">Cargando pesos...</span>
-                        <span class="ml-price-tax-info">en 12x de $... pago sin interés</span>
-                        <span class="ml-mp-link">Ver los medios de pago</span>
+                        <span class="ml-mp-link" onclick="openPaymentModal()">Ver los medios de pago</span>
                     </div>
 
                     <!-- Shipping Info -->
                     <div class="ml-info-row green">
                         <span class="ml-info-icon"><i class="fas fa-truck"></i></span>
                         <div class="ml-info-text">
-                            <span class="ml-info-title">Envío gratis a todo el país</span>
+                            <span class="ml-info-title">Envío a todo el país</span>
                             <span class="ml-info-subtitle">Conocé los tiempos y formas de envío.</span>
                         </div>
                     </div>
@@ -293,10 +294,94 @@
         </div>
     </footer>
 
+    <!-- ─── MODAL MEDIOS DE PAGO ─── -->
+    <div id="payment-modal" class="payment-modal-overlay" onclick="if(event.target === this) closePaymentModal()">
+        <div class="payment-modal-card">
+            <div class="payment-modal-header">
+                <h3><i class="fas fa-credit-card" style="color: var(--accent-color);"></i> Medios de Pago Aceptados</h3>
+                <button class="payment-modal-close" onclick="closePaymentModal()">&times;</button>
+            </div>
+            
+            <div class="payment-section-title">Tarjetas de Crédito</div>
+            <div class="payment-cards-grid">
+                <div class="card-badge-box">
+                    <i class="fab fa-cc-visa card-badge-icon"></i>
+                    <span class="card-badge-name">Visa</span>
+                </div>
+                <div class="card-badge-box">
+                    <i class="fab fa-cc-mastercard card-badge-icon"></i>
+                    <span class="card-badge-name">Mastercard</span>
+                </div>
+                <div class="card-badge-box">
+                    <i class="fab fa-cc-amex card-badge-icon"></i>
+                    <span class="card-badge-name">American Express</span>
+                </div>
+                <div class="card-badge-box">
+                    <i class="fas fa-credit-card card-badge-icon"></i>
+                    <span class="card-badge-name">Naranja X</span>
+                </div>
+                <div class="card-badge-box">
+                    <i class="fas fa-credit-card card-badge-icon"></i>
+                    <span class="card-badge-name">Cabal</span>
+                </div>
+                <div class="card-badge-box">
+                    <i class="fas fa-credit-card card-badge-icon"></i>
+                    <span class="card-badge-name">Cordobesa</span>
+                </div>
+                <div class="card-badge-box">
+                    <i class="fas fa-credit-card card-badge-icon"></i>
+                    <span class="card-badge-name">Nativa</span>
+                </div>
+            </div>
+
+            <div class="payment-section-title">Tarjetas de Débito</div>
+            <div class="payment-cards-grid">
+                <div class="card-badge-box">
+                    <i class="fab fa-cc-visa card-badge-icon"></i>
+                    <span class="card-badge-name">Visa Débito</span>
+                </div>
+                <div class="card-badge-box">
+                    <i class="fab fa-cc-mastercard card-badge-icon"></i>
+                    <span class="card-badge-name">Mastercard Débito</span>
+                </div>
+                <div class="card-badge-box">
+                    <i class="fas fa-credit-card card-badge-icon"></i>
+                    <span class="card-badge-name">Maestro</span>
+                </div>
+                <div class="card-badge-box">
+                    <i class="fas fa-credit-card card-badge-icon"></i>
+                    <span class="card-badge-name">Cabal Débito</span>
+                </div>
+            </div>
+
+            <div class="payment-section-title">Transferencia y Efectivo</div>
+            <div class="payment-cards-grid">
+                <div class="card-badge-box">
+                    <i class="fas fa-university card-badge-icon"></i>
+                    <span class="card-badge-name">Transferencia CBU</span>
+                </div>
+                <div class="card-badge-box">
+                    <i class="fas fa-hand-holding-usd card-badge-icon"></i>
+                    <span class="card-badge-name">Mercado Pago</span>
+                </div>
+                <div class="card-badge-box">
+                    <i class="fas fa-money-bill-wave card-badge-icon"></i>
+                    <span class="card-badge-name">Rapipago</span>
+                </div>
+                <div class="card-badge-box">
+                    <i class="fas fa-barcode card-badge-icon"></i>
+                    <span class="card-badge-name">Pago Fácil</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- ─── FLOATING WHATSAPP WIDGET ─── -->
-    <a href="https://wa.me/5493404521246" class="floating-widget-wa" target="_blank" title="Contactar por WhatsApp">
-        <i class="fab fa-whatsapp"></i>
-    </a>
+    <div class="whatsapp-widget">
+        <a href="https://wa.me/5493404521246" class="whatsapp-bubble" target="_blank" title="Contactar por WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
 
     <!-- Custom Scripts -->
     <script type="module" src="js/firebase-config.js"></script>

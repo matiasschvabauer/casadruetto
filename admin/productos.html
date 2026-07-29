@@ -18,7 +18,7 @@
     <!-- ─── SIDEBAR NAVEGACIÓN ─── -->
     <aside class="admin-sidebar">
         <div class="admin-sidebar-brand">
-            <i class="fas fa-tractor"></i>
+            <img src="../assets/img/casadruettologo1.png" alt="Casa Druetto" style="height:26px; width:auto; object-fit:contain;">
             <span>DRUETTO</span> Admin
         </div>
         <ul class="admin-nav">
@@ -64,11 +64,11 @@
                 <div class="admin-data-container" style="margin-bottom:0;">
                     <h3 style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:600;margin-bottom:1rem;"><i class="fas fa-percentage"></i> Ajuste de Precios en Bloque</h3>
                     <div style="display:flex; gap:0.75rem; align-items:center;">
-                        <select id="adjust-category-filter" style="flex:1; padding:0.65rem; background-color:var(--admin-bg-surface); border:1px solid var(--admin-border); color:#fff; border-radius:4px;">
-                            <option value="all">Todas las Categorías</option>
+                        <select id="adjust-category-filter" style="flex:1; padding:0.65rem; background-color:#ffffff; border:1px solid var(--admin-border); color:#111827; border-radius:4px; font-size:0.9rem; font-weight:600;">
+                            <option value="all" style="color:#111827; background-color:#ffffff;">Todas las Categorías</option>
                             <!-- Llenado dinámico -->
                         </select>
-                        <input type="number" id="adjust-percentage" placeholder="Ej: 10 o -5" style="width:100px; padding:0.65rem; background-color:var(--admin-bg-surface); border:1px solid var(--admin-border); color:#fff; border-radius:4px;">
+                        <input type="number" id="adjust-percentage" placeholder="Ej: 10 o -5" style="width:100px; padding:0.65rem; background-color:#ffffff; border:1px solid var(--admin-border); color:#111827; border-radius:4px; font-size:0.9rem; font-weight:600;">
                         <button class="btn" style="padding:0.65rem 1.25rem;" onclick="applyBulkPriceAdjustment()">Ajustar</button>
                     </div>
                     <small style="color:var(--admin-text-muted); display:block; margin-top:0.5rem;">Aplica una suba o baja porcentual sobre el precio final.</small>
@@ -205,17 +205,17 @@
                         
                         <div class="form-control full-width" style="margin-top:1.5rem; padding-top:1.5rem; border-top:1px solid var(--admin-border);">
                             <label><i class="fas fa-cloud-upload-alt"></i> Subir Nuevas Imágenes (Cloudinary)</label>
-                            <input type="file" id="product-file-input" accept="image/*" multiple style="background-color:var(--admin-bg-dark); padding:0.65rem; border:1px solid var(--admin-border); width:100%; border-radius:4px; color:#fff; font-family:var(--font-body);">
+                            <input type="file" id="product-file-input" accept="image/*" multiple style="background-color:#ffffff; padding:0.65rem; border:1px solid var(--admin-border); width:100%; border-radius:4px; color:#111827; font-family:var(--font-body);">
                             <small style="color:var(--admin-text-muted); margin-top:0.5rem; display:block;">Sube imágenes locales que se añadirán automáticamente a la galería.</small>
                         </div>
 
                         <!-- Indicador de Progreso de Carga -->
-                        <div id="upload-progress-container" style="display:none; margin-top:1rem; padding:0.75rem; background:rgba(234,179,8,0.15); border:1px solid var(--accent-color); border-radius:4px; font-size:0.85rem; color:#fff;">
+                        <div id="upload-progress-container" style="display:none; margin-top:1rem; padding:0.75rem; background:rgba(234,179,8,0.15); border:1px solid var(--accent-color); border-radius:4px; font-size:0.85rem; color:#111827;">
                             <i class="fas fa-spinner fa-spin"></i> <span id="upload-status-text">Subiendo archivos a Cloudinary...</span>
                         </div>
 
                         <!-- Aviso de imágenes locales pendientes de guardado -->
-                        <div id="pending-upload-notice" style="display:none; margin-top:1rem; padding:0.75rem; background:rgba(234,179,8,0.1); border:1px dashed var(--accent-color); border-radius:4px; font-size:0.85rem; color:#f59e0b;">
+                        <div id="pending-upload-notice" style="display:none; margin-top:1rem; padding:0.75rem; background:rgba(234,179,8,0.1); border:1px dashed var(--accent-color); border-radius:4px; font-size:0.85rem; color:#d97706;">
                             <i class="fas fa-exclamation-triangle"></i> Tienes imágenes locales listas. Haz clic en <strong>Guardar Cambios</strong> abajo para confirmar la subida y guardarlas permanentemente.
                         </div>
                     </div>
@@ -241,7 +241,7 @@
                             <p style="color:var(--admin-text-muted); font-size:0.85rem; margin-bottom:1rem;">Si este producto ya está publicado en Mercado Libre, pega el enlace a continuación para habilitar la opción de derivación de compra.</p>
                             
                             <label style="font-size: 0.8rem; font-weight: bold; display: block; margin-bottom: 0.5rem;">Link de Mercado Libre</label>
-                            <input type="url" id="product-ml-link" placeholder="https://articulo.mercadolibre.com.ar/..." style="width:100%; padding:0.75rem; background-color:var(--admin-bg-dark); border:1px solid var(--admin-border); color:#fff; border-radius:4px;">
+                            <input type="url" id="product-ml-link" placeholder="https://articulo.mercadolibre.com.ar/..." style="width:100%; padding:0.75rem; background-color:#ffffff; border:1px solid var(--admin-border); color:#111827; border-radius:4px;">
                         </div>
                     </div>
                 </form>

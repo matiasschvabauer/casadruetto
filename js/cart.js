@@ -210,6 +210,26 @@ window.checkoutOrder = function(paymentMethod = 'whatsapp') {
 
     text += `_Pedido enviado desde la Tienda Virtual._`;
 
+    // Registrar la orden localmente para que figure de inmediato en el Panel de Administración
+    try {
+        const existingOrders = JSON.parse(localStorage.getItem('druetto_orders') || '[]');
+        const newOrder = {
+            id: 'ORD-' + Math.floor(100000 + Math.random() * 900000),
+            client: clientName,
+            phone: clientPhone,
+            notes: clientNotes,
+            total: total,
+            status: 'pending',
+            date: new Date().toLocaleDateString('es-AR'),
+            createdAt: new Date().toISOString(),
+            items: cart.map(i => ({ id: i.id, name: i.name, qty: i.qty, price: i.price }))
+        };
+        existingOrders.push(newOrder);
+        localStorage.setItem('druetto_orders', JSON.stringify(existingOrders));
+    } catch (e) {
+        console.error("Error al registrar orden local:", e);
+    }
+
     const encodedText = encodeURIComponent(text);
     const waUrl = `https://wa.me/${shopConfig.whatsappNumber}?text=${encodedText}`;
     

@@ -91,7 +91,230 @@ async function initDashboard() {
             });
         }
     }
+
+    initDashboardCharts();
 }
+
+// ─── DASHBOARD CHARTS LOGIC ──────────────────────────────────────────
+let revenueChartInstance = null;
+let ordersChartInstance = null;
+let currentChartDataSets = null;
+
+function computeChartDataFromOrders(orders) {
+    const now = new Date();
+    const currentYear = now.getFullYear();
+    const currentMonth = now.getMonth();
+
+    const dayRev = [0, 0, 0, 0, 0, 0];
+    const dayOrd = [0, 0, 0, 0, 0, 0];
+
+    const weekRev = [0, 0, 0, 0, 0, 0, 0];
+    const weekOrd = [0, 0, 0, 0, 0, 0, 0];
+
+    const monthRev = [0, 0, 0, 0];
+    const monthOrd = [0, 0, 0, 0];
+
+    const yearRev = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    const yearOrd = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+
+    const getMondayBasedDay = (dateObj) => {
+        const d = dateObj.getDay();
+        return d === 0 ? 6 : d - 1;
+    };
+
+    orders.forEach(o => {
+        if (o.status === 'cancelled') return;
+        const total = parseFloat(o.total) || 0;
+        
+        let oDate = null;
+        if (o.createdAt) {
+            oDate = new Date(o.createdAt);
+        } else if (o.date) {
+            const parts = o.date.split('/');
+            if (parts.length === 3) {
+                oDate = new Date(parts[2], parts[1] - 1, parts[0]);
+            }
+        }
+        if (!oDate || isNaN(oDate.getTime())) {
+            oDate = new Date();
+        }
+
+        if (oDate.getFullYear() === currentYear) {
+            const m = oDate.getMonth();
+            yearRev[m] += total;
+            yearOrd[m] += 1;
+
+            if (m === currentMonth) {
+                const dayOfMonth = oDate.getDate();
+                let weekIdx = Math.floor((dayOfMonth - 1) / 7);
+                if (weekIdx > 3) weekIdx = 3;
+                monthRev[weekIdx] += total;
+                monthOrd[weekIdx] += 1;
+            }
+
+            const diffTime = now - oDate;
+            const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+            if (diffDays >= 0 && diffDays < 7) {
+                const dayIdx = getMondayBasedDay(oDate);
+                weekRev[dayIdx] += total;
+                weekOrd[dayIdx] += 1;
+            }
+
+            if (oDate.toDateString() === now.toDateString()) {
+                const hour = oDate.getHours();
+                const slot = Math.min(5, Math.floor(hour / 4));
+                dayRev[slot] += total;
+                dayOrd[slot] += 1;
+            }
+        }
+    });
+
+    return {
+        revenue: {
+            day: { labels: ['00:00', '04:00', '08:00', '12:00', '16:00', '20:00'], data: dayRev },
+            week: { labels: ['Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb', 'Dom'], data: weekRev },
+            month: { labels: ['Semana 1', 'Semana 2', 'Semana 3', 'Semana 4'], data: monthRev },
+            year: { labels: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'], data: yearRev }
+        },
+        orders: {
+            day: { labels: ['00:00', '04:00', '08:00', '12:00', '16:00', '20:00'], data: dayOrd },
+            week: { labels: ['Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb', 'Dom'], data: weekOrd },
+            month: { labels: ['Semana 1', 'Semana 2', 'Semana 3', 'Semana 4'], data: monthOrd },
+            year: { labels: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'], data: yearOrd }
+        }
+    };
+}
+
+function initDashboardCharts() {
+    if (typeof Chart === 'undefined') return;
+
+    currentChartDataSets = computeChartDataFromOrders(ordersList);
+
+    // 1. Gráfico de Facturación
+    const revCtx = document.getElementById('revenueChart');
+    if (revCtx) {
+        if (revenueChartInstance) revenueChartInstance.destroy();
+        
+        const weekRev = currentChartDataSets.revenue.week;
+        revenueChartInstance = new Chart(revCtx, {
+            type: 'bar',
+            data: {
+                labels: weekRev.labels,
+                datasets: [{
+                    label: 'Facturación ($)',
+                    data: weekRev.data,
+                    backgroundColor: '#10b981',
+                    hoverBackgroundColor: '#059669',
+                    borderRadius: 6,
+                    borderSkipped: false
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return 'Facturación: $' + context.raw.toLocaleString('es-AR');
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: { grid: { display: false }, ticks: { font: { family: 'Montserrat', size: 11 } } },
+                    y: {
+                        grid: { color: '#f3f4f6' },
+                        beginAtZero: true,
+                        ticks: {
+                            font: { family: 'Montserrat', size: 10 },
+                            callback: function(value) { return '$' + value.toLocaleString('es-AR'); }
+                        }
+                    }
+                }
+            }
+        });
+    }
+
+    // 2. Gráfico de Órdenes Totales
+    const ordCtx = document.getElementById('ordersChart');
+    if (ordCtx) {
+        if (ordersChartInstance) ordersChartInstance.destroy();
+
+        const weekOrd = currentChartDataSets.orders.week;
+        ordersChartInstance = new Chart(ordCtx, {
+            type: 'bar',
+            data: {
+                labels: weekOrd.labels,
+                datasets: [{
+                    label: 'Órdenes Totales',
+                    data: weekOrd.data,
+                    backgroundColor: '#eab308',
+                    hoverBackgroundColor: '#ca8a04',
+                    borderRadius: 6,
+                    borderSkipped: false
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return 'Órdenes: ' + context.raw + ' pedidos';
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: { grid: { display: false }, ticks: { font: { family: 'Montserrat', size: 11 } } },
+                    y: {
+                        grid: { color: '#f3f4f6' },
+                        beginAtZero: true,
+                        ticks: { font: { family: 'Montserrat', size: 10 }, precision: 0 }
+                    }
+                }
+            }
+        });
+    }
+}
+
+window.updateRevenueChart = function(period, btn) {
+    if (!revenueChartInstance || !currentChartDataSets || !currentChartDataSets.revenue[period]) return;
+    
+    if (btn) {
+        const parent = btn.parentElement;
+        if (parent) {
+            parent.querySelectorAll('.chart-period-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+        }
+    }
+
+    const ds = currentChartDataSets.revenue[period];
+    revenueChartInstance.data.labels = ds.labels;
+    revenueChartInstance.data.datasets[0].data = ds.data;
+    revenueChartInstance.update();
+};
+
+window.updateOrdersChart = function(period, btn) {
+    if (!ordersChartInstance || !currentChartDataSets || !currentChartDataSets.orders[period]) return;
+
+    if (btn) {
+        const parent = btn.parentElement;
+        if (parent) {
+            parent.querySelectorAll('.chart-period-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+        }
+    }
+
+    const ds = currentChartDataSets.orders[period];
+    ordersChartInstance.data.labels = ds.labels;
+    ordersChartInstance.data.datasets[0].data = ds.data;
+    ordersChartInstance.update();
+};
 
 // ─── B. PRODUCT MANAGEMENT VIEW ────────────────────────────────────
 let activeSpecs = {};

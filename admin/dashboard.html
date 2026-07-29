@@ -18,7 +18,7 @@
     <!-- ─── SIDEBAR NAVEGACIÓN ─── -->
     <aside class="admin-sidebar">
         <div class="admin-sidebar-brand">
-            <i class="fas fa-tractor"></i>
+            <img src="../assets/img/casadruettologo1.png" alt="Casa Druetto" style="height:26px; width:auto; object-fit:contain;">
             <span>DRUETTO</span> Admin
         </div>
         <ul class="admin-nav">
@@ -125,9 +125,59 @@
                 </table>
             </div>
 
+            <!-- Gráficos Interactivos de Facturación y Órdenes Totales -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
+                
+                <!-- Gráfico 1: Facturación -->
+                <div class="admin-data-container" style="margin-bottom: 0;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; flex-wrap: wrap; gap: 0.5rem;">
+                        <div>
+                            <h3 style="font-family:'Montserrat',sans-serif; font-size:1.1rem; font-weight:700; margin:0; color:#111827;">
+                                <i class="fas fa-chart-column" style="color:#10b981; margin-right:0.5rem;"></i> Facturación
+                            </h3>
+                            <small style="color:var(--admin-text-muted);">Ingresos en ventas por período</small>
+                        </div>
+                        <div style="display: flex; gap: 0.25rem;">
+                            <button class="chart-period-btn" onclick="window.updateRevenueChart('day', this)">Día</button>
+                            <button class="chart-period-btn active" onclick="window.updateRevenueChart('week', this)">Semana</button>
+                            <button class="chart-period-btn" onclick="window.updateRevenueChart('month', this)">Mes</button>
+                            <button class="chart-period-btn" onclick="window.updateRevenueChart('year', this)">Año</button>
+                        </div>
+                    </div>
+                    <div style="position: relative; height: 260px; width: 100%;">
+                        <canvas id="revenueChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Gráfico 2: Órdenes Totales -->
+                <div class="admin-data-container" style="margin-bottom: 0;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; flex-wrap: wrap; gap: 0.5rem;">
+                        <div>
+                            <h3 style="font-family:'Montserrat',sans-serif; font-size:1.1rem; font-weight:700; margin:0; color:#111827;">
+                                <i class="fas fa-cart-shopping" style="color:#eab308; margin-right:0.5rem;"></i> Órdenes Totales
+                            </h3>
+                            <small style="color:var(--admin-text-muted);">Cantidad de pedidos por período</small>
+                        </div>
+                        <div style="display: flex; gap: 0.25rem;">
+                            <button class="chart-period-btn" onclick="window.updateOrdersChart('day', this)">Día</button>
+                            <button class="chart-period-btn active" onclick="window.updateOrdersChart('week', this)">Semana</button>
+                            <button class="chart-period-btn" onclick="window.updateOrdersChart('month', this)">Mes</button>
+                            <button class="chart-period-btn" onclick="window.updateOrdersChart('year', this)">Año</button>
+                        </div>
+                    </div>
+                    <div style="position: relative; height: 260px; width: 100%;">
+                        <canvas id="ordersChart"></canvas>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
 
     </main>
+
+    <!-- Chart.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <!-- Custom Scripts -->
     <script type="module" src="../js/firebase-config.js"></script>

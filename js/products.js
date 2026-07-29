@@ -7459,7 +7459,25 @@ window.renderStoreCatalog = async function(containerId, filters = {}) {
     const container = document.getElementById(containerId);
     if (!container) return;
 
+    // Mostrar pantalla de carga GooeyLoader
+    container.innerHTML = `
+        <div class="gooey-loader-container">
+            <svg style="position: absolute; width: 0; height: 0;">
+                <defs>
+                    <filter id="gooey-loader-filter">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="blur" />
+                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 48 -7" result="goo" />
+                        <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+                    </filter>
+                </defs>
+            </svg>
+            <div class="gooey-loader"></div>
+            <p style="color: var(--text-secondary); font-weight: 600; font-size: 0.88rem;">Cargando productos de Casa Druetto...</p>
+        </div>
+    `;
+
     await getOrFetchDollarRate();
+    await new Promise(r => setTimeout(r, 300));
 
     let filtered = [...products];
 
@@ -7815,6 +7833,17 @@ window.renderProductDetailPage = async function() {
             }
         };
     }
+};
+
+// Modal Medios de Pago
+window.openPaymentModal = function() {
+    const modal = document.getElementById('payment-modal');
+    if (modal) modal.classList.add('active');
+};
+
+window.closePaymentModal = function() {
+    const modal = document.getElementById('payment-modal');
+    if (modal) modal.classList.remove('active');
 };
 
 // Cargar catálogo al iniciar la tienda
