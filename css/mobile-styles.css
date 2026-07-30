@@ -526,3 +526,324 @@ body.m-body {
     color: var(--text-secondary);
     line-height: 1.45;
 }
+
+/* ═══════════════════════════════════════════════════════════════════
+   6. AJUSTES FINALES Y REGLAS RESPONSIVAS MÓVIL EN M_*.HTML
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* Ocultar botón flotante inferior de WhatsApp (se usa el de la barra superior) */
+.m-floating-wa,
+.whatsapp-widget {
+    display: none !important;
+}
+
+/* Ticker de Beneficios con Animación Marquee Infinita */
+.m-features-ticker {
+    background-color: #111827 !important;
+    color: #ffffff !important;
+    font-size: 0.75rem !important;
+    font-weight: 600 !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    padding: 0.55rem 0 !important;
+    position: relative !important;
+}
+
+.m-features-marquee {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 2rem !important;
+    animation: mMarqueeLoop 22s linear infinite !important;
+}
+
+@keyframes mMarqueeLoop {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* Separar botones Hero (IR A LA TIENDA y CONTACTAR ASESOR) */
+.hero-buttons {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.85rem !important;
+    width: 100% !important;
+    max-width: 320px !important;
+    margin: 1.25rem auto 0 auto !important;
+}
+
+.hero-buttons .btn {
+    width: 100% !important;
+    justify-content: center !important;
+    padding: 0.75rem 1.25rem !important;
+    font-size: 0.92rem !important;
+    font-weight: 700 !important;
+}
+
+/* Centrar botones de Categorías del Agro */
+.m-tabs-row {
+    display: flex !important;
+    gap: 0.4rem !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto 1.25rem auto !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+/* Fix para Slider de Restauración (Efecto Cortina Revelador) */
+.comparison-slider {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 240px !important;
+    border-radius: 10px !important;
+    overflow: hidden !important;
+    user-select: none !important;
+}
+
+.before-image-wrapper {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    height: 100% !important;
+    width: 50% !important;
+    overflow: hidden !important;
+    z-index: 2 !important;
+}
+
+.before-image-wrapper .before-image {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+    max-width: none !important;
+    object-fit: cover !important;
+}
+
+/* ─── TIENDA MÓVIL ESTILO MERCADO LIBRE (2 Columnas) ─── */
+@media (max-width: 768px) {
+    .store-container {
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 0.5rem !important;
+    }
+
+    .store-filters-sidebar {
+        margin-bottom: 1rem !important;
+        padding: 1rem !important;
+        background: #f8fafc !important;
+        border: 1px solid var(--border-color) !important;
+        border-radius: 10px !important;
+    }
+
+    .catalog-search-row {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0.6rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .store-catalog-grid {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 0.65rem !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .product-store-card {
+        background: #ffffff !important;
+        border: 1px solid #e5e7eb !important;
+        border-radius: 8px !important;
+        overflow: hidden !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05) !important;
+        padding: 0 0 0.5rem 0 !important;
+    }
+
+    .store-card-img-wrap {
+        width: 100% !important;
+        aspect-ratio: 1 / 1 !important;
+        height: auto !important;
+        background: #f8fafc !important;
+        position: relative !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .store-card-img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: contain !important;
+        padding: 6px !important;
+    }
+
+    .store-card-info {
+        padding: 0.4rem 0.5rem 0 0.5rem !important;
+        display: flex !important;
+        flex-direction: column !important;
+        flex: 1 !important;
+    }
+
+    .store-card-title {
+        font-size: 0.78rem !important;
+        font-weight: 500 !important;
+        color: #111827 !important;
+        line-height: 1.25 !important;
+        margin: 0.2rem 0 !important;
+        display: -webkit-box !important;
+        -webkit-line-clamp: 2 !important;
+        -webkit-box-orient: vertical !important;
+        overflow: hidden !important;
+        height: 2.5em !important;
+    }
+
+    .store-card-code {
+        font-size: 0.65rem !important;
+        color: #6b7280 !important;
+        margin-bottom: 0.2rem !important;
+    }
+
+    .store-card-price {
+        font-size: 0.95rem !important;
+        font-weight: 800 !important;
+        color: #111827 !important;
+    }
+
+    .store-card-price-ars {
+        font-size: 0.72rem !important;
+        color: #059669 !important;
+        font-weight: 700 !important;
+    }
+
+    .store-card-actions {
+        display: flex !important;
+        gap: 0.3rem !important;
+        margin-top: 0.4rem !important;
+    }
+
+    .store-card-btn-cart,
+    .store-card-btn-view {
+        padding: 0.35rem 0.2rem !important;
+        font-size: 0.68rem !important;
+        font-weight: 600 !important;
+        border-radius: 6px !important;
+    }
+}
+
+/* ─── DETALLE DE PRODUCTO ESTILO MERCADO LIBRE MÓVIL ─── */
+@media (max-width: 768px) {
+    #detail-page-content,
+    .detail-container {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0.5rem !important;
+        box-sizing: border-box !important;
+        overflow-x: hidden !important;
+    }
+
+    .detail-left-column,
+    .detail-right-column,
+    .ml-gallery-container,
+    .ml-purchase-card,
+    .ml-description-section,
+    .ml-specs-section {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        padding: 0.75rem !important;
+        margin-bottom: 1rem !important;
+        overflow-x: hidden !important;
+    }
+
+    .ml-main-img-box {
+        width: 100% !important;
+        height: 260px !important;
+        max-height: 260px !important;
+    }
+
+    .detail-main-img {
+        max-width: 100% !important;
+        max-height: 100% !important;
+        object-fit: contain !important;
+    }
+
+    .ml-title {
+        font-size: 1.15rem !important;
+        line-height: 1.35 !important;
+        word-break: break-word !important;
+    }
+
+    .ml-price {
+        font-size: 1.5rem !important;
+    }
+
+    .ml-price-ars {
+        font-size: 1rem !important;
+    }
+
+    .ml-specs-table {
+        width: 100% !important;
+        table-layout: fixed !important;
+    }
+
+    .ml-specs-table td {
+        word-break: break-word !important;
+        font-size: 0.82rem !important;
+        padding: 0.5rem 0.35rem !important;
+    }
+}
+
+/* ─── SERVICIO TÉCNICO MÓVIL (Contraste y Tarjetas) ─── */
+@media (max-width: 768px) {
+    .service-card,
+    .services-grid > div {
+        background: #ffffff !important;
+        color: #111827 !important;
+        border: 1px solid var(--border-color) !important;
+        border-radius: 12px !important;
+        padding: 1.5rem 1.25rem !important;
+        margin-bottom: 1rem !important;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04) !important;
+    }
+
+    .service-card h3,
+    .service-card h4 {
+        color: #111827 !important;
+        font-size: 1.1rem !important;
+    }
+
+    .service-card p {
+        color: #4b5563 !important;
+        font-size: 0.88rem !important;
+        line-height: 1.5 !important;
+    }
+}
+
+/* ─── CONTACTO MÓVIL ─── */
+@media (max-width: 768px) {
+    .contact-container,
+    .contact-form-card {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 1.25rem 1rem !important;
+        box-sizing: border-box !important;
+    }
+}
+
+/* ─── CARRITO MODAL Y DRAWER FIX ALTO ─── */
+.cart-modal-content,
+.cart-drawer-body,
+#cart-drawer,
+.cart-drawer {
+    padding-bottom: 90px !important;
+    box-sizing: border-box !important;
+}
