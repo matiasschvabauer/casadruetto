@@ -9299,6 +9299,55 @@ export const SEED_PRODUCTS = [
             "IVA": "21.00%"
         }
     }
+];
+
+let products = [];
+
+// Inicialización de la base de datos de productos
+export async function loadProductsData() {
+    try {
+        if (useFirebase) {
+            const querySnapshot = await getDocs(collection(db, "druetto_products"));
+            const fbList = [];
+            querySnapshot.forEach((doc) => {
+                fbList.push({ id: doc.id, ...doc.data() });
+            });
+            
+            if (fbList.length > 0) {
+                // Auto-sync productos de semilla faltantes a Firestore
+                const existingIds = new Set(fbList.map(p => p.id));
+                const missingSeeds = SEED_PRODUCTS.filter(p => !existingIds.has(p.id));
+                if (missingSeeds.length > 0) {
+                    try {
+                        const batch = writeBatch(db);
+                        for (const p of missingSeeds) {
+                            const docRef = doc(db, "druetto_products", p.id);
+                            batch.set(docRef, p);
+                            fbList.push(p);
+                        }
+                        await batch.commit();
+                        console.log(`[Firebase Auto-Sync] ${missingSeeds.length} productos nuevos integrados en Firestore.`);
+                    } catch (e) {
+                        console.warn("[Firebase Auto-Sync Warning]:", e);
+                    }
+                }
+                products = fbList;
+            } else {
+                let deletedCount = 0;
+                try {
+                    const delSnap = await getDocs(collection(db, "druetto_deleted_products"));
+                    deletedCount = delSnap.docs.length;
+                } catch (err) {}
+
+                if (deletedCount === 0) {
+                    const batch = writeBatch(db);
+                    for (const p of SEED_PRODUCTS) {
+                        const docRef = doc(db, "druetto_products", p.id);
+                        batch.set(docRef, p);
+                    }
+                    await batch.commit();
+                    products = [...SEED_PRODUCTS];
+                    console.log("[Firebase Seeding Store] Catálogo completo (" + SEED_PRODUCTS.length + " productos) sembrado con éxito en Firestore.");
                 } else {
                     products = [];
                 }
@@ -9308,6 +9357,13 @@ export const SEED_PRODUCTS = [
             // Local fallback
             const localList = await localDb.getCollection("products");
             if (localList.length > 0) {
+                const existingIds = new Set(localList.map(p => p.id));
+                const missingSeeds = SEED_PRODUCTS.filter(p => !existingIds.has(p.id));
+                if (missingSeeds.length > 0) {
+                    localList.push(...missingSeeds);
+                    await localDb.setCollection("products", localList);
+                    console.log(`[LocalDB Auto-Sync] ${missingSeeds.length} productos nuevos integrados en LocalDB.`);
+                }
                 products = localList;
             } else {
                 const deletedList = await localDb.getCollection("deleted_products");
