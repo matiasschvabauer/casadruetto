@@ -691,10 +691,18 @@ body.m-body {
 
 /* ─── TIENDA MÓVIL ESTILO MERCADO LIBRE (100% Ancho de Pantalla, 2 Columnas) ─── */
 @media (max-width: 768px) {
+    main.section {
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
     .store-container {
         display: flex !important;
         flex-direction: column !important;
-        padding: 0 0.35rem !important;
+        padding: 0 0.15rem !important;
         margin: 0 !important;
         width: 100% !important;
         max-width: 100% !important;
@@ -730,7 +738,7 @@ body.m-body {
     .store-catalog-grid {
         display: grid !important;
         grid-template-columns: repeat(2, 1fr) !important;
-        gap: 0.4rem !important;
+        gap: 0.35rem !important;
         width: 100% !important;
         max-width: 100% !important;
         margin: 0 !important;
@@ -747,7 +755,7 @@ body.m-body {
         flex-direction: column !important;
         justify-content: space-between !important;
         box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05) !important;
-        padding: 0 0 0.5rem 0 !important;
+        padding: 0 0 0.4rem 0 !important;
         width: 100% !important;
         max-width: 100% !important;
         box-sizing: border-box !important;
@@ -772,7 +780,7 @@ body.m-body {
     }
 
     .store-card-info {
-        padding: 0.5rem 0.4rem 0 0.4rem !important;
+        padding: 0.4rem 0.35rem 0 0.35rem !important;
         display: flex !important;
         flex-direction: column !important;
         flex: 1 !important;
@@ -813,15 +821,17 @@ body.m-body {
 
     .store-card-actions {
         display: flex !important;
-        gap: 0.25rem !important;
+        gap: 0.2rem !important;
         margin-top: 0.35rem !important;
         width: 100% !important;
+        box-sizing: border-box !important;
     }
 
     .store-card-btn-cart,
     .store-card-btn-view {
         flex: 1 !important;
-        padding: 0.45rem 0.2rem !important;
+        min-width: 0 !important;
+        padding: 0.4rem 0.15rem !important;
         font-size: 0.72rem !important;
         font-weight: 700 !important;
         border-radius: 6px !important;
@@ -829,6 +839,10 @@ body.m-body {
         justify-content: center !important;
         display: flex !important;
         align-items: center !important;
+        gap: 0.2rem !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
     }
 }
 

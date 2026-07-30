@@ -7594,12 +7594,12 @@ window.renderStoreCatalog = async function(containerId, filters = {}) {
                         $${(p.price * window.dollarRate).toLocaleString('es-AR', { maximumFractionDigits: 0 })} ARS
                     </span>
                 </div>
-                <div class="store-card-actions">
-                    <button class="store-card-btn-cart" onclick="addToCart('${p.id}', '${p.name.replace(/'/g, "\\'")}', '${p.code}', ${p.price}, '${coverImg}')" ${p.stock <= 0 ? 'disabled' : ''}>
+                <div class="store-card-actions" onclick="event.stopPropagation();">
+                    <button class="store-card-btn-cart" onclick="addToCart('${p.id}', '${p.name.replace(/'/g, "\\'")}', '${p.code}', ${p.price}, '${coverImg}')" ${p.stock <= 0 ? 'disabled' : ''} title="Agregar al Carrito">
                         <i class="fas fa-shopping-cart"></i> Agregar
                     </button>
-                    <button class="store-card-btn-view" onclick="viewProductDetail('${p.id}')">
-                        <i class="fas fa-eye"></i> Detalles
+                    <button class="store-card-btn-view" onclick="viewProductDetail('${p.id}')" title="Ver Detalle">
+                        <i class="fas fa-eye"></i> Detalle
                     </button>
                 </div>
             </div>

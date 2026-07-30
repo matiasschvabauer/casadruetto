@@ -148,26 +148,26 @@
 
                     <a href="m_galeria.html" class="btn" style="width: 100%; justify-content: center; margin-bottom: 0.5rem;"><i class="fas fa-images"></i> Ver Trabajos y Galería</a>
                 </div>
-                <div class="restoration-img-showcase">
-                    <div class="comparison-slider" id="restoration-slider">
+                <div class="restoration-img-showcase" style="width: 100%; max-width: 100%; margin-top: 1rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+                    <div class="comparison-slider" id="restoration-slider" style="position: relative; width: 100%; height: 280px; border-radius: 12px; overflow: hidden; user-select: none; touch-action: none; cursor: ew-resize; background: #111827;">
                         <!-- Después (Imagen de fondo) -->
-                        <img src="assets/img/despues.jpeg" alt="Después de la restauración" class="slider-image after-image">
+                        <img src="assets/img/despues.jpeg" alt="Después de la restauración" class="slider-image after-image" style="position: absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; pointer-events:none;">
 
                         <!-- Antes (Imagen recortada superior) -->
-                        <div class="before-image-wrapper">
-                            <img src="assets/img/antes.jpeg" alt="Antes de la restauración" class="slider-image before-image">
+                        <div class="before-image-wrapper" style="position: absolute; top:0; left:0; height:100%; width:50%; overflow:hidden; z-index:2; pointer-events:none;">
+                            <img src="assets/img/antes.jpeg" alt="Antes de la restauración" class="slider-image before-image" style="position: absolute; top:0; left:0; height:100%; width:100%; max-width:none; object-fit:cover; pointer-events:none;">
                         </div>
 
                         <!-- Barra divisoria y botón de arrastre -->
-                        <div class="slider-handle">
-                            <div class="handle-button">
+                        <div class="slider-handle" style="position: absolute; top:0; left:50%; height:100%; width:4px; background:#ffffff; z-index:10; transform:translateX(-50%); pointer-events:none; box-shadow: 0 0 8px rgba(0,0,0,0.4);">
+                            <div class="handle-button" style="position: absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:40px; height:40px; background:#ffffff; border:3px solid var(--accent-color); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 12px rgba(0,0,0,0.4); color:#111827; font-size:1.1rem; pointer-events:auto;">
                                 <i class="fas fa-arrows-alt-h"></i>
                             </div>
                         </div>
 
                         <!-- Etiquetas -->
-                        <span class="slider-badge before-badge">Antes</span>
-                        <span class="slider-badge after-badge">Después</span>
+                        <span class="slider-badge before-badge" style="position:absolute; top:10px; left:10px; z-index:5; background:rgba(0,0,0,0.65); color:#fff; padding:4px 10px; border-radius:4px; font-size:0.75rem; font-weight:700; pointer-events:none;">Antes</span>
+                        <span class="slider-badge after-badge" style="position:absolute; top:10px; right:10px; z-index:5; background:rgba(0,0,0,0.65); color:#fff; padding:4px 10px; border-radius:4px; font-size:0.75rem; font-weight:700; pointer-events:none;">Después</span>
                     </div>
                 </div>
             </div>
@@ -479,7 +479,7 @@
 
             setInterval(() => goToSlide(currentSlide + 1), 6000);
 
-            // Comparison Slider con sincronización de ancho exacto y arrastre fluido
+            // Comparison Slider con sincronización de ancho exacto y arrastre táctil fluido
             const slider = document.getElementById('restoration-slider');
             if (slider) {
                 const beforeWrapper = slider.querySelector('.before-image-wrapper');
@@ -498,7 +498,7 @@
                 }
 
                 window.addEventListener('resize', updateImageWidth);
-                setInterval(updateImageWidth, 500);
+                setInterval(updateImageWidth, 300);
                 updateImageWidth();
                 if (beforeImage) {
                     if (beforeImage.complete) updateImageWidth();
@@ -507,39 +507,39 @@
 
                 function move(clientX) {
                     const rect = slider.getBoundingClientRect();
-                    const x = clientX - rect.left;
-                    const percentage = Math.max(0, Math.min(100, (x / rect.width) * 100));
+                    let x = clientX - rect.left;
+                    if (x < 0) x = 0;
+                    if (x > rect.width) x = rect.width;
+                    const percentage = (x / rect.width) * 100;
                     if (beforeWrapper) beforeWrapper.style.width = percentage + '%';
                     if (handle) handle.style.left = percentage + '%';
                 }
 
-                slider.addEventListener('mousedown', (e) => {
+                const handleStart = (e) => {
                     isDragging = true;
-                    move(e.clientX);
-                });
+                    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+                    move(clientX);
+                };
 
-                window.addEventListener('mousemove', (e) => {
+                const handleMove = (e) => {
                     if (!isDragging) return;
-                    move(e.clientX);
-                });
+                    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+                    move(clientX);
+                    if (e.cancelable) e.preventDefault();
+                };
 
-                window.addEventListener('mouseup', () => {
+                const handleEnd = () => {
                     isDragging = false;
-                });
+                };
 
-                slider.addEventListener('touchstart', (e) => {
-                    isDragging = true;
-                    if (e.touches && e.touches[0]) move(e.touches[0].clientX);
-                }, { passive: true });
+                slider.addEventListener('mousedown', handleStart);
+                window.addEventListener('mousemove', handleMove);
+                window.addEventListener('mouseup', handleEnd);
 
-                window.addEventListener('touchmove', (e) => {
-                    if (!isDragging) return;
-                    if (e.touches && e.touches[0]) move(e.touches[0].clientX);
-                }, { passive: true });
-
-                window.addEventListener('touchend', () => {
-                    isDragging = false;
-                });
+                slider.addEventListener('touchstart', handleStart, { passive: false });
+                window.addEventListener('touchmove', handleMove, { passive: false });
+                window.addEventListener('touchend', handleEnd);
+                window.addEventListener('touchcancel', handleEnd);
             }
         });
     </script>
