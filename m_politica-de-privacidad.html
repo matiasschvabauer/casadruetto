@@ -1,52 +1,174 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <script src="js/mobile-detect.js"></script>
     <link rel="icon" href="casadruettologo1.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Política de Privacidad Móvil | Casa Druetto</title>
+    <title>Política de Privacidad | Casa Druetto Móvil</title>
+    <!-- Google Fonts & Material Symbols -->
     <link rel="stylesheet" href="assets/css/css2.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/mobile-styles.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/mobile-detect.js"></script>
+    <link rel="stylesheet" href="css/mobile-styles.css">
 </head>
 <body class="m-body">
 
+    <!-- ─── HEADER MÓVIL SUPERIOR ─── -->
     <header class="m-header">
         <div class="m-header-top">
             <a href="m_index.html" class="m-logo-link">
                 <img src="assets/img/casadruettologo1.png" alt="75 Años" class="m-logo-badge">
                 <span class="m-logo-text">CASA <span>DRUETTO</span></span>
             </a>
+            
             <div class="m-header-actions">
-                <button onclick="toggleCart(true)" class="m-header-btn"><i class="fas fa-shopping-cart"></i><span id="cart-badge" class="m-cart-badge">0</span></button>
-                <button onclick="toggleMobileDrawer(true)" class="m-header-btn"><i class="fas fa-bars"></i></button>
+                <button onclick="toggleMobileSearch(true)" class="m-header-btn" title="Buscar"><i class="fas fa-search"></i></button>
+                <button onclick="toggleCart(true)" class="m-header-btn" title="Ver Carrito">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-badge" class="m-cart-badge">0</span>
+                </button>
+                <button onclick="toggleMobileDrawer(true)" class="m-header-btn" title="Menú"><i class="fas fa-bars"></i></button>
             </div>
+        </div>
+
+        <div class="m-features-ticker">
+            <span class="m-feature-item"><span class="material-symbols-outlined">agriculture</span> 75 Años de Experiencia</span>
+            <span class="m-feature-item"><span class="material-symbols-outlined">delivery_truck_speed</span> Envíos a Todo el País</span>
+            <span class="m-feature-item"><span class="material-symbols-outlined">shield_with_heart</span> Garantía y Confianza</span>
+            <span class="m-feature-item"><span class="material-symbols-outlined">handshake</span> Atención Personalizada</span>
         </div>
     </header>
 
-    <main class="m-section">
-        <div style="background:#fff; border-radius:10px; padding:1.25rem; border:1px solid #e5e7eb;">
-            <h1 style="font-size:1.3rem; font-weight:800; color:#111827; margin-bottom:0.35rem;">Política de Privacidad</h1>
-            <p style="font-size:0.75rem; color:#6b7280; margin-bottom:1rem; border-bottom:1px solid #e5e7eb; padding-bottom:0.5rem;">Última actualización: Agosto 2026</p>
-
-            <div style="font-size:0.85rem; color:#374151; line-height:1.6;">
-                <p>En Casa Druetto resguardamos la confidencialidad de tus datos de contacto y facturación con estándares de seguridad cifrada.</p>
+    <!-- ─── MAIN CONTENT ─── -->
+    <main class="section" style="max-width: 900px; margin: 0 auto; padding: 1.5rem 1rem;">
+        <div style="background:#ffffff; border:1px solid var(--border-color); border-radius:8px; padding:1.5rem; box-shadow: var(--shadow-premium);">
+            <h1 style="font-size:1.6rem; margin-bottom:0.5rem; color:#111827;">Política de Privacidad</h1>
+            <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:1.5rem; border-bottom:1px solid var(--border-color); padding-bottom:0.75rem;">Última actualización: Agosto 2026</p>
+            
+            <div style="font-size:0.9rem; color:var(--text-primary); line-height:1.7;">
+                <h3 style="font-size:1.1rem; margin-top:1.25rem; margin-bottom:0.5rem;">Introducción</h3>
+                <p style="margin-bottom:1.25rem;">Estas políticas de privacidad (las "Políticas de Privacidad") rigen la recopilación, almacenamiento, uso y protección de los datos de carácter personal de los usuarios que interactúan en la plataforma de comercio electrónico de Casa Druetto.</p>
+                
+                <h3 style="font-size:1.1rem; margin-top:1.25rem; margin-bottom:0.5rem;">Información que recabamos</h3>
+                <p style="margin-bottom:1.25rem;">Para procesar presupuestos, registrar compras de equipos, facturar repuestos o coordinar servicios de taller, los usuarios deben suministrar de forma obligatoria datos personales tales como: nombre completo, número de DNI o CUIT, número de teléfono celular (WhatsApp), correo electrónico y domicilio de envío exacto.</p>
+                
+                <h3 style="font-size:1.1rem; margin-top:1.25rem; margin-bottom:0.5rem;">Privacidad Infantil</h3>
+                <p style="margin-bottom:1.25rem;">Debido al valor comercial y a la naturaleza técnica-industrial de los productos agrícolas y de precisión distribuidos por Casa Druetto, nuestros servicios de e-commerce y catálogo están destinados exclusivamente a personas mayores de edad que cuenten con plena capacidad legal para contratar.</p>
+                
+                <h3 style="font-size:1.1rem; margin-top:1.25rem; margin-bottom:0.5rem;">Uso de la información</h3>
+                <p style="margin-bottom:1.25rem;">Utilizamos la información recopilada con el propósito exclusivo de: gestionar y coordinar la entrega física de la maquinaria, emitir comprobantes fiscales, generar las garantías oficiales provistas por los fabricantes, contactar al usuario para asistirlo técnicamente en lote y notificarle sobre actualizaciones o turnos de su service postventa.</p>
+                
+                <h3 style="font-size:1.1rem; margin-top:1.25rem; margin-bottom:0.5rem;">Confidencialidad y Seguridad</h3>
+                <p style="margin-bottom:1.25rem;">Casa Druetto se compromete a adoptar todas las medidas tecnológicas de seguridad a su alcance para resguardar la confidencialidad de la información. Implementamos protocolos HTTPS seguros y garantizamos que las transacciones de pago son derivadas directamente a pasarelas externas certificadas bajo el estándar PCI DSS (como Mercado Pago), no almacenándose números de tarjeta en nuestros servidores.</p>
+            </div>
+            
+            <div style="margin-top:1.5rem; padding-top:1rem; border-top:1px solid var(--border-color); text-align:center;">
+                <a href="m_index.html" class="btn btn-secondary">Volver al Inicio</a>
             </div>
         </div>
     </main>
 
-    <a href="https://wa.me/5493404521246" class="m-floating-wa" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <!-- ─── FOOTER ─── -->
+    <footer class="main-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="logo-link" style="margin-bottom: 1rem;">
+                    <div class="logo-circle-container" style="width:36px; height:36px;">
+                        <img src="assets/img/casadruettologo1.png" alt="75 Años" class="logo-image-badge">
+                    </div>
+                    <span class="logo-text" style="font-size:1.15rem;">CASA <span>DRUETTO</span></span>
+                </div>
+                <p>Soluciones para el agro: maquinaria agrícola, agricultura de precisión, repuestos y servicios técnicos.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="m_tienda.html">Tienda Online</a></li>
+                    <li><a href="m_quienes-somos.html">Quiénes Somos</a></li>
+                    <li><a href="m_servicios.html">Servicios</a></li>
+                    <li><a href="m_galeria.html">Galería</a></li>
+                    <li><a href="m_contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Av. Jorge Newbery 247, S2252 Gálvez, Santa Fe</p>
+                <p><i class="fab fa-whatsapp"></i> +54 9 3404 52-1246</p>
+                <p><i class="fas fa-envelope"></i> contacto@casadruetto.com.ar</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Casa Druetto. Todos los derechos reservados.</span>
+        </div>
+    </footer>
 
+    <!-- ─── BOTÓN FLOTANTE WHATSAPP ─── -->
+    <a href="https://wa.me/5493404521246" class="m-floating-wa" target="_blank" title="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- ─── NAVEGACIÓN INFERIOR FIJA MÓVIL ─── -->
     <nav class="m-bottom-nav">
-        <a href="m_index.html" class="m-nav-item"><i class="fas fa-home"></i><span>Inicio</span></a>
-        <a href="m_tienda.html" class="m-nav-item"><i class="fas fa-store"></i><span>Tienda</span></a>
-        <button onclick="toggleCart(true)" class="m-nav-item"><i class="fas fa-shopping-cart"></i><span>Carrito</span></button>
-        <a href="m_contacto.html" class="m-nav-item"><i class="fas fa-envelope"></i><span>Contacto</span></a>
+        <a href="m_index.html" class="m-nav-item">
+            <i class="fas fa-home"></i>
+            <span>Inicio</span>
+        </a>
+        <a href="m_tienda.html" class="m-nav-item">
+            <i class="fas fa-store"></i>
+            <span>Tienda</span>
+        </a>
+        <button onclick="toggleMobileSearch(true)" class="m-nav-item">
+            <i class="fas fa-search"></i>
+            <span>Buscar</span>
+        </button>
+        <button onclick="toggleCart(true)" class="m-nav-item">
+            <i class="fas fa-shopping-cart"></i>
+            <span>Carrito</span>
+        </button>
+        <a href="m_contacto.html" class="m-nav-item">
+            <i class="fas fa-envelope"></i>
+            <span>Contacto</span>
+        </a>
     </nav>
 
+    <!-- ─── DRAWER MENÚ LATERAL MÓVIL ─── -->
+    <div id="m-drawer" class="m-drawer">
+        <div class="m-drawer-header">
+            <span class="m-drawer-title">MENÚ PRINCIPAL</span>
+            <button onclick="toggleMobileDrawer(false)" class="m-drawer-close">&times;</button>
+        </div>
+        <ul class="m-drawer-menu">
+            <li class="m-drawer-item"><a href="m_index.html"><i class="fas fa-home"></i> Inicio</a></li>
+            <li class="m-drawer-item"><a href="m_tienda.html"><i class="fas fa-store"></i> Tienda Completa</a></li>
+            <li class="m-drawer-item"><a href="m_quienes-somos.html"><i class="fas fa-users"></i> Nosotros</a></li>
+            <li class="m-drawer-item"><a href="m_servicios.html"><i class="fas fa-wrench"></i> Servicios</a></li>
+            <li class="m-drawer-item"><a href="m_galeria.html"><i class="fas fa-images"></i> Galería</a></li>
+            <li class="m-drawer-item"><a href="m_contacto.html"><i class="fas fa-envelope"></i> Contacto</a></li>
+            <li class="m-drawer-item"><a href="m_politicas-de-envio.html"><i class="fas fa-truck"></i> Políticas de Envío</a></li>
+            <li class="m-drawer-item"><a href="m_terminos-y-condiciones.html"><i class="fas fa-file-contract"></i> Términos y Condiciones</a></li>
+            <li class="m-drawer-item"><a href="admin/login.html"><i class="fas fa-user-lock"></i> Panel Admin</a></li>
+        </ul>
+    </div>
+    <div id="m-overlay" class="m-overlay" onclick="toggleMobileDrawer(false)"></div>
+
+    <!-- ─── MODAL DE BÚSQUEDA MÓVIL ─── -->
+    <div id="m-search-modal" class="m-search-modal">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+            <h3 style="font-size:1rem; font-weight:800;">Buscar en Casa Druetto</h3>
+            <button onclick="toggleMobileSearch(false)" style="background:none; border:none; font-size:1.5rem; cursor:pointer;">&times;</button>
+        </div>
+        <div class="m-search-input-box">
+            <i class="fas fa-search" style="color:#9ca3af;"></i>
+            <input type="text" id="m-search-input" placeholder="Buscar maquinaria, repuestos, código..." onkeyup="if(event.key === 'Enter') { executeMobileSearch(this.value); }">
+        </div>
+        <button class="m-btn m-btn-primary" onclick="executeMobileSearch(document.getElementById('m-search-input').value)">Buscar Equipos</button>
+    </div>
+
+    <!-- Scripts -->
     <script type="module" src="js/firebase-config.js"></script>
     <script type="module" src="js/cart.js"></script>
     <script src="js/mobile-app.js"></script>

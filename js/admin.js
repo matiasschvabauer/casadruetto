@@ -453,18 +453,34 @@ function populateCategoryDropdowns() {
     });
 }
 
-function renderProductsTable() {
+window.filterAdminProductsTable = function(searchTerm) {
+    if (!searchTerm) {
+        renderProductsTable();
+        return;
+    }
+    const term = searchTerm.toLowerCase().trim();
+    const filtered = productsList.filter(p => {
+        const name = (p.name || '').toLowerCase();
+        const code = (p.code || '').toLowerCase();
+        const category = (p.category || '').toLowerCase();
+        const brand = (p.brand || '').toLowerCase();
+        return name.includes(term) || code.includes(term) || category.includes(term) || brand.includes(term);
+    });
+    renderProductsTable(filtered);
+};
+
+function renderProductsTable(itemsToRender = productsList) {
     const tbody = document.getElementById('admin-products-tbody');
     if (!tbody) return;
 
     tbody.innerHTML = '';
 
-    if (productsList.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;color:#888;">El catálogo está vacío.</td></tr>';
+    if (itemsToRender.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;color:#888;padding:2rem;">No se encontraron productos coincidentes.</td></tr>';
         return;
     }
 
-    productsList.forEach(p => {
+    itemsToRender.forEach(p => {
         const tr = document.createElement('tr');
         const imgUrl = p.images?.[0] ? (p.images[0].startsWith('http') || p.images[0].startsWith('data:') || p.images[0].startsWith('../') ? p.images[0] : '../' + p.images[0]) : '../assets/img/casadruettologo1.png';
 

@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <script src="js/mobile-detect.js"></script>
     <link rel="icon" href="casadruettologo1.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Tienda Virtual Móvil | Casa Druetto</title>
+    <title>Tienda de Equipos | Casa Druetto Móvil</title>
     <!-- Google Fonts & Material Symbols -->
     <link rel="stylesheet" href="assets/css/css2.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Custom Mobile CSS & Styles -->
-    <link rel="stylesheet" href="css/mobile-styles.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/mobile-detect.js"></script>
+    <link rel="stylesheet" href="css/mobile-styles.css">
 </head>
 <body class="m-body">
 
@@ -27,58 +27,165 @@
             
             <div class="m-header-actions">
                 <button onclick="toggleMobileSearch(true)" class="m-header-btn" title="Buscar"><i class="fas fa-search"></i></button>
-                <button onclick="toggleCart(true)" class="m-header-btn" title="Carrito">
+                <button onclick="toggleCart(true)" class="m-header-btn" title="Ver Carrito">
                     <i class="fas fa-shopping-cart"></i>
                     <span id="cart-badge" class="m-cart-badge">0</span>
                 </button>
                 <button onclick="toggleMobileDrawer(true)" class="m-header-btn" title="Menú"><i class="fas fa-bars"></i></button>
             </div>
         </div>
+
+        <div class="m-features-ticker">
+            <span class="m-feature-item"><span class="material-symbols-outlined">agriculture</span> 75 Años de Experiencia</span>
+            <span class="m-feature-item"><span class="material-symbols-outlined">delivery_truck_speed</span> Envíos a Todo el País</span>
+            <span class="m-feature-item"><span class="material-symbols-outlined">shield_with_heart</span> Garantía y Confianza</span>
+            <span class="m-feature-item"><span class="material-symbols-outlined">handshake</span> Atención Personalizada</span>
+        </div>
     </header>
 
-    <!-- ─── FILTROS Y BÚSQUEDA RÁPIDA MÓVIL ─── -->
-    <section class="m-section" style="padding-bottom: 0.5rem;">
-        <div style="margin-bottom:0.75rem;">
-            <h1 style="font-size:1.3rem; font-weight:800; color:#111827;">Catálogo de Productos</h1>
-            <p style="font-size:0.78rem; color:#6b7280;">Maquinaria, repuestos y agricultura de precisión.</p>
+    <!-- ─── MAIN STORE LAYOUT ─── -->
+    <main class="section">
+        <div class="section-header" style="margin-bottom: 1.5rem;">
+            <h2 class="section-title">Tienda Virtual Casa Druetto</h2>
+            <p class="section-subtitle">Adquiere tus equipos directamente con nosotros o a través de Mercado Libre.</p>
         </div>
 
-        <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:1rem;">
-            <select id="m-category-filter" style="flex:1; padding:0.6rem; border:1px solid #d1d5db; border-radius:6px; font-size:0.8rem; font-weight:700; background:#fff; color:#111827;">
-                <option value="">Todas las Categorías</option>
-                <option value="Maquinaria Agrícola">Maquinaria Agrícola</option>
-                <option value="Agricultura de Precisión">Agricultura de Precisión</option>
-                <option value="Repuestos y Accesorios">Repuestos y Accesorios</option>
-                <option value="Drones DJI">Drones DJI</option>
-            </select>
+        <div class="store-container">
+            
+            <!-- ─── SIDEBAR FILTERS MÓVIL ─── -->
+            <aside class="store-filters-sidebar">
+                <div class="filter-group">
+                    <h4>Búsqueda Directa</h4>
+                    <input type="text" id="filter-search-input" placeholder="Nombre, código, marca...">
+                </div>
 
-            <select id="m-sort-filter" style="width:130px; padding:0.6rem; border:1px solid #d1d5db; border-radius:6px; font-size:0.8rem; font-weight:700; background:#fff; color:#111827;">
-                <option value="newest">Más Recientes</option>
-                <option value="price-asc">Menor Precio</option>
-                <option value="price-desc">Mayor Precio</option>
-            </select>
+                <div class="filter-group">
+                    <h4>Categoría</h4>
+                    <select id="filter-category">
+                        <option value="all">Todas las Categorías</option>
+                        <option value="Maquinaria Agrícola">Maquinaria Agrícola</option>
+                        <option value="Agricultura de Precisión">Agricultura de Precisión</option>
+                        <option value="Drones DJI">Drones DJI</option>
+                        <option value="Repuestos y Accesorios">Repuestos y Accesorios</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <h4>Marca</h4>
+                    <select id="filter-brand">
+                        <option value="all">Todas las Marcas</option>
+                        <option value="DJI">DJI</option>
+                        <option value="John Deere">John Deere</option>
+                        <option value="Trimble">Trimble</option>
+                        <option value="Fiat">Fiat</option>
+                        <option value="UDOR">UDOR</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <h4>Condición del Equipo</h4>
+                    <select id="filter-condition">
+                        <option value="all">Cualquier Condición</option>
+                        <option value="Nuevo">Nuevo</option>
+                        <option value="Usado">Usado</option>
+                        <option value="Restaurado">Restaurado</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <h4>Rango de Precio (USD)</h4>
+                    <div class="filter-price-inputs">
+                        <input type="number" id="filter-price-min" placeholder="Min">
+                        <input type="number" id="filter-price-max" placeholder="Max">
+                    </div>
+                </div>
+
+                <button class="btn" style="width:100%; justify-content:center; padding: 0.65rem;" onclick="applyCatalogFilters()">
+                    <i class="fas fa-filter"></i> Aplicar Filtros
+                </button>
+            </aside>
+
+            <!-- ─── CATALOG SECTION ─── -->
+            <section class="store-catalog-section">
+                
+                <div class="catalog-search-row">
+                    <div class="search-input-wrap">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="catalog-main-search" placeholder="Buscar en el catálogo..." oninput="syncAndSearch(this.value)">
+                    </div>
+                    <div class="sort-select-wrap">
+                        <select id="catalog-sort" onchange="applyCatalogFilters()">
+                            <option value="recent">Recientes</option>
+                            <option value="price_asc">Precio: Menor a Mayor</option>
+                            <option value="price_desc">Precio: Mayor a Menor</option>
+                        </select>
+                    </div>
+                    <div class="sort-select-wrap">
+                        <select id="catalog-limit" onchange="changeLimit(this.value)">
+                            <option value="30">Mostrar: 30</option>
+                            <option value="60">Mostrar: 60</option>
+                            <option value="120">Mostrar: 120</option>
+                            <option value="300">Mostrar: 300</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Product Grid -->
+                <div class="store-catalog-grid" id="store-catalog-grid">
+                    <div class="gooey-loader-container">
+                        <svg style="position: absolute; width: 0; height: 0;">
+                            <defs>
+                                <filter id="gooey-loader-filter">
+                                    <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="blur" />
+                                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 48 -7" result="goo" />
+                                    <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+                                </filter>
+                            </defs>
+                        </svg>
+                        <div class="gooey-loader"></div>
+                        <p style="color: var(--text-secondary); font-weight: 600; font-size: 0.88rem;">Cargando catálogo de Casa Druetto...</p>
+                    </div>
+                </div>
+
+                <!-- Paginación -->
+                <div class="catalog-pagination" id="catalog-pagination"></div>
+            </section>
         </div>
-    </section>
+    </main>
 
-    <!-- ─── GRILLA DE CATÁLOGO MÓVIL CON GOOEY LOADER INSTANTÁNEO ─── -->
-    <section class="m-section" style="padding-top:0;">
-        <div class="m-products-grid" id="m-store-catalog-grid">
-            <!-- Loader instantáneo GooeyLoader -->
-            <div class="gooey-loader-container">
-                <svg style="position: absolute; width: 0; height: 0;">
-                    <defs>
-                        <filter id="gooey-loader-filter">
-                            <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="blur" />
-                            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 48 -7" result="goo" />
-                            <feComposite in="SourceGraphic" in2="goo" operator="atop" />
-                        </filter>
-                    </defs>
-                </svg>
-                <div class="gooey-loader"></div>
-                <p style="color: var(--text-secondary); font-weight: 600; font-size: 0.82rem; margin-top: 0.5rem;">Cargando productos de Casa Druetto...</p>
+    <!-- ─── FOOTER ─── -->
+    <footer class="main-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="logo-link" style="margin-bottom: 1rem;">
+                    <div class="logo-circle-container" style="width:36px; height:36px;">
+                        <img src="assets/img/casadruettologo1.png" alt="75 Años" class="logo-image-badge">
+                    </div>
+                    <span class="logo-text" style="font-size:1.15rem;">CASA <span>DRUETTO</span></span>
+                </div>
+                <p>Soluciones para el agro: maquinaria agrícola, agricultura de precisión, repuestos y servicios técnicos.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="m_tienda.html">Tienda Online</a></li>
+                    <li><a href="m_quienes-somos.html">Quiénes Somos</a></li>
+                    <li><a href="m_servicios.html">Servicios</a></li>
+                    <li><a href="m_galeria.html">Galería</a></li>
+                    <li><a href="m_contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Av. Jorge Newbery 247, S2252 Gálvez, Santa Fe</p>
+                <p><i class="fab fa-whatsapp"></i> +54 9 3404 52-1246</p>
+                <p><i class="fas fa-envelope"></i> contacto@casadruetto.com.ar</p>
             </div>
         </div>
-    </section>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Casa Druetto. Todos los derechos reservados.</span>
+        </div>
+    </footer>
 
     <!-- ─── BOTÓN FLOTANTE WHATSAPP ─── -->
     <a href="https://wa.me/5493404521246" class="m-floating-wa" target="_blank" title="Contactar por WhatsApp">
@@ -147,75 +254,5 @@
     <script type="module" src="js/cart.js"></script>
     <script type="module" src="js/products.js"></script>
     <script src="js/mobile-app.js"></script>
-    <script type="module">
-        import { products, loadProductsData } from './js/products.js';
-        
-        document.addEventListener('DOMContentLoaded', async () => {
-            await loadProductsData();
-            renderMobileCatalog();
-
-            document.getElementById('m-category-filter')?.addEventListener('change', renderMobileCatalog);
-            document.getElementById('m-sort-filter')?.addEventListener('change', renderMobileCatalog);
-
-            const urlParams = new URLSearchParams(window.location.search);
-            const catParam = urlParams.get('category');
-            if (catParam) {
-                const select = document.getElementById('m-category-filter');
-                if (select) {
-                    select.value = catParam;
-                    renderMobileCatalog();
-                }
-            }
-        });
-
-        function renderMobileCatalog() {
-            const container = document.getElementById('m-store-catalog-grid');
-            if (!container) return;
-
-            const selectedCat = document.getElementById('m-category-filter')?.value || '';
-            const selectedSort = document.getElementById('m-sort-filter')?.value || 'newest';
-
-            let filtered = [...products];
-            if (selectedCat) {
-                filtered = filtered.filter(p => p.category === selectedCat);
-            }
-
-            if (selectedSort === 'price-asc') {
-                filtered.sort((a,b) => a.price - b.price);
-            } else if (selectedSort === 'price-desc') {
-                filtered.sort((a,b) => b.price - a.price);
-            }
-
-            container.innerHTML = '';
-            if (filtered.length === 0) {
-                container.innerHTML = '<p style="grid-column:1/-1; text-align:center; padding:2rem; color:#6b7280;">No se encontraron productos.</p>';
-                return;
-            }
-
-            filtered.forEach(p => {
-                const imgUrl = p.images?.[0] || 'assets/img/casadruettologo1.png';
-                const priceArs = Math.round(p.price * 1530).toLocaleString('es-AR');
-                const card = document.createElement('div');
-                card.className = 'm-product-card';
-                card.innerHTML = `
-                    <div class="m-product-img-box">
-                        <span class="m-product-badge">NUEVO</span>
-                        <img src="${imgUrl}" alt="${p.name}" class="m-product-img">
-                    </div>
-                    <div class="m-product-info">
-                        <span class="m-product-category">${p.category}</span>
-                        <h3 class="m-product-title">${p.name}</h3>
-                        <div class="m-product-price-usd">$${p.price.toLocaleString('es-AR')} USD</div>
-                        <div class="m-product-price-ars">$${priceArs} ARS</div>
-                    </div>
-                    <div class="m-product-actions">
-                        <button class="m-btn-add" onclick="addToCart('${p.id}', '${p.name.replace(/'/g, "\\'")}', '${p.code}', ${p.price}, '${imgUrl}')"><i class="fas fa-cart-plus"></i> Agregar</button>
-                        <a href="m_producto-detalle.html?id=${p.id}" class="m-btn-detail"><i class="fas fa-eye"></i></a>
-                    </div>
-                `;
-                container.appendChild(card);
-            });
-        }
-    </script>
 </body>
 </html>

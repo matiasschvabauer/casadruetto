@@ -1,60 +1,269 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <script src="js/mobile-detect.js"></script>
     <link rel="icon" href="casadruettologo1.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Contacto Móvil | Casa Druetto</title>
+    <title>Contacto | Casa Druetto Móvil</title>
+    <!-- Google Fonts & Material Symbols -->
     <link rel="stylesheet" href="assets/css/css2.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/mobile-styles.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/mobile-detect.js"></script>
+    <link rel="stylesheet" href="css/mobile-styles.css">
 </head>
 <body class="m-body">
 
+    <!-- ─── HEADER MÓVIL SUPERIOR ─── -->
     <header class="m-header">
         <div class="m-header-top">
             <a href="m_index.html" class="m-logo-link">
                 <img src="assets/img/casadruettologo1.png" alt="75 Años" class="m-logo-badge">
                 <span class="m-logo-text">CASA <span>DRUETTO</span></span>
             </a>
+            
             <div class="m-header-actions">
-                <button onclick="toggleCart(true)" class="m-header-btn"><i class="fas fa-shopping-cart"></i><span id="cart-badge" class="m-cart-badge">0</span></button>
-                <button onclick="toggleMobileDrawer(true)" class="m-header-btn"><i class="fas fa-bars"></i></button>
+                <button onclick="toggleMobileSearch(true)" class="m-header-btn" title="Buscar"><i class="fas fa-search"></i></button>
+                <button onclick="toggleCart(true)" class="m-header-btn" title="Ver Carrito">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-badge" class="m-cart-badge">0</span>
+                </button>
+                <button onclick="toggleMobileDrawer(true)" class="m-header-btn" title="Menú"><i class="fas fa-bars"></i></button>
             </div>
+        </div>
+
+        <div class="m-features-ticker">
+            <span class="m-feature-item"><span class="material-symbols-outlined">agriculture</span> 75 Años de Experiencia</span>
+            <span class="m-feature-item"><span class="material-symbols-outlined">delivery_truck_speed</span> Envíos a Todo el País</span>
+            <span class="m-feature-item"><span class="material-symbols-outlined">shield_with_heart</span> Garantía y Confianza</span>
+            <span class="m-feature-item"><span class="material-symbols-outlined">handshake</span> Atención Personalizada</span>
         </div>
     </header>
 
-    <main class="m-section">
-        <div style="background:#fff; padding:1.25rem; border-radius:10px; border:1px solid #e5e7eb; margin-bottom:1rem;">
-            <h1 style="font-size:1.3rem; font-weight:800; color:#111827; margin-bottom:0.5rem;">Contacto Directo</h1>
-            <p style="font-size:0.85rem; color:#4b5563; margin-bottom:1rem;">Estamos para asesorarte sobre maquinaria y repuestos.</p>
+    <!-- ─── CONTACT MAIN CONTENT ─── -->
+    <main class="section">
+        <div class="section-header animate-on-scroll">
+            <h2 class="section-title">Ponete en Contacto</h2>
+            <p class="section-subtitle" style="max-width: 800px; margin: 0 auto;">¿Tenés alguna consulta sobre maquinaria, buscás un repuesto específico o necesitás servicio técnico? Estamos aquí para ayudarte.</p>
+        </div>
 
-            <a href="https://wa.me/5493404521246" target="_blank" class="m-btn m-btn-success" style="margin-bottom:0.75rem;">
-                <i class="fab fa-whatsapp"></i> Chatear por WhatsApp (+54 9 3404 52-1246)
-            </a>
+        <div class="contact-grid">
+            
+            <!-- Left Column: Contact details -->
+            <div class="contact-info-card animate-on-scroll delay-100">
+                <h3>Información de Contacto</h3>
+                
+                <div class="contact-info-list">
+                    <div class="contact-info-item">
+                        <i class="fab fa-whatsapp" style="color: #25d366;"></i>
+                        <div>
+                            <span class="label">WhatsApp</span>
+                            <a href="https://wa.me/5493404521246" target="_blank" class="value">+54 9 3404 52-1246</a>
+                        </div>
+                    </div>
 
-            <div style="font-size:0.85rem; color:#374151; display:flex; flex-direction:column; gap:0.5rem; margin-top:1rem;">
-                <div><i class="fas fa-map-marker-alt" style="color:#10b981;"></i> Av. Jorge Newbery 247, Gálvez, Santa Fe</div>
-                <div><i class="fas fa-envelope" style="color:#10b981;"></i> contacto@casadruetto.com.ar</div>
-                <div><i class="fas fa-clock" style="color:#10b981;"></i> Lun a Vie 8:00 - 18:00 hs</div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-phone" style="color: var(--accent-color);"></i>
+                        <div>
+                            <span class="label">Teléfono Fijo</span>
+                            <span class="value">(03404) 481-222</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <i class="fas fa-envelope" style="color: var(--accent-color);"></i>
+                        <div>
+                            <span class="label">Correo Administrativo</span>
+                            <a href="mailto:contacto@casadruetto.com.ar" class="value">contacto@casadruetto.com.ar</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <i class="fas fa-map-marker-alt" style="color: #e53935;"></i>
+                        <div>
+                            <span class="label">Ubicación</span>
+                            <a href="https://maps.google.com/?q=Galvez,Santa+Fe" target="_blank" class="value">Gálvez, Santa Fe, Argentina</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-hours-divider">
+                    <h4>Horario de Atención</h4>
+                    <div class="contact-info-list">
+                        <div class="contact-info-item">
+                            <i class="fas fa-clock" style="color: var(--text-secondary);"></i>
+                            <div>
+                                <span class="label">Lunes a Viernes</span>
+                                <span class="value">8:00 a 12:00 y de 15:30 a 19:30 hs</span>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="fas fa-clock" style="color: var(--text-secondary);"></i>
+                            <div>
+                                <span class="label">Sábados</span>
+                                <span class="value">8:00 a 12:00 hs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <!-- Right Column: Form -->
+            <div class="contact-form-card animate-on-scroll delay-200">
+                <h3>Envianos un Mensaje</h3>
+                <form onsubmit="event.preventDefault(); alert('¡Muchas gracias por tu mensaje! Un asesor se pondrá en contacto contigo.'); this.reset();">
+                    <div class="contact-form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" required placeholder="Ingresá tu nombre">
+                    </div>
+                    <div class="contact-form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required placeholder="correo@ejemplo.com">
+                    </div>
+                    <div class="contact-form-group">
+                        <label for="phone">Teléfono / WhatsApp</label>
+                        <input type="tel" id="phone" required placeholder="Ej: +54 9 3404 52-1246">
+                    </div>
+                    <div class="contact-form-group">
+                        <label for="subject">Asunto</label>
+                        <input type="text" id="subject" placeholder="Ej: Consulta por Tractor / Repuestos">
+                    </div>
+                    <div class="contact-form-group">
+                        <label for="message">Tu Mensaje</label>
+                        <textarea id="message" required placeholder="Contanos cómo podemos ayudarte..."></textarea>
+                    </div>
+                    
+                    <button class="btn-primary-form" type="submit">
+                        <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                    </button>
+                    
+                    <div class="or-divider">o</div>
+                    
+                    <a href="https://wa.me/5493404521246" target="_blank" class="btn-whatsapp-secondary">
+                        <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
+                    </a>
+                </form>
+            </div>
+
         </div>
     </main>
 
-    <a href="https://wa.me/5493404521246" class="m-floating-wa" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <!-- ─── FOOTER ─── -->
+    <footer class="main-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="logo-link" style="margin-bottom: 1rem;">
+                    <div class="logo-circle-container" style="width:36px; height:36px;">
+                        <img src="assets/img/casadruettologo1.png" alt="75 Años" class="logo-image-badge">
+                    </div>
+                    <span class="logo-text" style="font-size:1.15rem;">CASA <span>DRUETTO</span></span>
+                </div>
+                <p>Soluciones para el agro: maquinaria agrícola, agricultura de precisión, repuestos y servicios técnicos.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="m_tienda.html">Tienda Online</a></li>
+                    <li><a href="m_quienes-somos.html">Quiénes Somos</a></li>
+                    <li><a href="m_servicios.html">Servicios</a></li>
+                    <li><a href="m_galeria.html">Galería</a></li>
+                    <li><a href="m_contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Av. Jorge Newbery 247, S2252 Gálvez, Santa Fe</p>
+                <p><i class="fab fa-whatsapp"></i> +54 9 3404 52-1246</p>
+                <p><i class="fas fa-envelope"></i> contacto@casadruetto.com.ar</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Casa Druetto. Todos los derechos reservados.</span>
+        </div>
+    </footer>
 
+    <!-- ─── BOTÓN FLOTANTE WHATSAPP ─── -->
+    <a href="https://wa.me/5493404521246" class="m-floating-wa" target="_blank" title="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- ─── NAVEGACIÓN INFERIOR FIJA MÓVIL ─── -->
     <nav class="m-bottom-nav">
-        <a href="m_index.html" class="m-nav-item"><i class="fas fa-home"></i><span>Inicio</span></a>
-        <a href="m_tienda.html" class="m-nav-item"><i class="fas fa-store"></i><span>Tienda</span></a>
-        <button onclick="toggleCart(true)" class="m-nav-item"><i class="fas fa-shopping-cart"></i><span>Carrito</span></button>
-        <a href="m_contacto.html" class="m-nav-item active"><i class="fas fa-envelope"></i><span>Contacto</span></a>
+        <a href="m_index.html" class="m-nav-item">
+            <i class="fas fa-home"></i>
+            <span>Inicio</span>
+        </a>
+        <a href="m_tienda.html" class="m-nav-item">
+            <i class="fas fa-store"></i>
+            <span>Tienda</span>
+        </a>
+        <button onclick="toggleMobileSearch(true)" class="m-nav-item">
+            <i class="fas fa-search"></i>
+            <span>Buscar</span>
+        </button>
+        <button onclick="toggleCart(true)" class="m-nav-item">
+            <i class="fas fa-shopping-cart"></i>
+            <span>Carrito</span>
+        </button>
+        <a href="m_contacto.html" class="m-nav-item active">
+            <i class="fas fa-envelope"></i>
+            <span>Contacto</span>
+        </a>
     </nav>
 
+    <!-- ─── DRAWER MENÚ LATERAL MÓVIL ─── -->
+    <div id="m-drawer" class="m-drawer">
+        <div class="m-drawer-header">
+            <span class="m-drawer-title">MENÚ PRINCIPAL</span>
+            <button onclick="toggleMobileDrawer(false)" class="m-drawer-close">&times;</button>
+        </div>
+        <ul class="m-drawer-menu">
+            <li class="m-drawer-item"><a href="m_index.html"><i class="fas fa-home"></i> Inicio</a></li>
+            <li class="m-drawer-item"><a href="m_tienda.html"><i class="fas fa-store"></i> Tienda Completa</a></li>
+            <li class="m-drawer-item"><a href="m_quienes-somos.html"><i class="fas fa-users"></i> Nosotros</a></li>
+            <li class="m-drawer-item"><a href="m_servicios.html"><i class="fas fa-wrench"></i> Servicios</a></li>
+            <li class="m-drawer-item"><a href="m_galeria.html"><i class="fas fa-images"></i> Galería</a></li>
+            <li class="m-drawer-item"><a href="m_contacto.html"><i class="fas fa-envelope"></i> Contacto</a></li>
+            <li class="m-drawer-item"><a href="m_politicas-de-envio.html"><i class="fas fa-truck"></i> Políticas de Envío</a></li>
+            <li class="m-drawer-item"><a href="m_terminos-y-condiciones.html"><i class="fas fa-file-contract"></i> Términos y Condiciones</a></li>
+            <li class="m-drawer-item"><a href="admin/login.html"><i class="fas fa-user-lock"></i> Panel Admin</a></li>
+        </ul>
+    </div>
+    <div id="m-overlay" class="m-overlay" onclick="toggleMobileDrawer(false)"></div>
+
+    <!-- ─── MODAL DE BÚSQUEDA MÓVIL ─── -->
+    <div id="m-search-modal" class="m-search-modal">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+            <h3 style="font-size:1rem; font-weight:800;">Buscar en Casa Druetto</h3>
+            <button onclick="toggleMobileSearch(false)" style="background:none; border:none; font-size:1.5rem; cursor:pointer;">&times;</button>
+        </div>
+        <div class="m-search-input-box">
+            <i class="fas fa-search" style="color:#9ca3af;"></i>
+            <input type="text" id="m-search-input" placeholder="Buscar maquinaria, repuestos, código..." onkeyup="if(event.key === 'Enter') { executeMobileSearch(this.value); }">
+        </div>
+        <button class="m-btn m-btn-primary" onclick="executeMobileSearch(document.getElementById('m-search-input').value)">Buscar Equipos</button>
+    </div>
+
+    <!-- Scripts -->
     <script type="module" src="js/firebase-config.js"></script>
     <script type="module" src="js/cart.js"></script>
     <script src="js/mobile-app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('appeared');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.15 });
+
+            document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+        });
+    </script>
 </body>
 </html>

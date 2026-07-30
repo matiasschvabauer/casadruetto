@@ -97,8 +97,19 @@
 
             <!-- Tabla General de Productos -->
             <div class="admin-data-container">
-                <div class="admin-container-header">
-                    <h3 style="font-family:'Montserrat',sans-serif;font-size:1.1rem;font-weight:600;">Listado de Productos</h3>
+                <div class="admin-container-header" style="flex-wrap: wrap; gap: 1rem; align-items: center; justify-content: space-between;">
+                    <div style="display: flex; align-items: center; gap: 1rem; flex: 1; min-width: 260px; max-width: 500px;">
+                        <h3 style="font-family:'Montserrat',sans-serif;font-size:1.1rem;font-weight:600; white-space: nowrap;">Listado de Productos</h3>
+                        
+                        <!-- Buscador en tiempo real de productos admin -->
+                        <div class="admin-search-box" style="position: relative; width: 100%;">
+                            <i class="fas fa-search" style="position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: #6b7280;"></i>
+                            <input type="text" id="admin-product-search" placeholder="Buscar por nombre, código, marca..." 
+                                onkeyup="filterAdminProductsTable(this.value)"
+                                style="width: 100%; padding: 0.55rem 0.75rem 0.55rem 2.25rem; border: 1px solid var(--admin-border); border-radius: 6px; font-size: 0.88rem; outline: none; background-color: #ffffff; color: #111827; font-weight: 500;">
+                        </div>
+                    </div>
+
                     <button class="btn" onclick="openProductCreateModal()"><i class="fas fa-plus"></i> Agregar Producto</button>
                 </div>
 
