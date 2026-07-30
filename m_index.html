@@ -483,18 +483,23 @@
             const slider = document.getElementById('restoration-slider');
             if (slider) {
                 const beforeWrapper = slider.querySelector('.before-image-wrapper');
-                const beforeImage = beforeWrapper.querySelector('.before-image');
+                const beforeImage = beforeWrapper ? beforeWrapper.querySelector('.before-image') : null;
                 const handle = slider.querySelector('.slider-handle');
                 let isDragging = false;
 
                 function updateImageWidth() {
                     if (slider && beforeImage) {
-                        beforeImage.style.width = slider.offsetWidth + 'px';
+                        const w = slider.offsetWidth;
+                        if (w > 0) {
+                            beforeImage.style.width = w + 'px';
+                            beforeImage.style.minWidth = w + 'px';
+                        }
                     }
                 }
 
                 window.addEventListener('resize', updateImageWidth);
-                setTimeout(updateImageWidth, 200);
+                setInterval(updateImageWidth, 500);
+                updateImageWidth();
                 if (beforeImage) {
                     if (beforeImage.complete) updateImageWidth();
                     else beforeImage.addEventListener('load', updateImageWidth);
@@ -504,8 +509,8 @@
                     const rect = slider.getBoundingClientRect();
                     const x = clientX - rect.left;
                     const percentage = Math.max(0, Math.min(100, (x / rect.width) * 100));
-                    beforeWrapper.style.width = percentage + '%';
-                    handle.style.left = percentage + '%';
+                    if (beforeWrapper) beforeWrapper.style.width = percentage + '%';
+                    if (handle) handle.style.left = percentage + '%';
                 }
 
                 slider.addEventListener('mousedown', (e) => {
@@ -524,12 +529,12 @@
 
                 slider.addEventListener('touchstart', (e) => {
                     isDragging = true;
-                    if (e.touches[0]) move(e.touches[0].clientX);
+                    if (e.touches && e.touches[0]) move(e.touches[0].clientX);
                 }, { passive: true });
 
                 window.addEventListener('touchmove', (e) => {
                     if (!isDragging) return;
-                    if (e.touches[0]) move(e.touches[0].clientX);
+                    if (e.touches && e.touches[0]) move(e.touches[0].clientX);
                 }, { passive: true });
 
                 window.addEventListener('touchend', () => {
