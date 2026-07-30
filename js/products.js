@@ -7630,9 +7630,50 @@ window.renderStoreCatalog = async function(containerId, filters = {}) {
     }
 };
 
+// Functions helper globales para Filtros y Paginación
+window.applyCatalogFilters = function() {
+    const searchInput = document.getElementById('filter-search-input');
+    const mainSearchInput = document.getElementById('catalog-main-search');
+    const search = searchInput?.value || mainSearchInput?.value || '';
+    
+    const category = document.getElementById('filter-category')?.value || 'all';
+    const brand = document.getElementById('filter-brand')?.value || 'all';
+    const condition = document.getElementById('filter-condition')?.value || 'all';
+    const priceMin = document.getElementById('filter-price-min')?.value || '';
+    const priceMax = document.getElementById('filter-price-max')?.value || '';
+    const order = document.getElementById('catalog-sort')?.value || 'recent';
+
+    window.currentFilters = { search, category, brand, condition, priceMin, priceMax, order };
+    window.currentPage = 1;
+    window.renderStoreCatalog('store-catalog-grid', window.currentFilters);
+};
+
+window.syncAndSearch = function(val) {
+    const searchInput = document.getElementById('filter-search-input');
+    if (searchInput) searchInput.value = val;
+    window.applyCatalogFilters();
+};
+
+window.changePage = function(pageNumber) {
+    window.currentPage = pageNumber;
+    window.renderStoreCatalog('store-catalog-grid', window.currentFilters || {});
+    const targetGrid = document.getElementById('store-catalog-grid');
+    if (targetGrid) {
+        targetGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+};
+
+window.changeLimit = function(limitVal) {
+    window.productsPerPage = parseInt(limitVal) || 30;
+    window.currentPage = 1;
+    window.renderStoreCatalog('store-catalog-grid', window.currentFilters || {});
+};
+
 // Redirecciona o abre la vista de detalle
 window.viewProductDetail = function(productId) {
-    window.location.href = `producto-detalle.html?id=${productId}`;
+    const isMobile = window.innerWidth <= 768 || window.location.pathname.includes('m_');
+    const targetPage = isMobile ? 'm_producto-detalle.html' : 'producto-detalle.html';
+    window.location.href = `${targetPage}?id=${productId}`;
 };
 
 // ─── Lógica de Renderizado del Detalle del Producto (producto-detalle.html) ───

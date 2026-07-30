@@ -98,12 +98,12 @@
                     </div>
 
                     <!-- Shipping Calculator Widget -->
-                    <div class="shipping-calculator-box" style="margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border: 1px solid var(--border-color); border-radius: 8px;">
+                    <div class="shipping-calculator-box" style="margin-top: 1rem; padding: 1rem; background-color: #f8fafc; border: 1px solid var(--border-color); border-radius: 8px; width: 100%; box-sizing: border-box;">
                         <h4 class="calc-title" style="margin: 0 0 0.4rem 0; font-size: 0.9rem; font-weight: 700; display: flex; align-items: center; gap: 0.45rem; color: var(--text-primary);"><i class="fas fa-truck-moving"></i> Calcular costo de envío</h4>
                         <p class="calc-desc" style="margin: 0 0 0.65rem 0; font-size: 0.75rem; color: var(--text-secondary); line-height: 1.35;">Ingresá tu código postal para cotizar por Correo Argentino y Andreani:</p>
-                        <div class="calc-input-row" style="display: flex; gap: 0.5rem; margin-bottom: 0.65rem;">
-                            <input type="text" id="calc-zipcode" placeholder="Ej: S2252 o 2000" maxlength="8" style="flex: 1; padding: 0.55rem 0.75rem; border: 1px solid var(--border-color); border-radius: 6px; font-size: 0.85rem; outline: none; background-color: #fff; color: var(--text-primary);">
-                            <button id="calc-btn" class="calc-button" style="padding: 0.55rem 1rem; background-color: var(--text-primary); color: #fff; border: none; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer;">Calcular</button>
+                        <div class="calc-input-row" style="display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 0.65rem; width: 100%;">
+                            <input type="text" id="calc-zipcode" placeholder="Ej: S2252 o 2000" maxlength="8" style="width: 100%; box-sizing: border-box; padding: 0.65rem 0.75rem; border: 1px solid var(--border-color); border-radius: 6px; font-size: 0.85rem; outline: none; background-color: #fff; color: var(--text-primary);">
+                            <button id="calc-btn" class="calc-button" style="width: 100%; padding: 0.65rem 1rem; background-color: var(--text-primary); color: #fff; border: none; border-radius: 6px; font-weight: 700; font-size: 0.85rem; cursor: pointer;">Calcular Envío</button>
                         </div>
                         <div id="calc-results" class="calc-results-container" style="display: none; margin-top: 0.65rem; border-top: 1px solid var(--border-color); padding-top: 0.65rem; flex-direction: column;"></div>
                     </div>
@@ -114,16 +114,13 @@
                     </div>
 
                     <!-- Action CTAs -->
-                    <div class="ml-actions">
-                        <button id="detail-buy-local-btn" class="ml-btn ml-btn-primary">
+                    <div class="ml-actions" style="display: flex; flex-direction: column; gap: 0.65rem; width: 100%;">
+                        <button id="detail-buy-local-btn" class="ml-btn ml-btn-primary" style="width: 100%; justify-content: center; padding: 0.85rem; font-weight: 700;">
                             Comprar ahora
                         </button>
-                        <button id="detail-add-cart-btn" class="ml-btn ml-btn-secondary" onclick="document.getElementById('detail-buy-local-btn').click();">
+                        <button id="detail-add-cart-btn" class="ml-btn ml-btn-secondary" style="width: 100%; justify-content: center; padding: 0.85rem; font-weight: 700;" onclick="document.getElementById('detail-buy-local-btn').click();">
                             Agregar al carrito
                         </button>
-                        <a id="detail-buy-ml-btn" href="#" target="_blank" class="ml-btn ml-btn-mercadolibre" style="display:none;">
-                            <i class="fab fa-shopping-bag"></i> Comprar en Mercado Libre
-                        </a>
                     </div>
 
                     <div style="margin-top: 1.5rem; font-size: 0.85rem; color: var(--text-secondary); border-top: 1px solid var(--border-color); padding-top: 1rem;">
