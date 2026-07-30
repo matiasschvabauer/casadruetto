@@ -7345,28 +7345,43 @@ export async function loadProductsData() {
                 fbList.push({ id: doc.id, ...doc.data() });
             });
             
-            if (fbList.length >= 15) {
+            if (fbList.length > 0) {
                 products = fbList;
             } else {
-                // Catálogo incompleto o vacío, inicializar/actualizar con defaults de forma atómica en un lote
-                const batch = writeBatch(db);
-                for (const p of SEED_PRODUCTS) {
-                    const docRef = doc(db, "druetto_products", p.id);
-                    batch.set(docRef, p);
+                let deletedCount = 0;
+                try {
+                    const delSnap = await getDocs(collection(db, "druetto_deleted_products"));
+                    deletedCount = delSnap.docs.length;
+                } catch (err) {}
+
+                if (deletedCount === 0) {
+                    // Catálogo vacío sin productos eliminados previamente: inicializar semilla
+                    const batch = writeBatch(db);
+                    for (const p of SEED_PRODUCTS) {
+                        const docRef = doc(db, "druetto_products", p.id);
+                        batch.set(docRef, p);
+                    }
+                    await batch.commit();
+                    products = [...SEED_PRODUCTS];
+                    console.log("[Firebase Seeding Store] Catálogo completo (" + SEED_PRODUCTS.length + " productos) sembrado con éxito en Firestore.");
+                } else {
+                    products = [];
                 }
-                await batch.commit();
-                products = [...SEED_PRODUCTS];
-                console.log("[Firebase Seeding Store] Catálogo completo (" + SEED_PRODUCTS.length + " productos) sembrado con éxito en Firestore.");
             }
 
         } else {
             // Local fallback
             const localList = await localDb.getCollection("products");
-            if (localList.length > 0 && localList.length >= SEED_PRODUCTS.length) {
+            if (localList.length > 0) {
                 products = localList;
             } else {
-                await localDb.setCollection("products", SEED_PRODUCTS);
-                products = [...SEED_PRODUCTS];
+                const deletedList = await localDb.getCollection("deleted_products");
+                if (deletedList.length === 0) {
+                    await localDb.setCollection("products", SEED_PRODUCTS);
+                    products = [...SEED_PRODUCTS];
+                } else {
+                    products = [];
+                }
             }
         }
     } catch (e) {

@@ -345,4 +345,184 @@ body.m-body {
     .tobogan-container {
         padding: 1rem 0 !important;
     }
+
+    #tobogan-canvas {
+        display: none !important;
+    }
+}
+
+/* ─── 1. Ocultar Canvas Tobogán en Móvil ─── */
+#tobogan-canvas {
+    display: none !important;
+}
+
+/* ─── 2. Categorías del Agro (Botones en Fila + Tarjeta Detalle) ─── */
+.m-tabs-row {
+    display: flex;
+    gap: 0.4rem;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+}
+
+.m-tab-btn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    padding: 0.65rem 0.2rem;
+    background: #ffffff;
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: var(--text-secondary);
+}
+
+.m-tab-btn i {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+}
+
+.m-tab-btn span {
+    font-size: 0.68rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.m-tab-btn.active {
+    border-color: var(--accent-color) !important;
+    background: #fefce8 !important;
+    color: #111827 !important;
+    box-shadow: 0 4px 10px rgba(234, 179, 8, 0.2);
+}
+
+.m-tab-btn.active i {
+    color: #ca8a04 !important;
+}
+
+.m-category-display-card {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem 1.25rem;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* ─── 3. Restauración Banner en Móvil (1 columna, Imagen abajo) ─── */
+.m-restoration-banner,
+.restoration-banner {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+    padding: 1.5rem 1.25rem !important;
+    border-radius: 12px !important;
+}
+
+.restoration-content {
+    width: 100% !important;
+    text-align: left !important;
+}
+
+.restoration-img-showcase {
+    width: 100% !important;
+    height: 250px !important;
+    margin-top: 0.5rem !important;
+}
+
+.comparison-slider {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
+
+/* ─── 4. Nuestros Aliados (Botones de Logos + Tarjeta Detalle) ─── */
+.m-brand-nav-tabs {
+    display: flex;
+    gap: 0.4rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.m-brand-tab-btn {
+    width: 58px;
+    height: 58px;
+    padding: 6px;
+    background: #ffffff;
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.m-brand-tab-btn img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    filter: grayscale(80%);
+    opacity: 0.7;
+    transition: all 0.2s ease;
+}
+
+.m-brand-tab-btn.active {
+    border-color: var(--accent-color) !important;
+    background: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(234, 179, 8, 0.3) !important;
+    transform: scale(1.08) !important;
+}
+
+.m-brand-tab-btn.active img {
+    filter: grayscale(0%) !important;
+    opacity: 1 !important;
+}
+
+.m-active-brand-card {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem 1.25rem;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* ─── 5. Confianza y Trayectoria (Uno debajo del otro) ─── */
+.m-trust-vertical-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.m-trust-item {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 1.25rem 1rem;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.m-trust-icon {
+    font-size: 2.2rem;
+    color: var(--accent-color);
+    margin-bottom: 0.65rem;
+}
+
+.m-trust-item h4 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.35rem;
+}
+
+.m-trust-item p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.45;
 }

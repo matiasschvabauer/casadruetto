@@ -655,9 +655,11 @@ window.saveProductForm = async function () {
         if (useFirebase) {
             const docId = id || doc(collection(db, "druetto_products")).id;
             await setDoc(doc(db, "druetto_products", docId), productData);
+            await deleteDoc(doc(db, "druetto_deleted_products", docId)).catch(() => {});
         } else {
             const docId = id || "prod_" + Date.now();
             await localDb.setDoc("products", docId, productData);
+            await localDb.deleteDoc("deleted_products", docId);
         }
         alert("Producto guardado con éxito.");
         toggleProductModal(false);
@@ -679,15 +681,29 @@ window.saveProductForm = async function () {
 window.deleteProductAction = async function (id) {
     if (!confirm("¿Está seguro de que desea eliminar este producto?")) return;
     try {
+        const prodToDelete = productsList.find(p => p.id === id);
+        const codeToDelete = prodToDelete ? prodToDelete.code : '';
+        const deletedRecord = {
+            id: id,
+            code: codeToDelete,
+            deletedAt: new Date().toISOString()
+        };
+
         if (useFirebase) {
             await deleteDoc(doc(db, "druetto_products", id));
+            await setDoc(doc(db, "druetto_deleted_products", id), deletedRecord);
         } else {
             await localDb.deleteDoc("products", id);
+            await localDb.setDoc("deleted_products", id, deletedRecord);
         }
+
+        // Remover de la lista local en memoria
+        productsList = productsList.filter(p => p.id !== id);
+
         alert("Producto eliminado.");
         await initProductsView();
     } catch (e) {
-        alert("Error: " + e.message);
+        alert("Error al eliminar producto: " + e.message);
     }
 };
 
@@ -1010,25 +1026,31 @@ async function loadAllData() {
             }
 
             // Autosemilla de Productos Iniciales Completo (Lote/Batch atómico rápido)
-            if (productsList.length < 15) {
+            if (productsList.length === 0) {
+                let deletedCount = 0;
                 try {
-                    const { SEED_PRODUCTS } = await import('./products.js');
-                    const batch = writeBatch(db);
-                    
-                    for (const p of SEED_PRODUCTS) {
-                        const docRef = doc(db, "druetto_products", p.id);
-                        batch.set(docRef, p);
+                    const delSnap = await getDocs(collection(db, "druetto_deleted_products"));
+                    deletedCount = delSnap.docs.length;
+                } catch (err) {}
+
+                if (deletedCount === 0) {
+                    try {
+                        const { SEED_PRODUCTS } = await import('./products.js');
+                        const batch = writeBatch(db);
+                        
+                        for (const p of SEED_PRODUCTS) {
+                            const docRef = doc(db, "druetto_products", p.id);
+                            batch.set(docRef, p);
+                        }
+                        
+                        await batch.commit();
+                        productsList = [...SEED_PRODUCTS];
+                        console.log("[Firebase Seeding] Catálogo completo (" + SEED_PRODUCTS.length + " productos) sembrado con éxito en un lote (batch) de Firestore.");
+                    } catch (importErr) {
+                        console.error("Error importando/sembrando productos semilla en lote en admin:", importErr);
                     }
-                    
-                    await batch.commit();
-                    productsList = [...SEED_PRODUCTS];
-                    console.log("[Firebase Seeding] Catálogo completo (" + SEED_PRODUCTS.length + " productos) sembrado con éxito en un lote (batch) de Firestore.");
-                } catch (importErr) {
-                    console.error("Error importando/sembrando productos semilla en lote en admin:", importErr);
                 }
             }
-
-
 
             // Intento de órdenes
             try {
@@ -1040,6 +1062,15 @@ async function loadAllData() {
             productsList = await localDb.getCollection("products");
             categoriesList = await localDb.getCollection("categories");
             ordersList = await localDb.getCollection("orders");
+
+            if (productsList.length === 0) {
+                const deletedList = await localDb.getCollection("deleted_products");
+                if (deletedList.length === 0) {
+                    const { SEED_PRODUCTS } = await import('./products.js');
+                    await localDb.setCollection("products", SEED_PRODUCTS);
+                    productsList = [...SEED_PRODUCTS];
+                }
+            }
         }
     } catch (e) {
         console.error("Global data loading error:", e);
@@ -1064,12 +1095,33 @@ window.syncPricesFromCode = async function() {
         return;
     }
 
+    // Cargar productos eliminados para no reinsertarlos ni actualizarlos
+    let deletedRecords = [];
+    try {
+        if (useFirebase) {
+            const delSnap = await getDocs(collection(db, "druetto_deleted_products"));
+            deletedRecords = delSnap.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+        } else {
+            deletedRecords = await localDb.getCollection("deleted_products");
+        }
+    } catch (e) {
+        console.warn("Error al cargar lista de eliminados:", e);
+    }
+
+    const deletedIds = new Set(deletedRecords.map(d => d.id).filter(Boolean));
+    const deletedCodes = new Set(deletedRecords.map(d => d.code).filter(Boolean));
+
     // Filtrar desactualizados y nuevos
     const updates = [];
     const newProducts = [];
     
     for (const localProduct of SEED_PRODUCTS) {
-        const dbProduct = productsList.find(p => p.code === localProduct.code);
+        // Ignorar si el producto fue borrado previamente por el usuario
+        if (deletedIds.has(localProduct.id) || (localProduct.code && deletedCodes.has(localProduct.code))) {
+            continue;
+        }
+
+        const dbProduct = productsList.find(p => p.code === localProduct.code || p.id === localProduct.id);
         if (dbProduct) {
             const priceChanged = dbProduct.price !== localProduct.price;
             
