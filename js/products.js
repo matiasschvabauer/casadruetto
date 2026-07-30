@@ -527,7 +527,7 @@ export const SEED_PRODUCTS = [
         "name": "Filtro de aire",
         "code": "AH148880",
         "desc": "Repuesto para maquinaria agrícola. Código: AH148880. Filtro de aire.",
-        "price": 140.0,
+        "price": 140,
         "category": "Repuestos",
         "condition": "Nuevo",
         "brand": "John Deere",
@@ -552,7 +552,7 @@ export const SEED_PRODUCTS = [
         "name": "Filtro de seguridad",
         "code": "AH164063",
         "desc": "Repuesto para maquinaria agrícola. Código: AH164063. Filtro de seguridad.",
-        "price": 157.0,
+        "price": 157,
         "category": "Repuestos",
         "condition": "Nuevo",
         "brand": "John Deere",
@@ -3616,7 +3616,7 @@ export const SEED_PRODUCTS = [
         "name": "Citius (Antievaporante)",
         "code": "2507955",
         "desc": "Coadyuvante antievaporante Spraytec. Dosis recomendada: 100 a 250 cc C/100 Lts.",
-        "price": 11.0,
+        "price": 11,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Spraytec",
@@ -3770,7 +3770,7 @@ export const SEED_PRODUCTS = [
         "name": "Deep Truck (Limpiador)",
         "code": "2507809",
         "desc": "Limpiador profundo de maquinaria Spraytec. Dosis recomendada: 250 cc C/100 Lts.",
-        "price": 22.0,
+        "price": 22,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Spraytec",
@@ -3792,7 +3792,7 @@ export const SEED_PRODUCTS = [
         "name": "Degras Remover",
         "code": "2507733",
         "desc": "Limpiador desengrasante Spraytec. Dosis recomendada: 50 cc C/100 Lts.",
-        "price": 22.0,
+        "price": 22,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Spraytec",
@@ -3924,7 +3924,7 @@ export const SEED_PRODUCTS = [
         "name": "Inoculante Soja Base Más Insecticida 5u x 2 Lts",
         "code": "2508005",
         "desc": "Pack de inoculante para Soja Base más insecticida. Rendimiento: 80 Dosis.",
-        "price": 225.0,
+        "price": 225,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Spraytec",
@@ -3990,7 +3990,7 @@ export const SEED_PRODUCTS = [
         "name": "MINICARGADORA TMV690",
         "code": "VIAL-MINICARGADORA-TMV690",
         "desc": "Equipo de maquinaria vial. Modelo: MINICARGADORA TMV690.",
-        "price": 29500.0,
+        "price": 29500,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "TMV",
@@ -4014,7 +4014,7 @@ export const SEED_PRODUCTS = [
         "name": "MINICARGADORA TMV1100",
         "code": "VIAL-MINICARGADORA-TMV1100",
         "desc": "Equipo de maquinaria vial. Modelo: MINICARGADORA TMV1100.",
-        "price": 43500.0,
+        "price": 43500,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "TMV",
@@ -4038,7 +4038,7 @@ export const SEED_PRODUCTS = [
         "name": "MINICARGADORA SIN CABINA WT400",
         "code": "VIAL-MINICARGADORA-SIN-CABINA-WT400",
         "desc": "Equipo de maquinaria vial. Modelo: MINICARGADORA SIN CABINA WT400.",
-        "price": 12900.0,
+        "price": 12900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "WT",
@@ -4060,7 +4060,7 @@ export const SEED_PRODUCTS = [
         "name": "MINIEXCAVADORA XN06",
         "code": "VIAL-MINIEXCAVADORA-XN06",
         "desc": "Equipo de maquinaria vial. Modelo: MINIEXCAVADORA XN06.",
-        "price": 5400.0,
+        "price": 5400,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -4083,7 +4083,7 @@ export const SEED_PRODUCTS = [
         "name": "MINIEXCAVADORA XN08",
         "code": "VIAL-MINIEXCAVADORA-XN08",
         "desc": "Equipo de maquinaria vial. Modelo: MINIEXCAVADORA XN08.",
-        "price": 6500.0,
+        "price": 6500,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -4106,7 +4106,7 @@ export const SEED_PRODUCTS = [
         "name": "MINIEXCAVADORA XN10",
         "code": "VIAL-MINIEXCAVADORA-XN10",
         "desc": "Equipo de maquinaria vial. Modelo: MINIEXCAVADORA XN10.",
-        "price": 7900.0,
+        "price": 7900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -4129,7 +4129,7 @@ export const SEED_PRODUCTS = [
         "name": "MINIEXCAVADORA XN12",
         "code": "VIAL-MINIEXCAVADORA-XN12",
         "desc": "Equipo de maquinaria vial. Modelo: MINIEXCAVADORA XN12.",
-        "price": 12100.0,
+        "price": 12100,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -4152,7 +4152,7 @@ export const SEED_PRODUCTS = [
         "name": "MINIEXCAVADORA XN16",
         "code": "VIAL-MINIEXCAVADORA-XN16",
         "desc": "Equipo de maquinaria vial. Modelo: MINIEXCAVADORA XN16.",
-        "price": 19900.0,
+        "price": 19900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -4175,7 +4175,7 @@ export const SEED_PRODUCTS = [
         "name": "MINIEXCAVADORA XN22",
         "code": "VIAL-MINIEXCAVADORA-XN22",
         "desc": "Equipo de maquinaria vial. Modelo: MINIEXCAVADORA XN22.",
-        "price": 25900.0,
+        "price": 25900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -4198,7 +4198,7 @@ export const SEED_PRODUCTS = [
         "name": "MINIEXCAVADORA XN28",
         "code": "VIAL-MINIEXCAVADORA-XN28",
         "desc": "Equipo de maquinaria vial. Modelo: MINIEXCAVADORA XN28.",
-        "price": 35500.0,
+        "price": 35500,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -4221,7 +4221,7 @@ export const SEED_PRODUCTS = [
         "name": "MINIEXC. XN28 C/CABINA",
         "code": "VIAL-MINIEXC-XN28-C-CABINA",
         "desc": "Equipo de maquinaria vial. Modelo: MINIEXC. XN28 C/CABINA.",
-        "price": 36900.0,
+        "price": 36900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -4244,7 +4244,7 @@ export const SEED_PRODUCTS = [
         "name": "MINIEXC. XN28 C/CABINA Y A/A",
         "code": "VIAL-MINIEXC-XN28-C-CABINA-Y-A-A",
         "desc": "Equipo de maquinaria vial. Modelo: MINIEXC. XN28 C/CABINA Y A/A.",
-        "price": 37900.0,
+        "price": 37900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -4267,7 +4267,7 @@ export const SEED_PRODUCTS = [
         "name": "MINIEXCAVADORA XN40",
         "code": "VIAL-MINIEXCAVADORA-XN40",
         "desc": "Equipo de maquinaria vial. Modelo: MINIEXCAVADORA XN40.",
-        "price": 48500.0,
+        "price": 48500,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -4290,7 +4290,7 @@ export const SEED_PRODUCTS = [
         "name": "MINIEXCAVADORA XN60",
         "code": "VIAL-MINIEXCAVADORA-XN60",
         "desc": "Equipo de maquinaria vial. Modelo: MINIEXCAVADORA XN60.",
-        "price": 54900.0,
+        "price": 54900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -4313,7 +4313,7 @@ export const SEED_PRODUCTS = [
         "name": "TRACTOELEVADOR CTX-825 A/A",
         "code": "VIAL-TRACTOELEVADOR-CTX-825-A-A",
         "desc": "Equipo de maquinaria vial. Modelo: TRACTOELEVADOR CTX-825 A/A.",
-        "price": 34900.0,
+        "price": 34900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -4337,7 +4337,7 @@ export const SEED_PRODUCTS = [
         "name": "PALA CTX912",
         "code": "VIAL-PALA-CTX912",
         "desc": "Equipo de maquinaria vial. Modelo: PALA CTX912.",
-        "price": 19900.0,
+        "price": 19900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -4361,7 +4361,7 @@ export const SEED_PRODUCTS = [
         "name": "PALA CTX918",
         "code": "VIAL-PALA-CTX918",
         "desc": "Equipo de maquinaria vial. Modelo: PALA CTX918.",
-        "price": 22900.0,
+        "price": 22900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -4385,7 +4385,7 @@ export const SEED_PRODUCTS = [
         "name": "PALA BRONCO CG926A",
         "code": "VIAL-PALA-BRONCO-CG926A",
         "desc": "Equipo de maquinaria vial. Modelo: PALA BRONCO CG926A.",
-        "price": 25900.0,
+        "price": 25900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Bronco",
@@ -4408,7 +4408,7 @@ export const SEED_PRODUCTS = [
         "name": "PALA BRONCO CG930",
         "code": "VIAL-PALA-BRONCO-CG930",
         "desc": "Equipo de maquinaria vial. Modelo: PALA BRONCO CG930.",
-        "price": 30900.0,
+        "price": 30900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Bronco",
@@ -4431,7 +4431,7 @@ export const SEED_PRODUCTS = [
         "name": "PALA CTX926A",
         "code": "VIAL-PALA-CTX926A",
         "desc": "Equipo de maquinaria vial. Modelo: PALA CTX926A.",
-        "price": 29900.0,
+        "price": 29900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -4453,7 +4453,7 @@ export const SEED_PRODUCTS = [
         "name": "PALA CTX926",
         "code": "VIAL-PALA-CTX926",
         "desc": "Equipo de maquinaria vial. Modelo: PALA CTX926.",
-        "price": 33900.0,
+        "price": 33900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -4476,7 +4476,7 @@ export const SEED_PRODUCTS = [
         "name": "PALA CTX928",
         "code": "VIAL-PALA-CTX928",
         "desc": "Equipo de maquinaria vial. Modelo: PALA CTX928.",
-        "price": 36900.0,
+        "price": 36900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -4501,7 +4501,7 @@ export const SEED_PRODUCTS = [
         "name": "PALA CTX930-YUNNEI",
         "code": "VIAL-PALA-CTX930-YUNNEI",
         "desc": "Equipo de maquinaria vial. Modelo: PALA CTX930-YUNNEI.",
-        "price": 39900.0,
+        "price": 39900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -4524,7 +4524,7 @@ export const SEED_PRODUCTS = [
         "name": "PALA CTX930-CUMMINS",
         "code": "VIAL-PALA-CTX930-CUMMINS",
         "desc": "Equipo de maquinaria vial. Modelo: PALA CTX930-CUMMINS.",
-        "price": 45900.0,
+        "price": 45900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -4547,7 +4547,7 @@ export const SEED_PRODUCTS = [
         "name": "PALA CTX936A",
         "code": "VIAL-PALA-CTX936A",
         "desc": "Equipo de maquinaria vial. Modelo: PALA CTX936A.",
-        "price": 48900.0,
+        "price": 48900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -4573,7 +4573,7 @@ export const SEED_PRODUCTS = [
         "name": "PALA CTX936 C/3V",
         "code": "VIAL-PALA-CTX936-C-3V",
         "desc": "Equipo de maquinaria vial. Modelo: PALA CTX936 C/3V.",
-        "price": 73000.0,
+        "price": 73000,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -4596,7 +4596,7 @@ export const SEED_PRODUCTS = [
         "name": "PALA CTX936 C/3V-ACOPLE",
         "code": "VIAL-PALA-CTX936-C-3V-ACOPLE",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: PALA CTX936 C/3V-ACOPLE.",
-        "price": 75300.0,
+        "price": 75300,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -4618,7 +4618,7 @@ export const SEED_PRODUCTS = [
         "name": "PALA CTX956 WEICHAI",
         "code": "VIAL-PALA-CTX956-WEICHAI",
         "desc": "Equipo de maquinaria vial. Modelo: PALA CTX956 WEICHAI.",
-        "price": 103900.0,
+        "price": 103900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -4640,7 +4640,7 @@ export const SEED_PRODUCTS = [
         "name": "PALA 938H C/3V",
         "code": "VIAL-PALA-938H-C-3V",
         "desc": "Equipo de maquinaria vial. Modelo: PALA 938H C/3V.",
-        "price": 82900.0,
+        "price": 82900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -4662,7 +4662,7 @@ export const SEED_PRODUCTS = [
         "name": "PALA 938H C/3V Y ACOPLE",
         "code": "VIAL-PALA-938H-C-3V-Y-ACOPLE",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: PALA 938H C/3V Y ACOPLE.",
-        "price": 85900.0,
+        "price": 85900,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -4684,7 +4684,7 @@ export const SEED_PRODUCTS = [
         "name": "PALA 958H",
         "code": "VIAL-PALA-958H",
         "desc": "Equipo de maquinaria vial. Modelo: PALA 958H.",
-        "price": 109000.0,
+        "price": 109000,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -4706,7 +4706,7 @@ export const SEED_PRODUCTS = [
         "name": "PALA YX657",
         "code": "VIAL-PALA-YX657",
         "desc": "Equipo de maquinaria vial. Modelo: PALA YX657.",
-        "price": 133000.0,
+        "price": 133000,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -4728,7 +4728,7 @@ export const SEED_PRODUCTS = [
         "name": "RETRO CTX30-25 YUNNEI",
         "code": "VIAL-RETRO-CTX30-25-YUNNEI",
         "desc": "Equipo de maquinaria vial. Modelo: RETRO CTX30-25 YUNNEI.",
-        "price": 51900.0,
+        "price": 51900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -4752,7 +4752,7 @@ export const SEED_PRODUCTS = [
         "name": "RETRO CTX30-25 CUMMINS",
         "code": "VIAL-RETRO-CTX30-25-CUMMINS",
         "desc": "Equipo de maquinaria vial. Modelo: RETRO CTX30-25 CUMMINS.",
-        "price": 58900.0,
+        "price": 58900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -4774,7 +4774,7 @@ export const SEED_PRODUCTS = [
         "name": "RETRO CTX388 WEICHAI",
         "code": "VIAL-RETRO-CTX388-WEICHAI",
         "desc": "Equipo de maquinaria vial. Modelo: RETRO CTX388 WEICHAI.",
-        "price": 64900.0,
+        "price": 64900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -4799,7 +4799,7 @@ export const SEED_PRODUCTS = [
         "name": "RETRO CTX388 CUMMINS",
         "code": "VIAL-RETRO-CTX388-CUMMINS",
         "desc": "Equipo de maquinaria vial. Modelo: RETRO CTX388 CUMMINS.",
-        "price": 68900.0,
+        "price": 68900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -4821,7 +4821,7 @@ export const SEED_PRODUCTS = [
         "name": "EXCAVADORA XN80",
         "code": "VIAL-EXCAVADORA-XN80",
         "desc": "Equipo de maquinaria vial. Modelo: EXCAVADORA XN80.",
-        "price": 57900.0,
+        "price": 57900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -4845,7 +4845,7 @@ export const SEED_PRODUCTS = [
         "name": "MOTONIVELADORA PY220",
         "code": "VIAL-MOTONIVELADORA-PY220",
         "desc": "Equipo de maquinaria vial. Modelo: MOTONIVELADORA PY220.",
-        "price": 144500.0,
+        "price": 144500,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -4867,7 +4867,7 @@ export const SEED_PRODUCTS = [
         "name": "APLANADORA LTC210",
         "code": "VIAL-APLANADORA-LTC210",
         "desc": "Equipo de maquinaria vial. Modelo: APLANADORA LTC210.",
-        "price": 89000.0,
+        "price": 89000,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -4889,7 +4889,7 @@ export const SEED_PRODUCTS = [
         "name": "ACOPLE RAPIDO 926/928/930",
         "code": "VIAL-ACOPLE-RAPIDO-926-928-930",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: ACOPLE RAPIDO 926/928/930.",
-        "price": 1400.0,
+        "price": 1400,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -4911,7 +4911,7 @@ export const SEED_PRODUCTS = [
         "name": "APILADOR ELECTRICO TB20-40",
         "code": "VIAL-APILADOR-ELECTRICO-TB20-40",
         "desc": "Equipo de maquinaria vial. Modelo: APILADOR ELECTRICO TB20-40.",
-        "price": 14300.0,
+        "price": 14300,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -4933,7 +4933,7 @@ export const SEED_PRODUCTS = [
         "name": "AUTOELEVADOR 1,8 TN T/DOBLE 3 MTS",
         "code": "VIAL-AUTOELEVADOR-1-8-TN-T-DOBLE-3-MTS",
         "desc": "Equipo de maquinaria vial. Modelo: AUTOELEVADOR 1,8 TN T/DOBLE 3 MTS.",
-        "price": 15600.0,
+        "price": 15600,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -4955,7 +4955,7 @@ export const SEED_PRODUCTS = [
         "name": "AUTOELEVADOR 1,8 TN T/TRIPLE 4,5 MTS",
         "code": "VIAL-AUTOELEVADOR-1-8-TN-T-TRIPLE-4-5-MTS",
         "desc": "Equipo de maquinaria vial. Modelo: AUTOELEVADOR 1,8 TN T/TRIPLE 4,5 MTS.",
-        "price": 15900.0,
+        "price": 15900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -4977,7 +4977,7 @@ export const SEED_PRODUCTS = [
         "name": "AUTOELEVADOR 2,5 tn. XINCAI",
         "code": "VIAL-AUTOELEVADOR-2-5-TN-XINCAI",
         "desc": "Equipo de maquinaria vial. Modelo: AUTOELEVADOR 2,5 tn. XINCAI.",
-        "price": 16200.0,
+        "price": 16200,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -4999,7 +4999,7 @@ export const SEED_PRODUCTS = [
         "name": "AUTOELEVADOR 3 tn. XINCHAI",
         "code": "VIAL-AUTOELEVADOR-3-TN-XINCHAI",
         "desc": "Equipo de maquinaria vial. Modelo: AUTOELEVADOR 3 tn. XINCHAI.",
-        "price": 16600.0,
+        "price": 16600,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -5021,7 +5021,7 @@ export const SEED_PRODUCTS = [
         "name": "AUTOELEVADOR 3,5 tn. XINCHAI",
         "code": "VIAL-AUTOELEVADOR-3-5-TN-XINCHAI",
         "desc": "Equipo de maquinaria vial. Modelo: AUTOELEVADOR 3,5 tn. XINCHAI.",
-        "price": 17100.0,
+        "price": 17100,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -5043,7 +5043,7 @@ export const SEED_PRODUCTS = [
         "name": "AUTOELEVADOR 3,5 tn. FD35",
         "code": "VIAL-AUTOELEVADOR-3-5-TN-FD35",
         "desc": "Equipo de maquinaria vial. Modelo: AUTOELEVADOR 3,5 tn. FD35.",
-        "price": 17700.0,
+        "price": 17700,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -5065,7 +5065,7 @@ export const SEED_PRODUCTS = [
         "name": "AUTOELEVADOR 2,5 tn. TERR.DESP.",
         "code": "VIAL-AUTOELEVADOR-2-5-TN-TERR-DESP",
         "desc": "Equipo de maquinaria vial. Modelo: AUTOELEVADOR 2,5 tn. TERR.DESP..",
-        "price": 25900.0,
+        "price": 25900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -5087,7 +5087,7 @@ export const SEED_PRODUCTS = [
         "name": "AUTOELEVADOR 3 tn. TERR.DESP.",
         "code": "VIAL-AUTOELEVADOR-3-TN-TERR-DESP",
         "desc": "Equipo de maquinaria vial. Modelo: AUTOELEVADOR 3 tn. TERR.DESP..",
-        "price": 27500.0,
+        "price": 27500,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -5109,7 +5109,7 @@ export const SEED_PRODUCTS = [
         "name": "AUTOELEVADOR 3,5 tn. TERR.DESP.",
         "code": "VIAL-AUTOELEVADOR-3-5-TN-TERR-DESP",
         "desc": "Equipo de maquinaria vial. Modelo: AUTOELEVADOR 3,5 tn. TERR.DESP..",
-        "price": 28500.0,
+        "price": 28500,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -5131,7 +5131,7 @@ export const SEED_PRODUCTS = [
         "name": "ADICIONAL RODADO DUAL",
         "code": "VIAL-ADICIONAL-RODADO-DUAL",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: ADICIONAL RODADO DUAL.",
-        "price": 550.0,
+        "price": 550,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -5153,7 +5153,7 @@ export const SEED_PRODUCTS = [
         "name": "ADICIONAL CABINA P/TERR.DESP.",
         "code": "VIAL-ADICIONAL-CABINA-P-TERR-DESP",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: ADICIONAL CABINA P/TERR.DESP..",
-        "price": 1600.0,
+        "price": 1600,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -5175,7 +5175,7 @@ export const SEED_PRODUCTS = [
         "name": "ADICIONAL TORRE DE 6 MTS comun",
         "code": "VIAL-ADICIONAL-TORRE-DE-6-MTS-COMUN",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: ADICIONAL TORRE DE 6 MTS comun.",
-        "price": 2800.0,
+        "price": 2800,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -5197,7 +5197,7 @@ export const SEED_PRODUCTS = [
         "name": "ADICIONAL TORRE DE 6 MTS TD",
         "code": "VIAL-ADICIONAL-TORRE-DE-6-MTS-TD",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: ADICIONAL TORRE DE 6 MTS TD.",
-        "price": 3500.0,
+        "price": 3500,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -5219,7 +5219,7 @@ export const SEED_PRODUCTS = [
         "name": "GARRA FORESTAL CTX926A/926/928/930",
         "code": "VIAL-GARRA-FORESTAL-CTX926A-926-928-930",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: GARRA FORESTAL CTX926A/926/928/930.",
-        "price": 3900.0,
+        "price": 3900,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -5241,7 +5241,7 @@ export const SEED_PRODUCTS = [
         "name": "GARRA FORESTAL CTX936",
         "code": "VIAL-GARRA-FORESTAL-CTX936",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: GARRA FORESTAL CTX936.",
-        "price": 6500.0,
+        "price": 6500,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -5263,7 +5263,7 @@ export const SEED_PRODUCTS = [
         "name": "ACOLE RAPIDO CTX918",
         "code": "VIAL-ACOLE-RAPIDO-CTX918",
         "desc": "Equipo de maquinaria vial. Modelo: ACOLE RAPIDO CTX918.",
-        "price": 1300.0,
+        "price": 1300,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -5285,7 +5285,7 @@ export const SEED_PRODUCTS = [
         "name": "ACOPLE RAPIDO CTX926A/926/928/930",
         "code": "VIAL-ACOPLE-RAPIDO-CTX926A-926-928-930",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: ACOPLE RAPIDO CTX926A/926/928/930.",
-        "price": 1400.0,
+        "price": 1400,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -5307,7 +5307,7 @@ export const SEED_PRODUCTS = [
         "name": "ACOPLE RAPIDO CTX936",
         "code": "VIAL-ACOPLE-RAPIDO-CTX936",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: ACOPLE RAPIDO CTX936.",
-        "price": 2300.0,
+        "price": 2300,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -5329,7 +5329,7 @@ export const SEED_PRODUCTS = [
         "name": "UÑAS PALETERAS CTX912/ CTX918",
         "code": "VIAL-U-AS-PALETERAS-CTX912-CTX918",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: UÑAS PALETERAS CTX912/ CTX918.",
-        "price": 1300.0,
+        "price": 1300,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -5351,7 +5351,7 @@ export const SEED_PRODUCTS = [
         "name": "UÑAS PALETERAS CG926A BRONCO",
         "code": "VIAL-U-AS-PALETERAS-CG926A-BRONCO",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: UÑAS PALETERAS CG926A BRONCO.",
-        "price": 1200.0,
+        "price": 1200,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Bronco",
@@ -5373,7 +5373,7 @@ export const SEED_PRODUCTS = [
         "name": "UÑAS PALETERAS CTX926A/926/928/930",
         "code": "VIAL-U-AS-PALETERAS-CTX926A-926-928-930",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: UÑAS PALETERAS CTX926A/926/928/930.",
-        "price": 1400.0,
+        "price": 1400,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -5395,7 +5395,7 @@ export const SEED_PRODUCTS = [
         "name": "UÑAS PALETERAS CTX936",
         "code": "VIAL-U-AS-PALETERAS-CTX936",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: UÑAS PALETERAS CTX936.",
-        "price": 2900.0,
+        "price": 2900,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -5417,7 +5417,7 @@ export const SEED_PRODUCTS = [
         "name": "BALDE CTX926A/926",
         "code": "VIAL-BALDE-CTX926A-926",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: BALDE CTX926A/926.",
-        "price": 2000.0,
+        "price": 2000,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -5439,7 +5439,7 @@ export const SEED_PRODUCTS = [
         "name": "BALDE CTX930",
         "code": "VIAL-BALDE-CTX930",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: BALDE CTX930.",
-        "price": 2200.0,
+        "price": 2200,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -5461,7 +5461,7 @@ export const SEED_PRODUCTS = [
         "name": "EXTENCION BALDE",
         "code": "VIAL-EXTENCION-BALDE",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: EXTENCION BALDE.",
-        "price": 500.0,
+        "price": 500,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -5483,7 +5483,7 @@ export const SEED_PRODUCTS = [
         "name": "BANCO DE 3 VALVULAS CTX936",
         "code": "VIAL-BANCO-DE-3-VALVULAS-CTX936",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: BANCO DE 3 VALVULAS CTX936.",
-        "price": 2100.0,
+        "price": 2100,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -5505,7 +5505,7 @@ export const SEED_PRODUCTS = [
         "name": "MARTILLO PARA CTX30-25",
         "code": "VIAL-MARTILLO-PARA-CTX30-25",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: MARTILLO PARA CTX30-25.",
-        "price": 5900.0,
+        "price": 5900,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -5527,7 +5527,7 @@ export const SEED_PRODUCTS = [
         "name": "MARTILLO PARA CTX388",
         "code": "VIAL-MARTILLO-PARA-CTX388",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: MARTILLO PARA CTX388.",
-        "price": 5900.0,
+        "price": 5900,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "CTX",
@@ -5549,7 +5549,7 @@ export const SEED_PRODUCTS = [
         "name": "UÑA PALETERA WT400",
         "code": "VIAL-U-A-PALETERA-WT400",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: UÑA PALETERA WT400.",
-        "price": 900.0,
+        "price": 900,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "WT",
@@ -5571,7 +5571,7 @@ export const SEED_PRODUCTS = [
         "name": "UÑA PALETERA TMV690",
         "code": "VIAL-U-A-PALETERA-TMV690",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: UÑA PALETERA TMV690.",
-        "price": 1200.0,
+        "price": 1200,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "TMV",
@@ -5593,7 +5593,7 @@ export const SEED_PRODUCTS = [
         "name": "UÑA PALETERA TMV1100",
         "code": "VIAL-U-A-PALETERA-TMV1100",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: UÑA PALETERA TMV1100.",
-        "price": 1350.0,
+        "price": 1350,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "TMV",
@@ -5615,7 +5615,7 @@ export const SEED_PRODUCTS = [
         "name": "MARTILLO HIDRAULICO TMV690",
         "code": "VIAL-MARTILLO-HIDRAULICO-TMV690",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: MARTILLO HIDRAULICO TMV690.",
-        "price": 2900.0,
+        "price": 2900,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "TMV",
@@ -5637,7 +5637,7 @@ export const SEED_PRODUCTS = [
         "name": "MARTILLO HIDRAULICO TMV1100",
         "code": "VIAL-MARTILLO-HIDRAULICO-TMV1100",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: MARTILLO HIDRAULICO TMV1100.",
-        "price": 3200.0,
+        "price": 3200,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "TMV",
@@ -5659,7 +5659,7 @@ export const SEED_PRODUCTS = [
         "name": "BRAZO RETROE PIVOTANTE TMV690",
         "code": "VIAL-BRAZO-RETROE-PIVOTANTE-TMV690",
         "desc": "Equipo de maquinaria vial. Modelo: BRAZO RETROE PIVOTANTE TMV690.",
-        "price": 6900.0,
+        "price": 6900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "TMV",
@@ -5681,7 +5681,7 @@ export const SEED_PRODUCTS = [
         "name": "BRAZO RETROE PIVOTANTE TMV1100",
         "code": "VIAL-BRAZO-RETROE-PIVOTANTE-TMV1100",
         "desc": "Equipo de maquinaria vial. Modelo: BRAZO RETROE PIVOTANTE TMV1100.",
-        "price": 7200.0,
+        "price": 7200,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "TMV",
@@ -5703,7 +5703,7 @@ export const SEED_PRODUCTS = [
         "name": "BRAZO RETRO FIJO TMV690",
         "code": "VIAL-BRAZO-RETRO-FIJO-TMV690",
         "desc": "Equipo de maquinaria vial. Modelo: BRAZO RETRO FIJO TMV690.",
-        "price": 3200.0,
+        "price": 3200,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "TMV",
@@ -5725,7 +5725,7 @@ export const SEED_PRODUCTS = [
         "name": "BRAZO RETRO FIJO TMV1100",
         "code": "VIAL-BRAZO-RETRO-FIJO-TMV1100",
         "desc": "Equipo de maquinaria vial. Modelo: BRAZO RETRO FIJO TMV1100.",
-        "price": 3500.0,
+        "price": 3500,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "TMV",
@@ -5747,7 +5747,7 @@ export const SEED_PRODUCTS = [
         "name": "HOYADORA WT400",
         "code": "VIAL-HOYADORA-WT400",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: HOYADORA WT400.",
-        "price": 3200.0,
+        "price": 3200,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "WT",
@@ -5769,7 +5769,7 @@ export const SEED_PRODUCTS = [
         "name": "HOYADORA TMV690",
         "code": "VIAL-HOYADORA-TMV690",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: HOYADORA TMV690.",
-        "price": 3700.0,
+        "price": 3700,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "TMV",
@@ -5791,7 +5791,7 @@ export const SEED_PRODUCTS = [
         "name": "HOYADORA TMV1100",
         "code": "VIAL-HOYADORA-TMV1100",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: HOYADORA TMV1100.",
-        "price": 4000.0,
+        "price": 4000,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "TMV",
@@ -5813,7 +5813,7 @@ export const SEED_PRODUCTS = [
         "name": "ALISADORA CON RODILLO VIBRADOR",
         "code": "VIAL-ALISADORA-CON-RODILLO-VIBRADOR",
         "desc": "Equipo de maquinaria vial. Modelo: ALISADORA CON RODILLO VIBRADOR.",
-        "price": 9800.0,
+        "price": 9800,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -5835,7 +5835,7 @@ export const SEED_PRODUCTS = [
         "name": "ZANJEADORA 150MM WT400",
         "code": "VIAL-ZANJEADORA-150MM-WT400",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: ZANJEADORA 150MM WT400.",
-        "price": 3700.0,
+        "price": 3700,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "WT",
@@ -5857,7 +5857,7 @@ export const SEED_PRODUCTS = [
         "name": "ZANJEADORA 300 MM TMV690",
         "code": "VIAL-ZANJEADORA-300-MM-TMV690",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: ZANJEADORA 300 MM TMV690.",
-        "price": 7600.0,
+        "price": 7600,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "TMV",
@@ -5879,7 +5879,7 @@ export const SEED_PRODUCTS = [
         "name": "ZANJEADORA 300MM TMV1100",
         "code": "VIAL-ZANJEADORA-300MM-TMV1100",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: ZANJEADORA 300MM TMV1100.",
-        "price": 7900.0,
+        "price": 7900,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "TMV",
@@ -5901,7 +5901,7 @@ export const SEED_PRODUCTS = [
         "name": "BARREDORA",
         "code": "VIAL-BARREDORA",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: BARREDORA.",
-        "price": 6200.0,
+        "price": 6200,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -5923,7 +5923,7 @@ export const SEED_PRODUCTS = [
         "name": "CEPILLOS PARA BARREDORA (X2)",
         "code": "VIAL-CEPILLOS-PARA-BARREDORA-X2",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: CEPILLOS PARA BARREDORA (X2).",
-        "price": 1900.0,
+        "price": 1900,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -5945,7 +5945,7 @@ export const SEED_PRODUCTS = [
         "name": "BALDE ANGOSTO XN08/XN12",
         "code": "VIAL-BALDE-ANGOSTO-XN08-XN12",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: BALDE ANGOSTO XN08/XN12.",
-        "price": 170.0,
+        "price": 170,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -5969,7 +5969,7 @@ export const SEED_PRODUCTS = [
         "name": "BALDE ANGOSTO XN16/XN22",
         "code": "VIAL-BALDE-ANGOSTO-XN16-XN22",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: BALDE ANGOSTO XN16/XN22.",
-        "price": 250.0,
+        "price": 250,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -5993,7 +5993,7 @@ export const SEED_PRODUCTS = [
         "name": "BALDE ANGOSTO XN28",
         "code": "VIAL-BALDE-ANGOSTO-XN28",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: BALDE ANGOSTO XN28.",
-        "price": 380.0,
+        "price": 380,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6017,7 +6017,7 @@ export const SEED_PRODUCTS = [
         "name": "BALDE STANDARD XN08/XN12",
         "code": "VIAL-BALDE-STANDARD-XN08-XN12",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: BALDE STANDARD XN08/XN12.",
-        "price": 230.0,
+        "price": 230,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6039,7 +6039,7 @@ export const SEED_PRODUCTS = [
         "name": "BALDE STANDARD XN16/XN22",
         "code": "VIAL-BALDE-STANDARD-XN16-XN22",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: BALDE STANDARD XN16/XN22.",
-        "price": 360.0,
+        "price": 360,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6061,7 +6061,7 @@ export const SEED_PRODUCTS = [
         "name": "BALDE STANDARD XN28",
         "code": "VIAL-BALDE-STANDARD-XN28",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: BALDE STANDARD XN28.",
-        "price": 490.0,
+        "price": 490,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6083,7 +6083,7 @@ export const SEED_PRODUCTS = [
         "name": "BALDE NIVELADOR XN08/10/12",
         "code": "VIAL-BALDE-NIVELADOR-XN08-10-12",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: BALDE NIVELADOR XN08/10/12.",
-        "price": 320.0,
+        "price": 320,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6105,7 +6105,7 @@ export const SEED_PRODUCTS = [
         "name": "BALDE NIVELADOR XN16/XN22",
         "code": "VIAL-BALDE-NIVELADOR-XN16-XN22",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: BALDE NIVELADOR XN16/XN22.",
-        "price": 550.0,
+        "price": 550,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6127,7 +6127,7 @@ export const SEED_PRODUCTS = [
         "name": "BALDE NIVELADOR XN28",
         "code": "VIAL-BALDE-NIVELADOR-XN28",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: BALDE NIVELADOR XN28.",
-        "price": 570.0,
+        "price": 570,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6149,7 +6149,7 @@ export const SEED_PRODUCTS = [
         "name": "BALDE TRIANGULAR XN08/XN12",
         "code": "VIAL-BALDE-TRIANGULAR-XN08-XN12",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: BALDE TRIANGULAR XN08/XN12.",
-        "price": 190.0,
+        "price": 190,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6172,7 +6172,7 @@ export const SEED_PRODUCTS = [
         "name": "BALDE TRIANGULAR XN16/XN22",
         "code": "VIAL-BALDE-TRIANGULAR-XN16-XN22",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: BALDE TRIANGULAR XN16/XN22.",
-        "price": 240.0,
+        "price": 240,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6195,7 +6195,7 @@ export const SEED_PRODUCTS = [
         "name": "RIPERA XN08/XN12",
         "code": "VIAL-RIPERA-XN08-XN12",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: RIPERA XN08/XN12.",
-        "price": 160.0,
+        "price": 160,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6218,7 +6218,7 @@ export const SEED_PRODUCTS = [
         "name": "RIPERA XN16/XN22",
         "code": "VIAL-RIPERA-XN16-XN22",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: RIPERA XN16/XN22.",
-        "price": 220.0,
+        "price": 220,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6241,7 +6241,7 @@ export const SEED_PRODUCTS = [
         "name": "RIPERA XN28",
         "code": "VIAL-RIPERA-XN28",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: RIPERA XN28.",
-        "price": 240.0,
+        "price": 240,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6264,7 +6264,7 @@ export const SEED_PRODUCTS = [
         "name": "ACOPLE RAPIDO XN16",
         "code": "VIAL-ACOPLE-RAPIDO-XN16",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: ACOPLE RAPIDO XN16.",
-        "price": 380.0,
+        "price": 380,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6287,7 +6287,7 @@ export const SEED_PRODUCTS = [
         "name": "ACOPLE RAPIDO XN28",
         "code": "VIAL-ACOPLE-RAPIDO-XN28",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: ACOPLE RAPIDO XN28.",
-        "price": 650.0,
+        "price": 650,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6310,7 +6310,7 @@ export const SEED_PRODUCTS = [
         "name": "HOYADORA XN08/XN12",
         "code": "VIAL-HOYADORA-XN08-XN12",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: HOYADORA XN08/XN12.",
-        "price": 820.0,
+        "price": 820,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6332,7 +6332,7 @@ export const SEED_PRODUCTS = [
         "name": "HOYADORA XN16/XN22",
         "code": "VIAL-HOYADORA-XN16-XN22",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: HOYADORA XN16/XN22.",
-        "price": 3700.0,
+        "price": 3700,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6354,7 +6354,7 @@ export const SEED_PRODUCTS = [
         "name": "HOYADORA XN28",
         "code": "VIAL-HOYADORA-XN28",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: HOYADORA XN28.",
-        "price": 4500.0,
+        "price": 4500,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6376,7 +6376,7 @@ export const SEED_PRODUCTS = [
         "name": "MARTILLO XN08/XN12",
         "code": "VIAL-MARTILLO-XN08-XN12",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: MARTILLO XN08/XN12.",
-        "price": 2900.0,
+        "price": 2900,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6398,7 +6398,7 @@ export const SEED_PRODUCTS = [
         "name": "MARTILLO XN16/XN22",
         "code": "VIAL-MARTILLO-XN16-XN22",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: MARTILLO XN16/XN22.",
-        "price": 3800.0,
+        "price": 3800,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6420,7 +6420,7 @@ export const SEED_PRODUCTS = [
         "name": "MARTILLO XN28",
         "code": "VIAL-MARTILLO-XN28",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: MARTILLO XN28.",
-        "price": 4200.0,
+        "price": 4200,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6442,7 +6442,7 @@ export const SEED_PRODUCTS = [
         "name": "RASTRILLO XN16",
         "code": "VIAL-RASTRILLO-XN16",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: RASTRILLO XN16.",
-        "price": 190.0,
+        "price": 190,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6464,7 +6464,7 @@ export const SEED_PRODUCTS = [
         "name": "AGARRADERA XN08/XN12",
         "code": "VIAL-AGARRADERA-XN08-XN12",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: AGARRADERA XN08/XN12.",
-        "price": 320.0,
+        "price": 320,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6486,7 +6486,7 @@ export const SEED_PRODUCTS = [
         "name": "AGARRADERA XN16/XN22",
         "code": "VIAL-AGARRADERA-XN16-XN22",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: AGARRADERA XN16/XN22.",
-        "price": 700.0,
+        "price": 700,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6508,7 +6508,7 @@ export const SEED_PRODUCTS = [
         "name": "GARRA FORESTAL XN08/XN12",
         "code": "VIAL-GARRA-FORESTAL-XN08-XN12",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: GARRA FORESTAL XN08/XN12.",
-        "price": 270.0,
+        "price": 270,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6530,7 +6530,7 @@ export const SEED_PRODUCTS = [
         "name": "GARRA FORESTAL XN16/XN22",
         "code": "VIAL-GARRA-FORESTAL-XN16-XN22",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: GARRA FORESTAL XN16/XN22.",
-        "price": 650.0,
+        "price": 650,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6552,7 +6552,7 @@ export const SEED_PRODUCTS = [
         "name": "GARRA FORESTAL XN28",
         "code": "VIAL-GARRA-FORESTAL-XN28",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: GARRA FORESTAL XN28.",
-        "price": 670.0,
+        "price": 670,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Rhinoceros",
@@ -6574,7 +6574,7 @@ export const SEED_PRODUCTS = [
         "name": "CHIPEADORA BRONCO WC50",
         "code": "VIAL-CHIPEADORA-BRONCO-WC50",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: CHIPEADORA BRONCO WC50.",
-        "price": 990.0,
+        "price": 990,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Bronco",
@@ -6598,7 +6598,7 @@ export const SEED_PRODUCTS = [
         "name": "CHIPEADORA BRONCO WC120",
         "code": "VIAL-CHIPEADORA-BRONCO-WC120",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: CHIPEADORA BRONCO WC120.",
-        "price": 1900.0,
+        "price": 1900,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Bronco",
@@ -6623,7 +6623,7 @@ export const SEED_PRODUCTS = [
         "name": "CORTADORA DE PASTO BRONCO TR500 (giro 0)",
         "code": "VIAL-CORTADORA-DE-PASTO-BRONCO-TR500-GIRO-0",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: CORTADORA DE PASTO BRONCO TR500 (giro 0).",
-        "price": 7900.0,
+        "price": 7900,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Bronco",
@@ -6646,7 +6646,7 @@ export const SEED_PRODUCTS = [
         "name": "CORTADORA DE PASTO TRACTOR MARCA BRONCO",
         "code": "VIAL-CORTADORA-DE-PASTO-TRACTOR-MARCA-BRONCO",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: CORTADORA DE PASTO TRACTOR MARCA BRONCO.",
-        "price": 4600.0,
+        "price": 4600,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Bronco",
@@ -6668,7 +6668,7 @@ export const SEED_PRODUCTS = [
         "name": "TRACTOR BRONCO 254 ruedas parqueras",
         "code": "VIAL-TRACTOR-BRONCO-254-RUEDAS-PARQUERAS",
         "desc": "Equipo de maquinaria vial. Modelo: TRACTOR BRONCO 254 ruedas parqueras.",
-        "price": 11500.0,
+        "price": 11500,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Bronco",
@@ -6691,7 +6691,7 @@ export const SEED_PRODUCTS = [
         "name": "TRACTOR BRONCO 254 ruedas con taco",
         "code": "VIAL-TRACTOR-BRONCO-254-RUEDAS-CON-TACO",
         "desc": "Equipo de maquinaria vial. Modelo: TRACTOR BRONCO 254 ruedas con taco.",
-        "price": 10900.0,
+        "price": 10900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Bronco",
@@ -6714,7 +6714,7 @@ export const SEED_PRODUCTS = [
         "name": "TRACTOR BRONCO 404 ruedas parqueras",
         "code": "VIAL-TRACTOR-BRONCO-404-RUEDAS-PARQUERAS",
         "desc": "Equipo de maquinaria vial. Modelo: TRACTOR BRONCO 404 ruedas parqueras.",
-        "price": 12500.0,
+        "price": 12500,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Bronco",
@@ -6738,7 +6738,7 @@ export const SEED_PRODUCTS = [
         "name": "TRACTOR BRONCO 404 ruedas con taco",
         "code": "VIAL-TRACTOR-BRONCO-404-RUEDAS-CON-TACO",
         "desc": "Equipo de maquinaria vial. Modelo: TRACTOR BRONCO 404 ruedas con taco.",
-        "price": 11900.0,
+        "price": 11900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Bronco",
@@ -6761,7 +6761,7 @@ export const SEED_PRODUCTS = [
         "name": "TRACTOR BRONCO 604 ruedas parqueras",
         "code": "VIAL-TRACTOR-BRONCO-604-RUEDAS-PARQUERAS",
         "desc": "Equipo de maquinaria vial. Modelo: TRACTOR BRONCO 604 ruedas parqueras.",
-        "price": 14900.0,
+        "price": 14900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Bronco",
@@ -6784,7 +6784,7 @@ export const SEED_PRODUCTS = [
         "name": "TRACTOR BRONCO 604 ruedas con taco",
         "code": "VIAL-TRACTOR-BRONCO-604-RUEDAS-CON-TACO",
         "desc": "Equipo de maquinaria vial. Modelo: TRACTOR BRONCO 604 ruedas con taco.",
-        "price": 14500.0,
+        "price": 14500,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Bronco",
@@ -6806,7 +6806,7 @@ export const SEED_PRODUCTS = [
         "name": "TRACTOR BRONCO 604 ruedas c/taco CON CABINA",
         "code": "VIAL-TRACTOR-BRONCO-604-RUEDAS-C-TACO-CON-CABINA",
         "desc": "Equipo de maquinaria vial. Modelo: TRACTOR BRONCO 604 ruedas c/taco CON CABINA.",
-        "price": 17600.0,
+        "price": 17600,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Bronco",
@@ -6828,7 +6828,7 @@ export const SEED_PRODUCTS = [
         "name": "TRACTOR BRONCO 804 ruedas con taco",
         "code": "VIAL-TRACTOR-BRONCO-804-RUEDAS-CON-TACO",
         "desc": "Equipo de maquinaria vial. Modelo: TRACTOR BRONCO 804 ruedas con taco.",
-        "price": 24900.0,
+        "price": 24900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Bronco",
@@ -6852,7 +6852,7 @@ export const SEED_PRODUCTS = [
         "name": "TRACTOR BRONCO 804 ruedas c/taco CON CABINA",
         "code": "VIAL-TRACTOR-BRONCO-804-RUEDAS-C-TACO-CON-CABINA",
         "desc": "Equipo de maquinaria vial. Modelo: TRACTOR BRONCO 804 ruedas c/taco CON CABINA.",
-        "price": 27900.0,
+        "price": 27900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Bronco",
@@ -6876,7 +6876,7 @@ export const SEED_PRODUCTS = [
         "name": "TRACTOR BRONCO 1004 ruedas con taco",
         "code": "VIAL-TRACTOR-BRONCO-1004-RUEDAS-CON-TACO",
         "desc": "Equipo de maquinaria vial. Modelo: TRACTOR BRONCO 1004 ruedas con taco.",
-        "price": 39900.0,
+        "price": 39900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Bronco",
@@ -6898,7 +6898,7 @@ export const SEED_PRODUCTS = [
         "name": "TRACTOR BRONCO 1104 ruedas c/taco CON CABINA",
         "code": "VIAL-TRACTOR-BRONCO-1104-RUEDAS-C-TACO-CON-CABINA",
         "desc": "Equipo de maquinaria vial. Modelo: TRACTOR BRONCO 1104 ruedas c/taco CON CABINA.",
-        "price": 41900.0,
+        "price": 41900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Bronco",
@@ -6923,7 +6923,7 @@ export const SEED_PRODUCTS = [
         "name": "TRACTOR BRONCO 1254 ruedas con taco",
         "code": "VIAL-TRACTOR-BRONCO-1254-RUEDAS-CON-TACO",
         "desc": "Equipo de maquinaria vial. Modelo: TRACTOR BRONCO 1254 ruedas con taco.",
-        "price": 51900.0,
+        "price": 51900,
         "category": "Maquinaria Agrícola",
         "condition": "Nuevo",
         "brand": "Bronco",
@@ -6947,7 +6947,7 @@ export const SEED_PRODUCTS = [
         "name": "DESMALEZADORA TRACTOR 25 HP (1,40)",
         "code": "VIAL-DESMALEZADORA-TRACTOR-25-HP-1-40",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: DESMALEZADORA TRACTOR 25 HP (1,40).",
-        "price": 2100.0,
+        "price": 2100,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -6969,7 +6969,7 @@ export const SEED_PRODUCTS = [
         "name": "DESMALEZADORA TRACTOR 40 HP (1,50)",
         "code": "VIAL-DESMALEZADORA-TRACTOR-40-HP-1-50",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: DESMALEZADORA TRACTOR 40 HP (1,50).",
-        "price": 2300.0,
+        "price": 2300,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -6991,7 +6991,7 @@ export const SEED_PRODUCTS = [
         "name": "DESMALEZADORA TRACTOR 60 HP (1,80)",
         "code": "VIAL-DESMALEZADORA-TRACTOR-60-HP-1-80",
         "desc": "Accesorio/implemento para maquinaria vial. Detalle: DESMALEZADORA TRACTOR 60 HP (1,80).",
-        "price": 2500.0,
+        "price": 2500,
         "category": "Repuestos y Accesorios",
         "condition": "Nuevo",
         "brand": "Vial",
@@ -7106,7 +7106,7 @@ export const SEED_PRODUCTS = [
         "name": "MEZCLADOR ECOTANK P/DRONES - TANQUE 200",
         "code": "2507855",
         "desc": "Repuesto para maquinaria agrícola. Código: 2507855. MEZCLADOR ECOTANK P/DRONES - TANQUE 200.",
-        "price": 1266.0,
+        "price": 1266,
         "category": "Drones DJI",
         "condition": "Nuevo",
         "brand": "UDOR",
@@ -7330,40 +7330,1975 @@ export const SEED_PRODUCTS = [
             "Compatibilidad": "Drones de pulverización (Agras T30/T40/T50)",
             "Origen": "Italia"
         }
+    },
+    {
+        "id": "dji_kt100dual6bat",
+        "name": "Drone Agras T100D + 6 Baterias + 2 Generador + Enfriador + Dispersor de Sólidos + Bateria Extra RC",
+        "code": "KT100DUAL6BAT",
+        "desc": "Drone Agras T100D + 6 Baterias + 2 Generador + Enfriador + Dispersor de Sólidos + Bateria Extra RC. IVA 10,50%.",
+        "price": 60397,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100D",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT100DUAL6BAT",
+            "Categoría": "T100DUAL",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt100dual_full",
+        "name": "Drone Agras T100D + 4 Baterias + 2 Generador + Enfriador + Dispersor de Sólidos + Bateria Extra RC + Mavic 3M + Pix4D Lic. Anual",
+        "code": "KT100DUAL Full",
+        "desc": "Drone Agras T100D + 4 Baterias + 2 Generador + Enfriador + Dispersor de Sólidos + Bateria Extra RC + Mavic 3M + Pix4D Lic. Anual. IVA 10,50%.",
+        "price": 57999,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100D",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT100DUAL Full",
+            "Categoría": "T100DUAL",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt100gener22kva_full_plus",
+        "name": "Drone DJI T100 + 3 Baterias + Cargador + Generador 22KVA Brumby + Dispersor de Sólidos + Bateria Extra RC + Mavic 3M + Beneficios Bidcom Agro + Pix4D Lic. Anual",
+        "code": "KT100GENER22KVA FULL Plus",
+        "desc": "Drone DJI T100 + 3 Baterias + Cargador + Generador 22KVA Brumby + Dispersor de Sólidos + Bateria Extra RC + Mavic 3M + Beneficios Bidcom Agro + Pix4D Lic. Anual. IVA 10,50%.",
+        "price": 54193,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT100GENER22KVA FULL Plus",
+            "Categoría": "T100PF",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt100full_plus_500",
+        "name": "Drone DJI T100 + 3 Baterias + Generador + Dispersor de Sólidos + Bateria Extra RC + Mavic 3M + Curso + Mixer 500L + Pix4D Lic. Anual",
+        "code": "KT100FULL Plus 500",
+        "desc": "Drone DJI T100 + 3 Baterias + Generador + Dispersor de Sólidos + Bateria Extra RC + Mavic 3M + Curso + Mixer 500L + Pix4D Lic. Anual. IVA 10,50%.",
+        "price": 52085,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT100FULL Plus 500",
+            "Categoría": "T100",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt100dual4bat",
+        "name": "Drone Agras T100D + 4 Baterias + 2 Generador + Enfriador + Dispersor de Sólidos + Bateria Extra RC",
+        "code": "KT100DUAL4BAT",
+        "desc": "Drone Agras T100D + 4 Baterias + 2 Generador + Enfriador + Dispersor de Sólidos + Bateria Extra RC. IVA 10,50%.",
+        "price": 51999,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100D",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT100DUAL4BAT",
+            "Categoría": "T100DUAL",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt100dual4bat_plus_500",
+        "name": "Drone Agras T100D + 4 Baterias + 2 Generador + Enfriador + Dispersor de Sólidos + Bateria Extra RC + Beneficio BidcomAgro",
+        "code": "KT100DUAL4BAT Plus 500",
+        "desc": "Drone Agras T100D + 4 Baterias + 2 Generador + Enfriador + Dispersor de Sólidos + Bateria Extra RC + Beneficio BidcomAgro. IVA 10,50%.",
+        "price": 51999,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100D",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT100DUAL4BAT Plus 500",
+            "Categoría": "T100PDUAL",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt100full",
+        "name": "Drone DJI T100 + 3 Baterias + Generador + Dispersor de Sólidos + Bateria Extra RC + Mavic 3M + Pix4D Lic. Anual",
+        "code": "KT100FULL",
+        "desc": "Drone DJI T100 + 3 Baterias + Generador + Dispersor de Sólidos + Bateria Extra RC + Mavic 3M + Pix4D Lic. Anual. IVA 10,50%.",
+        "price": 48000,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT100FULL",
+            "Categoría": "T100",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt70gener22kva_full_plus",
+        "name": "Drone DJI T70P + 3 Baterias + Cargador + Generador 22KVA Brumby + Dispersor de Sólidos + Bateria Extra RC + Mavic 3M + Beneficios Bidcom Agro + Pix4D Lic. Anual",
+        "code": "KT70GENER22KVA FULL Plus",
+        "desc": "Drone DJI T70P + 3 Baterias + Cargador + Generador 22KVA Brumby + Dispersor de Sólidos + Bateria Extra RC + Mavic 3M + Beneficios Bidcom Agro + Pix4D Lic. Anual. IVA 10,50%.",
+        "price": 47194,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T70P",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT70GENER22KVA FULL Plus",
+            "Categoría": "T70PF",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt100gener22kva_c_ds",
+        "name": "Drone DJI T100 + 3 Baterias + Cargador + Generador 22KVA Brumby + Dispersor de Sólidos + Bateria Extra RC",
+        "code": "KT100GENER22KVA c/DS",
+        "desc": "Drone DJI T100 + 3 Baterias + Cargador + Generador 22KVA Brumby + Dispersor de Sólidos + Bateria Extra RC. IVA 10,50%.",
+        "price": 45999,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT100GENER22KVA c/DS",
+            "Categoría": "T100P",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt100gener22kva_plus_500",
+        "name": "Drone DJI T100 + 3 Baterias + Cargador + Generador 22KVA Brumby + Dispersor de Sólidos + Bateria Extra RC + Beneficios Bidcom Agro",
+        "code": "KT100GENER22KVA Plus 500",
+        "desc": "Drone DJI T100 + 3 Baterias + Cargador + Generador 22KVA Brumby + Dispersor de Sólidos + Bateria Extra RC + Beneficios Bidcom Agro. IVA 10,50%.",
+        "price": 45999,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT100GENER22KVA Plus 500",
+            "Categoría": "T100PF",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt100dual_combo_c_ds",
+        "name": "Drone Agras T100D + 4 Baterias + Enfriador + 2 Cargadores + Dispersor de Sólidos + Bateria Extra RC",
+        "code": "KT100DUAL combo c/DS",
+        "desc": "Drone Agras T100D + 4 Baterias + Enfriador + 2 Cargadores + Dispersor de Sólidos + Bateria Extra RC. IVA 10,50%.",
+        "price": 45601,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100D",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT100DUAL combo c/DS",
+            "Categoría": "T100DUAL",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt70full_plus_500",
+        "name": "Drone DJI T70P + 3 Baterias + Generador + Dispersor de Sólidos + Bateria Extra RC + Mavic 3M + Curso + Mixer 500L + Pix4D Lic. Anual",
+        "code": "KT70FULL Plus 500",
+        "desc": "Drone DJI T70P + 3 Baterias + Generador + Dispersor de Sólidos + Bateria Extra RC + Mavic 3M + Curso + Mixer 500L + Pix4D Lic. Anual. IVA 10,50%.",
+        "price": 45085,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T70P",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT70FULL Plus 500",
+            "Categoría": "T70",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt100gener_c_ds",
+        "name": "Drone Agras T100 + 3 Baterias + Generador + Dispersor de Sólidos + Bateria Extra RC",
+        "code": "KT100GENER c/DS",
+        "desc": "Drone Agras T100 + 3 Baterias + Generador + Dispersor de Sólidos + Bateria Extra RC. IVA 10,50%.",
+        "price": 41999,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT100GENER c/DS",
+            "Categoría": "T100",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt100gener_plus_500",
+        "name": "Drone DJI T100 + 3 Baterias + Generador + Dispersor de Sólidos + Bateria Extra RC + Beneficios Bidcom Agro",
+        "code": "KT100GENER Plus 500",
+        "desc": "Drone DJI T100 + 3 Baterias + Generador + Dispersor de Sólidos + Bateria Extra RC + Beneficios Bidcom Agro. IVA 10,50%.",
+        "price": 41999,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT100GENER Plus 500",
+            "Categoría": "T100P",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt70full",
+        "name": "Drone DJI T70P + 3 Baterias + Generador + Dispersor de Sólidos + Bateria Extra RC + Mavic 3M + Pix4D Lic. Anual",
+        "code": "KT70FULL",
+        "desc": "Drone DJI T70P + 3 Baterias + Generador + Dispersor de Sólidos + Bateria Extra RC + Mavic 3M + Pix4D Lic. Anual. IVA 10,50%.",
+        "price": 41000,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T70P",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT70FULL",
+            "Categoría": "T70",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt70gener22kva_c_ds",
+        "name": "Drone DJI T70P + 3 Baterias + Cargador + Generador 22KVA Brumby + Dispersor de Sólidos + Bateria Extra RC",
+        "code": "KT70GENER22KVA c/DS",
+        "desc": "Drone DJI T70P + 3 Baterias + Cargador + Generador 22KVA Brumby + Dispersor de Sólidos + Bateria Extra RC. IVA 10,50%.",
+        "price": 39000,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T70P",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT70GENER22KVA c/DS",
+            "Categoría": "T70P",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt70gener22kva_plus_500",
+        "name": "Drone DJI T70P + 3 Baterias + Cargador + Generador 22KVA Brumby + Dispersor de Sólidos + Bateria Extra RC + Beneficios Bidcom Agro",
+        "code": "KT70GENER22KVA Plus 500",
+        "desc": "Drone DJI T70P + 3 Baterias + Cargador + Generador 22KVA Brumby + Dispersor de Sólidos + Bateria Extra RC + Beneficios Bidcom Agro. IVA 10,50%.",
+        "price": 39000,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T70P",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT70GENER22KVA Plus 500",
+            "Categoría": "T70PF",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt100combo_c_ds",
+        "name": "Drone Agras T100 + 3 Baterias + Dispersor de Sólidos + Cargador + Bateria Extra RC",
+        "code": "KT100COMBO c/DS",
+        "desc": "Drone Agras T100 + 3 Baterias + Dispersor de Sólidos + Cargador + Bateria Extra RC. IVA 10,50%.",
+        "price": 38800,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT100COMBO c/DS",
+            "Categoría": "T100",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt100combo_plus_500",
+        "name": "Drone Agras T100 + 3 Baterias + Cargador + Bateria Extra RC + Beneficios Bidcom Agro",
+        "code": "KT100COMBO Plus 500",
+        "desc": "Drone Agras T100 + 3 Baterias + Cargador + Bateria Extra RC + Beneficios Bidcom Agro. IVA 10,50%.",
+        "price": 38800,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT100COMBO Plus 500",
+            "Categoría": "T100P",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt100combo",
+        "name": "Drone Agras T100 + 3 Baterias + Cargador + Bateria Extra RC",
+        "code": "KT100COMBO",
+        "desc": "Drone Agras T100 + 3 Baterias + Cargador + Bateria Extra RC. IVA 10,50%.",
+        "price": 36901,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT100COMBO",
+            "Categoría": "T100",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kmatrice400",
+        "name": "Drone Matrice 400 + Plataforma de carga + 1 Bateria + Sensor Lidar L3",
+        "code": "KMATRICE400",
+        "desc": "Drone Matrice 400 + Plataforma de carga + 1 Bateria + Sensor Lidar L3. IVA 10,50%.",
+        "price": 35340,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Matrice 400",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KMATRICE400",
+            "Categoría": "M4",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt70gener_plus_500",
+        "name": "Drone DJI T70P + 3 Baterias + Generador + Dispersor de Sólidos + Bateria Extra RC + Curso + Beneficios Bidcom Agro",
+        "code": "KT70GENER Plus 500",
+        "desc": "Drone DJI T70P + 3 Baterias + Generador + Dispersor de Sólidos + Bateria Extra RC + Curso + Beneficios Bidcom Agro. IVA 10,50%.",
+        "price": 35000,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T70P",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT70GENER Plus 500",
+            "Categoría": "T70P",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt70gener_c_ds",
+        "name": "Drone DJI T70P + 3 Baterias + Generador + Dispersor de Sólidos + Bateria Extra RC",
+        "code": "KT70GENER c/DS",
+        "desc": "Drone DJI T70P + 3 Baterias + Generador + Dispersor de Sólidos + Bateria Extra RC. IVA 10,50%.",
+        "price": 34999,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T70P",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT70GENER c/DS",
+            "Categoría": "T70",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt55full",
+        "name": "Drone DJI T55 + 3 Baterias DB1580 + Generador + Dispersor de Sólidos + Bateria Extra RC + Mavic 3M + Pix4D Lic. Anual",
+        "code": "KT55FULL",
+        "desc": "Drone DJI T55 + 3 Baterias DB1580 + Generador + Dispersor de Sólidos + Bateria Extra RC + Mavic 3M + Pix4D Lic. Anual. IVA 10,50%.",
+        "price": 33999,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T55",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT55FULL",
+            "Categoría": "T55P",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt50full_plus",
+        "name": "Drone DJI T50 + 3 Baterias + Generador + Dispersor de Sólidos + Mavic + Bateria Extra RC + Mixer 240 L + Curso",
+        "code": "KT50FULL Plus",
+        "desc": "Drone DJI T50 + 3 Baterias + Generador + Dispersor de Sólidos + Mavic + Bateria Extra RC + Mixer 240 L + Curso. IVA 10,50%.",
+        "price": 33600,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T50",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT50FULL Plus",
+            "Categoría": "T50",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt70combo_c_ds",
+        "name": "Drone DJI T70P + 3 Baterias + Cargador + Dispersor de Sólidos + Bateria Extra RC + Curso",
+        "code": "KT70COMBO c/DS",
+        "desc": "Drone DJI T70P + 3 Baterias + Cargador + Dispersor de Sólidos + Bateria Extra RC + Curso. IVA 10,50%.",
+        "price": 31999,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T70P",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT70COMBO c/DS",
+            "Categoría": "T70",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt50full",
+        "name": "Drone DJI T50 + 3 Baterias + Generador + Dispersor de Sólidos + Mavic 3M + Bateria Extra RC",
+        "code": "KT50FULL",
+        "desc": "Drone DJI T50 + 3 Baterias + Generador + Dispersor de Sólidos + Mavic 3M + Bateria Extra RC. IVA 10,50%.",
+        "price": 31000,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T50",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT50FULL",
+            "Categoría": "T50",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kmatrice400t",
+        "name": "Drone Matrice 400 + Plataforma de carga + 1 Bateria + H30T",
+        "code": "KMATRICE400T",
+        "desc": "Drone Matrice 400 + Plataforma de carga + 1 Bateria + H30T. IVA 10,50%.",
+        "price": 30040,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Matrice 400",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KMATRICE400T",
+            "Categoría": "M4",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt55gener_c_ds",
+        "name": "Drone DJI T55 + 3 Baterias DB1580 + Generador + Dispersor de Sólidos + Bateria Extra RC",
+        "code": "KT55GENER c/DS",
+        "desc": "Drone DJI T55 + 3 Baterias DB1580 + Generador + Dispersor de Sólidos + Bateria Extra RC. IVA 10,50%.",
+        "price": 27999,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T55",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT55GENER c/DS",
+            "Categoría": "T55",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt55gener_plus_240",
+        "name": "Drone DJI T55 + 3 Baterias DB1580 + Generador + Dispersor de Sólidos + Bateria Extra RC + Beneficio BidcomAgro",
+        "code": "KT55GENER Plus 240",
+        "desc": "Drone DJI T55 + 3 Baterias DB1580 + Generador + Dispersor de Sólidos + Bateria Extra RC + Beneficio BidcomAgro. IVA 10,50%.",
+        "price": 27999,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T55",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT55GENER Plus 240",
+            "Categoría": "T55P",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kdual3bat_user",
+        "name": "Dual Spray 90L + 3 Baterias + 1 Generador + Enfriador",
+        "code": "KDUAL3BAT User",
+        "desc": "Dual Spray 90L + 3 Baterias + 1 Generador + Enfriador. IVA 10,50%.",
+        "price": 26396,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Dual Spray 90L",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KDUAL3BAT User",
+            "Categoría": "T100DUAL",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt50gener_c_ds",
+        "name": "Drone DJI T50 + 3 Baterias + Generador + Dispersor de Sólidos + Bateria Extra RC",
+        "code": "KT50GENER c/DS",
+        "desc": "Drone DJI T50 + 3 Baterias + Generador + Dispersor de Sólidos + Bateria Extra RC. IVA 10,50%.",
+        "price": 25000,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T50",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT50GENER c/DS",
+            "Categoría": "T50",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt55combo_c_ds",
+        "name": "Drone DJI T55 + 3 Baterias DB1580 + Dispersor de Sólidos + Cargador C12000 + Bateria Extra RC",
+        "code": "KT55COMBO c/DS",
+        "desc": "Drone DJI T55 + 3 Baterias DB1580 + Dispersor de Sólidos + Cargador C12000 + Bateria Extra RC. IVA 10,50%.",
+        "price": 24999,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T55",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT55COMBO c/DS",
+            "Categoría": "T55",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kdock3",
+        "name": "Dock 3 + Matrice 4TD",
+        "code": "KDOCK3",
+        "desc": "Dock 3 + Matrice 4TD. IVA 10,50%.",
+        "price": 24450,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Dock 3",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KDOCK3",
+            "Categoría": "M4",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_t50combo",
+        "name": "Drone DJI T50 + 3 Baterias + Cargador + Bateria extra RC",
+        "code": "T50COMBO",
+        "desc": "Drone DJI T50 + 3 Baterias + Cargador + Bateria extra RC. IVA 10,50%.",
+        "price": 22000,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T50",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T50COMBO",
+            "Categoría": "T50",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_t100dron",
+        "name": "T100 Agras Dron",
+        "code": "T100DRON",
+        "desc": "T100 Agras Dron. IVA 10,50%.",
+        "price": 20999,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T100DRON",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt40gener_c_ds",
+        "name": "Drone DJI T40 + 3 Baterias + Generador + Dispersor de Sólidos + Bateria Extra RC",
+        "code": "KT40GENER c/DS",
+        "desc": "Drone DJI T40 + 3 Baterias + Generador + Dispersor de Sólidos + Bateria Extra RC. IVA 10,50%.",
+        "price": 18450,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T40",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT40GENER c/DS",
+            "Categoría": "T40",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_t70pdron",
+        "name": "T70P Dron",
+        "code": "T70PDRON",
+        "desc": "T70P Dron. IVA 10,50%.",
+        "price": 17999,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T70P",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T70PDRON",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_t40combo",
+        "name": "Drone DJI T40 + 3 Baterias + Cargador + Dispersor de Sólidos + Bateria Extra RC",
+        "code": "T40COMBO",
+        "desc": "Drone DJI T40 + 3 Baterias + Cargador + Dispersor de Sólidos + Bateria Extra RC. IVA 10,50%.",
+        "price": 17100,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T40",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T40COMBO",
+            "Categoría": "T40",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_t50drone",
+        "name": "T50 Dron",
+        "code": "T50DRONE",
+        "desc": "T50 Dron. IVA 10,50%.",
+        "price": 17000,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T50",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T50DRONE",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kdual1bat_user",
+        "name": "Dual Spray 90L + 1 Baterias + 1 Generador + Enfriador",
+        "code": "KDUAL1BAT User",
+        "desc": "Dual Spray 90L + 1 Baterias + 1 Generador + Enfriador. IVA 10,50%.",
+        "price": 15998,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Dual Spray 90L",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KDUAL1BAT User",
+            "Categoría": "T100DUAL",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_t55drone",
+        "name": "T55 Drone",
+        "code": "T55DRONE",
+        "desc": "T55 Drone. IVA 10,50%.",
+        "price": 12999,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T55",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T55DRONE",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt25gener_c_ds",
+        "name": "Drone DJI T25P + 3 Baterias + Dispersor de Sólidos + Generador + Bateria Extra RC",
+        "code": "KT25GENER c/DS",
+        "desc": "Drone DJI T25P + 3 Baterias + Dispersor de Sólidos + Generador + Bateria Extra RC. IVA 10,50%.",
+        "price": 12968,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T25P",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT25GENER c/DS",
+            "Categoría": "T25",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt25gener",
+        "name": "Drone DJI T25P + 3 Baterias + Generador + Bateria Extra RC",
+        "code": "KT25GENER",
+        "desc": "Drone DJI T25P + 3 Baterias + Generador + Bateria Extra RC. IVA 10,50%.",
+        "price": 11999,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T25P",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT25GENER",
+            "Categoría": "T25",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt20pgener",
+        "name": "Drones Agras T20 + 3 Baterias + Cargador + Generador",
+        "code": "KT20PGENER",
+        "desc": "Drones Agras T20 + 3 Baterias + Cargador + Generador. IVA 10,50%.",
+        "price": 9500,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T20",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT20PGENER",
+            "Categoría": "T30 / T20",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kt30gener",
+        "name": "Drone Agras T30 + 3 Baterias + Cargador + Generador",
+        "code": "KT30GENER",
+        "desc": "Drone Agras T30 + 3 Baterias + Cargador + Generador. IVA 10,50%.",
+        "price": 9500,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T30",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KT30GENER",
+            "Categoría": "T30 / T20",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_mavicmfmc_pix4d_anual",
+        "name": "DJI Mavic 3 Multispectral + Fly More Combo + Pix4D Licencia Anual",
+        "code": "MavicMFMC Pix4D Anual",
+        "desc": "DJI Mavic 3 Multispectral + Fly More Combo + Pix4D Licencia Anual. IVA 10,50%.",
+        "price": 9290,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Mavic 3 Multispectral",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "MavicMFMC Pix4D Anual",
+            "Categoría": "Mevic",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kmatrice4t",
+        "name": "Drone Matrice 4T + 1 Bateria",
+        "code": "KMATRICE4T",
+        "desc": "Drone Matrice 4T + 1 Bateria. IVA 10,50%.",
+        "price": 8840,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Matrice 4T",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KMATRICE4T",
+            "Categoría": "M4",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_t20combo",
+        "name": "Drones Agras T20 + 3 Baterias + Cargador",
+        "code": "T20COMBO",
+        "desc": "Drones Agras T20 + 3 Baterias + Cargador. IVA 10,50%.",
+        "price": 8000,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T20",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T20COMBO",
+            "Categoría": "T30 / T20",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_t30combo",
+        "name": "Drone Agras T30 + 3 Baterias + Cargador",
+        "code": "T30COMBO",
+        "desc": "Drone Agras T30 + 3 Baterias + Cargador. IVA 10,50%.",
+        "price": 8000,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T30",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T30COMBO",
+            "Categoría": "T30 / T20",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_mavidmfmc",
+        "name": "DJI Mavic 3 Multispectral + Fly More Combo + Pix4D 2 meses",
+        "code": "MavidMFMC",
+        "desc": "DJI Mavic 3 Multispectral + Fly More Combo + Pix4D 2 meses. IVA 10,50%.",
+        "price": 7500,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Mavic 3 Multispectral",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "MavidMFMC",
+            "Categoría": "Mavic",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_t40drone",
+        "name": "Drone Agras T40",
+        "code": "T40DRONE",
+        "desc": "Drone Agras T40. IVA 10,50%.",
+        "price": 7000,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T40",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T40DRONE",
+            "Categoría": "ACC2",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_t25pdrone",
+        "name": "T25P Drone",
+        "code": "T25PDRONE",
+        "desc": "T25P Drone. IVA 10,50%.",
+        "price": 6999,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T25P",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T25PDRONE",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_kmatrice4e",
+        "name": "Drone Matrice 4E + 1 Bateria",
+        "code": "KMATRICE4E",
+        "desc": "Drone Matrice 4E + 1 Bateria. IVA 10,50%.",
+        "price": 6546,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Matrice 4E",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KMATRICE4E",
+            "Categoría": "M4",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_m3mchina",
+        "name": "Mavic 3 Multispectral Edition",
+        "code": "M3MCHINA",
+        "desc": "Mavic 3 Multispectral Edition. IVA 10,50%.",
+        "price": 6500,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Mavic 3",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "M3MCHINA",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_brfenk22",
+        "name": "Generador Brumby Fenk 22KVA",
+        "code": "BRFENK22",
+        "desc": "Generador Brumby Fenk 22KVA. IVA 10,50%.",
+        "price": 6465,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Brumby",
+        "model": "22KVA",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "BRFENK22",
+            "Categoría": "ACC2",
+            "Marca": "Brumby",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_t100gener",
+        "name": "Generador T100 D14000iE",
+        "code": "T100GENER",
+        "desc": "Generador T100 D14000iE. IVA 10,50%.",
+        "price": 5499,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "D14000iE",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T100GENER",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_t100bate",
+        "name": "Bateria Dron Agras T100 2160",
+        "code": "T100BATE",
+        "desc": "Bateria Dron Agras T100 2160. IVA 21,00%.",
+        "price": 5199,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T100BATE",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "21.00%"
+        }
+    },
+    {
+        "id": "dji_t70bater",
+        "name": "T70 Bateria 1580",
+        "code": "T70BATER",
+        "desc": "T70 Bateria 1580. IVA 21,00%.",
+        "price": 5199,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T70",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T70BATER",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "21.00%"
+        }
+    },
+    {
+        "id": "dji_t20drone",
+        "name": "T20 Drone",
+        "code": "T20DRONE",
+        "desc": "T20 Drone. IVA 10,50%.",
+        "price": 5000,
+        "category": "Drones DJI",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T20",
+        "stock": 2,
+        "images": [
+            "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T20DRONE",
+            "Categoría": "ACC2",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_t40gener",
+        "name": "Generadores T40",
+        "code": "T40GENER",
+        "desc": "Generadores T40. IVA 10,50%.",
+        "price": 4500,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T40",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T40GENER",
+            "Categoría": "ACC2",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_t50gener",
+        "name": "Generadores T50",
+        "code": "T50GENER",
+        "desc": "Generadores T50. IVA 10,50%.",
+        "price": 4500,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T50",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T50GENER",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_t100sdual",
+        "name": "T100 Dual-Battery Spraying System (without Air-Cooled Heat Sink)",
+        "code": "T100SDUAL",
+        "desc": "T100 Dual-Battery Spraying System (without Air-Cooled Heat Sink). IVA 10,50%.",
+        "price": 3774,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T100SDUAL",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_ktrtk3",
+        "name": "Antena RTK 3 + Tripode",
+        "code": "KTRTK3",
+        "desc": "Antena RTK 3 + Tripode. IVA 10,50%.",
+        "price": 3500,
+        "category": "Agricultura de Precisión",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "RTK 3",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "KTRTK3",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_mixer_500_l",
+        "name": "Mixer Brumby 500 Litros",
+        "code": "Mixer 500 L",
+        "desc": "Mixer Brumby 500 Litros. IVA 10,50%.",
+        "price": 3285,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Brumby",
+        "model": "500L",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "Mixer 500 L",
+            "Categoría": "ACC2",
+            "Marca": "Brumby",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_t40bater",
+        "name": "Bateria Agras T40",
+        "code": "T40BATER",
+        "desc": "Bateria Agras T40. IVA 21,00%.",
+        "price": 3100,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T40",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T40BATER",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "21.00%"
+        }
+    },
+    {
+        "id": "dji_t50bater",
+        "name": "T50 Bateria",
+        "code": "T50BATER",
+        "desc": "T50 Bateria. IVA 21,00%.",
+        "price": 3100,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T50",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T50BATER",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "21.00%"
+        }
+    },
+    {
+        "id": "dji_mixer_240_l",
+        "name": "Mixer Brumby 240 Litros",
+        "code": "Mixer 240 L",
+        "desc": "Mixer Brumby 240 Litros. IVA 10,50%.",
+        "price": 2855,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Brumby",
+        "model": "240L",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "Mixer 240 L",
+            "Categoría": "ACC2",
+            "Marca": "Brumby",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_antrtk03",
+        "name": "Antena RTK - 3",
+        "code": "ANTRTK03",
+        "desc": "Antena RTK - 3. IVA 21,00%.",
+        "price": 2800,
+        "category": "Agricultura de Precisión",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "RTK 3",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "ANTRTK03",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "21.00%"
+        }
+    },
+    {
+        "id": "dji_t40carga",
+        "name": "Cargador Agras T40",
+        "code": "T40CARGA",
+        "desc": "Cargador Agras T40. IVA 21,00%.",
+        "price": 2500,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T40",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T40CARGA",
+            "Categoría": "ACC2",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "21.00%"
+        }
+    },
+    {
+        "id": "dji_t50carga",
+        "name": "T50 Cargador",
+        "code": "T50CARGA",
+        "desc": "T50 Cargador. IVA 21,00%.",
+        "price": 2500,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T50",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T50CARGA",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "21.00%"
+        }
+    },
+    {
+        "id": "dji_t100carga",
+        "name": "Cargador T100/T70",
+        "code": "T100CARGA",
+        "desc": "Cargador T100/T70. IVA 21,00%.",
+        "price": 2300,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100/T70",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T100CARGA",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "21.00%"
+        }
+    },
+    {
+        "id": "dji_t25gener",
+        "name": "Generador T25",
+        "code": "T25GENER",
+        "desc": "Generador T25. IVA 10,50%.",
+        "price": 2299,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T25",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T25GENER",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_t20bater",
+        "name": "Bateria Agras T20",
+        "code": "T20BATER",
+        "desc": "Bateria Agras T20. IVA 21,00%.",
+        "price": 2100,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T20",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T20BATER",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "21.00%"
+        }
+    },
+    {
+        "id": "dji_t20carga",
+        "name": "Cargador Agras T20",
+        "code": "T20CARGA",
+        "desc": "Cargador Agras T20. IVA 21,00%.",
+        "price": 2100,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T20",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T20CARGA",
+            "Categoría": "ACC2",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "21.00%"
+        }
+    },
+    {
+        "id": "dji_t100sgrua",
+        "name": "T100 Sistema de Grua",
+        "code": "T100sGrua",
+        "desc": "T100 Sistema de Grua. IVA 21,00%.",
+        "price": 2000,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T100sGrua",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "21.00%"
+        }
+    },
+    {
+        "id": "dji_t65agrua",
+        "name": "DL100 Lifting System",
+        "code": "T65AGRUA",
+        "desc": "DL100 Lifting System. IVA 21,00%.",
+        "price": 2000,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "DL100",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T65AGRUA",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "21.00%"
+        }
+    },
+    {
+        "id": "dji_djipow01agr",
+        "name": "DJI POW01 AGR",
+        "code": "DJIPOW01AGR",
+        "desc": "DJI POW01 AGR. IVA 21,00%.",
+        "price": 1990,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "DJIPOW01AGR",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "21.00%"
+        }
+    },
+    {
+        "id": "dji_t100sprea",
+        "name": "Spreading System T100",
+        "code": "T100SPREA",
+        "desc": "Spreading System T100. IVA 10,50%.",
+        "price": 1889,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T100",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T100SPREA",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_t40seml",
+        "name": "Dispersor Semillas T40",
+        "code": "T40SEML",
+        "desc": "Dispersor Semillas T40. IVA 21,00%.",
+        "price": 1883,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T40",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T40SEML",
+            "Categoría": "ACC2",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "21.00%"
+        }
+    },
+    {
+        "id": "dji_t50sprea",
+        "name": "Spreading System T50",
+        "code": "T50SPREA",
+        "desc": "Spreading System T50. IVA 10,50%.",
+        "price": 1883,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T50",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T50SPREA",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "10.50%"
+        }
+    },
+    {
+        "id": "dji_t25bater",
+        "name": "Baterias DJI Agras T25",
+        "code": "T25BATER",
+        "desc": "Baterias DJI Agras T25. IVA 21,00%.",
+        "price": 1799,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "DJI",
+        "model": "Agras T25",
+        "stock": 2,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "SKU": "T25BATER",
+            "Categoría": "ACC1",
+            "Marca": "DJI",
+            "Estado": "Nuevo Original",
+            "IVA": "21.00%"
+        }
     }
-];
-
-let products = [];
-
-// Inicialización de la base de datos de productos
-export async function loadProductsData() {
-    try {
-        if (useFirebase) {
-            const querySnapshot = await getDocs(collection(db, "druetto_products"));
-            const fbList = [];
-            querySnapshot.forEach((doc) => {
-                fbList.push({ id: doc.id, ...doc.data() });
-            });
-            
-            if (fbList.length > 0) {
-                products = fbList;
-            } else {
-                let deletedCount = 0;
-                try {
-                    const delSnap = await getDocs(collection(db, "druetto_deleted_products"));
-                    deletedCount = delSnap.docs.length;
-                } catch (err) {}
-
-                if (deletedCount === 0) {
-                    // Catálogo vacío sin productos eliminados previamente: inicializar semilla
-                    const batch = writeBatch(db);
-                    for (const p of SEED_PRODUCTS) {
-                        const docRef = doc(db, "druetto_products", p.id);
-                        batch.set(docRef, p);
-                    }
-                    await batch.commit();
-                    products = [...SEED_PRODUCTS];
-                    console.log("[Firebase Seeding Store] Catálogo completo (" + SEED_PRODUCTS.length + " productos) sembrado con éxito en Firestore.");
                 } else {
                     products = [];
                 }
