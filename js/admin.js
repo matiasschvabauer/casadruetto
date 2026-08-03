@@ -300,26 +300,218 @@ window.updateRevenueChart = function(period, btn) {
 };
 
 window.updateOrdersChart = function(period, btn) {
-    if (!ordersChartInstance || !currentChartDataSets || !currentChartDataSets.orders[period]) return;
-
-    if (btn) {
-        const parent = btn.parentElement;
-        if (parent) {
-            parent.querySelectorAll('.chart-period-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-        }
-    }
-
-    const ds = currentChartDataSets.orders[period];
-    ordersChartInstance.data.labels = ds.labels;
-    ordersChartInstance.data.datasets[0].data = ds.data;
-    ordersChartInstance.update();
-};
-
-// ─── B. PRODUCT MANAGEMENT VIEW ────────────────────────────────────
+    if (!ordersChartInstance || !currentChartDat// ─── B. PRODUCT MANAGEMENT VIEW ────────────────────────────────────
 let activeSpecs = {};
 let currentProductImages = [];
 let localFilesToUpload = [];
+let selectedProductIds = new Set();
+
+// ─── SELECCIÓN Y EDICIÓN MASIVA DE PRODUCTOS ─────────────────────
+window.toggleSelectAllProducts = function(checked) {
+    const checkboxes = document.querySelectorAll('.product-select-checkbox');
+    checkboxes.forEach(cb => {
+        cb.checked = checked;
+        if (checked) {
+            selectedProductIds.add(cb.value);
+        } else {
+            selectedProductIds.delete(cb.value);
+        }
+    });
+    updateBulkSelectionUI();
+};
+
+window.onProductCheckboxChange = function(checkbox) {
+    if (checkbox.checked) {
+        selectedProductIds.add(checkbox.value);
+    } else {
+        selectedProductIds.delete(checkbox.value);
+    }
+    const selectAllCb = document.getElementById('select-all-products');
+    if (selectAllCb) {
+        const total = document.querySelectorAll('.product-select-checkbox').length;
+        selectAllCb.checked = total > 0 && selectedProductIds.size === total;
+    }
+    updateBulkSelectionUI();
+};
+
+window.clearBulkSelection = function() {
+    selectedProductIds.clear();
+    const selectAllCb = document.getElementById('select-all-products');
+    if (selectAllCb) selectAllCb.checked = false;
+    const checkboxes = document.querySelectorAll('.product-select-checkbox');
+    checkboxes.forEach(cb => cb.checked = false);
+    updateBulkSelectionUI();
+};
+
+function updateBulkSelectionUI() {
+    const toolbar = document.getElementById('bulk-actions-toolbar');
+    const countEl = document.getElementById('bulk-selected-count');
+    const count = selectedProductIds.size;
+
+    if (toolbar) {
+        toolbar.style.display = count > 0 ? 'flex' : 'none';
+    }
+    if (countEl) {
+        countEl.innerText = `${count} ${count === 1 ? 'seleccionado' : 'seleccionados'}`;
+    }
+}
+
+// ─── ACCIONES MASIVAS POR SELECCIÓN ───────────────────────────────
+window.openBulkStockPrompt = async function() {
+    const ids = Array.from(selectedProductIds);
+    if (ids.length === 0) return;
+
+    const input = prompt(`Cambio Masivo de Stock para ${ids.length} productos:\n\n• Ingresa un número para establecer el stock directo (ej: 10).\n• O usa + o - para sumar/restar al stock actual (ej: +5 o -2):`);
+    if (input === null || input.trim() === '') return;
+
+    const str = input.trim();
+    const isDelta = str.startsWith('+') || str.startsWith('-');
+    const deltaVal = parseInt(str, 10) || 0;
+
+    let updatedCount = 0;
+    for (const id of ids) {
+        const p = productsList.find(item => item.id === id);
+        if (p) {
+            if (isDelta) {
+                p.stock = Math.max(0, (p.stock || 0) + deltaVal);
+            } else {
+                p.stock = Math.max(0, parseInt(str, 10) || 0);
+            }
+            await saveSingleProductRecord(p);
+            updatedCount++;
+        }
+    }
+
+    alert(`Stock actualizado con éxito en ${updatedCount} productos.`);
+    clearBulkSelection();
+    await initProductsView();
+};
+
+window.openBulkWebPricePrompt = async function() {
+    const ids = Array.from(selectedProductIds);
+    if (ids.length === 0) return;
+
+    const input = prompt(`Ajuste Masivo de Precio Web para ${ids.length} productos:\n\n• Ingresa un % de variación (ej: 15 para +15% o -10 para -10%).\n• O escribe un precio fijo antecedido por $ (ej: $5000):`);
+    if (input === null || input.trim() === '') return;
+
+    const str = input.trim();
+    const isFixed = str.startsWith('$');
+    const fixedVal = parseFloat(str.replace('$', '')) || 0;
+    const pctVal = parseFloat(str) || 0;
+
+    let updatedCount = 0;
+    for (const id of ids) {
+        const p = productsList.find(item => item.id === id);
+        if (p) {
+            if (isFixed) {
+                p.price = Math.round(fixedVal);
+            } else {
+                p.price = Math.round(p.price * (1 + pctVal / 100));
+            }
+            if (p.priceMeLiPercent !== undefined && p.priceMeLiPercent !== null) {
+                p.priceMeLi = Math.round(p.price * (1 + p.priceMeLiPercent / 100));
+            }
+            await saveSingleProductRecord(p);
+            updatedCount++;
+        }
+    }
+
+    alert(`Precio Web actualizado con éxito en ${updatedCount} productos.`);
+    clearBulkSelection();
+    await initProductsView();
+};
+
+window.openBulkMeLiPricePrompt = async function() {
+    const ids = Array.from(selectedProductIds);
+    if (ids.length === 0) return;
+
+    const input = prompt(`Ajuste Masivo de Precio Mercado Libre para ${ids.length} productos:\n\n• Ingresa el % de recargo que irá sobre el precio web (ej: 15 para +15% de recargo en MeLi, o 0 para mismo precio).\n• O antecede con $ para fijar un precio exacto en MeLi (ej: $65000):`);
+    if (input === null || input.trim() === '') return;
+
+    const str = input.trim();
+    const isFixed = str.startsWith('$');
+    const fixedVal = parseFloat(str.replace('$', '')) || 0;
+    const pctVal = parseFloat(str) || 0;
+
+    let updatedCount = 0;
+    for (const id of ids) {
+        const p = productsList.find(item => item.id === id);
+        if (p) {
+            if (isFixed) {
+                p.priceMeLi = Math.round(fixedVal);
+                p.priceMeLiPercent = p.price > 0 ? Math.round(((p.priceMeLi - p.price) / p.price) * 100) : 0;
+            } else {
+                p.priceMeLiPercent = pctVal;
+                p.priceMeLi = Math.round(p.price * (1 + pctVal / 100));
+            }
+            await saveSingleProductRecord(p);
+            updatedCount++;
+        }
+    }
+
+    alert(`Precio Mercado Libre actualizado en ${updatedCount} productos.`);
+    clearBulkSelection();
+    await initProductsView();
+};
+
+window.openBulkStatusPrompt = async function() {
+    const ids = Array.from(selectedProductIds);
+    if (ids.length === 0) return;
+
+    const choice = confirm(`¿Deseas marcar como ACTIVOS los ${ids.length} productos seleccionados?\n\n[Aceptar] = Activar (Stock disponible)\n[Cancelar] = Marcar Sin Stock (Stock = 0)`);
+
+    let updatedCount = 0;
+    for (const id of ids) {
+        const p = productsList.find(item => item.id === id);
+        if (p) {
+            if (choice) {
+                if (p.stock <= 0) p.stock = 1;
+            } else {
+                p.stock = 0;
+            }
+            await saveSingleProductRecord(p);
+            updatedCount++;
+        }
+    }
+
+    alert(`Estado actualizado en ${updatedCount} productos.`);
+    clearBulkSelection();
+    await initProductsView();
+};
+
+async function saveSingleProductRecord(p) {
+    if (useFirebase) {
+        await setDoc(doc(db, "druetto_products", p.id), p);
+    } else {
+        await localDb.setDoc("products", p.id, p);
+    }
+}
+
+// ─── CÁLCULOS DINÁMICOS DE PRECIO MELI EN FORMULARIO ──────────────
+window.calculateMeLiPriceFromPercent = function() {
+    const webPrice = parseFloat(document.getElementById('product-price').value) || 0;
+    const percentEl = document.getElementById('product-price-meli-percent');
+    const meliPriceEl = document.getElementById('product-price-meli');
+    
+    if (!percentEl || !meliPriceEl) return;
+    const percent = parseFloat(percentEl.value);
+    
+    if (!isNaN(percent)) {
+        meliPriceEl.value = Math.round(webPrice * (1 + percent / 100));
+    }
+};
+
+window.calculatePercentFromMeLiPrice = function() {
+    const webPrice = parseFloat(document.getElementById('product-price').value) || 0;
+    const meliPrice = parseFloat(document.getElementById('product-price-meli').value) || 0;
+    const percentEl = document.getElementById('product-price-meli-percent');
+
+    if (!percentEl) return;
+    if (webPrice > 0 && meliPrice > 0) {
+        const pct = ((meliPrice - webPrice) / webPrice) * 100;
+        percentEl.value = pct.toFixed(1);
+    }
+};
 
 // Configurar el escuchador de selección de archivos locales
 function setupFileInputListener() {
@@ -427,7 +619,6 @@ function renderModalImages() {
 
 
 async function initProductsView() {
-
     await loadAllData();
     renderProductsTable();
     populateCategoryDropdowns();
@@ -476,18 +667,31 @@ function renderProductsTable(itemsToRender = productsList) {
     tbody.innerHTML = '';
 
     if (itemsToRender.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;color:#888;padding:2rem;">No se encontraron productos coincidentes.</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="9" style="text-align:center;color:#888;padding:2rem;">No se encontraron productos coincidentes.</td></tr>';
         return;
     }
 
     itemsToRender.forEach(p => {
         const tr = document.createElement('tr');
+        const isChecked = selectedProductIds.has(p.id);
         const imgUrl = p.images?.[0] ? (p.images[0].startsWith('http') || p.images[0].startsWith('data:') || p.images[0].startsWith('../') ? p.images[0] : '../' + p.images[0]) : '../assets/img/casadruettologo1.png';
 
+        const meLiPrice = p.priceMeLi !== undefined && p.priceMeLi !== null && p.priceMeLi > 0 ? p.priceMeLi : p.price;
+        const meLiDiffPct = p.price > 0 ? Math.round(((meLiPrice - p.price) / p.price) * 100) : 0;
+        const meLiBadge = meLiDiffPct > 0 
+            ? `<br><small style="color:#eab308; font-weight:700;">+${meLiDiffPct}% MeLi</small>`
+            : meLiDiffPct < 0 
+            ? `<br><small style="color:#ef4444; font-weight:700;">${meLiDiffPct}% MeLi</small>`
+            : `<br><small style="color:#64748b;">(Mismo precio)</small>`;
+
         tr.innerHTML = `
+            <td style="text-align:center;">
+                <input type="checkbox" class="product-select-checkbox" value="${p.id}" ${isChecked ? 'checked' : ''} onchange="window.onProductCheckboxChange(this)" style="width:16px; height:16px; cursor:pointer;">
+            </td>
             <td><img src="${imgUrl}" style="width:45px; height:45px; object-fit:contain; background:#000; border-radius:4px;"></td>
             <td><strong>${p.name}</strong><br><small style="color:var(--admin-text-muted);">Cód: ${p.code}</small></td>
-            <td>$${p.price.toLocaleString('es-AR', { minimumFractionDigits: 2 })}</td>
+            <td><strong>$${p.price.toLocaleString('es-AR', { minimumFractionDigits: 2 })}</strong></td>
+            <td><strong style="color:#eab308;">$${meLiPrice.toLocaleString('es-AR', { minimumFractionDigits: 2 })}</strong>${meLiBadge}</td>
             <td>${p.category}</td>
             <td>${p.stock}</td>
             <td><span class="status-badge ${p.stock > 0 ? 'success' : 'danger'}">${p.stock > 0 ? 'Activo' : 'Sin Stock'}</span></td>
@@ -500,6 +704,8 @@ function renderProductsTable(itemsToRender = productsList) {
         `;
         tbody.appendChild(tr);
     });
+
+    updateBulkSelectionUI();
 }
 
 // Abrir Modal Crear
@@ -507,6 +713,8 @@ window.openProductCreateModal = function () {
     document.getElementById('modal-title').innerText = "Nuevo Producto";
     document.getElementById('product-form').reset();
     document.getElementById('product-id').value = "";
+    document.getElementById('product-price-meli').value = "";
+    document.getElementById('product-price-meli-percent').value = "";
     currentProductImages = [];
     localFilesToUpload = [];
     renderModalImages();
@@ -531,6 +739,12 @@ window.openProductEditModal = function (id) {
     document.getElementById('product-brand').value = p.brand || '';
     document.getElementById('product-condition').value = p.condition;
     document.getElementById('product-stock').value = p.stock;
+
+    const meLiPrice = p.priceMeLi !== undefined && p.priceMeLi !== null ? p.priceMeLi : p.price;
+    const meLiPercent = p.priceMeLiPercent !== undefined && p.priceMeLiPercent !== null ? p.priceMeLiPercent : (p.price > 0 ? Math.round(((meLiPrice - p.price) / p.price) * 100) : 0);
+    
+    document.getElementById('product-price-meli').value = meLiPrice || "";
+    document.getElementById('product-price-meli-percent').value = meLiPercent !== 0 ? meLiPercent : "0";
     
     currentProductImages = p.images ? [...p.images] : [];
     localFilesToUpload = [];
@@ -555,7 +769,6 @@ window.toggleProductModal = function (open) {
 };
 
 // Guardar Producto (Crear/Editar)
-// Guardar Producto (Crear/Editar)
 window.saveProductForm = async function () {
     const saveBtn = document.getElementById('btn-save-product');
     const cancelBtn = document.getElementById('btn-cancel-product');
@@ -573,6 +786,8 @@ window.saveProductForm = async function () {
     const code = document.getElementById('product-code').value;
     const desc = document.getElementById('product-desc').value;
     const price = parseFloat(document.getElementById('product-price').value) || 0;
+    const priceMeLi = parseFloat(document.getElementById('product-price-meli').value) || price;
+    const priceMeLiPercent = parseFloat(document.getElementById('product-price-meli-percent').value) || 0;
     const category = document.getElementById('product-category').value;
     const brand = document.getElementById('product-brand').value;
     const condition = document.getElementById('product-condition').value;
@@ -621,8 +836,6 @@ window.saveProductForm = async function () {
 
     const images = [...currentProductImages, ...uploadedImages];
 
-
-
     // Capturar specs de las filas
     const specRows = document.querySelectorAll('.specs-builder-row');
     const specs = {};
@@ -637,6 +850,8 @@ window.saveProductForm = async function () {
         code,
         desc,
         price,
+        priceMeLi,
+        priceMeLiPercent,
         category,
         brand,
         condition,

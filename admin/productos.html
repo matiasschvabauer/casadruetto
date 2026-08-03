@@ -95,6 +95,31 @@
 
             </div>
 
+            <!-- Barra Flotante de Acciones Masivas (Aparece al seleccionar 1 o más productos) -->
+            <div id="bulk-actions-toolbar" style="display:none; background:#1e293b; color:#ffffff; padding:0.85rem 1.25rem; border-radius:8px; margin-bottom:1.25rem; box-shadow:0 4px 14px rgba(0,0,0,0.3); align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem;">
+                <div style="display:flex; align-items:center; gap:0.75rem;">
+                    <span style="background:#0088cc; color:#fff; font-weight:800; padding:0.3rem 0.75rem; border-radius:20px; font-size:0.82rem;" id="bulk-selected-count">0 seleccionados</span>
+                    <span style="font-size:0.88rem; font-weight:600; color:#e2e8f0;">Edición masiva disponible:</span>
+                </div>
+                <div style="display:flex; flex-wrap:wrap; gap:0.5rem; align-items:center;">
+                    <button type="button" class="btn" onclick="openBulkStockPrompt()" style="background:#3b82f6; padding:0.45rem 0.85rem; font-size:0.8rem; border-radius:6px;">
+                        <i class="fas fa-boxes-stacked"></i> Stock Masivo
+                    </button>
+                    <button type="button" class="btn" onclick="openBulkWebPricePrompt()" style="background:#10b981; padding:0.45rem 0.85rem; font-size:0.8rem; border-radius:6px;">
+                        <i class="fas fa-tag"></i> Precio Web Masivo
+                    </button>
+                    <button type="button" class="btn" onclick="openBulkMeLiPricePrompt()" style="background:#eab308; color:#0f172a; padding:0.45rem 0.85rem; font-size:0.8rem; font-weight:700; border-radius:6px;">
+                        <i class="fas fa-hand-holding-dollar"></i> Precio MeLi Masivo
+                    </button>
+                    <button type="button" class="btn" onclick="openBulkStatusPrompt()" style="background:#8b5cf6; padding:0.45rem 0.85rem; font-size:0.8rem; border-radius:6px;">
+                        <i class="fas fa-toggle-on"></i> Estado Masivo
+                    </button>
+                    <button type="button" class="btn btn-secondary" onclick="clearBulkSelection()" style="padding:0.45rem 0.85rem; font-size:0.8rem; background:#475569; color:#fff; border:none; border-radius:6px;">
+                        ✕ Desmarcar
+                    </button>
+                </div>
+            </div>
+
             <!-- Tabla General de Productos -->
             <div class="admin-data-container">
                 <div class="admin-container-header" style="flex-wrap: wrap; gap: 1rem; align-items: center; justify-content: space-between;">
@@ -116,9 +141,13 @@
                 <table class="admin-table" id="admin-products-table">
                     <thead>
                         <tr>
+                            <th style="width:36px; text-align:center;">
+                                <input type="checkbox" id="select-all-products" onchange="window.toggleSelectAllProducts(this.checked)" style="width:16px; height:16px; cursor:pointer;" title="Seleccionar todos">
+                            </th>
                             <th>Imagen</th>
                             <th>Producto</th>
-                            <th>Precio (USD)</th>
+                            <th>Precio Web</th>
+                            <th>Precio MeLi</th>
                             <th>Categoría</th>
                             <th>Stock</th>
                             <th>Estado</th>
@@ -127,7 +156,7 @@
                     </thead>
                     <tbody id="admin-products-tbody">
                         <tr>
-                            <td colspan="7" style="text-align:center; color:#888; padding: 2rem;">Cargando catálogo oficial...</td>
+                            <td colspan="9" style="text-align:center; color:#888; padding: 2rem;">Cargando catálogo oficial...</td>
                         </tr>
                     </tbody>
                 </table>
@@ -169,8 +198,8 @@
                                 <input type="text" id="product-code" required placeholder="Ej: JD-6125J">
                             </div>
                             <div class="form-control">
-                                <label>Precio de Venta (USD) *</label>
-                                <input type="number" id="product-price" required placeholder="Ej: 85000">
+                                <label>Precio Web de Venta (USD) *</label>
+                                <input type="number" id="product-price" required placeholder="Ej: 85000" oninput="calculateMeLiPriceFromPercent()">
                             </div>
                             <div class="form-control">
                                 <label>Categoría *</label>
@@ -231,9 +260,6 @@
                         </div>
                     </div>
 
-
-
-
                     <!-- PESTAÑA 3: FICHA TECNICA -->
                     <div class="admin-tab-pane" id="tab-specs">
                         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
@@ -247,12 +273,35 @@
 
                     <!-- PESTAÑA 4: MERCADO LIBRE -->
                     <div class="admin-tab-pane" id="tab-mercadolibre">
-                        <div class="form-control full-width" style="background-color:var(--admin-bg-surface); padding:1.5rem; border-radius:6px; border:1px solid var(--admin-border); margin-bottom:1.5rem;">
-                            <h4 style="color:var(--admin-accent); font-family:'Montserrat',sans-serif; margin-bottom:0.5rem;"><i class="fas fa-link"></i> Publicación Externa</h4>
-                            <p style="color:var(--admin-text-muted); font-size:0.85rem; margin-bottom:1rem;">Si este producto ya está publicado en Mercado Libre, pega el enlace a continuación para habilitar la opción de derivación de compra.</p>
-                            
-                            <label style="font-size: 0.8rem; font-weight: bold; display: block; margin-bottom: 0.5rem;">Link de Mercado Libre</label>
-                            <input type="url" id="product-ml-link" placeholder="https://articulo.mercadolibre.com.ar/..." style="width:100%; padding:0.75rem; background-color:#ffffff; border:1px solid var(--admin-border); color:#111827; border-radius:4px;">
+                        <div style="background-color:var(--admin-bg-surface); padding:1.5rem; border-radius:6px; border:1px solid var(--admin-border); margin-bottom:1.5rem;">
+                            <h4 style="color:#eab308; font-family:'Montserrat',sans-serif; margin-bottom:0.5rem; display:flex; align-items:center; gap:8px;">
+                                <i class="fas fa-hand-holding-dollar"></i> Configuración de Precio Mercado Libre
+                            </h4>
+                            <p style="color:var(--admin-text-muted); font-size:0.85rem; margin-bottom:1.25rem;">
+                                Configura un precio diferencial para Mercado Libre (para cubrir comisiones) o aplica un porcentaje de recargo respecto al precio de la tienda web.
+                            </p>
+
+                            <div style="display:grid; grid-template-columns: 1fr 1fr; gap:1.25rem; margin-bottom:1.25rem;">
+                                <div class="form-control">
+                                    <label style="font-size: 0.8rem; font-weight: bold; display: block; margin-bottom: 0.5rem;">% Recargo sobre Precio Web</label>
+                                    <div style="display:flex; align-items:center; gap:0.5rem;">
+                                        <input type="number" id="product-price-meli-percent" placeholder="Ej: 15" step="0.5" oninput="calculateMeLiPriceFromPercent()" style="width:100%; padding:0.75rem; background-color:#ffffff; border:1px solid var(--admin-border); color:#111827; border-radius:4px; font-weight:700;">
+                                        <span style="font-weight:800; font-size:0.9rem; color:#64748b;">%</span>
+                                    </div>
+                                    <small style="color:var(--admin-text-muted); font-size:0.75rem; margin-top:0.3rem; display:block;">0% = Mismo precio que en la web.</small>
+                                </div>
+
+                                <div class="form-control">
+                                    <label style="font-size: 0.8rem; font-weight: bold; display: block; margin-bottom: 0.5rem;">Precio Final Mercado Libre ($ USD/ARS)</label>
+                                    <input type="number" id="product-price-meli" placeholder="Calculado automáticamente o manual" oninput="calculatePercentFromMeLiPrice()" style="width:100%; padding:0.75rem; background-color:#ffffff; border:1px solid var(--admin-border); color:#111827; border-radius:4px; font-weight:800; color:#0f172a;">
+                                    <small style="color:var(--admin-text-muted); font-size:0.75rem; margin-top:0.3rem; display:block;">Este precio se enviará a Mercado Libre.</small>
+                                </div>
+                            </div>
+
+                            <div style="border-top:1px solid var(--admin-border); padding-top:1.25rem; margin-top:1.25rem;">
+                                <label style="font-size: 0.8rem; font-weight: bold; display: block; margin-bottom: 0.5rem;"><i class="fas fa-link"></i> Link Directo a Publicación en Mercado Libre (Opcional)</label>
+                                <input type="url" id="product-ml-link" placeholder="https://articulo.mercadolibre.com.ar/MLA-..." style="width:100%; padding:0.75rem; background-color:#ffffff; border:1px solid var(--admin-border); color:#111827; border-radius:4px;">
+                            </div>
                         </div>
                     </div>
                 </form>
