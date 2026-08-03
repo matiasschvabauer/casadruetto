@@ -300,7 +300,23 @@ window.updateRevenueChart = function(period, btn) {
 };
 
 window.updateOrdersChart = function(period, btn) {
-    if (!ordersChartInstance || !currentChartDat// ─── B. PRODUCT MANAGEMENT VIEW ────────────────────────────────────
+    if (!ordersChartInstance || !currentChartDataSets || !currentChartDataSets.orders[period]) return;
+
+    if (btn) {
+        const parent = btn.parentElement;
+        if (parent) {
+            parent.querySelectorAll('.chart-period-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+        }
+    }
+
+    const ds = currentChartDataSets.orders[period];
+    ordersChartInstance.data.labels = ds.labels;
+    ordersChartInstance.data.datasets[0].data = ds.data;
+    ordersChartInstance.update();
+};
+
+// ─── B. PRODUCT MANAGEMENT VIEW ────────────────────────────────────
 let activeSpecs = {};
 let currentProductImages = [];
 let localFilesToUpload = [];
@@ -476,6 +492,121 @@ window.openBulkStatusPrompt = async function() {
 
     alert(`Estado actualizado en ${updatedCount} productos.`);
     clearBulkSelection();
+    await initProductsView();
+};
+
+// ─── SINCRONIZACIÓN DIRECTA CON MERCADO LIBRE DESDE LA WEB ───────
+window.syncWithMercadoLibreWeb = async function() {
+    const btn = document.getElementById('btn-sync-meli-web');
+    const originalHtml = btn ? btn.innerHTML : "Sincronizar Mercado Libre";
+    
+    if (productsList.length === 0) {
+        alert("No hay productos cargados en el catálogo para sincronizar.");
+        return;
+    }
+
+    if (!confirm(`¿Deseas iniciar la sincronización en tiempo real de ${productsList.length} productos con Mercado Libre?`)) {
+        return;
+    }
+
+    if (btn) {
+        btn.disabled = true;
+        btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sincronizando con Mercado Libre...';
+    }
+
+    const token = 'APP_USR-1747970079974544-072115-89ac0d6eee5dddd49885c412382f1318-648344334';
+    let createdCount = 0;
+    let updatedCount = 0;
+    let errorCount = 0;
+
+    for (const p of productsList) {
+        const finalPrice = parseFloat(p.priceMeLi || p.price || 0);
+        if (finalPrice <= 0) continue;
+
+        let mlItemId = "";
+        if (p.mercadolibreLink && p.mercadolibreLink.includes('MLA')) {
+            const match = p.mercadolibreLink.match(/MLA-?(\d+)/i);
+            if (match) mlItemId = `MLA${match[1]}`;
+        }
+
+        try {
+            if (mlItemId) {
+                // ACTUALIZAR PUBLICACIÓN EXISTENTE
+                const res = await fetch(`https://api.mercadolibre.com/items/${mlItemId}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        price: finalPrice,
+                        available_quantity: parseInt(p.stock) || 0
+                    })
+                });
+                if (res.ok) {
+                    updatedCount++;
+                } else {
+                    errorCount++;
+                }
+            } else {
+                // CREAR NUEVA PUBLICACIÓN
+                let categoryId = "MLA405786"; // Agro / Maquinaria
+                if (p.category && p.category.toLowerCase().includes('dron')) {
+                    categoryId = "MLA408226";
+                }
+
+                const pictures = (p.images && p.images.length > 0)
+                    ? p.images.filter(img => img.startsWith('http')).map(img => ({ source: img }))
+                    : [{ source: "https://res.cloudinary.com/doissrwhj/image/upload/v1774992084/mh4hdrijm1lzsbcx2g5k.png" }];
+
+                const itemData = {
+                    title: (p.name || 'Producto').substring(0, 60),
+                    category_id: categoryId,
+                    price: finalPrice,
+                    currency_id: 'ARS',
+                    available_quantity: parseInt(p.stock) || 0,
+                    buying_mode: 'buy_it_now',
+                    listing_type_id: 'bronze',
+                    condition: p.condition === 'Nuevo' ? 'new' : 'used',
+                    pictures: pictures.length > 0 ? pictures : [{ source: "https://res.cloudinary.com/doissrwhj/image/upload/v1774992084/mh4hdrijm1lzsbcx2g5k.png" }],
+                    attributes: [
+                        { id: 'BRAND', value_name: p.brand || 'Genérico' },
+                        { id: 'SELLER_ITEM_CODE', value_name: p.code || p.id }
+                    ]
+                };
+
+                const res = await fetch('https://api.mercadolibre.com/items', {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(itemData)
+                });
+
+                if (res.ok) {
+                    const data = await res.json();
+                    if (data.permalink) {
+                        p.mercadolibreLink = data.permalink;
+                        await saveSingleProductRecord(p);
+                        createdCount++;
+                    }
+                } else {
+                    errorCount++;
+                }
+            }
+        } catch (err) {
+            console.error(`Error sincronizando ${p.name} con MeLi:`, err);
+            errorCount++;
+        }
+    }
+
+    if (btn) {
+        btn.disabled = false;
+        btn.innerHTML = originalHtml;
+    }
+
+    alert(`✅ Sincronización Web con Mercado Libre finalizada:\n\n• Publicaciones Nuevas Creadas: ${createdCount}\n• Publicaciones Actualizadas: ${updatedCount}\n• Omisiones / Errores: ${errorCount}`);
     await initProductsView();
 };
 

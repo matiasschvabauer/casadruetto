@@ -9,7 +9,7 @@ let shopConfig = {
     whatsappNumber: '5493404521246',
     address: 'Gálvez, Santa Fe, Argentina',
     bankDetails: 'Banco Nación - Alias: CASA.DRUETTO.AGRO - CBU: 0110123456789012345678',
-    mpToken: ''
+    mpToken: 'APP_USR-1747970079974544-072115-89ac0d6eee5dddd49885c412382f1318-648344334'
 };
 
 // Cargar configuración guardada
@@ -164,7 +164,102 @@ window.toggleCart = function(forceOpen = null) {
     }
 };
 
-// Checkout: Generar texto estructurado para WhatsApp
+// Checkout Online con Mercado Pago (Checkout Pro)
+window.checkoutMercadoPago = async function() {
+    if (cart.length === 0) {
+        alert("El carrito está vacío.");
+        return;
+    }
+
+    const clientName = document.getElementById('checkout-name')?.value || '';
+    const clientPhone = document.getElementById('checkout-phone')?.value || '';
+    
+    if (!clientName || !clientPhone) {
+        alert("Por favor completa tu Nombre y Teléfono antes de continuar con el pago de Mercado Pago.");
+        return;
+    }
+
+    const mpBtn = document.getElementById('mp-checkout-btn');
+    if (mpBtn) {
+        mpBtn.disabled = true;
+        mpBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Generando Pago...';
+    }
+
+    const token = shopConfig.mpToken || 'APP_USR-1747970079974544-072115-89ac0d6eee5dddd49885c412382f1318-648344334';
+
+    try {
+        const preferenceData = {
+            items: cart.map(item => ({
+                title: item.name,
+                description: `Cód: ${item.code}`,
+                quantity: Number(item.qty),
+                unit_price: Number(item.price),
+                currency_id: 'ARS'
+            })),
+            payer: {
+                name: clientName,
+                phone: { number: clientPhone }
+            },
+            back_urls: {
+                success: window.location.origin + window.location.pathname + '?status=approved',
+                failure: window.location.origin + window.location.pathname + '?status=failure',
+                pending: window.location.origin + window.location.pathname + '?status=pending'
+            },
+            auto_return: "approved"
+        };
+
+        const res = await fetch("https://api.mercadopago.com/checkout/preferences", {
+            method: "POST",
+            headers: {
+                "Authorization": `Bearer ${token}`,
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(preferenceData)
+        });
+
+        const data = await res.json();
+        console.log("[Mercado Pago] Preferencia de cobro creada:", data);
+
+        if (data.init_point) {
+            // Registrar orden localmente
+            try {
+                const existingOrders = JSON.parse(localStorage.getItem('druetto_orders') || '[]');
+                const newOrder = {
+                    id: 'MP-' + Math.floor(100000 + Math.random() * 900000),
+                    client: clientName,
+                    phone: clientPhone,
+                    total: cart.reduce((acc, i) => acc + i.price * i.qty, 0),
+                    status: 'pending',
+                    paymentMethod: 'Mercado Pago',
+                    date: new Date().toLocaleDateString('es-AR'),
+                    createdAt: new Date().toISOString(),
+                    items: cart.map(i => ({ id: i.id, name: i.name, qty: i.qty, price: i.price }))
+                };
+                existingOrders.push(newOrder);
+                localStorage.setItem('druetto_orders', JSON.stringify(existingOrders));
+            } catch (e) {}
+
+            // Vaciar carrito e ir a la pasarela oficial de Mercado Pago
+            cart = [];
+            saveCart();
+            window.location.href = data.init_point;
+        } else {
+            throw new Error(data.message || "No se pudo generar la pasarela de pago.");
+        }
+
+    } catch (err) {
+        console.error("Error al procesar cobro con Mercado Pago:", err);
+        alert("No se pudo iniciar el cobro online con Mercado Pago. Te redireccionaremos para enviarlo por WhatsApp.");
+        window.checkoutOrder('mp');
+    } finally {
+        if (mpBtn) {
+            mpBtn.disabled = false;
+            mpBtn.innerHTML = '<i class="fas fa-credit-card"></i> Pagar con Mercado Pago';
+        }
+    }
+};
+
+// Checkout: Generar texto estructurado para WhatsApp / Transferencia
 window.checkoutOrder = function(paymentMethod = 'whatsapp') {
     if (cart.length === 0) {
         alert("El carrito está vacío.");
@@ -199,7 +294,6 @@ window.checkoutOrder = function(paymentMethod = 'whatsapp') {
     if (paymentMethod === 'bank') {
         text += `*Método de Pago Seleccionado:* Transferencia Bancaria\n`;
         text += `_Por favor envíe el comprobante de transferencia al CBU indicado._\n\n`;
-        // Mostrar datos de transferencia
         alert(`Datos de Transferencia Bancaria:\n\n${shopConfig.bankDetails}\n\nPresione Aceptar para enviar el pedido por WhatsApp.`);
     } else if (paymentMethod === 'mp') {
         text += `*Método de Pago Seleccionado:* Mercado Pago / Online\n`;
@@ -210,7 +304,7 @@ window.checkoutOrder = function(paymentMethod = 'whatsapp') {
 
     text += `_Pedido enviado desde la Tienda Virtual._`;
 
-    // Registrar la orden localmente para que figure de inmediato en el Panel de Administración
+    // Registrar la orden localmente para el panel de admin
     try {
         const existingOrders = JSON.parse(localStorage.getItem('druetto_orders') || '[]');
         const newOrder = {
@@ -233,7 +327,6 @@ window.checkoutOrder = function(paymentMethod = 'whatsapp') {
     const encodedText = encodeURIComponent(text);
     const waUrl = `https://wa.me/${shopConfig.whatsappNumber}?text=${encodedText}`;
     
-    // Limpiar carrito al finalizar pedido exitosamente
     cart = [];
     saveCart();
     window.toggleCart(false);
@@ -288,18 +381,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 <div class="checkout-form-container">
                     <h4>Datos para concretar la compra:</h4>
-                    <input type="text" id="checkout-name" placeholder="Nombre completo" required>
-                    <input type="tel" id="checkout-phone" placeholder="WhatsApp / Teléfono" required>
+                    <input type="text" id="checkout-name" placeholder="Nombre completo *" required>
+                    <input type="tel" id="checkout-phone" placeholder="WhatsApp / Teléfono *" required>
                     <textarea id="checkout-notes" placeholder="Notas sobre el envío o detalles especiales"></textarea>
                 </div>
 
-                <div class="checkout-options-grid">
-                    <button class="checkout-btn wa-checkout-btn" onclick="checkoutOrder('whatsapp')">
-                        <i class="fab fa-whatsapp"></i> Comprar por WhatsApp
+                <div class="checkout-options-grid" style="display:flex; flex-direction:column; gap:0.5rem;">
+                    <button class="checkout-btn mp-checkout-btn" id="mp-checkout-btn" onclick="checkoutMercadoPago()" style="background:#009ee3; color:#fff; font-weight:700; padding:0.75rem; border:none; border-radius:6px; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:8px;">
+                        <i class="fas fa-credit-card"></i> Pagar con Mercado Pago
                     </button>
-                    <button class="checkout-btn bank-checkout-btn" onclick="checkoutOrder('bank')">
-                        <i class="fas fa-university"></i> Pagar por Transferencia
-                    </button>
+                    <div style="display:flex; gap:0.5rem;">
+                        <button class="checkout-btn wa-checkout-btn" onclick="checkoutOrder('whatsapp')" style="flex:1;">
+                            <i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+                        </button>
+                        <button class="checkout-btn bank-checkout-btn" onclick="checkoutOrder('bank')" style="flex:1;">
+                            <i class="fas fa-university"></i> Transferencia
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
