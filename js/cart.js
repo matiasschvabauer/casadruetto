@@ -3,6 +3,7 @@
 // ═══════════════════════════════════════════════════════════════════
 
 const CART_KEY = 'druetto_cart';
+const CART_TIME_KEY = 'druetto_cart_time';
 
 // Configuración por defecto (Autoadministrable desde admin/configuracion)
 let shopConfig = {
@@ -28,13 +29,26 @@ let cart = [];
 
 window.getCart = () => cart;
 
+// Cargar carrito con caducidad automática tras 24 horas
 function loadCart() {
-    const stored = localStorage.getItem(CART_KEY);
-    if (stored) {
-        try {
-            cart = JSON.parse(stored);
-        } catch (e) {
-            cart = [];
+    const storedTime = localStorage.getItem(CART_TIME_KEY);
+    const now = Date.now();
+    const twentyFourHours = 24 * 60 * 60 * 1000;
+
+    // Si pasaron más de 24 horas desde la última adición, vaciar el carrito
+    if (storedTime && (now - parseInt(storedTime, 10)) > twentyFourHours) {
+        cart = [];
+        localStorage.removeItem(CART_KEY);
+        localStorage.removeItem(CART_TIME_KEY);
+        console.log("[Carrito] Pasaron más de 24 horas desde el último producto guardado. Carrito limpiado automáticamente.");
+    } else {
+        const stored = localStorage.getItem(CART_KEY);
+        if (stored) {
+            try {
+                cart = JSON.parse(stored);
+            } catch (e) {
+                cart = [];
+            }
         }
     }
     updateCartIcon();
@@ -42,8 +56,27 @@ function loadCart() {
 
 function saveCart() {
     localStorage.setItem(CART_KEY, JSON.stringify(cart));
+    if (cart.length > 0) {
+        localStorage.setItem(CART_TIME_KEY, Date.now().toString());
+    } else {
+        localStorage.removeItem(CART_TIME_KEY);
+    }
     updateCartIcon();
     renderCartItems();
+}
+
+// Obtener cotización de Dólar para conversión a ARS en Mercado Pago
+async function fetchCurrentDollarRate() {
+    try {
+        const res = await fetch('https://dolarapi.com/v1/dolares/oficial');
+        if (res.ok) {
+            const data = await res.json();
+            if (data && data.venta) return parseFloat(data.venta);
+        }
+    } catch (e) {
+        console.warn("No se pudo obtener cotización del dólar en tiempo real. Usando fallback de $1250 ARS.", e);
+    }
+    return 1250.00;
 }
 
 // Método global para agregar al carrito
@@ -59,7 +92,8 @@ window.addToCart = function(id, name, code, price, img, qty = 1) {
             name,
             code: code || 'S/C',
             price: parsedPrice,
-            img: img || 'assets/img/default.png',
+            currency: 'USD',
+            img: img || 'assets/img/casadruettologo1.png',
             qty
         });
     }
@@ -107,15 +141,15 @@ function renderCartItems() {
             </div>
         `;
         const totalEl = document.getElementById('cart-total-amount');
-        if (totalEl) totalEl.innerText = '$0.00';
+        if (totalEl) totalEl.innerText = '$0.00 USD';
         return;
     }
 
-    let grandTotal = 0;
+    let grandTotalUSD = 0;
 
     cart.forEach(item => {
         const itemSubtotal = item.price * item.qty;
-        grandTotal += itemSubtotal;
+        grandTotalUSD += itemSubtotal;
         
         const div = document.createElement('div');
         div.className = 'cart-item-row';
@@ -125,7 +159,7 @@ function renderCartItems() {
                 <h4 class="cart-item-name">${item.name}</h4>
                 <p class="cart-item-code">Código: ${item.code}</p>
                 <div class="cart-item-price-qty">
-                    <span class="cart-item-price">$${item.price.toLocaleString('es-AR', { minimumFractionDigits: 2 })}</span>
+                    <span class="cart-item-price">$${item.price.toLocaleString('es-AR', { minimumFractionDigits: 2 })} USD</span>
                     <div class="cart-qty-selector">
                         <button onclick="updateQty('${item.id}', -1)">-</button>
                         <span>${item.qty}</span>
@@ -142,7 +176,7 @@ function renderCartItems() {
 
     const totalEl = document.getElementById('cart-total-amount');
     if (totalEl) {
-        totalEl.innerText = `$${grandTotal.toLocaleString('es-AR', { minimumFractionDigits: 2 })}`;
+        totalEl.innerText = `$${grandTotalUSD.toLocaleString('es-AR', { minimumFractionDigits: 2 })} USD`;
     }
 }
 
@@ -164,7 +198,7 @@ window.toggleCart = function(forceOpen = null) {
     }
 };
 
-// Checkout Online con Mercado Pago (Checkout Pro)
+// Checkout Online con Mercado Pago (Conversión automática U$S -> ARS)
 window.checkoutMercadoPago = async function() {
     if (cart.length === 0) {
         alert("El carrito está vacío.");
@@ -182,20 +216,36 @@ window.checkoutMercadoPago = async function() {
     const mpBtn = document.getElementById('mp-checkout-btn');
     if (mpBtn) {
         mpBtn.disabled = true;
-        mpBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Generando Pago...';
+        mpBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Obteniendo cotización U$S...';
     }
 
     const token = shopConfig.mpToken || 'APP_USR-1747970079974544-072115-89ac0d6eee5dddd49885c412382f1318-648344334';
 
     try {
-        const preferenceData = {
-            items: cart.map(item => ({
+        // Obtener la cotización oficial del dólar en tiempo real
+        const dollarRate = await fetchCurrentDollarRate();
+
+        // Convertir items en USD a Pesos Argentinos (ARS) para Mercado Pago
+        const mpItems = cart.map(item => {
+            const unitPriceARS = Math.max(100, Math.round(Number(item.price) * dollarRate));
+
+            return {
                 title: item.name,
-                description: `Cód: ${item.code}`,
+                description: `Cód: ${item.code} (Cotización U$S 1 = $${dollarRate} ARS)`,
                 quantity: Number(item.qty),
-                unit_price: Number(item.price),
+                unit_price: unitPriceARS,
                 currency_id: 'ARS'
-            })),
+            };
+        });
+
+        const totalARS = mpItems.reduce((acc, i) => acc + (i.unit_price * i.quantity), 0);
+
+        if (mpBtn) {
+            mpBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Conectando con Mercado Pago...';
+        }
+
+        const preferenceData = {
+            items: mpItems,
             payer: {
                 name: clientName,
                 phone: { number: clientPhone }
@@ -218,17 +268,17 @@ window.checkoutMercadoPago = async function() {
         });
 
         const data = await res.json();
-        console.log("[Mercado Pago] Preferencia de cobro creada:", data);
+        console.log("[Mercado Pago] Preferencia de cobro en ARS creada:", data);
 
         if (data.init_point) {
-            // Registrar orden localmente
             try {
                 const existingOrders = JSON.parse(localStorage.getItem('druetto_orders') || '[]');
                 const newOrder = {
                     id: 'MP-' + Math.floor(100000 + Math.random() * 900000),
                     client: clientName,
                     phone: clientPhone,
-                    total: cart.reduce((acc, i) => acc + i.price * i.qty, 0),
+                    total: totalARS,
+                    currency: 'ARS',
                     status: 'pending',
                     paymentMethod: 'Mercado Pago',
                     date: new Date().toLocaleDateString('es-AR'),
@@ -239,7 +289,6 @@ window.checkoutMercadoPago = async function() {
                 localStorage.setItem('druetto_orders', JSON.stringify(existingOrders));
             } catch (e) {}
 
-            // Vaciar carrito e ir a la pasarela oficial de Mercado Pago
             cart = [];
             saveCart();
             window.location.href = data.init_point;
@@ -249,7 +298,7 @@ window.checkoutMercadoPago = async function() {
 
     } catch (err) {
         console.error("Error al procesar cobro con Mercado Pago:", err);
-        alert("No se pudo iniciar el cobro online con Mercado Pago. Te redireccionaremos para enviarlo por WhatsApp.");
+        alert("No se pudo iniciar el cobro online con Mercado Pago: " + err.message + "\n\nTe redireccionaremos para enviar el pedido por WhatsApp.");
         window.checkoutOrder('mp');
     } finally {
         if (mpBtn) {
@@ -437,5 +486,24 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
         }
+    }
+
+    // Detectar si el usuario viene redirigido de un pago de Mercado Pago
+    const urlParams = new URLSearchParams(window.location.search);
+    const mpStatus = urlParams.get('status');
+    if (mpStatus === 'approved') {
+        try {
+            const existingOrders = JSON.parse(localStorage.getItem('druetto_orders') || '[]');
+            if (existingOrders.length > 0) {
+                const lastOrder = existingOrders[existingOrders.length - 1];
+                if (lastOrder && lastOrder.status === 'pending') {
+                    lastOrder.status = 'approved';
+                    localStorage.setItem('druetto_orders', JSON.stringify(existingOrders));
+                }
+            }
+        } catch (e) {}
+
+        showToast("🎉 ¡Pago acreditado con éxito por Mercado Pago! Tu orden fue registrada.");
+        window.history.replaceState({}, document.title, window.location.pathname);
     }
 });

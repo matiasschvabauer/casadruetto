@@ -519,9 +519,21 @@ window.syncWithMercadoLibreWeb = async function() {
     let updatedCount = 0;
     let errorCount = 0;
 
+    let dollarRate = 1250;
+    try {
+        const rateRes = await fetch('https://dolarapi.com/v1/dolares/oficial');
+        if (rateRes.ok) {
+            const rateData = await rateRes.json();
+            if (rateData && rateData.venta) dollarRate = parseFloat(rateData.venta);
+        }
+    } catch (e) {}
+
     for (const p of productsList) {
-        const finalPrice = parseFloat(p.priceMeLi || p.price || 0);
-        if (finalPrice <= 0) continue;
+        const usdPrice = parseFloat(p.priceMeLi || p.price || 0);
+        if (usdPrice <= 0) continue;
+
+        // Convertir precio registrado en USD a Pesos ARS según la cotización actual
+        const finalPriceARS = Math.max(1000, Math.round(usdPrice * dollarRate));
 
         let mlItemId = "";
         if (p.mercadolibreLink && p.mercadolibreLink.includes('MLA')) {
@@ -539,7 +551,7 @@ window.syncWithMercadoLibreWeb = async function() {
                         'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({
-                        price: finalPrice,
+                        price: finalPriceARS,
                         available_quantity: parseInt(p.stock) || 0
                     })
                 });
@@ -549,29 +561,49 @@ window.syncWithMercadoLibreWeb = async function() {
                     errorCount++;
                 }
             } else {
-                // CREAR NUEVA PUBLICACIÓN
-                let categoryId = "MLA405786"; // Agro / Maquinaria
-                if (p.category && p.category.toLowerCase().includes('dron')) {
-                    categoryId = "MLA408226";
-                }
+                // CREAR NUEVA PUBLICACIÓN CON PREDICCIÓN DINÁMICA DE CATEGORÍA
+                let categoryId = "MLA388941";
+                try {
+                    const catRes = await fetch(`https://api.mercadolibre.com/sites/MLA/domain_discovery/search?q=${encodeURIComponent((p.name || '').substring(0, 50))}`, {
+                        headers: { 'Authorization': `Bearer ${token}` }
+                    });
+                    if (catRes.ok) {
+                        const catData = await catRes.json();
+                        if (catData && catData.length > 0 && catData[0].category_id) {
+                            categoryId = catData[0].category_id;
+                        }
+                    }
+                } catch (catErr) {}
 
                 const pictures = (p.images && p.images.length > 0)
                     ? p.images.filter(img => img.startsWith('http')).map(img => ({ source: img }))
-                    : [{ source: "https://res.cloudinary.com/doissrwhj/image/upload/v1774992084/mh4hdrijm1lzsbcx2g5k.png" }];
+                    : [{ source: "https://res.cloudinary.com/doissrwhj/image/upload/v1785242908/x7o6qb3p7zwnumlnx7we.png" }];
+
+                const buyingMode = (categoryId === "MLA80600" || (p.name || '').toLowerCase().includes('tractor') || (p.category || '').toLowerCase().includes('maquinaria')) ? "classified" : "buy_it_now";
+
+                let title = p.name || 'Producto';
+                if (title.length < 20) {
+                    title = `${p.name || ''} Repuesto Agrícola ${p.brand || 'John Deere'} Cód ${p.code || ''}`;
+                }
+                title = title.substring(0, 60).trim();
 
                 const itemData = {
-                    title: (p.name || 'Producto').substring(0, 60),
+                    title: title,
                     category_id: categoryId,
-                    price: finalPrice,
+                    price: finalPriceARS,
                     currency_id: 'ARS',
-                    available_quantity: parseInt(p.stock) || 0,
-                    buying_mode: 'buy_it_now',
-                    listing_type_id: 'bronze',
+                    available_quantity: Math.max(1, parseInt(p.stock) || 1),
+                    buying_mode: buyingMode,
+                    listing_type_id: buyingMode === 'buy_it_now' ? 'bronze' : 'free',
                     condition: p.condition === 'Nuevo' ? 'new' : 'used',
-                    pictures: pictures.length > 0 ? pictures : [{ source: "https://res.cloudinary.com/doissrwhj/image/upload/v1774992084/mh4hdrijm1lzsbcx2g5k.png" }],
+                    pictures: pictures.length > 0 ? pictures : [{ source: "https://res.cloudinary.com/doissrwhj/image/upload/v1785242908/x7o6qb3p7zwnumlnx7we.png" }],
                     attributes: [
-                        { id: 'BRAND', value_name: p.brand || 'Genérico' },
-                        { id: 'SELLER_ITEM_CODE', value_name: p.code || p.id }
+                        { id: 'BRAND', value_name: p.brand || 'John Deere' },
+                        { id: 'MODEL', value_name: p.model || 'Estándar' },
+                        { id: 'PART_NUMBER', value_name: p.code || p.id || '1001' },
+                        { id: 'MANUFACTURER', value_name: p.brand || 'John Deere' },
+                        { id: 'CROP_TYPE', value_name: 'Multicultivo' },
+                        { id: 'REQUIRES_ASSEMBLY', value_name: 'No' }
                     ]
                 };
 
