@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="icon" href="../casadruettologo1.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Galería e Inicio | Casa Druetto</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="../assets/css/css2.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/admin-styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        .media-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 1.25rem;
+            margin-top: 1rem;
+        }
+        .media-card {
+            background: var(--admin-card-bg, #1a1e24);
+            border: 1px solid var(--admin-border, #2a2f38);
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+        }
+        .media-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .media-card-body {
+            padding: 0.75rem;
+        }
+        .media-card-title {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 0.25rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .media-card-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body class="admin-body">
+
+    <!-- ─── SIDEBAR NAVEGACIÓN ─── -->
+    <aside class="admin-sidebar">
+        <div class="admin-sidebar-brand">
+            <img src="../assets/img/casadruettologo1.png" alt="Casa Druetto" style="height:26px; width:auto; object-fit:contain;">
+            <span>DRUETTO</span> Admin
+        </div>
+        <ul class="admin-nav">
+            <li class="admin-nav-item">
+                <a href="dashboard.html"><i class="fas fa-chart-line"></i> Dashboard</a>
+            </li>
+            <li class="admin-nav-item">
+                <a href="productos.html"><i class="fas fa-boxes-stacked"></i> Productos</a>
+            </li>
+            <li class="admin-nav-item">
+                <a href="categorias.html"><i class="fas fa-tags"></i> Categorías</a>
+            </li>
+            <li class="admin-nav-item active">
+                <a href="galeria.html"><i class="fas fa-images"></i> Galería e Inicio</a>
+            </li>
+            <li class="admin-nav-item">
+                <a href="configuracion.html"><i class="fas fa-sliders"></i> Configuración</a>
+            </li>
+            <li class="admin-nav-item" style="margin-top: auto; border-top: 1px solid var(--admin-border);">
+                <a href="../tienda.html" target="_blank"><i class="fas fa-shopping-bag"></i> Ir a la Tienda</a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- ─── CONTENIDO PRINCIPAL ─── -->
+    <main class="admin-layout-main">
+        <header class="admin-topbar">
+            <h2 class="admin-topbar-title">Gestión de Galería e Imágenes de Inicio</h2>
+            <div class="admin-topbar-actions">
+                <span id="admin-user-display" style="font-size:0.85rem; color:var(--text-secondary);">Cargando...</span>
+                <button onclick="logoutAdmin()" class="admin-btn-logout" title="Cerrar Sesión">
+                    <i class="fas fa-sign-out-alt"></i> Salir
+                </button>
+            </div>
+        </header>
+
+        <section class="admin-content-padding">
+            
+            <!-- SECCIÓN 1: CARRUSEL INICIO -->
+            <div class="admin-card" style="margin-bottom: 2rem; padding: 1.5rem; background:#1e232a; border-radius:10px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+                    <h3><i class="fas fa-sliders" style="color:var(--accent-color);"></i> Imágenes del Carrusel de Inicio (3 Correderas)</h3>
+                    <button class="btn btn-primary" onclick="openHeroImagePrompt()">
+                        <i class="fas fa-plus"></i> Nueva Imagen Carrusel
+                    </button>
+                </div>
+                <p style="color:#aaa; font-size:0.85rem; margin-bottom:1rem;">Estas son las fotos principales que se deslizan en la pantalla inicial de la web (Hero Slider).</p>
+
+                <div id="hero-images-grid" class="media-grid">
+                    <!-- Dinámico -->
+                </div>
+            </div>
+
+            <!-- SECCIÓN 2: FOTOS DE LA GALERÍA -->
+            <div class="admin-card" style="padding: 1.5rem; background:#1e232a; border-radius:10px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+                    <h3><i class="fas fa-images" style="color:var(--accent-color);"></i> Galería Institucional y Trabajos</h3>
+                    <button class="btn btn-primary" onclick="openGalleryImagePrompt()">
+                        <i class="fas fa-plus"></i> Agregar Foto a Galería
+                    </button>
+                </div>
+                <p style="color:#aaa; font-size:0.85rem; margin-bottom:1rem;">Imágenes que se muestran en la sección pública de Galería y Trabajos Realizados.</p>
+
+                <div id="gallery-images-grid" class="media-grid">
+                    <!-- Dinámico -->
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <script type="module">
+        import { db, auth } from '../js/firebase-config.js';
+        import { onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js";
+        import { collection, getDocs, doc, setDoc, deleteDoc } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
+
+        window.logoutAdmin = function() {
+            signOut(auth).then(() => window.location.href = 'login.html');
+        };
+
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+                document.getElementById('admin-user-display').innerText = user.email;
+                loadMediaData();
+            } else {
+                window.location.href = 'login.html';
+            }
+        });
+
+        let heroImages = JSON.parse(localStorage.getItem('druetto_hero_images') || 'null') || [
+            { id: 'h1', title: 'Maquinaria Agrícola de Alta Gama', url: 'https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg' },
+            { id: 'h2', title: 'Tecnología en Drones DJI Agras', url: 'https://res.cloudinary.com/doissrwhj/image/upload/v1785242905/qihvuccbkimkuj7lhwwe.jpg' },
+            { id: 'h3', title: 'Repuesto Original y Servicio Técnico', url: 'https://res.cloudinary.com/doissrwhj/image/upload/v1785242906/puq49u57z6okowodvgib.jpg' }
+        ];
+
+        let galleryImages = JSON.parse(localStorage.getItem('druetto_gallery_images') || 'null') || [
+            { id: 'g1', title: 'Entregas DJI Agras T40', url: 'https://res.cloudinary.com/doissrwhj/image/upload/v1785242905/qihvuccbkimkuj7lhwwe.jpg' },
+            { id: 'g2', title: 'Repuestos Originales en Stock', url: 'https://res.cloudinary.com/doissrwhj/image/upload/v1785242906/puq49u57z6okowodvgib.jpg' },
+            { id: 'g3', title: 'Maquinaria Vial Rhinoceros', url: 'https://res.cloudinary.com/doissrwhj/image/upload/v1785242907/lbxmjcqkpjtpkzgkkhl9.jpg' }
+        ];
+
+        async function loadMediaData() {
+            try {
+                const snapHero = await getDocs(collection(db, 'druetto_hero_images'));
+                if (!snapHero.empty) {
+                    heroImages = snapHero.docs.map(d => ({ id: d.id, ...d.data() }));
+                }
+                const snapGal = await getDocs(collection(db, 'druetto_gallery_images'));
+                if (!snapGal.empty) {
+                    galleryImages = snapGal.docs.map(d => ({ id: d.id, ...d.data() }));
+                }
+            } catch(e) {}
+
+            renderHeroGrid();
+            renderGalleryGrid();
+        }
+
+        function renderHeroGrid() {
+            const grid = document.getElementById('hero-images-grid');
+            grid.innerHTML = '';
+            heroImages.forEach(img => {
+                const card = document.createElement('div');
+                card.className = 'media-card';
+                card.innerHTML = `
+                    <img src="${img.url}" alt="${img.title}">
+                    <div class="media-card-body">
+                        <div class="media-card-title">${img.title}</div>
+                        <div class="media-card-actions">
+                            <button class="btn btn-sm btn-danger" onclick="deleteHeroImage('${img.id}')"><i class="fas fa-trash"></i> Eliminar</button>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function renderGalleryGrid() {
+            const grid = document.getElementById('gallery-images-grid');
+            grid.innerHTML = '';
+            galleryImages.forEach(img => {
+                const card = document.createElement('div');
+                card.className = 'media-card';
+                card.innerHTML = `
+                    <img src="${img.url}" alt="${img.title}">
+                    <div class="media-card-body">
+                        <div class="media-card-title">${img.title}</div>
+                        <div class="media-card-actions">
+                            <button class="btn btn-sm btn-danger" onclick="deleteGalleryImage('${img.id}')"><i class="fas fa-trash"></i> Eliminar</button>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        window.openHeroImagePrompt = async function() {
+            const url = prompt("Ingrese la URL de la imagen para el Carrusel de Inicio:");
+            if (!url) return;
+            const title = prompt("Título o Descripción corta de la imagen:", "Maquinaria Casa Druetto");
+            
+            const newObj = { id: 'hero_' + Date.now(), url: url.trim(), title: title || 'Carrusel' };
+            heroImages.push(newObj);
+            localStorage.setItem('druetto_hero_images', JSON.stringify(heroImages));
+            try {
+                await setDoc(doc(db, 'druetto_hero_images', newObj.id), newObj);
+            } catch(e) {}
+            renderHeroGrid();
+        };
+
+        window.openGalleryImagePrompt = async function() {
+            const url = prompt("Ingrese la URL de la imagen para la Galería:");
+            if (!url) return;
+            const title = prompt("Título o Epígrafe de la foto:", "Entrega en Gálvez");
+            
+            const newObj = { id: 'gal_' + Date.now(), url: url.trim(), title: title || 'Galería' };
+            galleryImages.push(newObj);
+            localStorage.setItem('druetto_gallery_images', JSON.stringify(galleryImages));
+            try {
+                await setDoc(doc(db, 'druetto_gallery_images', newObj.id), newObj);
+            } catch(e) {}
+            renderGalleryGrid();
+        };
+
+        window.deleteHeroImage = async function(id) {
+            if (!confirm("¿Desea eliminar esta imagen del carrusel?")) return;
+            heroImages = heroImages.filter(x => x.id !== id);
+            localStorage.setItem('druetto_hero_images', JSON.stringify(heroImages));
+            try { await deleteDoc(doc(db, 'druetto_hero_images', id)); } catch(e) {}
+            renderHeroGrid();
+        };
+
+        window.deleteGalleryImage = async function(id) {
+            if (!confirm("¿Desea eliminar esta imagen de la galería?")) return;
+            galleryImages = galleryImages.filter(x => x.id !== id);
+            localStorage.setItem('druetto_gallery_images', JSON.stringify(galleryImages));
+            try { await deleteDoc(doc(db, 'druetto_gallery_images', id)); } catch(e) {}
+            renderGalleryGrid();
+        };
+    </script>
+</body>
+</html>

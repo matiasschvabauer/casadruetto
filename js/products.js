@@ -9867,7 +9867,7 @@ window.renderProductDetailPage = async function() {
                     <span style="font-size: 1.3rem; color: #28a745; display: flex; align-items: center;"><i class="fas fa-store"></i></span>
                     <div class="shipping-option-info" style="flex: 1; display: flex; flex-direction: column;">
                         <span class="shipping-option-name" style="font-weight: 600; font-size: 0.8rem; color: var(--text-primary);">Retiro en Sucursal (Gálvez, SF)</span>
-                        <span class="shipping-option-time" style="font-size: 0.7rem; color: var(--text-secondary);">Av. Jorge Newbery 247 - Listo en 24hs</span>
+                        <span class="shipping-option-time" style="font-size: 0.7rem; color: var(--text-secondary);">Av. Jorge Newbery 247 Bis - Listo en 24hs</span>
                     </div>
                     <span class="shipping-option-price" style="font-weight: 700; font-size: 0.85rem; color: #28a745;">Gratis</span>
                 </div>
