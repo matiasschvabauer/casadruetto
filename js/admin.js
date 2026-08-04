@@ -542,8 +542,12 @@ window.syncWithMercadoLibreWeb = async function() {
         }
 
         try {
+            const pictures = (p.images && p.images.length > 0)
+                ? p.images.filter(img => img.startsWith('http')).map(img => ({ source: img }))
+                : [{ source: "https://casadruetto.com.ar/assets/img/casadruettologo1.png" }];
+
             if (mlItemId) {
-                // ACTUALIZAR PUBLICACIÓN EXISTENTE
+                // ACTUALIZAR PUBLICACIÓN EXISTENTE (Precio, Stock e Imágenes)
                 const res = await fetch(`https://api.mercadolibre.com/items/${mlItemId}`, {
                     method: 'PUT',
                     headers: {
@@ -552,7 +556,8 @@ window.syncWithMercadoLibreWeb = async function() {
                     },
                     body: JSON.stringify({
                         price: finalPriceARS,
-                        available_quantity: parseInt(p.stock) || 0
+                        available_quantity: Math.max(1, parseInt(p.stock) || 1),
+                        pictures: pictures
                     })
                 });
                 if (res.ok) {
@@ -577,7 +582,7 @@ window.syncWithMercadoLibreWeb = async function() {
 
                 const pictures = (p.images && p.images.length > 0)
                     ? p.images.filter(img => img.startsWith('http')).map(img => ({ source: img }))
-                    : [{ source: "https://res.cloudinary.com/doissrwhj/image/upload/v1785242908/x7o6qb3p7zwnumlnx7we.png" }];
+                    : [{ source: "https://casadruetto.com.ar/assets/img/casadruettologo1.png" }];
 
                 const buyingMode = (categoryId === "MLA80600" || (p.name || '').toLowerCase().includes('tractor') || (p.category || '').toLowerCase().includes('maquinaria')) ? "classified" : "buy_it_now";
 
@@ -596,7 +601,7 @@ window.syncWithMercadoLibreWeb = async function() {
                     buying_mode: buyingMode,
                     listing_type_id: buyingMode === 'buy_it_now' ? 'bronze' : 'free',
                     condition: p.condition === 'Nuevo' ? 'new' : 'used',
-                    pictures: pictures.length > 0 ? pictures : [{ source: "https://res.cloudinary.com/doissrwhj/image/upload/v1785242908/x7o6qb3p7zwnumlnx7we.png" }],
+                    pictures: pictures.length > 0 ? pictures : [{ source: "https://casadruetto.com.ar/assets/img/casadruettologo1.png" }],
                     attributes: [
                         { id: 'BRAND', value_name: p.brand || 'John Deere' },
                         { id: 'MODEL', value_name: p.model || 'Estándar' },
