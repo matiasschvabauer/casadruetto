@@ -177,7 +177,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785242925/umdgv7w2vw6tfjvefmhg.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254274-cartucho-de-filtro-repuesto-agricola-john-deere-cod-re532952-_JM",
         "specs": {
             "Código de repuesto": "RE532952",
             "Marca": "John Deere",
@@ -201,7 +201,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785242929/a96xvb4fatsvag8uxp2l.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153602-cartucho-de-filtro-repuesto-agricola-john-deere-cod-sw10967p-_JM",
         "specs": {
             "Código de repuesto": "SW10967P1",
             "Marca": "John Deere",
@@ -223,7 +223,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785242930/t8fjpw2jj5p0hbark91m.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947668771-filtro-de-aceite-motor-_JM",
         "specs": {
             "Código de repuesto": "AJ11402",
             "Marca": "John Deere",
@@ -247,7 +247,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785242933/nf9qj3i4jfzusnnuqkoh.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153614-filtro-de-aire-repuesto-agricola-john-deere-cod-dq24941-_JM",
         "specs": {
             "Código de repuesto": "DQ24941",
             "Marca": "John Deere",
@@ -269,7 +269,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947668781-filtro-aceite-hidraulico-_JM",
         "specs": {
             "Código de repuesto": "PE78420010",
             "Marca": "John Deere",
@@ -291,7 +291,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785242936/pi3kssacnsbhmtkdefok.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254286-filtro-aa-repuesto-agricola-john-deere-cod-ah120547-_JM",
         "specs": {
             "Código de repuesto": "AH120547",
             "Marca": "John Deere",
@@ -314,7 +314,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785242939/oqhl27uat4jbzmwonjp8.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254288-portaaspersor-repuesto-agricola-john-deere-cod-h146639-_JM",
         "specs": {
             "Código de repuesto": "H146639",
             "Marca": "John Deere",
@@ -336,7 +336,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281731/e0qbtvnq6qgluxmxxfgl.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947668795-filtro-repuesto-agricola-john-deere-cod-z51244-_JM",
         "specs": {
             "Código de repuesto": "Z51244",
             "Marca": "John Deere",
@@ -359,7 +359,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785242942/ounzz746cvf11oto7fha.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254294-filtro-repuesto-agricola-john-deere-cod-al79010-_JM",
         "specs": {
             "Código de repuesto": "AL79010",
             "Marca": "John Deere",
@@ -381,7 +381,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281683/kjvvluuwnddqgobruo3f.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153632-filtro-repuesto-agricola-john-deere-cod-l79122-_JM",
         "specs": {
             "Código de repuesto": "L79122",
             "Marca": "John Deere",
@@ -403,7 +403,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281684/nmrflsxd7jwrh8dzkvs1.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947668801-filtro-repuesto-agricola-john-deere-cod-r53169-_JM",
         "specs": {
             "Código de repuesto": "R53169",
             "Marca": "John Deere",
@@ -425,7 +425,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281685/lgs4tlo4azgvzyxt7lq0.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153650-filtro-repuesto-agricola-john-deere-cod-r89411-_JM",
         "specs": {
             "Código de repuesto": "R89411",
             "Marca": "John Deere",
@@ -447,7 +447,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281687/gj6tvqqkhj17mzal2ftx.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947668823-filtro-de-combustible-_JM",
         "specs": {
             "Código de repuesto": "AE29052",
             "Marca": "John Deere",
@@ -469,7 +469,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281730/f7hold0nlehxuyefpbay.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947668835-filtro-de-aire-repuesto-agricola-john-deere-cod-ae31724-_JM",
         "specs": {
             "Código de repuesto": "AE31724",
             "Marca": "John Deere",
@@ -492,7 +492,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281733/fmzypdv5zr6m1lnfqtgj.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254332-filtro-de-aa-repuesto-agricola-john-deere-cod-ah115836-_JM",
         "specs": {
             "Código de repuesto": "AH115836",
             "Marca": "John Deere",
@@ -515,7 +515,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281736/wkv5qyjxdwhuhckzfmun.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254336-filtro-de-hidraulico-_JM",
         "specs": {
             "Código de repuesto": "AH128449",
             "Marca": "John Deere",
@@ -540,7 +540,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281743/zupfux35vqgz2qubrxoo.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153680-filtro-de-aire-repuesto-agricola-john-deere-cod-ah148880-_JM",
         "specs": {
             "Código de repuesto": "AH148880",
             "Marca": "John Deere",
@@ -563,7 +563,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281746/rquekvzqgg3zi4jbpfrm.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153694-filtro-de-seguridad-repuesto-agricola-john-deere-cod-ah16406-_JM",
         "specs": {
             "Código de repuesto": "AH164063",
             "Marca": "John Deere",
@@ -587,7 +587,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281749/rhxefkns0vqkeueqegs9.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947668867-filtro-de-combustible-_JM",
         "specs": {
             "Código de repuesto": "AH165504",
             "Marca": "John Deere",
@@ -612,7 +612,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281756/u6pfwci3tlhvuqeajmys.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947668873-filtro-aire-motor-repuesto-agricola-john-deere-cod-ah170798-_JM",
         "specs": {
             "Código de repuesto": "AH170798",
             "Marca": "John Deere",
@@ -635,7 +635,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281759/ojikwlg5bw19ctiihrs9.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153706-prefiltro-aire-motor-_JM",
         "specs": {
             "Código de repuesto": "AH174196",
             "Marca": "John Deere",
@@ -658,7 +658,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281762/vczx8hduewbsymmyrio0.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153710-filtro-aire-repuesto-agricola-john-deere-cod-ah212294-_JM",
         "specs": {
             "Código de repuesto": "AH212294",
             "Marca": "John Deere",
@@ -682,7 +682,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281767/wo9vi4kug9qpnm5bgsku.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947668887-filtro-aire-repuesto-agricola-john-deere-cod-ah212295-_JM",
         "specs": {
             "Código de repuesto": "AH212295",
             "Marca": "John Deere",
@@ -705,7 +705,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281769/taagx4t0a7yplnamyadr.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153720-filtro-repuesto-agricola-john-deere-cod-ah222225-_JM",
         "specs": {
             "Código de repuesto": "AH222225",
             "Marca": "John Deere",
@@ -727,7 +727,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281770/fbhscn8wyozw1ahdamml.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947668895-filtro-de-aceite-repuesto-agricola-john-deere-cod-aj10106-_JM",
         "specs": {
             "Código de repuesto": "AJ10106",
             "Marca": "John Deere",
@@ -749,7 +749,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281771/nqe4prhrabcalaij4nlp.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947668899-filtro-de-combustible-auxiliar-_JM",
         "specs": {
             "Código de repuesto": "AJ11399",
             "Marca": "John Deere",
@@ -771,7 +771,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254374-filtro-aire-primario-_JM",
         "specs": {
             "Código de repuesto": "AJ55127",
             "Marca": "John Deere",
@@ -793,7 +793,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153734-filtro-aire-seguridad-_JM",
         "specs": {
             "Código de repuesto": "AJ55128",
             "Marca": "John Deere",
@@ -816,7 +816,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281775/qrfvtwltmzui6szrtois.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947668917-filtro-repuesto-agricola-john-deere-cod-al119095-_JM",
         "specs": {
             "Código de repuesto": "AL119095",
             "Marca": "John Deere",
@@ -840,7 +840,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281780/ku8tupe48twyw5yluexl.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153736-filtro-seguridad-repuesto-agricola-john-deere-cod-al150288-_JM",
         "specs": {
             "Código de repuesto": "AL150288",
             "Marca": "John Deere",
@@ -863,7 +863,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281783/ntwudjjnhvalz7wfjx8t.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254382-filtro-transm-al221066-_JM",
         "specs": {
             "Código de repuesto": "AL156625",
             "Marca": "John Deere",
@@ -885,7 +885,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281784/jvsaggtbqcsxtc7bydrh.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153744-filtro-repuesto-agricola-john-deere-cod-an260207-_JM",
         "specs": {
             "Código de repuesto": "AN260207",
             "Marca": "John Deere",
@@ -907,7 +907,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281785/hbjhtnunakuldzptsvbx.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947668933-cartucho-de-filtro-repuesto-agricola-john-deere-cod-ap29320-_JM",
         "specs": {
             "Código de repuesto": "AP29320",
             "Marca": "John Deere",
@@ -930,7 +930,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281788/v9moigeeqs18zif0bgqa.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254390-filtro-combustible-repuesto-agricola-john-deere-cod-ar103220-_JM",
         "specs": {
             "Código de repuesto": "AR103220",
             "Marca": "John Deere",
@@ -952,7 +952,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281789/wjjexvygqmwgfkka6ezw.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153750-filtro-repuesto-agricola-john-deere-cod-ar45785-_JM",
         "specs": {
             "Código de repuesto": "AR45785",
             "Marca": "John Deere",
@@ -976,7 +976,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281793/vfkcfqhzmmcq7wqzykch.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947668949-filtro-combustible-repuesto-agricola-john-deere-cod-ar50041-_JM",
         "specs": {
             "Código de repuesto": "AR50041",
             "Marca": "John Deere",
@@ -999,7 +999,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281796/wysgh5zmknt7vklxdb8s.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947668955-filtro-de-aceite-transmision-_JM",
         "specs": {
             "Código de repuesto": "AR75603",
             "Marca": "John Deere",
@@ -1021,7 +1021,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281797/aeqims7fnbnwhpn7vbfy.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254410-filtro-de-aire-primario-_JM",
         "specs": {
             "Código de repuesto": "AR79941",
             "Marca": "John Deere",
@@ -1044,7 +1044,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281799/plfexipujghe8fitbmyg.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153758-filtro-aire-repuesto-agricola-john-deere-cod-ar84228-_JM",
         "specs": {
             "Código de repuesto": "AR84228",
             "Marca": "John Deere",
@@ -1067,7 +1067,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281803/big28ercgkoyyjndsjg4.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153760-filtro-auxiliar-de-combustible-_JM",
         "specs": {
             "Código de repuesto": "AR86755",
             "Marca": "John Deere",
@@ -1091,7 +1091,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281809/wrf2ckfqao81j6fzonbs.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947668967-filtro-de-aire-repuesto-agricola-john-deere-cod-at171853-_JM",
         "specs": {
             "Código de repuesto": "AT171853",
             "Marca": "John Deere",
@@ -1115,7 +1115,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281813/gygxf6xv4xstalyetczh.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153776-filtro-de-seguridad-repuesto-agricola-john-deere-cod-at17185-_JM",
         "specs": {
             "Código de repuesto": "AT171854",
             "Marca": "John Deere",
@@ -1139,7 +1139,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281817/vj0rzeycq3aqmdrk9zio.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153782-filtro-de-combustible-_JM",
         "specs": {
             "Código de repuesto": "AT17387",
             "Marca": "John Deere",
@@ -1162,7 +1162,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281819/pxvvpvck6zcz7mqsphlj.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153794-cartucho-de-filtro-repuesto-agricola-john-deere-cod-at178517-_JM",
         "specs": {
             "Código de repuesto": "AT178517",
             "Marca": "John Deere",
@@ -1184,7 +1184,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281820/tnipksntgpblpyjgbcee.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947668977-filtro-hidraulico-repuesto-agricola-john-deere-cod-at195915-_JM",
         "specs": {
             "Código de repuesto": "AT195915",
             "Marca": "John Deere",
@@ -1206,7 +1206,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281823/ufonppbnlx3fbood8eii.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153802-filtro-de-aceite-repuesto-agricola-john-deere-cod-at228474-_JM",
         "specs": {
             "Código de repuesto": "AT228474",
             "Marca": "John Deere",
@@ -1228,7 +1228,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785281826/m25ipewv5brupxn5vpra.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254438-filtro-de-aceite-repuesto-agricola-john-deere-cod-at308274-_JM",
         "specs": {
             "Código de repuesto": "AT308274",
             "Marca": "John Deere",
@@ -1251,7 +1251,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290582/pf2exmnjvclrksp2tce3.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947668979-filtro-de-aire-repuesto-agricola-john-deere-cod-at33364-_JM",
         "specs": {
             "Código de repuesto": "AT33364",
             "Marca": "John Deere",
@@ -1274,7 +1274,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290586/enxbommb0nqlwwujteui.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153812-cartucho-de-filtro-repuesto-agricola-john-deere-cod-at44378-_JM",
         "specs": {
             "Código de repuesto": "AT44378",
             "Marca": "John Deere",
@@ -1297,7 +1297,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290588/yymmb9s7dfp9spsqucwp.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153816-filtro-repuesto-agricola-john-deere-cod-at67957-_JM",
         "specs": {
             "Código de repuesto": "AT67957",
             "Marca": "John Deere",
@@ -1320,7 +1320,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290593/dm1kqpgbuxympk9lxsy8.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947668989-filtro-repuesto-agricola-john-deere-cod-az22878-_JM",
         "specs": {
             "Código de repuesto": "AZ22878",
             "Marca": "John Deere",
@@ -1343,7 +1343,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290596/igcojqlomqbxqzjsimij.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153824-cartucho-de-filtro-repuesto-agricola-john-deere-cod-az26007-_JM",
         "specs": {
             "Código de repuesto": "AZ26007",
             "Marca": "John Deere",
@@ -1365,7 +1365,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290598/vzp0xz4snkm4ou4vga5g.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153828-cartucho-de-filtro-repuesto-agricola-john-deere-cod-az26091-_JM",
         "specs": {
             "Código de repuesto": "AZ26091",
             "Marca": "John Deere",
@@ -1389,7 +1389,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290603/tkn8h3zijtpqwnpsfzew.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254468-filtro-aire-cabina-repuesto-agricola-john-deere-cod-az43412-_JM",
         "specs": {
             "Código de repuesto": "AZ43412",
             "Marca": "John Deere",
@@ -1412,7 +1412,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290606/ikc7acaxoliexrtaqysq.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153844-filtro-de-aire-repuesto-agricola-john-deere-cod-az48195-_JM",
         "specs": {
             "Código de repuesto": "AZ48195",
             "Marca": "John Deere",
@@ -1434,7 +1434,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290608/vqhkareymprrtdxkfkkd.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669009-filtro-de-seguridad-repuesto-agricola-john-deere-cod-az48196-_JM",
         "specs": {
             "Código de repuesto": "AZ48196",
             "Marca": "John Deere",
@@ -1457,7 +1457,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290613/n2zpa5ocilhbmfysqjhp.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254474-filtro-repuesto-agricola-john-deere-cod-ce16309-_JM",
         "specs": {
             "Código de repuesto": "CE16309",
             "Marca": "John Deere",
@@ -1480,7 +1480,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290615/de9drwcd8wgas6luqzwx.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669021-filtro-repuesto-agricola-john-deere-cod-cq29104-_JM",
         "specs": {
             "Código de repuesto": "CQ29104",
             "Marca": "John Deere",
@@ -1503,7 +1503,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290617/kbqomnt6rjhuqeiykire.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153858-filtro-repuesto-agricola-john-deere-cod-de17263-_JM",
         "specs": {
             "Código de repuesto": "DE17263",
             "Marca": "John Deere",
@@ -1526,7 +1526,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290620/jbmckeb3icgtnyjsd2rv.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669027-filtro-hidraulico-repuesto-agricola-john-deere-cod-dq05097-_JM",
         "specs": {
             "Código de repuesto": "DQ05097",
             "Marca": "John Deere",
@@ -1549,7 +1549,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290624/mnymfm5wxmqavenkomsz.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669033-filtro-de-hidraulico-_JM",
         "specs": {
             "Código de repuesto": "DQ12161",
             "Marca": "John Deere",
@@ -1571,7 +1571,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290625/fpj2d9enorb5qbroqeix.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153882-filtro-repuesto-agricola-john-deere-cod-dq21803-_JM",
         "specs": {
             "Código de repuesto": "DQ21803",
             "Marca": "John Deere",
@@ -1594,7 +1594,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290627/idvv1gyqei7xyefzfpd5.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669051-filtro-de-seguridad-repuesto-agricola-john-deere-cod-dq24942-_JM",
         "specs": {
             "Código de repuesto": "DQ24942",
             "Marca": "John Deere",
@@ -1617,7 +1617,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290629/bjotgbt1isba8c9f1uuc.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254516-filtro-aire-repuesto-agricola-john-deere-cod-dq43482-_JM",
         "specs": {
             "Código de repuesto": "DQ43482",
             "Marca": "John Deere",
@@ -1640,7 +1640,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290632/bnciotommcavzn6xofem.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153898-filtro-de-seguridad-repuesto-agricola-john-deere-cod-dq43483-_JM",
         "specs": {
             "Código de repuesto": "DQ43483",
             "Marca": "John Deere",
@@ -1663,7 +1663,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290634/ggw9fhgf0bn4gpbnupvd.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153906-filtro-aire-repuesto-agricola-john-deere-cod-dq46907-_JM",
         "specs": {
             "Código de repuesto": "DQ46907",
             "Marca": "John Deere",
@@ -1686,7 +1686,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290636/vwarutaelsx1mh8oxsuy.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669081-filtro-seguridad-repuesto-agricola-john-deere-cod-dq46908-_JM",
         "specs": {
             "Código de repuesto": "DQ46908",
             "Marca": "John Deere",
@@ -1710,7 +1710,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290639/htty0cdsqxh3yt8mpytb.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153924-filtro-de-aire-primario-sj17532-_JM",
         "specs": {
             "Código de repuesto": "DQ59138",
             "Marca": "John Deere",
@@ -1733,7 +1733,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290641/ivafkanaajoug5ibt48l.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254548-filtro-de-aire-repuesto-agricola-john-deere-cod-h220870-_JM",
         "specs": {
             "Código de repuesto": "H220870",
             "Marca": "John Deere",
@@ -1778,7 +1778,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290645/j7mqdo6hf0rtlpnrulhd.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153938-filtro-de-hidraulico-_JM",
         "specs": {
             "Código de repuesto": "PE70114566",
             "Marca": "John Deere",
@@ -1800,7 +1800,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290647/kapyxor1no8rtmivk9n8.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153944-filtro-de-combustible-_JM",
         "specs": {
             "Código de repuesto": "PE931260",
             "Marca": "John Deere",
@@ -1824,7 +1824,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290652/lenorkun6pv2de8mluut.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153946-filtro-aceite-hidraulico-transmision-_JM",
         "specs": {
             "Código de repuesto": "RE205726",
             "Marca": "John Deere",
@@ -1847,7 +1847,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290655/dpwqzcllpyvdko1pdelp.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669097-filtro-aire-cabina-repuesto-agricola-john-deere-cod-re24619-_JM",
         "specs": {
             "Código de repuesto": "RE24619",
             "Marca": "John Deere",
@@ -1869,7 +1869,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290656/dzsenwquh3lqcbvpsuae.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669103-filtro-de-hidraulico-_JM",
         "specs": {
             "Código de repuesto": "RE34958",
             "Marca": "John Deere",
@@ -1891,7 +1891,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290658/dnfbf3c1v4xor3515com.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669105-cartucho-de-filtro-repuesto-agricola-john-deere-cod-re34963-_JM",
         "specs": {
             "Código de repuesto": "RE34963",
             "Marca": "John Deere",
@@ -1913,7 +1913,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290659/grshhoijaydoupva0hap.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153960-filtro-de-aire-secundario-_JM",
         "specs": {
             "Código de repuesto": "RE34967",
             "Marca": "John Deere",
@@ -1935,7 +1935,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290660/nxmv12u4crzkfgrerfke.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254586-filtro-aire-seguridad-_JM",
         "specs": {
             "Código de repuesto": "RE45828",
             "Marca": "John Deere",
@@ -1959,7 +1959,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290665/e0ncjovowjs9faum5mcx.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669119-filtro-de-hidraulico-_JM",
         "specs": {
             "Código de repuesto": "RE45864",
             "Marca": "John Deere",
@@ -1981,7 +1981,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290666/vulgvy29l36i0vvzyzr9.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254596-filtro-aire-primario-_JM",
         "specs": {
             "Código de repuesto": "RE46310",
             "Marca": "John Deere",
@@ -2003,7 +2003,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290667/heqouxvu3iylnv5kepjr.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153966-filtro-aire-seguridad-_JM",
         "specs": {
             "Código de repuesto": "RE46311",
             "Marca": "John Deere",
@@ -2025,7 +2025,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290669/asfxw4wbffssipb41apr.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153972-kit-filtro-de-transmision-_JM",
         "specs": {
             "Código de repuesto": "RE47313",
             "Marca": "John Deere",
@@ -2048,7 +2048,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290672/jvxz7l57pg8uq6qz3w8a.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669135-filtro-aire-cabina-repuesto-agricola-john-deere-cod-re48882-_JM",
         "specs": {
             "Código de repuesto": "RE48882",
             "Marca": "John Deere",
@@ -2073,7 +2073,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290678/gvslskaec7joakojo6rt.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669139-filtro-aceite-vpd5181-_JM",
         "specs": {
             "Código de repuesto": "RE504836",
             "Marca": "John Deere",
@@ -2100,7 +2100,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290688/tlnd15aje8g18occvwqc.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724153988-filtro-combustible-primario-_JM",
         "specs": {
             "Código de repuesto": "RE507284",
             "Marca": "John Deere",
@@ -2123,7 +2123,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290690/ennxvtvn5lwxarm4vzoo.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669147-filtro-auxiliar-combustible-_JM",
         "specs": {
             "Código de repuesto": "RE508633",
             "Marca": "John Deere",
@@ -2146,7 +2146,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290692/uwqwiyjf7klejmlutiti.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669153-filtro-de-combustible-_JM",
         "specs": {
             "Código de repuesto": "RE509036",
             "Marca": "John Deere",
@@ -2171,7 +2171,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290721/ms8cczhmj9ovznq79ial.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669157-filtro-de-aceite-repuesto-agricola-john-deere-cod-re509672-_JM",
         "specs": {
             "Código de repuesto": "RE509672",
             "Marca": "John Deere",
@@ -2194,7 +2194,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290724/wx2p278ufqyoxsrpcc4n.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669163-vaso-decantador-filtro-_JM",
         "specs": {
             "Código de repuesto": "RE51650",
             "Marca": "John Deere",
@@ -2216,7 +2216,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290725/mag8mmwxatjyq4esp9xk.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254620-filtro-de-combustible-_JM",
         "specs": {
             "Código de repuesto": "RE519608",
             "Marca": "John Deere",
@@ -2240,7 +2240,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290729/abij3oypomecbfur3u08.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254622-filtro-de-aceite-repuesto-agricola-john-deere-cod-re519626-_JM",
         "specs": {
             "Código de repuesto": "RE519626",
             "Marca": "John Deere",
@@ -2265,7 +2265,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290736/rfdsldl2wj0vejxqa2ds.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669171-filtro-combustible-repuesto-agricola-john-deere-cod-re522372-_JM",
         "specs": {
             "Código de repuesto": "RE522372",
             "Marca": "John Deere",
@@ -2290,7 +2290,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290743/i8hinxurcucool6jauvm.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669175-filtro-combustible-repuesto-agricola-john-deere-cod-re522688-_JM",
         "specs": {
             "Código de repuesto": "RE522688",
             "Marca": "John Deere",
@@ -2313,7 +2313,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290746/pycisixvegizpcbmqzhr.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154022-filtro-de-aceite-repuesto-agricola-john-deere-cod-re530107-_JM",
         "specs": {
             "Código de repuesto": "RE530107",
             "Marca": "John Deere",
@@ -2339,7 +2339,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290754/y53o3jnlipdbufvfsese.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669185-filtro-de-combustible-_JM",
         "specs": {
             "Código de repuesto": "RE531703",
             "Marca": "John Deere",
@@ -2363,7 +2363,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290761/vpkfvraq1vqmk3g37snq.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669187-filtro-de-aceite-repuesto-agricola-john-deere-cod-re541420-_JM",
         "specs": {
             "Código de repuesto": "RE541420",
             "Marca": "John Deere",
@@ -2387,7 +2387,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290766/esu8kiuey2vrn2v6ip4i.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154028-filtro-aceite-motor-dz118156-_JM",
         "specs": {
             "Código de repuesto": "RE57394",
             "Marca": "John Deere",
@@ -2411,7 +2411,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290771/akpyte52yx81woljztye.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254640-filtro-aceite-repuesto-agricola-john-deere-cod-re58935-_JM",
         "specs": {
             "Código de repuesto": "RE58935",
             "Marca": "John Deere",
@@ -2435,7 +2435,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290775/j4xkapmq0a4ar61wy4uh.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154032-filtro-de-aceite-reempl-dz118286-_JM",
         "specs": {
             "Código de repuesto": "RE59754",
             "Marca": "John Deere",
@@ -2458,7 +2458,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290778/ohzr5see2ut5k3ocvpka.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254642-filtro-de-combustible-_JM",
         "specs": {
             "Código de repuesto": "RE60021",
             "Marca": "John Deere",
@@ -2482,7 +2482,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290783/v58pt5nptz9ixort6riy.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154048-filtro-de-combustible-_JM",
         "specs": {
             "Código de repuesto": "RE62418",
             "Marca": "John Deere",
@@ -2506,7 +2506,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290787/huk9ethgfscrt6zmhqew.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254644-filtro-de-combustible-_JM",
         "specs": {
             "Código de repuesto": "RE62419",
             "Marca": "John Deere",
@@ -2530,7 +2530,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290791/vfyyeinmt79ppwmrphjd.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154064-filtro-auxiliar-combustible-_JM",
         "specs": {
             "Código de repuesto": "RE62424",
             "Marca": "John Deere",
@@ -2552,7 +2552,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290792/hlmgtd6ksy7ptsrtd7e1.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154068-cartucho-de-filtro-repuesto-agricola-john-deere-cod-re67124-_JM",
         "specs": {
             "Código de repuesto": "RE67124",
             "Marca": "John Deere",
@@ -2576,7 +2576,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290796/vj3jx7sg3rrruhxfutyu.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254660-filtro-aceite-motor-repuesto-agricola-john-deere-cod-t19044-_JM",
         "specs": {
             "Código de repuesto": "T19044",
             "Marca": "John Deere",
@@ -2598,7 +2598,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290797/v4o4sybroojxxb2qjdgl.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669223-filtro-repuesto-agricola-john-deere-cod-z62223-_JM",
         "specs": {
             "Código de repuesto": "Z62223",
             "Marca": "John Deere",
@@ -2622,7 +2622,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290801/wn6sue1kjyd3shbd6xcz.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154074-filtro-de-aceite-repuesto-agricola-john-deere-cod-am101207-_JM",
         "specs": {
             "Código de repuesto": "AM101207",
             "Marca": "John Deere",
@@ -2644,7 +2644,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290802/ufcfmhhjmimpuf4lculk.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254664-filtro-de-combustible-_JM",
         "specs": {
             "Código de repuesto": "AM107314",
             "Marca": "John Deere",
@@ -2668,7 +2668,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290806/eewsdbjjnlscvh98fn4j.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669237-filtro-aceite-motor-repuesto-agricola-john-deere-cod-am10742-_JM",
         "specs": {
             "Código de repuesto": "AM107423",
             "Marca": "John Deere",
@@ -2690,7 +2690,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290807/wpslvkl9cw6pnirjj8nq.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669241-filtro-de-aire-repuesto-agricola-john-deere-cod-am108243-_JM",
         "specs": {
             "Código de repuesto": "AM108243",
             "Marca": "John Deere",
@@ -2714,7 +2714,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290811/dzgx9jbmxnmaw3xf4ou3.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154080-filtro-de-aceite-hidraulico-_JM",
         "specs": {
             "Código de repuesto": "AM116156",
             "Marca": "John Deere",
@@ -2740,7 +2740,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290817/rnqcv6iopa8bgqtva9b2.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154090-filtro-combustible-repuesto-agricola-john-deere-cod-am116304-_JM",
         "specs": {
             "Código de repuesto": "AM116304",
             "Marca": "John Deere",
@@ -2762,7 +2762,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290818/mnd72gheofir0uktfu7s.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669257-filtro-repuesto-agricola-john-deere-cod-am120916-_JM",
         "specs": {
             "Código de repuesto": "AM120916",
             "Marca": "John Deere",
@@ -2786,7 +2786,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290822/oztbkr4agiq6lyhwxbpb.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669259-filtro-aceite-motor-repuesto-agricola-john-deere-cod-am12542-_JM",
         "specs": {
             "Código de repuesto": "AM125424",
             "Marca": "John Deere",
@@ -2810,7 +2810,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290825/cta6mpifavbeaytqsyzf.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254688-filtro-aire-y-seguridad-_JM",
         "specs": {
             "Código de repuesto": "AM130295",
             "Marca": "John Deere",
@@ -2833,7 +2833,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290829/bwhtgsmhv8jgxjzqnaio.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254690-filtro-de-combustible-_JM",
         "specs": {
             "Código de repuesto": "CH15553",
             "Marca": "John Deere",
@@ -2856,7 +2856,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290831/ljiawbn01pmfqpx7i8je.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669269-conjunto-filtro-de-aire-_JM",
         "specs": {
             "Código de repuesto": "GY20574",
             "Marca": "John Deere",
@@ -2878,7 +2878,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290873/awmy9gny4rjoaki1czys.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669275-cartucho-de-filtro-repuesto-agricola-john-deere-cod-gy20575-_JM",
         "specs": {
             "Código de repuesto": "GY20575",
             "Marca": "John Deere",
@@ -2901,7 +2901,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290876/gwcfvmep6pil0zo0k78o.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254694-filtro-repuesto-agricola-john-deere-cod-lg273638s-_JM",
         "specs": {
             "Código de repuesto": "LG273638S",
             "Marca": "John Deere",
@@ -2925,7 +2925,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290880/cthzsca0pfi7vph6zi4w.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669279-filtro-de-combustible-_JM",
         "specs": {
             "Código de repuesto": "M111817",
             "Marca": "John Deere",
@@ -2948,7 +2948,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290883/mws86sy75dihbil26ms2.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154140-filtro-repuesto-agricola-john-deere-cod-m76076-_JM",
         "specs": {
             "Código de repuesto": "M76076",
             "Marca": "John Deere",
@@ -2973,7 +2973,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290891/olrkf3qgqeszljgmv8hg.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254752-filtro-aceite-motor-repuesto-agricola-john-deere-cod-m806418-_JM",
         "specs": {
             "Código de repuesto": "M806418",
             "Marca": "John Deere",
@@ -2995,7 +2995,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290893/eqrdj0lzrjpq1z5x8sib.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154176-filtro-combustible-repuesto-agricola-john-deere-cod-m807152-_JM",
         "specs": {
             "Código de repuesto": "M807152",
             "Marca": "John Deere",
@@ -3017,7 +3017,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154182-cartucho-de-filtro-repuesto-agricola-john-deere-cod-m92360-_JM",
         "specs": {
             "Código de repuesto": "M92360",
             "Marca": "John Deere",
@@ -3040,7 +3040,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290895/qloy48lg5iuih7ybd73t.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154194-filtro-de-aire-repuesto-agricola-john-deere-cod-m94734-_JM",
         "specs": {
             "Código de repuesto": "M94734",
             "Marca": "John Deere",
@@ -3063,7 +3063,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290898/ww4bsqmonxudtuweiglh.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154200-filtro-de-aire-repuesto-agricola-john-deere-cod-m97211-_JM",
         "specs": {
             "Código de repuesto": "M97211",
             "Marca": "John Deere",
@@ -3086,7 +3086,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290900/ojri1ly4y7eoq5b6cik5.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154206-filtro-repuesto-agricola-john-deere-cod-miu11286-_JM",
         "specs": {
             "Código de repuesto": "MIU11286",
             "Marca": "John Deere",
@@ -3109,7 +3109,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290902/myf3i32itryglhrggjxv.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154212-cartucho-de-filtro-repuesto-agricola-john-deere-cod-miu11377-_JM",
         "specs": {
             "Código de repuesto": "MIU11377",
             "Marca": "John Deere",
@@ -3133,7 +3133,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290905/fwdbyqnylxgkfhre4qqt.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669343-filtro-de-aire-repuesto-agricola-john-deere-cod-miu11513-_JM",
         "specs": {
             "Código de repuesto": "MIU11513",
             "Marca": "John Deere",
@@ -3157,7 +3157,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290908/jn1hilvkrz7q4ygoy2nr.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669349-filtro-de-aire-repuesto-agricola-john-deere-cod-miu11515-_JM",
         "specs": {
             "Código de repuesto": "MIU11515",
             "Marca": "John Deere",
@@ -3180,7 +3180,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290911/es9rhoqau9kenfqabpdw.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254792-filtro-de-aire-repuesto-agricola-john-deere-cod-miu13963-_JM",
         "specs": {
             "Código de repuesto": "MIU13963",
             "Marca": "John Deere",
@@ -3202,7 +3202,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290914/lvfwghtpv6tegcgsormp.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669357-filtro-de-aire-repuesto-agricola-john-deere-cod-re68048-_JM",
         "specs": {
             "Código de repuesto": "RE68048",
             "Marca": "John Deere",
@@ -3224,7 +3224,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290916/qc1fzy3tzcf1hpboi6qb.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254800-filtro-de-aire-de-seguridad-_JM",
         "specs": {
             "Código de repuesto": "RE68049",
             "Marca": "John Deere",
@@ -3246,7 +3246,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290918/aewgwa0nflfrmub7exfi.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669365-filtro-aceite-taurus-_JM",
         "specs": {
             "Código de repuesto": "JX0810D2",
             "Marca": "John Deere",
@@ -3268,7 +3268,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669369-base-de-filtro-repuesto-agricola-john-deere-cod-j11051-cd-_JM",
         "specs": {
             "Código de repuesto": "J11051-CD",
             "Marca": "John Deere",
@@ -3290,7 +3290,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254804-filtro-repuesto-agricola-john-deere-cod-j52906-cd-_JM",
         "specs": {
             "Código de repuesto": "J52906-CD",
             "Marca": "John Deere",
@@ -3313,7 +3313,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290921/ahzbbxrmlltlfyvuqs3l.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154256-filtro-hidraulico-repuesto-agricola-john-deere-cod-al118036-_JM",
         "specs": {
             "Código de repuesto": "AL118036",
             "Marca": "John Deere",
@@ -3336,7 +3336,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290923/uazq4bcsmowgaoyu3hay.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154264-filtro-de-aire-repuesto-agricola-john-deere-cod-al177184-_JM",
         "specs": {
             "Código de repuesto": "AL177184",
             "Marca": "John Deere",
@@ -3358,7 +3358,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290925/uieh3f02dnz8s1y69xyt.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154276-filtro-de-aire-repuesto-agricola-john-deere-cod-al177185-_JM",
         "specs": {
             "Código de repuesto": "AL177185",
             "Marca": "John Deere",
@@ -3381,7 +3381,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290927/kw365r0x5tfacg9dwl4k.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154280-filtro-de-aceite-repuesto-agricola-john-deere-cod-ar43634-_JM",
         "specs": {
             "Código de repuesto": "AR43634",
             "Marca": "John Deere",
@@ -3403,7 +3403,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290928/vubkomdcqb6skw86t3gc.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669401-cartucho-de-filtro-repuesto-agricola-john-deere-cod-pe931140-_JM",
         "specs": {
             "Código de repuesto": "PE931140",
             "Marca": "John Deere",
@@ -3428,7 +3428,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785290935/etdttr4minvxymlxx4q0.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254820-filtro-de-combustibl-_JM",
         "specs": {
             "Código de repuesto": "RE533910",
             "Marca": "John Deere",
@@ -3450,7 +3450,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724146518-base-filtros-_JM",
         "specs": {
             "Código de repuesto": "AT21469.RC",
             "Marca": "John Deere",
@@ -3472,7 +3472,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254828-filtro-repuesto-agricola-john-deere-cod-j52956-rv-_JM",
         "specs": {
             "Código de repuesto": "J52956-RV",
             "Marca": "John Deere",
@@ -3494,7 +3494,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669415-valvula-filtro-aire-repuesto-agricola-john-deere-cod-j54432--_JM",
         "specs": {
             "Código de repuesto": "J54432-RC",
             "Marca": "John Deere",
@@ -3538,7 +3538,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785268646/cns9hl95xbghha5wtaay.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254842-pulsar-spander-coadyuvante-estabilizante-_JM",
         "specs": {
             "Código de repuesto": "2507521",
             "Marca": "Spraytec",
@@ -3560,7 +3560,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669433-pulsar-drone-up-coadyuvante-antideriva-_JM",
         "specs": {
             "Código de repuesto": "2508021",
             "Marca": "Spraytec",
@@ -3582,7 +3582,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785268647/o4zrtlprh4gcg57rmnll.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254850-nature-max-corrector-secuestrante-_JM",
         "specs": {
             "Código de repuesto": "2507523",
             "Marca": "Spraytec",
@@ -3626,7 +3626,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254858-citius-antievaporante-_JM",
         "specs": {
             "Código de repuesto": "2507955",
             "Marca": "Spraytec",
@@ -3648,7 +3648,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785268650/nd5mpph0vlhpgcssf0gd.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669437-ground-amin-repuesto-agricola-spraytec-cod-2507881-_JM",
         "specs": {
             "Código de repuesto": "2507881",
             "Marca": "Spraytec",
@@ -3670,7 +3670,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785268652/nytpisvu2trptneqpwmm.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154320-ground-max-boro-repuesto-agricola-spraytec-cod-2507882-_JM",
         "specs": {
             "Código de repuesto": "2507882",
             "Marca": "Spraytec",
@@ -3692,7 +3692,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785268655/fya1aiepan6uin6nl8m4.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669443-ground-max-zinc-repuesto-agricola-spraytec-cod-2507883-_JM",
         "specs": {
             "Código de repuesto": "2507883",
             "Marca": "Spraytec",
@@ -3714,7 +3714,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785268656/dbvxp76iunxe38jjs5mh.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154326-ground-max-fosmax-amin-_JM",
         "specs": {
             "Código de repuesto": "2507884",
             "Marca": "Spraytec",
@@ -3736,7 +3736,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785268657/oi1odim10dxtwk3wlcwv.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669447-ground-max-fosmax-complex-_JM",
         "specs": {
             "Código de repuesto": "2507885",
             "Marca": "Spraytec",
@@ -3758,7 +3758,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785268659/teovnzw6sumt5bhjjv0g.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669457-clean-full-limpiador-_JM",
         "specs": {
             "Código de repuesto": "2507519",
             "Marca": "Spraytec",
@@ -3780,7 +3780,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785268660/oqi2pqb17fxwycik6ewg.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669461-deep-truck-limpiador-_JM",
         "specs": {
             "Código de repuesto": "2507809",
             "Marca": "Spraytec",
@@ -3802,7 +3802,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785268662/bpttapfd5i7bwkh3w05f.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254886-degras-remover-repuesto-agricola-spraytec-cod-2507733-_JM",
         "specs": {
             "Código de repuesto": "2507733",
             "Marca": "Spraytec",
@@ -3824,7 +3824,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785268664/rryutk2fq0nfgcg27t8u.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154342-kortok-a-antiespumante-_JM",
         "specs": {
             "Código de repuesto": "2507525",
             "Marca": "Spraytec",
@@ -3846,7 +3846,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669483-bioinsecticida-acote-pack-8u-x-2-lts-_JM",
         "specs": {
             "Código de repuesto": "2507971",
             "Marca": "Spraytec",
@@ -3912,7 +3912,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254910-inoculante-mix-control-soja-pack-_JM",
         "specs": {
             "Código de repuesto": "2507990",
             "Marca": "Spraytec",
@@ -3934,7 +3934,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724254914-inoculante-soja-base-mas-insecticida-5u-x-2-lts-_JM",
         "specs": {
             "Código de repuesto": "2508005",
             "Marca": "Spraytec",
@@ -3956,7 +3956,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154356-inoculante-soja-base-mas-sachaderma-6u-x-2-lts-_JM",
         "specs": {
             "Código de repuesto": "2508023",
             "Marca": "Spraytec",
@@ -3978,7 +3978,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669497-inoculante-soja-base-pack-4u-x-2-lts-_JM",
         "specs": {
             "Código de repuesto": "2508009",
             "Marca": "Spraytec",
@@ -4071,7 +4071,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785263207/fdnlqploag2ncbikxbcw.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723994786-miniexcavadora-xn06-_JM",
         "specs": {
             "Código de repuesto": "VIAL-MINIEXCAVADORA-XN06",
             "Marca": "Rhinoceros",
@@ -4094,7 +4094,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785263212/rmcgiwkysnxdefsz7e92.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947433023-miniexcavadora-xn08-_JM",
         "specs": {
             "Código de repuesto": "VIAL-MINIEXCAVADORA-XN08",
             "Marca": "Rhinoceros",
@@ -4209,7 +4209,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785263221/rwrcqqaacedcvv6fulth.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947433067-miniexcavadora-xn28-_JM",
         "specs": {
             "Código de repuesto": "VIAL-MINIEXCAVADORA-XN28",
             "Marca": "Rhinoceros",
@@ -4349,7 +4349,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271461/mpmurvcmoivnngnrx6kz.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947433099-pala-ctx912-_JM",
         "specs": {
             "Código de repuesto": "VIAL-PALA-CTX912",
             "Marca": "CTX",
@@ -4373,7 +4373,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271464/cwjedcpjgndnv5upiexy.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724146728-pala-ctx918-_JM",
         "specs": {
             "Código de repuesto": "VIAL-PALA-CTX918",
             "Marca": "CTX",
@@ -4441,7 +4441,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271465/rkvcrptl1hqezwsbnuox.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947433127-pala-ctx926a-_JM",
         "specs": {
             "Código de repuesto": "VIAL-PALA-CTX926A",
             "Marca": "CTX",
@@ -4464,7 +4464,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271468/pfut5okx9uwylkxopxv3.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724146760-pala-ctx926-_JM",
         "specs": {
             "Código de repuesto": "VIAL-PALA-CTX926",
             "Marca": "CTX",
@@ -4489,7 +4489,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271474/xb82eamo2qn959k3o8mn.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947433135-pala-ctx928-_JM",
         "specs": {
             "Código de repuesto": "VIAL-PALA-CTX928",
             "Marca": "CTX",
@@ -4512,7 +4512,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271477/lkgrohal0g3ntiylqj9e.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723994886-pala-ctx930-yunnei-_JM",
         "specs": {
             "Código de repuesto": "VIAL-PALA-CTX930-YUNNEI",
             "Marca": "CTX",
@@ -4535,7 +4535,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271480/ba0p8a4fug8p5milrxto.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723994902-pala-ctx930-cummins-_JM",
         "specs": {
             "Código de repuesto": "VIAL-PALA-CTX930-CUMMINS",
             "Marca": "CTX",
@@ -4561,7 +4561,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271486/gjeu5aiujzxq28sncide.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723994908-pala-ctx936a-_JM",
         "specs": {
             "Código de repuesto": "VIAL-PALA-CTX936A",
             "Marca": "CTX",
@@ -4584,7 +4584,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271489/eb2yzowliht3az35zb0w.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947433157-pala-ctx936-c3v-_JM",
         "specs": {
             "Código de repuesto": "VIAL-PALA-CTX936-C-3V",
             "Marca": "CTX",
@@ -4606,7 +4606,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947433165-pala-ctx936-c3v-acople-_JM",
         "specs": {
             "Código de repuesto": "VIAL-PALA-CTX936-C-3V-ACOPLE",
             "Marca": "CTX",
@@ -4628,7 +4628,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271490/fluvqk166sibnr3wdszs.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723994924-pala-ctx956-weichai-_JM",
         "specs": {
             "Código de repuesto": "VIAL-PALA-CTX956-WEICHAI",
             "Marca": "CTX",
@@ -4650,7 +4650,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724146800-pala-938h-c3v-_JM",
         "specs": {
             "Código de repuesto": "VIAL-PALA-938H-C-3V",
             "Marca": "Vial",
@@ -4672,7 +4672,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723994934-pala-938h-c3v-y-acople-_JM",
         "specs": {
             "Código de repuesto": "VIAL-PALA-938H-C-3V-Y-ACOPLE",
             "Marca": "Vial",
@@ -4694,7 +4694,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723994950-pala-958h-_JM",
         "specs": {
             "Código de repuesto": "VIAL-PALA-958H",
             "Marca": "Vial",
@@ -4716,7 +4716,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947433191-pala-yx657-_JM",
         "specs": {
             "Código de repuesto": "VIAL-PALA-YX657",
             "Marca": "Vial",
@@ -4762,7 +4762,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723994958-retro-ctx30-25-cummins-_JM",
         "specs": {
             "Código de repuesto": "VIAL-RETRO-CTX30-25-CUMMINS",
             "Marca": "CTX",
@@ -4809,7 +4809,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947433201-retro-ctx388-cummins-_JM",
         "specs": {
             "Código de repuesto": "VIAL-RETRO-CTX388-CUMMINS",
             "Marca": "CTX",
@@ -4855,7 +4855,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723994962-motoniveladora-py220-_JM",
         "specs": {
             "Código de repuesto": "VIAL-MOTONIVELADORA-PY220",
             "Marca": "Vial",
@@ -4877,7 +4877,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723994966-aplanadora-ltc210-_JM",
         "specs": {
             "Código de repuesto": "VIAL-APLANADORA-LTC210",
             "Marca": "Vial",
@@ -4899,7 +4899,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947433213-acople-rapido-926928930-_JM",
         "specs": {
             "Código de repuesto": "VIAL-ACOPLE-RAPIDO-926-928-930",
             "Marca": "Vial",
@@ -4921,7 +4921,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723994970-apilador-electrico-tb20-40-_JM",
         "specs": {
             "Código de repuesto": "VIAL-APILADOR-ELECTRICO-TB20-40",
             "Marca": "Vial",
@@ -4987,7 +4987,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723994988-autoelevador-25-tn-xincai-_JM",
         "specs": {
             "Código de repuesto": "VIAL-AUTOELEVADOR-2-5-TN-XINCAI",
             "Marca": "Vial",
@@ -5009,7 +5009,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724146850-autoelevador-3-tn-xinchai-_JM",
         "specs": {
             "Código de repuesto": "VIAL-AUTOELEVADOR-3-TN-XINCHAI",
             "Marca": "Vial",
@@ -5031,7 +5031,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724146860-autoelevador-35-tn-xinchai-_JM",
         "specs": {
             "Código de repuesto": "VIAL-AUTOELEVADOR-3-5-TN-XINCHAI",
             "Marca": "Vial",
@@ -5141,7 +5141,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669661-adicional-rodado-dual-_JM",
         "specs": {
             "Código de repuesto": "VIAL-ADICIONAL-RODADO-DUAL",
             "Marca": "Vial",
@@ -5163,7 +5163,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669669-adicional-cabina-pterrdesp-_JM",
         "specs": {
             "Código de repuesto": "VIAL-ADICIONAL-CABINA-P-TERR-DESP",
             "Marca": "Vial",
@@ -5185,7 +5185,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723995026-adicional-torre-de-6-mts-comun-_JM",
         "specs": {
             "Código de repuesto": "VIAL-ADICIONAL-TORRE-DE-6-MTS-COMUN",
             "Marca": "Vial",
@@ -5207,7 +5207,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723995032-adicional-torre-de-6-mts-td-_JM",
         "specs": {
             "Código de repuesto": "VIAL-ADICIONAL-TORRE-DE-6-MTS-TD",
             "Marca": "Vial",
@@ -5273,7 +5273,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723995050-acole-rapido-ctx918-_JM",
         "specs": {
             "Código de repuesto": "VIAL-ACOLE-RAPIDO-CTX918",
             "Marca": "CTX",
@@ -5295,7 +5295,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724146902-acople-rapido-ctx926a926928930-_JM",
         "specs": {
             "Código de repuesto": "VIAL-ACOPLE-RAPIDO-CTX926A-926-928-930",
             "Marca": "CTX",
@@ -5317,7 +5317,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724146908-acople-rapido-ctx936-_JM",
         "specs": {
             "Código de repuesto": "VIAL-ACOPLE-RAPIDO-CTX936",
             "Marca": "CTX",
@@ -5339,7 +5339,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723995060-unas-paleteras-ctx912-ctx918-_JM",
         "specs": {
             "Código de repuesto": "VIAL-U-AS-PALETERAS-CTX912-CTX918",
             "Marca": "CTX",
@@ -5361,7 +5361,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724146918-unas-paleteras-cg926a-bronco-_JM",
         "specs": {
             "Código de repuesto": "VIAL-U-AS-PALETERAS-CG926A-BRONCO",
             "Marca": "Bronco",
@@ -5383,7 +5383,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724146924-unas-paleteras-ctx926a926928930-_JM",
         "specs": {
             "Código de repuesto": "VIAL-U-AS-PALETERAS-CTX926A-926-928-930",
             "Marca": "CTX",
@@ -5405,7 +5405,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724146930-unas-paleteras-ctx936-_JM",
         "specs": {
             "Código de repuesto": "VIAL-U-AS-PALETERAS-CTX936",
             "Marca": "CTX",
@@ -5427,7 +5427,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947433329-balde-ctx926a926-_JM",
         "specs": {
             "Código de repuesto": "VIAL-BALDE-CTX926A-926",
             "Marca": "CTX",
@@ -5449,7 +5449,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947433333-balde-ctx930-_JM",
         "specs": {
             "Código de repuesto": "VIAL-BALDE-CTX930",
             "Marca": "CTX",
@@ -5471,7 +5471,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669701-extencion-balde-repuesto-agricola-vial-cod-vial-extencion-ba-_JM",
         "specs": {
             "Código de repuesto": "VIAL-EXTENCION-BALDE",
             "Marca": "Vial",
@@ -5493,7 +5493,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947433343-banco-de-3-valvulas-ctx936-_JM",
         "specs": {
             "Código de repuesto": "VIAL-BANCO-DE-3-VALVULAS-CTX936",
             "Marca": "CTX",
@@ -5559,7 +5559,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154552-una-paletera-wt400-repuesto-agricola-wt-cod-vial-u-a-paleter-_JM",
         "specs": {
             "Código de repuesto": "VIAL-U-A-PALETERA-WT400",
             "Marca": "WT",
@@ -5581,7 +5581,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724146962-una-paletera-tmv690-_JM",
         "specs": {
             "Código de repuesto": "VIAL-U-A-PALETERA-TMV690",
             "Marca": "TMV",
@@ -5603,7 +5603,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724146972-una-paletera-tmv1100-_JM",
         "specs": {
             "Código de repuesto": "VIAL-U-A-PALETERA-TMV1100",
             "Marca": "TMV",
@@ -5757,7 +5757,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723995150-hoyadora-wt400-_JM",
         "specs": {
             "Código de repuesto": "VIAL-HOYADORA-WT400",
             "Marca": "WT",
@@ -5779,7 +5779,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947433401-hoyadora-tmv690-_JM",
         "specs": {
             "Código de repuesto": "VIAL-HOYADORA-TMV690",
             "Marca": "TMV",
@@ -5801,7 +5801,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947433411-hoyadora-tmv1100-_JM",
         "specs": {
             "Código de repuesto": "VIAL-HOYADORA-TMV1100",
             "Marca": "TMV",
@@ -5823,7 +5823,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147012-alisadora-con-rodillo-vibrador-_JM",
         "specs": {
             "Código de repuesto": "VIAL-ALISADORA-CON-RODILLO-VIBRADOR",
             "Marca": "Vial",
@@ -5845,7 +5845,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947433415-zanjeadora-150mm-wt400-_JM",
         "specs": {
             "Código de repuesto": "VIAL-ZANJEADORA-150MM-WT400",
             "Marca": "WT",
@@ -5867,7 +5867,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724255144-zanjeadora-300-mm-tmv690-_JM",
         "specs": {
             "Código de repuesto": "VIAL-ZANJEADORA-300-MM-TMV690",
             "Marca": "TMV",
@@ -5889,7 +5889,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154588-zanjeadora-300mm-tmv1100-_JM",
         "specs": {
             "Código de repuesto": "VIAL-ZANJEADORA-300MM-TMV1100",
             "Marca": "TMV",
@@ -5933,7 +5933,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947433433-cepillos-para-barredora-x2-_JM",
         "specs": {
             "Código de repuesto": "VIAL-CEPILLOS-PARA-BARREDORA-X2",
             "Marca": "Vial",
@@ -5957,7 +5957,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785263243/glw26oake0pkeiskk8ai.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147046-balde-angosto-xn08xn12-_JM",
         "specs": {
             "Código de repuesto": "VIAL-BALDE-ANGOSTO-XN08-XN12",
             "Marca": "Rhinoceros",
@@ -5981,7 +5981,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785263246/mwq3idqdpx89c1vyznnq.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147054-balde-angosto-xn16xn22-_JM",
         "specs": {
             "Código de repuesto": "VIAL-BALDE-ANGOSTO-XN16-XN22",
             "Marca": "Rhinoceros",
@@ -6005,7 +6005,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785263240/c8wqpcd5uetalrcy7eta.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147060-balde-angosto-xn28-_JM",
         "specs": {
             "Código de repuesto": "VIAL-BALDE-ANGOSTO-XN28",
             "Marca": "Rhinoceros",
@@ -6027,7 +6027,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785264916/wr6koajf2c2gebyhbdcv.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947433451-balde-standard-xn08xn12-_JM",
         "specs": {
             "Código de repuesto": "VIAL-BALDE-STANDARD-XN08-XN12",
             "Marca": "Rhinoceros",
@@ -6049,7 +6049,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785264918/rlazrp3jertkchslbdnt.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723995210-balde-standard-xn16xn22-_JM",
         "specs": {
             "Código de repuesto": "VIAL-BALDE-STANDARD-XN16-XN22",
             "Marca": "Rhinoceros",
@@ -6071,7 +6071,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785264921/so6mmapmri3dwxdicd6i.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147070-balde-standard-xn28-_JM",
         "specs": {
             "Código de repuesto": "VIAL-BALDE-STANDARD-XN28",
             "Marca": "Rhinoceros",
@@ -6160,7 +6160,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785264932/jy7fzcmzxocqoxtvajni.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147082-balde-triangular-xn08xn12-_JM",
         "specs": {
             "Código de repuesto": "VIAL-BALDE-TRIANGULAR-XN08-XN12",
             "Marca": "Rhinoceros",
@@ -6183,7 +6183,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785264936/amjd60zfxytamhhe4qvt.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723995232-balde-triangular-xn16xn22-_JM",
         "specs": {
             "Código de repuesto": "VIAL-BALDE-TRIANGULAR-XN16-XN22",
             "Marca": "Rhinoceros",
@@ -6206,7 +6206,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785264939/xk2bs222kpg5332n5m8v.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669785-ripera-xn08xn12-repuesto-agricola-rhinoceros-cod-vial-riper-_JM",
         "specs": {
             "Código de repuesto": "VIAL-RIPERA-XN08-XN12",
             "Marca": "Rhinoceros",
@@ -6229,7 +6229,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785264941/hithl31zkxr7jx1lvmax.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724255176-ripera-xn16xn22-repuesto-agricola-rhinoceros-cod-vial-riper-_JM",
         "specs": {
             "Código de repuesto": "VIAL-RIPERA-XN16-XN22",
             "Marca": "Rhinoceros",
@@ -6252,7 +6252,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785264943/ncljy0jtig8txxt32jnw.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724255184-ripera-xn28-repuesto-agricola-rhinoceros-cod-vial-ripera-xn2-_JM",
         "specs": {
             "Código de repuesto": "VIAL-RIPERA-XN28",
             "Marca": "Rhinoceros",
@@ -6275,7 +6275,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785264946/hlnqgurejvvcilfvftu9.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669797-acople-rapido-xn16-repuesto-agricola-rhinoceros-cod-vial-aco-_JM",
         "specs": {
             "Código de repuesto": "VIAL-ACOPLE-RAPIDO-XN16",
             "Marca": "Rhinoceros",
@@ -6298,7 +6298,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785264948/dybucmrapbkssrpoookt.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724255188-acople-rapido-xn28-repuesto-agricola-rhinoceros-cod-vial-aco-_JM",
         "specs": {
             "Código de repuesto": "VIAL-ACOPLE-RAPIDO-XN28",
             "Marca": "Rhinoceros",
@@ -6320,7 +6320,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785264949/hiqmlqqais7mt1xgiyfk.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154628-hoyadora-xn08xn12-repuesto-agricola-rhinoceros-cod-vial-hoy-_JM",
         "specs": {
             "Código de repuesto": "VIAL-HOYADORA-XN08-XN12",
             "Marca": "Rhinoceros",
@@ -6342,7 +6342,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785264951/v2kl4g09qo2gbkglxo8r.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147106-hoyadora-xn16xn22-_JM",
         "specs": {
             "Código de repuesto": "VIAL-HOYADORA-XN16-XN22",
             "Marca": "Rhinoceros",
@@ -6364,7 +6364,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785264952/rkj3cptfhbggdiklyi2x.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147110-hoyadora-xn28-_JM",
         "specs": {
             "Código de repuesto": "VIAL-HOYADORA-XN28",
             "Marca": "Rhinoceros",
@@ -6452,7 +6452,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785264958/snrsx5nvdbu8c4nrymkb.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669841-rastrillo-xn16-repuesto-agricola-rhinoceros-cod-vial-rastril-_JM",
         "specs": {
             "Código de repuesto": "VIAL-RASTRILLO-XN16",
             "Marca": "Rhinoceros",
@@ -6586,7 +6586,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271435/psycvv8sj9pa32hztyhg.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724255242-chipeadora-bronco-wc50-_JM",
         "specs": {
             "Código de repuesto": "VIAL-CHIPEADORA-BRONCO-WC50",
             "Marca": "Bronco",
@@ -6611,7 +6611,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271441/miinchosvwtpv4me6zvt.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724247528-chipeadora-bronco-wc120-_JM",
         "specs": {
             "Código de repuesto": "VIAL-CHIPEADORA-BRONCO-WC120",
             "Marca": "Bronco",
@@ -6634,7 +6634,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271443/rwhw5i66ruq4qn9gd73b.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147152-cortadora-de-pasto-bronco-tr500-giro-0-_JM",
         "specs": {
             "Código de repuesto": "VIAL-CORTADORA-DE-PASTO-BRONCO-TR500-GIRO-0",
             "Marca": "Bronco",
@@ -6656,7 +6656,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271445/bngsvhehxpa9abg8urcv.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147158-cortadora-de-pasto-tractor-marca-bronco-_JM",
         "specs": {
             "Código de repuesto": "VIAL-CORTADORA-DE-PASTO-TRACTOR-MARCA-BRONCO",
             "Marca": "Bronco",
@@ -6679,7 +6679,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271401/vfw8ud0qwcgw0dwmrzx5.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723995332-tractor-bronco-254-ruedas-parqueras-_JM",
         "specs": {
             "Código de repuesto": "VIAL-TRACTOR-BRONCO-254-RUEDAS-PARQUERAS",
             "Marca": "Bronco",
@@ -6702,7 +6702,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271403/u8l6f9ypc3vdnbxov8kx.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723995336-tractor-bronco-254-ruedas-con-taco-_JM",
         "specs": {
             "Código de repuesto": "VIAL-TRACTOR-BRONCO-254-RUEDAS-CON-TACO",
             "Marca": "Bronco",
@@ -6726,7 +6726,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271407/gvdxd9ulxbgankazppcb.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147170-tractor-bronco-404-ruedas-parqueras-_JM",
         "specs": {
             "Código de repuesto": "VIAL-TRACTOR-BRONCO-404-RUEDAS-PARQUERAS",
             "Marca": "Bronco",
@@ -6749,7 +6749,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271409/zbkl5oa5wg0ct1mbcbdv.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147178-tractor-bronco-404-ruedas-con-taco-_JM",
         "specs": {
             "Código de repuesto": "VIAL-TRACTOR-BRONCO-404-RUEDAS-CON-TACO",
             "Marca": "Bronco",
@@ -6772,7 +6772,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271412/hxivjojeitrbgohhnyeh.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724247556-tractor-bronco-604-ruedas-parqueras-_JM",
         "specs": {
             "Código de repuesto": "VIAL-TRACTOR-BRONCO-604-RUEDAS-PARQUERAS",
             "Marca": "Bronco",
@@ -6794,7 +6794,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271413/rifb3hvew7vdq83zpo03.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724247560-tractor-bronco-604-ruedas-con-taco-_JM",
         "specs": {
             "Código de repuesto": "VIAL-TRACTOR-BRONCO-604-RUEDAS-CON-TACO",
             "Marca": "Bronco",
@@ -6816,7 +6816,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271415/lokvz7wss11kj2utemqt.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724247566-tractor-bronco-604-ruedas-ctaco-con-cabina-_JM",
         "specs": {
             "Código de repuesto": "VIAL-TRACTOR-BRONCO-604-RUEDAS-C-TACO-CON-CABINA",
             "Marca": "Bronco",
@@ -6840,7 +6840,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271418/jx1hxuihskiul82b1bmm.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723995352-tractor-bronco-804-ruedas-con-taco-_JM",
         "specs": {
             "Código de repuesto": "VIAL-TRACTOR-BRONCO-804-RUEDAS-CON-TACO",
             "Marca": "Bronco",
@@ -6864,7 +6864,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271422/nosc1c031vmwxp4o8r1y.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724247582-tractor-bronco-804-ruedas-ctaco-con-cabina-_JM",
         "specs": {
             "Código de repuesto": "VIAL-TRACTOR-BRONCO-804-RUEDAS-C-TACO-CON-CABINA",
             "Marca": "Bronco",
@@ -6886,7 +6886,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271423/gzqotsaxhbqafhszdgzw.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147202-tractor-bronco-1004-ruedas-con-taco-_JM",
         "specs": {
             "Código de repuesto": "VIAL-TRACTOR-BRONCO-1004-RUEDAS-CON-TACO",
             "Marca": "Bronco",
@@ -6911,7 +6911,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271428/zs34rtqoyijhw64nq4ia.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147206-tractor-bronco-1104-ruedas-ctaco-con-cabina-_JM",
         "specs": {
             "Código de repuesto": "VIAL-TRACTOR-BRONCO-1104-RUEDAS-C-TACO-CON-CABINA",
             "Marca": "Bronco",
@@ -6935,7 +6935,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785271431/eeg92mczawyuphtufyg7.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723995360-tractor-bronco-1254-ruedas-con-taco-_JM",
         "specs": {
             "Código de repuesto": "VIAL-TRACTOR-BRONCO-1254-RUEDAS-CON-TACO",
             "Marca": "Bronco",
@@ -6957,7 +6957,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723995366-desmalezadora-tractor-25-hp-140-_JM",
         "specs": {
             "Código de repuesto": "VIAL-DESMALEZADORA-TRACTOR-25-HP-1-40",
             "Marca": "Vial",
@@ -6979,7 +6979,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147222-desmalezadora-tractor-40-hp-150-_JM",
         "specs": {
             "Código de repuesto": "VIAL-DESMALEZADORA-TRACTOR-40-HP-1-50",
             "Marca": "Vial",
@@ -7001,7 +7001,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723995374-desmalezadora-tractor-60-hp-180-_JM",
         "specs": {
             "Código de repuesto": "VIAL-DESMALEZADORA-TRACTOR-60-HP-1-80",
             "Marca": "Vial",
@@ -7024,7 +7024,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785250547/vpkv24f5k9dqqqpmcloh.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724247652-juego-chapas-plegadas-pecotank-200500-pdrones-_JM",
         "specs": {
             "Código de repuesto": "2507608",
             "Marca": "UDOR",
@@ -7047,7 +7047,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947669949-mezclador-ecotank-kit-manguerapistola-dron-_JM",
         "specs": {
             "Código de repuesto": "2507719",
             "Marca": "UDOR",
@@ -7070,7 +7070,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723995430-mezclador-ecotank-pdrones-kit-bomba-agua-limpia-_JM",
         "specs": {
             "Código de repuesto": "2507739",
             "Marca": "UDOR",
@@ -7093,7 +7093,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147274-mezclador-ecotank-pdrones-conjunto-base-_JM",
         "specs": {
             "Código de repuesto": "2507854",
             "Marca": "UDOR",
@@ -7116,7 +7116,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785250548/qm0cqouacw1ishqnsq3o.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723995436-mezclador-ecotank-pdrones-tanque-200-_JM",
         "specs": {
             "Código de repuesto": "2507855",
             "Marca": "UDOR",
@@ -7139,7 +7139,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785250550/jcgihsl38rxyk1irt4pt.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723995440-mezclador-ecotank-pdrones-tanque-500-_JM",
         "specs": {
             "Código de repuesto": "2507856",
             "Marca": "UDOR",
@@ -7162,7 +7162,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785250551/i1czg0egqkxk8mr5zlzo.webp"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147288-mezclador-ecotank-pdrones-tanque-700-_JM",
         "specs": {
             "Código de repuesto": "2507857",
             "Marca": "UDOR",
@@ -7185,7 +7185,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724255320-pistola-despacho-dron-_JM",
         "specs": {
             "Código de repuesto": "2507889",
             "Marca": "UDOR",
@@ -7208,7 +7208,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724154782-chasis-ecotank-200-dronfull-_JM",
         "specs": {
             "Código de repuesto": "2507893",
             "Marca": "UDOR",
@@ -7231,7 +7231,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723995458-mezclador-ecotank-pdrones-200500-_JM",
         "specs": {
             "Código de repuesto": "6501099",
             "Marca": "UDOR",
@@ -7254,7 +7254,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723995466-mezclador-ecotank-pdrones-7001000-_JM",
         "specs": {
             "Código de repuesto": "6501100",
             "Marca": "UDOR",
@@ -7277,7 +7277,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147304-mezclador-ecotank-200-dron-_JM",
         "specs": {
             "Código de repuesto": "6501106",
             "Marca": "UDOR",
@@ -7300,7 +7300,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147312-mezclador-ecotank-500-dron-_JM",
         "specs": {
             "Código de repuesto": "6501107",
             "Marca": "UDOR",
@@ -7323,7 +7323,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147318-mezclador-ecotank-500-nevada-dron-_JM",
         "specs": {
             "Código de repuesto": "6501110",
             "Marca": "UDOR",
@@ -8066,7 +8066,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147414-dual-spray-90l-3-baterias-1-generador-enfriador-_JM",
         "specs": {
             "SKU": "KDUAL3BAT User",
             "Categoría": "T100DUAL",
@@ -8138,7 +8138,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724247860-dock-3-matrice-4td-_JM",
         "specs": {
             "SKU": "KDOCK3",
             "Categoría": "M4",
@@ -8306,7 +8306,7 @@ export const SEED_PRODUCTS = [
             "https://res.cloudinary.com/doissrwhj/image/upload/v1785192720/bt2ji0le3yungebz7ptu.jpg"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723995586-dual-spray-90l-1-baterias-1-generador-enfriador-_JM",
         "specs": {
             "SKU": "KDUAL1BAT User",
             "Categoría": "T100DUAL",
@@ -8834,7 +8834,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724247940-t100-dual-battery-spraying-system-without-air-cooled-heat-s-_JM",
         "specs": {
             "SKU": "T100SDUAL",
             "Categoría": "ACC1",
@@ -8858,7 +8858,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724155058-antena-rtk-3-tripode-_JM",
         "specs": {
             "SKU": "KTRTK3",
             "Categoría": "ACC1",
@@ -8882,7 +8882,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147542-mixer-brumby-500-litros-_JM",
         "specs": {
             "SKU": "Mixer 500 L",
             "Categoría": "ACC2",
@@ -8906,7 +8906,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724247952-bateria-agras-t40-_JM",
         "specs": {
             "SKU": "T40BATER",
             "Categoría": "ACC1",
@@ -8930,7 +8930,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947670225-t50-bateria-repuesto-agricola-dji-cod-t50bater-_JM",
         "specs": {
             "SKU": "T50BATER",
             "Categoría": "ACC1",
@@ -8954,7 +8954,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147552-mixer-brumby-240-litros-_JM",
         "specs": {
             "SKU": "Mixer 240 L",
             "Categoría": "ACC2",
@@ -8978,7 +8978,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947670231-antena-rtk-3-repuesto-agricola-dji-cod-antrtk03-_JM",
         "specs": {
             "SKU": "ANTRTK03",
             "Categoría": "ACC1",
@@ -9002,7 +9002,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724247978-cargador-agras-t40-_JM",
         "specs": {
             "SKU": "T40CARGA",
             "Categoría": "ACC2",
@@ -9026,7 +9026,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3723995732-t50-cargador-_JM",
         "specs": {
             "SKU": "T50CARGA",
             "Categoría": "ACC1",
@@ -9050,7 +9050,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147602-cargador-t100t70-_JM",
         "specs": {
             "SKU": "T100CARGA",
             "Categoría": "ACC1",
@@ -9098,7 +9098,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724247994-bateria-agras-t20-_JM",
         "specs": {
             "SKU": "T20BATER",
             "Categoría": "ACC1",
@@ -9122,7 +9122,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724247998-cargador-agras-t20-_JM",
         "specs": {
             "SKU": "T20CARGA",
             "Categoría": "ACC2",
@@ -9170,7 +9170,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724147626-dl100-lifting-system-_JM",
         "specs": {
             "SKU": "T65AGRUA",
             "Categoría": "ACC1",
@@ -9218,7 +9218,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947670255-spreading-system-t100-_JM",
         "specs": {
             "SKU": "T100SPREA",
             "Categoría": "ACC1",
@@ -9242,7 +9242,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1947670265-dispersor-semillas-t40-_JM",
         "specs": {
             "SKU": "T40SEML",
             "Categoría": "ACC2",
@@ -9266,7 +9266,7 @@ export const SEED_PRODUCTS = [
             "assets/img/casadruettologo1.png"
         ],
         "videos": [],
-        "mercadolibreLink": "",
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3724155122-spreading-system-t50-_JM",
         "specs": {
             "SKU": "T50SPREA",
             "Categoría": "ACC1",
@@ -9298,6 +9298,3797 @@ export const SEED_PRODUCTS = [
             "Estado": "Nuevo Original",
             "IVA": "21.00%"
         }
+    },
+    {
+        "id": "CORREA-L111801",
+        "name": "Correa L111801 - Correa",
+        "code": "L111801",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 153.04,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "L111801",
+        "description": "Correa de transmisión John Deere código L111801. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "L111801",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726483288-correa-l111801-correa-_JM"
+    },
+    {
+        "id": "CORREA-R73785",
+        "name": "Correa R73785 - Correa",
+        "code": "R73785",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 34.69,
+        "currency": "USD",
+        "stock": 7,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "R73785",
+        "description": "Correa de transmisión John Deere código R73785. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "R73785",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579078-correa-r73785-correa-_JM"
+    },
+    {
+        "id": "CORREA-J10052",
+        "name": "Correa J10052 - Correa",
+        "code": "J10052",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 10.18,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "Genérico",
+        "model": "J10052",
+        "description": "Correa de transmisión Genérico código J10052. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "J10052",
+            "Marca": "Genérico"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579124-correa-j10052-correa-_JM"
+    },
+    {
+        "id": "CORREA-J51805",
+        "name": "Correa J51805 - Correa",
+        "code": "J51805",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 12.6,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "Genérico",
+        "model": "J51805",
+        "description": "Correa de transmisión Genérico código J51805. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "J51805",
+            "Marca": "Genérico"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726483326-correa-j51805-correa-_JM"
+    },
+    {
+        "id": "CORREA-CQ35531",
+        "name": "Correa CQ35531 - Correa",
+        "code": "CQ35531",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 133.59,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "CQ35531",
+        "description": "Correa de transmisión John Deere código CQ35531. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "CQ35531",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579130-correa-cq35531-correa-_JM"
+    },
+    {
+        "id": "CORREA-H125381",
+        "name": "Correa H125381 - Correa",
+        "code": "H125381",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 86.04,
+        "currency": "USD",
+        "stock": 6,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H125381",
+        "description": "Correa de transmisión John Deere código H125381. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H125381",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948561785-correa-h125381-correa-_JM"
+    },
+    {
+        "id": "CORREA-H138761EW",
+        "name": "Correa H138761EW - Correa",
+        "code": "H138761EW",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 30.0,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "Genérico",
+        "model": "H138761EW",
+        "description": "Correa de transmisión Genérico código H138761EW. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H138761EW",
+            "Marca": "Genérico"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579140-correa-h138761ew-correa-_JM"
+    },
+    {
+        "id": "CORREA-H140404",
+        "name": "Correa H140404 - Correa",
+        "code": "H140404",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 170.88,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H140404",
+        "description": "Correa de transmisión John Deere código H140404. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H140404",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579152-correa-h140404-correa-_JM"
+    },
+    {
+        "id": "CORREA-A67976",
+        "name": "Correa A67976 - Correa Plana",
+        "code": "A67976",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 31.94,
+        "currency": "USD",
+        "stock": 10,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "A67976",
+        "description": "Correa de transmisión John Deere código A67976. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "A67976",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726483344-correa-a67976-correa-plana-_JM"
+    },
+    {
+        "id": "CORREA-AE43286",
+        "name": "Correa AE43286 - Correa Plana",
+        "code": "AE43286",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 181.09,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "AE43286",
+        "description": "Correa de transmisión John Deere código AE43286. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "AE43286",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579156-correa-ae43286-correa-plana-_JM"
+    },
+    {
+        "id": "CORREA-AE52287",
+        "name": "Correa AE52287 - Correa Plana",
+        "code": "AE52287",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 392.05,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "AE52287",
+        "description": "Correa de transmisión John Deere código AE52287. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "AE52287",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948561813-correa-ae52287-correa-plana-_JM"
+    },
+    {
+        "id": "CORREA-AE52288",
+        "name": "Correa AE52288 - Correa Plana",
+        "code": "AE52288",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 588.56,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "AE52288",
+        "description": "Correa de transmisión John Deere código AE52288. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "AE52288",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948561821-correa-ae52288-correa-plana-_JM"
+    },
+    {
+        "id": "CORREA-AE74178",
+        "name": "Correa AE74178 - Correa Plana",
+        "code": "AE74178",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 833.66,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "AE74178",
+        "description": "Correa de transmisión John Deere código AE74178. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "AE74178",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726483356-correa-ae74178-correa-plana-_JM"
+    },
+    {
+        "id": "CORREA-AFH202038",
+        "name": "Correa AFH202038 - Correa Plana",
+        "code": "AFH202038",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 2670.09,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "AFH202038",
+        "description": "Correa de transmisión John Deere código AFH202038. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "AFH202038",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726483362-correa-afh202038-correa-plana-_JM"
+    },
+    {
+        "id": "CORREA-AH139436",
+        "name": "Correa AH139436 - Juego De Correas",
+        "code": "AH139436",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 145.88,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "AH139436",
+        "description": "Correa de transmisión John Deere código AH139436. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "AH139436",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579184-correa-ah139436-juego-de-correas-_JM"
+    },
+    {
+        "id": "CORREA-AH158880",
+        "name": "Correa AH158880 - Juego De Correas",
+        "code": "AH158880",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 135.73,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "AH158880",
+        "description": "Correa de transmisión John Deere código AH158880. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "AH158880",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948561841-correa-ah158880-juego-de-correas-_JM"
+    },
+    {
+        "id": "CORREA-AH160080",
+        "name": "Correa AH160080 - Juego De Correas",
+        "code": "AH160080",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 192.35,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "AH160080",
+        "description": "Correa de transmisión John Deere código AH160080. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "AH160080",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726483384-correa-ah160080-juego-de-correas-_JM"
+    },
+    {
+        "id": "CORREA-AJ58940",
+        "name": "Correa AJ58940 - Juego De Correas",
+        "code": "AJ58940",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 68.36,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "AJ58940",
+        "description": "Correa de transmisión John Deere código AJ58940. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "AJ58940",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579188-correa-aj58940-juego-de-correas-_JM"
+    },
+    {
+        "id": "CORREA-AJ58970",
+        "name": "Correa AJ58970 - Juego De Correas",
+        "code": "AJ58970",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 57.13,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "AJ58970",
+        "description": "Correa de transmisión John Deere código AJ58970. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "AJ58970",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579192-correa-aj58970-juego-de-correas-_JM"
+    },
+    {
+        "id": "CORREA-AR50188",
+        "name": "Correa AR50188 - Juego De Correas",
+        "code": "AR50188",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 53.7,
+        "currency": "USD",
+        "stock": 5,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "AR50188",
+        "description": "Correa de transmisión John Deere código AR50188. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "AR50188",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948561867-correa-ar50188-juego-de-correas-_JM"
+    },
+    {
+        "id": "CORREA-AR56638",
+        "name": "Correa AR56638 - Juego De Correas",
+        "code": "AR56638",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 49.93,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "AR56638",
+        "description": "Correa de transmisión John Deere código AR56638. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "AR56638",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726483392-correa-ar56638-juego-de-correas-_JM"
+    },
+    {
+        "id": "CORREA-AR72036",
+        "name": "Correa AR72036 - Juego De Correas",
+        "code": "AR72036",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 23.99,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "AR72036",
+        "description": "Correa de transmisión John Deere código AR72036. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "AR72036",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579204-correa-ar72036-juego-de-correas-_JM"
+    },
+    {
+        "id": "CORREA-AT24833",
+        "name": "Correa AT24833 - Juego De Correas",
+        "code": "AT24833",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 84.71,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "AT24833",
+        "description": "Correa de transmisión John Deere código AT24833. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "AT24833",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948561877-correa-at24833-juego-de-correas-_JM"
+    },
+    {
+        "id": "CORREA-AT262958",
+        "name": "Correa AT262958 - Correa Trapezoidal",
+        "code": "AT262958",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 143.56,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "AT262958",
+        "description": "Correa de transmisión John Deere código AT262958. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "AT262958",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726483402-correa-at262958-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-AZ39676",
+        "name": "Correa AZ39676 - Juego De Correas",
+        "code": "AZ39676",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 98.66,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "AZ39676",
+        "description": "Correa de transmisión John Deere código AZ39676. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "AZ39676",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579212-correa-az39676-juego-de-correas-_JM"
+    },
+    {
+        "id": "CORREA-AZ39677",
+        "name": "Correa AZ39677 - Juego De Correas",
+        "code": "AZ39677",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 686.98,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "AZ39677",
+        "description": "Correa de transmisión John Deere código AZ39677. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "AZ39677",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579220-correa-az39677-juego-de-correas-_JM"
+    },
+    {
+        "id": "CORREA-AZ39678",
+        "name": "Correa AZ39678 - Juego De Correas",
+        "code": "AZ39678",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 164.04,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "AZ39678",
+        "description": "Correa de transmisión John Deere código AZ39678. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "AZ39678",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948561897-correa-az39678-juego-de-correas-_JM"
+    },
+    {
+        "id": "CORREA-AZ56225",
+        "name": "Correa AZ56225 - Juego De Correas",
+        "code": "AZ56225",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 198.15,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "AZ56225",
+        "description": "Correa de transmisión John Deere código AZ56225. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "AZ56225",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948561907-correa-az56225-juego-de-correas-_JM"
+    },
+    {
+        "id": "CORREA-CA20518",
+        "name": "Correa CA20518 - Correa",
+        "code": "CA20518",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 232.07,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "CA20518",
+        "description": "Correa de transmisión John Deere código CA20518. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "CA20518",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579236-correa-ca20518-correa-_JM"
+    },
+    {
+        "id": "CORREA-CQ05106",
+        "name": "Correa CQ05106 - Correa Trapezoidal",
+        "code": "CQ05106",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 443.23,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "CQ05106",
+        "description": "Correa de transmisión John Deere código CQ05106. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "CQ05106",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579242-correa-cq05106-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-CQ08238",
+        "name": "Correa CQ08238 - Correa Trapezoidal",
+        "code": "CQ08238",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 12.28,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "CQ08238",
+        "description": "Correa de transmisión John Deere código CQ08238. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "CQ08238",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948561933-correa-cq08238-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-CQ08239",
+        "name": "Correa CQ08239 - Correa Trapezoidal",
+        "code": "CQ08239",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 29.84,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "CQ08239",
+        "description": "Correa de transmisión John Deere código CQ08239. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "CQ08239",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726483434-correa-cq08239-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-CQ13837",
+        "name": "Correa CQ13837 - Correa Noria",
+        "code": "CQ13837",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 52.7,
+        "currency": "USD",
+        "stock": 4,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "CQ13837",
+        "description": "Correa de transmisión John Deere código CQ13837. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "CQ13837",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948561941-correa-cq13837-correa-noria-_JM"
+    },
+    {
+        "id": "CORREA-CQ17755",
+        "name": "Correa CQ17755 - Correa Trapezoidal",
+        "code": "CQ17755",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 29.03,
+        "currency": "USD",
+        "stock": 4,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "CQ17755",
+        "description": "Correa de transmisión John Deere código CQ17755. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "CQ17755",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579274-correa-cq17755-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-CQ33577",
+        "name": "Correa CQ33577 - Correa Trapezoidal",
+        "code": "CQ33577",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 29.15,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "CQ33577",
+        "description": "Correa de transmisión John Deere código CQ33577. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "CQ33577",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579278-correa-cq33577-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-CQ34122",
+        "name": "Correa CQ34122 - Correa Trapezoidal",
+        "code": "CQ34122",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 15.09,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "CQ34122",
+        "description": "Correa de transmisión John Deere código CQ34122. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "CQ34122",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948561967-correa-cq34122-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-CQ35426",
+        "name": "Correa CQ35426 - Correa Trapezoidal",
+        "code": "CQ35426",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 291.18,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "CQ35426",
+        "description": "Correa de transmisión John Deere código CQ35426. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "CQ35426",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948561971-correa-cq35426-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-CQ35559",
+        "name": "Correa CQ35559 - Correa Trapezoidal",
+        "code": "CQ35559",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 424.68,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "CQ35559",
+        "description": "Correa de transmisión John Deere código CQ35559. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "CQ35559",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948561977-correa-cq35559-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-CQ37755",
+        "name": "Correa CQ37755 - Correa Trapezoidal",
+        "code": "CQ37755",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 15.78,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "CQ37755",
+        "description": "Correa de transmisión John Deere código CQ37755. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "CQ37755",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726483486-correa-cq37755-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-CQ48048",
+        "name": "Correa CQ48048 - Correa Trapezoidal",
+        "code": "CQ48048",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 173.7,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "CQ48048",
+        "description": "Correa de transmisión John Deere código CQ48048. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "CQ48048",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948561985-correa-cq48048-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-CQ50143",
+        "name": "Correa CQ50143 - Correa Trapezoidal",
+        "code": "CQ50143",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 139.31,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "CQ50143",
+        "description": "Correa de transmisión John Deere código CQ50143. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "CQ50143",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579290-correa-cq50143-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-CQ50815",
+        "name": "Correa CQ50815 - Correa Trapezoidal",
+        "code": "CQ50815",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 64.99,
+        "currency": "USD",
+        "stock": 4,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "CQ50815",
+        "description": "Correa de transmisión John Deere código CQ50815. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "CQ50815",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579296-correa-cq50815-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-CQ51920",
+        "name": "Correa CQ51920 - Correa Trapezoidal",
+        "code": "CQ51920",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 116.63,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "CQ51920",
+        "description": "Correa de transmisión John Deere código CQ51920. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "CQ51920",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577515-correa-cq51920-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-CQ51921",
+        "name": "Correa CQ51921 - Correa Trapezoidal",
+        "code": "CQ51921",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 63.19,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "CQ51921",
+        "description": "Correa de transmisión John Deere código CQ51921. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "CQ51921",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579310-correa-cq51921-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-CQ58873",
+        "name": "Correa CQ58873 - Correa Plana",
+        "code": "CQ58873",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 66.6,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "CQ58873",
+        "description": "Correa de transmisión John Deere código CQ58873. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "CQ58873",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562017-correa-cq58873-correa-plana-_JM"
+    },
+    {
+        "id": "CORREA-DQ16201",
+        "name": "Correa DQ16201 - Juego De Correas",
+        "code": "DQ16201",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 15.86,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "DQ16201",
+        "description": "Correa de transmisión John Deere código DQ16201. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "DQ16201",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579324-correa-dq16201-juego-de-correas-_JM"
+    },
+    {
+        "id": "CORREA-DQ29594",
+        "name": "Correa DQ29594 - Juego De Correas",
+        "code": "DQ29594",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 292.63,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "DQ29594",
+        "description": "Correa de transmisión John Deere código DQ29594. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "DQ29594",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577537-correa-dq29594-juego-de-correas-_JM"
+    },
+    {
+        "id": "CORREA-E78287",
+        "name": "Correa E78287 - Correa Trapezoidal",
+        "code": "E78287",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 28.1,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "E78287",
+        "description": "Correa de transmisión John Deere código E78287. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "E78287",
+            "Marca": "John Deere"
+        },
+        "featured": false
+    },
+    {
+        "id": "CORREA-GX21395",
+        "name": "Correa GX21395 - Correa Plana",
+        "code": "GX21395",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 81.45,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "GX21395",
+        "description": "Correa de transmisión John Deere código GX21395. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "GX21395",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579342-correa-gx21395-correa-plana-_JM"
+    },
+    {
+        "id": "CORREA-H101469",
+        "name": "Correa H101469 - Correa Trapezoidal",
+        "code": "H101469",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 61.74,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H101469",
+        "description": "Correa de transmisión John Deere código H101469. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H101469",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579348-correa-h101469-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H126345",
+        "name": "Correa H126345 - Correa Trapezoidal",
+        "code": "H126345",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 282.09,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H126345",
+        "description": "Correa de transmisión John Deere código H126345. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H126345",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577557-correa-h126345-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H132808",
+        "name": "Correa H132808 - Correa Trapezoidal",
+        "code": "H132808",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 39.36,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H132808",
+        "description": "Correa de transmisión John Deere código H132808. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H132808",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577559-correa-h132808-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H134437",
+        "name": "Correa H134437 - Correa Trapezoidal",
+        "code": "H134437",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 33.86,
+        "currency": "USD",
+        "stock": 5,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H134437",
+        "description": "Correa de transmisión John Deere código H134437. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H134437",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577561-correa-h134437-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H138761",
+        "name": "Correa H138761 - Correa Trapezoidal",
+        "code": "H138761",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 84.11,
+        "currency": "USD",
+        "stock": 7,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H138761",
+        "description": "Correa de transmisión John Deere código H138761. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H138761",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579362-correa-h138761-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H141166",
+        "name": "Correa H141166 - Correa Trapezoidal",
+        "code": "H141166",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 293.24,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H141166",
+        "description": "Correa de transmisión John Deere código H141166. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H141166",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562049-correa-h141166-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H146636",
+        "name": "Correa H146636 - Correa Trapezoidal",
+        "code": "H146636",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 29.68,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H146636",
+        "description": "Correa de transmisión John Deere código H146636. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H146636",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579368-correa-h146636-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H146637",
+        "name": "Correa H146637 - Correa Trapezoidal",
+        "code": "H146637",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 44.08,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H146637",
+        "description": "Correa de transmisión John Deere código H146637. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H146637",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579372-correa-h146637-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H153297",
+        "name": "Correa H153297 - Correa Trapezoidal",
+        "code": "H153297",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 46.94,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H153297",
+        "description": "Correa de transmisión John Deere código H153297. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H153297",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579384-correa-h153297-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H154723",
+        "name": "Correa H154723 - Correa Trapezoidal",
+        "code": "H154723",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 168.1,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H154723",
+        "description": "Correa de transmisión John Deere código H154723. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H154723",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562071-correa-h154723-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H154731",
+        "name": "Correa H154731 - Correa Trapezoidal",
+        "code": "H154731",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 100.84,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H154731",
+        "description": "Correa de transmisión John Deere código H154731. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H154731",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577581-correa-h154731-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H156796",
+        "name": "Correa H156796 - Correa Trapezoidal",
+        "code": "H156796",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 359.88,
+        "currency": "USD",
+        "stock": 7,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H156796",
+        "description": "Correa de transmisión John Deere código H156796. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H156796",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562073-correa-h156796-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H157105",
+        "name": "Correa H157105 - Correa Trapezoidal",
+        "code": "H157105",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 118.39,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H157105",
+        "description": "Correa de transmisión John Deere código H157105. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H157105",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579388-correa-h157105-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H157514",
+        "name": "Correa H157514 - Correa Trapezoidal",
+        "code": "H157514",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 277.31,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H157514",
+        "description": "Correa de transmisión John Deere código H157514. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H157514",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579390-correa-h157514-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H158512",
+        "name": "Correa H158512 - Correa Trapezoidal",
+        "code": "H158512",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 250.67,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H158512",
+        "description": "Correa de transmisión John Deere código H158512. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H158512",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577583-correa-h158512-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H160171",
+        "name": "Correa H160171 - Correa Trapezoidal",
+        "code": "H160171",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 358.08,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H160171",
+        "description": "Correa de transmisión John Deere código H160171. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H160171",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562079-correa-h160171-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H161648",
+        "name": "Correa H161648 - Correa Trapezoidal",
+        "code": "H161648",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 441.93,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H161648",
+        "description": "Correa de transmisión John Deere código H161648. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H161648",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577597-correa-h161648-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H161795",
+        "name": "Correa H161795 - Correa Trapezoidal",
+        "code": "H161795",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 71.73,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H161795",
+        "description": "Correa de transmisión John Deere código H161795. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H161795",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577599-correa-h161795-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H173024",
+        "name": "Correa H173024 - Correa Trapezoidal",
+        "code": "H173024",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 911.5,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H173024",
+        "description": "Correa de transmisión John Deere código H173024. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H173024",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562087-correa-h173024-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H175587",
+        "name": "Correa H175587 - Correa Trapezoidal",
+        "code": "H175587",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 218.88,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H175587",
+        "description": "Correa de transmisión John Deere código H175587. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H175587",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562095-correa-h175587-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H201334",
+        "name": "Correa H201334 - Correa Trapezoidal",
+        "code": "H201334",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 522.75,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H201334",
+        "description": "Correa de transmisión John Deere código H201334. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H201334",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562097-correa-h201334-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H201571",
+        "name": "Correa H201571 - Correa Trapezoidal",
+        "code": "H201571",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 266.41,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H201571",
+        "description": "Correa de transmisión John Deere código H201571. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H201571",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577623-correa-h201571-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H201596",
+        "name": "Correa H201596 - Correa Trapezoidal",
+        "code": "H201596",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 446.41,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H201596",
+        "description": "Correa de transmisión John Deere código H201596. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H201596",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562111-correa-h201596-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H203474",
+        "name": "Correa H203474 - Correa Trapezoidal",
+        "code": "H203474",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 284.83,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H203474",
+        "description": "Correa de transmisión John Deere código H203474. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H203474",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579416-correa-h203474-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H204747",
+        "name": "Correa H204747 - Correa Trapezoidal",
+        "code": "H204747",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 161.81,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H204747",
+        "description": "Correa de transmisión John Deere código H204747. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H204747",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577629-correa-h204747-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H205169",
+        "name": "Correa H205169 - Correa Trapezoidal",
+        "code": "H205169",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 496.83,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H205169",
+        "description": "Correa de transmisión John Deere código H205169. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H205169",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579424-correa-h205169-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H206048",
+        "name": "Correa H206048 - Correa Trapezoidal",
+        "code": "H206048",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 142.55,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H206048",
+        "description": "Correa de transmisión John Deere código H206048. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H206048",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579426-correa-h206048-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H206807",
+        "name": "Correa H206807 - Correa Trapezoidal",
+        "code": "H206807",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 26.04,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H206807",
+        "description": "Correa de transmisión John Deere código H206807. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H206807",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579432-correa-h206807-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H210476",
+        "name": "Correa H210476 - Correa Trapezoidal",
+        "code": "H210476",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 508.51,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H210476",
+        "description": "Correa de transmisión John Deere código H210476. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H210476",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579436-correa-h210476-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H211581",
+        "name": "Correa H211581 - Correa Trapezoidal",
+        "code": "H211581",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 629.55,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H211581",
+        "description": "Correa de transmisión John Deere código H211581. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H211581",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579440-correa-h211581-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H213353",
+        "name": "Correa H213353 - Correa Trapezoidal",
+        "code": "H213353",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 36.93,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H213353",
+        "description": "Correa de transmisión John Deere código H213353. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H213353",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562133-correa-h213353-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H218645",
+        "name": "Correa H218645 - Correa Trapezoidal",
+        "code": "H218645",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 339.91,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H218645",
+        "description": "Correa de transmisión John Deere código H218645. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H218645",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562145-correa-h218645-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H219182",
+        "name": "Correa H219182 - Correa Trapezoidal",
+        "code": "H219182",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 153.74,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H219182",
+        "description": "Correa de transmisión John Deere código H219182. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H219182",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579452-correa-h219182-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H220884",
+        "name": "Correa H220884 - Correa Trapezoidal",
+        "code": "H220884",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 106.46,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H220884",
+        "description": "Correa de transmisión John Deere código H220884. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H220884",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562155-correa-h220884-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H220911",
+        "name": "Correa H220911 - Correa Trapezoidal",
+        "code": "H220911",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 804.17,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H220911",
+        "description": "Correa de transmisión John Deere código H220911. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H220911",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577655-correa-h220911-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H221273",
+        "name": "Correa H221273 - Correa Trapezoidal",
+        "code": "H221273",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 94.4,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H221273",
+        "description": "Correa de transmisión John Deere código H221273. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H221273",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562165-correa-h221273-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H221498",
+        "name": "Correa H221498 - Correa Trapezoidal",
+        "code": "H221498",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 759.61,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H221498",
+        "description": "Correa de transmisión John Deere código H221498. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H221498",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577659-correa-h221498-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H221731",
+        "name": "Correa H221731 - Correa Trapezoidal",
+        "code": "H221731",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 211.7,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H221731",
+        "description": "Correa de transmisión John Deere código H221731. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H221731",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577663-correa-h221731-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H223230",
+        "name": "Correa H223230 - Correa Trapezoidal",
+        "code": "H223230",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 606.93,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H223230",
+        "description": "Correa de transmisión John Deere código H223230. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H223230",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579484-correa-h223230-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H229018",
+        "name": "Correa H229018 - Correa Trapezoidal",
+        "code": "H229018",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 828.15,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H229018",
+        "description": "Correa de transmisión John Deere código H229018. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H229018",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579492-correa-h229018-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H229019",
+        "name": "Correa H229019 - Correa Trapezoidal",
+        "code": "H229019",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 780.65,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H229019",
+        "description": "Correa de transmisión John Deere código H229019. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H229019",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577683-correa-h229019-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H230909",
+        "name": "Correa H230909 - Correa Trapezoidal",
+        "code": "H230909",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 157.66,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H230909",
+        "description": "Correa de transmisión John Deere código H230909. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H230909",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577691-correa-h230909-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H236472",
+        "name": "Correa H236472 - Correa Trapezoidal",
+        "code": "H236472",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 191.24,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H236472",
+        "description": "Correa de transmisión John Deere código H236472. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H236472",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562181-correa-h236472-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H23950",
+        "name": "Correa H23950 - Correa Trapezoidal",
+        "code": "H23950",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 106.86,
+        "currency": "USD",
+        "stock": 5,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H23950",
+        "description": "Correa de transmisión John Deere código H23950. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H23950",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579516-correa-h23950-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H31227",
+        "name": "Correa H31227 - Correa Trapezoidal",
+        "code": "H31227",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 80.66,
+        "currency": "USD",
+        "stock": 8,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H31227",
+        "description": "Correa de transmisión John Deere código H31227. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H31227",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579520-correa-h31227-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-H81742",
+        "name": "Correa H81742 - Correa Trapezoidal",
+        "code": "H81742",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 24.23,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H81742",
+        "description": "Correa de transmisión John Deere código H81742. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H81742",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579530-correa-h81742-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-J57025",
+        "name": "Correa J57025 - Correa Trapezoidal",
+        "code": "J57025",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 27.46,
+        "currency": "USD",
+        "stock": 4,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "J57025",
+        "description": "Correa de transmisión John Deere código J57025. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "J57025",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579538-correa-j57025-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-J57065",
+        "name": "Correa J57065 - Correa Trapezoidal",
+        "code": "J57065",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 29.03,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "J57065",
+        "description": "Correa de transmisión John Deere código J57065. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "J57065",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577715-correa-j57065-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-J57086",
+        "name": "Correa J57086 - Correa Trapezoidal",
+        "code": "J57086",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 11.58,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "J57086",
+        "description": "Correa de transmisión John Deere código J57086. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "J57086",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577719-correa-j57086-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-M115776",
+        "name": "Correa M115776 - Correa Trapezoidal",
+        "code": "M115776",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 118.99,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "M115776",
+        "description": "Correa de transmisión John Deere código M115776. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "M115776",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579576-correa-m115776-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-M119685",
+        "name": "Correa M119685 - Correa Trapezoidal",
+        "code": "M119685",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 163.93,
+        "currency": "USD",
+        "stock": 4,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "M119685",
+        "description": "Correa de transmisión John Deere código M119685. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "M119685",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562251-correa-m119685-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-M119696",
+        "name": "Correa M119696 - Correa Trapezoidal",
+        "code": "M119696",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 97.83,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "M119696",
+        "description": "Correa de transmisión John Deere código M119696. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "M119696",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577749-correa-m119696-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-M125218",
+        "name": "Correa M125218 - Correa Trapezoidal",
+        "code": "M125218",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 79.79,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "M125218",
+        "description": "Correa de transmisión John Deere código M125218. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "M125218",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577755-correa-m125218-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-M126012",
+        "name": "Correa M126012 - Correa Trapezoidal",
+        "code": "M126012",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 81.49,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "M126012",
+        "description": "Correa de transmisión John Deere código M126012. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "M126012",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577763-correa-m126012-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-M126536",
+        "name": "Correa M126536 - Correa Trapezoidal",
+        "code": "M126536",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 85.93,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "M126536",
+        "description": "Correa de transmisión John Deere código M126536. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "M126536",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579598-correa-m126536-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-M127524",
+        "name": "Correa M127524 - Correa Trapezoidal",
+        "code": "M127524",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 62.03,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "M127524",
+        "description": "Correa de transmisión John Deere código M127524. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "M127524",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577765-correa-m127524-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-M127926",
+        "name": "Correa M127926 - Correa S Ncrona",
+        "code": "M127926",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 192.95,
+        "currency": "USD",
+        "stock": 5,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "M127926",
+        "description": "Correa de transmisión John Deere código M127926. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "M127926",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579606-correa-m127926-correa-s-ncrona-_JM"
+    },
+    {
+        "id": "CORREA-M128733",
+        "name": "Correa M128733 - Correa Trapezoidal",
+        "code": "M128733",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 105.6,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "M128733",
+        "description": "Correa de transmisión John Deere código M128733. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "M128733",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562279-correa-m128733-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-M143019",
+        "name": "Correa M143019 - Correa Trapezoidal",
+        "code": "M143019",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 68.28,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "M143019",
+        "description": "Correa de transmisión John Deere código M143019. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "M143019",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579626-correa-m143019-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-M146667",
+        "name": "Correa M146667 - Correa Trapezoidal",
+        "code": "M146667",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 47.59,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "M146667",
+        "description": "Correa de transmisión John Deere código M146667. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "M146667",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577801-correa-m146667-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-M154958",
+        "name": "Correa M154958 - Correa Trapezoidal",
+        "code": "M154958",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 74.64,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "M154958",
+        "description": "Correa de transmisión John Deere código M154958. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "M154958",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577817-correa-m154958-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-M45862",
+        "name": "Correa M45862 - Correa Trapezoidal",
+        "code": "M45862",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 17.68,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "M45862",
+        "description": "Correa de transmisión John Deere código M45862. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "M45862",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577827-correa-m45862-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-M74747",
+        "name": "Correa M74747 - Correa Trapezoidal",
+        "code": "M74747",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 70.11,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "M74747",
+        "description": "Correa de transmisión John Deere código M74747. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "M74747",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577833-correa-m74747-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-M77988",
+        "name": "Correa M77988 - Correa Trapezoidal",
+        "code": "M77988",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 46.45,
+        "currency": "USD",
+        "stock": 4,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "M77988",
+        "description": "Correa de transmisión John Deere código M77988. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "M77988",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562321-correa-m77988-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-M800347",
+        "name": "Correa M800347 - Correa Trapezoidal",
+        "code": "M800347",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 40.43,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "M800347",
+        "description": "Correa de transmisión John Deere código M800347. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "M800347",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562329-correa-m800347-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-M82461",
+        "name": "Correa M82461 - Correa Trapezoidal",
+        "code": "M82461",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 11.49,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "M82461",
+        "description": "Correa de transmisión John Deere código M82461. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "M82461",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579680-correa-m82461-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-M82462",
+        "name": "Correa M82462 - Correa Trapezoidal",
+        "code": "M82462",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 55.99,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "M82462",
+        "description": "Correa de transmisión John Deere código M82462. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "M82462",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577847-correa-m82462-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-M83837",
+        "name": "Correa M83837 - Correa Trapezoidal",
+        "code": "M83837",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 72.0,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "M83837",
+        "description": "Correa de transmisión John Deere código M83837. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "M83837",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577851-correa-m83837-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-M95728",
+        "name": "Correa M95728 - Correa",
+        "code": "M95728",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 424.86,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "M95728",
+        "description": "Correa de transmisión John Deere código M95728. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "M95728",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577859-correa-m95728-correa-_JM"
+    },
+    {
+        "id": "CORREA-N110085",
+        "name": "Correa N110085 - Correa Trapezoidal",
+        "code": "N110085",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 69.0,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "N110085",
+        "description": "Correa de transmisión John Deere código N110085. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "N110085",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579692-correa-n110085-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-P40281",
+        "name": "Correa P40281 - Correa Trapezoidal",
+        "code": "P40281",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 100.58,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "P40281",
+        "description": "Correa de transmisión John Deere código P40281. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "P40281",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579700-correa-p40281-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-R106120",
+        "name": "Correa R106120 - Correa Trapezoidal",
+        "code": "R106120",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 65.84,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "R106120",
+        "description": "Correa de transmisión John Deere código R106120. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "R106120",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562407-correa-r106120-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-R106122",
+        "name": "Correa R106122 - Correa Trapezoidal",
+        "code": "R106122",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 77.06,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "R106122",
+        "description": "Correa de transmisión John Deere código R106122. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "R106122",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579734-correa-r106122-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-R123449",
+        "name": "Correa R123449 - Correa Trapezoidal",
+        "code": "R123449",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 135.51,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "R123449",
+        "description": "Correa de transmisión John Deere código R123449. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "R123449",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579744-correa-r123449-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-R123451",
+        "name": "Correa R123451 - Correa Trapezoidal",
+        "code": "R123451",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 71.12,
+        "currency": "USD",
+        "stock": 4,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "R123451",
+        "description": "Correa de transmisión John Deere código R123451. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "R123451",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562423-correa-r123451-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-R135593",
+        "name": "Correa R135593 - Correa Trapezoidal",
+        "code": "R135593",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 129.11,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "R135593",
+        "description": "Correa de transmisión John Deere código R135593. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "R135593",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562429-correa-r135593-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-R135606",
+        "name": "Correa R135606 - Correa Trapezoidal",
+        "code": "R135606",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 44.28,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "R135606",
+        "description": "Correa de transmisión John Deere código R135606. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "R135606",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579768-correa-r135606-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-R135609",
+        "name": "Correa R135609 - Correa Trapezoidal",
+        "code": "R135609",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 67.24,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "R135609",
+        "description": "Correa de transmisión John Deere código R135609. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "R135609",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562443-correa-r135609-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-R135822",
+        "name": "Correa R135822 - Correa Trapezoidal",
+        "code": "R135822",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 36.65,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "R135822",
+        "description": "Correa de transmisión John Deere código R135822. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "R135822",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579778-correa-r135822-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-R252371",
+        "name": "Correa R252371 - Correa Trapezoidal",
+        "code": "R252371",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 98.96,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "R252371",
+        "description": "Correa de transmisión John Deere código R252371. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "R252371",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577933-correa-r252371-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-R270859",
+        "name": "Correa R270859 - Correa Trapezoidal",
+        "code": "R270859",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 197.33,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "R270859",
+        "description": "Correa de transmisión John Deere código R270859. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "R270859",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577941-correa-r270859-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-R503312",
+        "name": "Correa R503312 - Correa Trapezoidal",
+        "code": "R503312",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 170.76,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "R503312",
+        "description": "Correa de transmisión John Deere código R503312. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "R503312",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562475-correa-r503312-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-R503505",
+        "name": "Correa R503505 - Correa Trapezoidal",
+        "code": "R503505",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 138.7,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "R503505",
+        "description": "Correa de transmisión John Deere código R503505. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "R503505",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562483-correa-r503505-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-R515127",
+        "name": "Correa R515127 - Correa Trapezoidal",
+        "code": "R515127",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 176.13,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "R515127",
+        "description": "Correa de transmisión John Deere código R515127. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "R515127",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562489-correa-r515127-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-R71603",
+        "name": "Correa R71603 - Correa Trapezoidal",
+        "code": "R71603",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 19.43,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "R71603",
+        "description": "Correa de transmisión John Deere código R71603. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "R71603",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577963-correa-r71603-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-R73189",
+        "name": "Correa R73189 - Correa Trapezoidal",
+        "code": "R73189",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 13.01,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "R73189",
+        "description": "Correa de transmisión John Deere código R73189. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "R73189",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579822-correa-r73189-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-R73784",
+        "name": "Correa R73784 - Correa Trapezoidal",
+        "code": "R73784",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 35.61,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "R73784",
+        "description": "Correa de transmisión John Deere código R73784. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "R73784",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579824-correa-r73784-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-S17044",
+        "name": "Correa S17044 - Correa Trapezoidal",
+        "code": "S17044",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 7.45,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "S17044",
+        "description": "Correa de transmisión John Deere código S17044. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "S17044",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577977-correa-s17044-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-SA00601",
+        "name": "Correa SA00601 - Correa Trapezoidal",
+        "code": "SA00601",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 69.68,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "SA00601",
+        "description": "Correa de transmisión John Deere código SA00601. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "SA00601",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562505-correa-sa00601-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-SA02101",
+        "name": "Correa SA02101 - Correa Trapezoidal",
+        "code": "SA02101",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 24.24,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "SA02101",
+        "description": "Correa de transmisión John Deere código SA02101. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "SA02101",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948577987-correa-sa02101-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-TY26395",
+        "name": "Correa TY26395 - Conserv P Correas En",
+        "code": "TY26395",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 13.76,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "TY26395",
+        "description": "Correa de transmisión John Deere código TY26395. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "TY26395",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562517-correa-ty26395-conserv-p-correas-en-_JM"
+    },
+    {
+        "id": "CORREA-Z21501",
+        "name": "Correa Z21501 - Correa Trapezoidal",
+        "code": "Z21501",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 314.89,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "Z21501",
+        "description": "Correa de transmisión John Deere código Z21501. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "Z21501",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579846-correa-z21501-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-Z30130",
+        "name": "Correa Z30130 - Correa",
+        "code": "Z30130",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 1370.16,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "Z30130",
+        "description": "Correa de transmisión John Deere código Z30130. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "Z30130",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579856-correa-z30130-correa-_JM"
+    },
+    {
+        "id": "CORREA-Z32190",
+        "name": "Correa Z32190 - Correa Trapezoidal",
+        "code": "Z32190",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 12.58,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "Z32190",
+        "description": "Correa de transmisión John Deere código Z32190. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "Z32190",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948578021-correa-z32190-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-Z33605",
+        "name": "Correa Z33605 - Correa",
+        "code": "Z33605",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 407.74,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "Z33605",
+        "description": "Correa de transmisión John Deere código Z33605. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "Z33605",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562535-correa-z33605-correa-_JM"
+    },
+    {
+        "id": "CORREA-Z33790",
+        "name": "Correa Z33790 - Correa Trapezoidal",
+        "code": "Z33790",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 436.08,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "Z33790",
+        "description": "Correa de transmisión John Deere código Z33790. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "Z33790",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562545-correa-z33790-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-Z34099",
+        "name": "Correa Z34099 - Correa Trapezoidal",
+        "code": "Z34099",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 673.39,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "Z34099",
+        "description": "Correa de transmisión John Deere código Z34099. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "Z34099",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948578033-correa-z34099-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-Z34786",
+        "name": "Correa Z34786 - Correa Trapezoidal",
+        "code": "Z34786",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 46.79,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "Z34786",
+        "description": "Correa de transmisión John Deere código Z34786. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "Z34786",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562553-correa-z34786-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-Z34828",
+        "name": "Correa Z34828 - Correa Trapezoidal",
+        "code": "Z34828",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 34.39,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "Z34828",
+        "description": "Correa de transmisión John Deere código Z34828. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "Z34828",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948578043-correa-z34828-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-Z38186",
+        "name": "Correa Z38186 - Correa Trapezoidal",
+        "code": "Z38186",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 217.34,
+        "currency": "USD",
+        "stock": 4,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "Z38186",
+        "description": "Correa de transmisión John Deere código Z38186. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "Z38186",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579884-correa-z38186-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-Z41178",
+        "name": "Correa Z41178 - Correa Trapezoidal",
+        "code": "Z41178",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 30.54,
+        "currency": "USD",
+        "stock": 10,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "Z41178",
+        "description": "Correa de transmisión John Deere código Z41178. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "Z41178",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579892-correa-z41178-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-Z46463",
+        "name": "Correa Z46463 - Correa Trapezoidal",
+        "code": "Z46463",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 568.51,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "Z46463",
+        "description": "Correa de transmisión John Deere código Z46463. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "Z46463",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562573-correa-z46463-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-Z46709",
+        "name": "Correa Z46709 - Correa Trapezoidal",
+        "code": "Z46709",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 228.04,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "Z46709",
+        "description": "Correa de transmisión John Deere código Z46709. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "Z46709",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579904-correa-z46709-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-Z53288",
+        "name": "Correa Z53288 - Correa Trapezoidal",
+        "code": "Z53288",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 536.98,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "Z53288",
+        "description": "Correa de transmisión John Deere código Z53288. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "Z53288",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562581-correa-z53288-correa-trapezoidal-_JM"
+    },
+    {
+        "id": "CORREA-Z43890",
+        "name": "Correa Z43890 - Correa",
+        "code": "Z43890",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 203.4,
+        "currency": "USD",
+        "stock": 2,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "Z43890",
+        "description": "Correa de transmisión John Deere código Z43890. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "Z43890",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562615-correa-z43890-correa-_JM"
+    },
+    {
+        "id": "CORREA-AT11535",
+        "name": "Correa AT11535 - Correa",
+        "code": "AT11535",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 3.0,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "Genérico",
+        "model": "AT11535",
+        "description": "Correa de transmisión Genérico código AT11535. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "AT11535",
+            "Marca": "Genérico"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-3726579932-correa-at11535-correa-_JM"
+    },
+    {
+        "id": "CORREA-CQ34345",
+        "name": "Correa CQ34345 - Correa",
+        "code": "CQ34345",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 105.85,
+        "currency": "USD",
+        "stock": 3,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "CQ34345",
+        "description": "Correa de transmisión John Deere código CQ34345. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "CQ34345",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948578127-correa-cq34345-correa-_JM"
+    },
+    {
+        "id": "CORREA-DQ23754",
+        "name": "Correa DQ23754 - Correa",
+        "code": "DQ23754",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 16.18,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "DQ23754",
+        "description": "Correa de transmisión John Deere código DQ23754. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "DQ23754",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948562661-correa-dq23754-correa-_JM"
+    },
+    {
+        "id": "CORREA-H125380",
+        "name": "Correa H125380 - Correa",
+        "code": "H125380",
+        "category": "Repuestos",
+        "subcategory": "Correas",
+        "price": 158.68,
+        "currency": "USD",
+        "stock": 1,
+        "condition": "Nuevo",
+        "brand": "John Deere",
+        "model": "H125380",
+        "description": "Correa de transmisión John Deere código H125380. Repuesto original de alta durabilidad para maquinaria agrícola.",
+        "images": [
+            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+        ],
+        "specs": {
+            "Tipo": "Correa de transmisión",
+            "Código Original": "H125380",
+            "Marca": "John Deere"
+        },
+        "featured": false,
+        "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948578141-correa-h125380-correa-_JM"
     }
 ];
 
