@@ -137,20 +137,25 @@
                 to { opacity: 1; transform: translateY(0); }
             }
         `;
-        document.head.appendChild(style);
+        const target = document.head || document.documentElement;
+        if (target) target.appendChild(style);
     }
 
-    // Contenedor global de toasts
-    let toastContainer = document.getElementById('web-toast-container');
-    if (!toastContainer) {
-        toastContainer = document.createElement('div');
-        toastContainer.id = 'web-toast-container';
-        toastContainer.className = 'web-toast-container';
-        document.body.appendChild(toastContainer);
+    // Helper para obtener o crear el contenedor de toasts de forma diferida (lazy)
+    function getToastContainer() {
+        let container = document.getElementById('web-toast-container');
+        if (!container && document.body) {
+            container = document.createElement('div');
+            container.id = 'web-toast-container';
+            container.className = 'web-toast-container';
+            document.body.appendChild(container);
+        }
+        return container || document.body;
     }
 
     // Función Alerta Web
     window.showWebAlert = function(title, text, type = 'success', onConfirm = null) {
+        if (!document.body) return;
         const overlay = document.createElement('div');
         overlay.className = 'web-alert-overlay';
 
@@ -176,15 +181,18 @@
         document.body.appendChild(overlay);
 
         const okBtn = overlay.querySelector('#web-alert-ok-btn');
-        okBtn.focus();
-        okBtn.addEventListener('click', () => {
-            overlay.remove();
-            if (onConfirm) onConfirm();
-        });
+        if (okBtn) {
+            okBtn.focus();
+            okBtn.addEventListener('click', () => {
+                overlay.remove();
+                if (onConfirm) onConfirm();
+            });
+        }
     };
 
     // Función Confirmación Web
     window.showWebConfirm = function(title, text, onConfirm = null, onCancel = null) {
+        if (!document.body) return;
         const overlay = document.createElement('div');
         overlay.className = 'web-alert-overlay';
 
@@ -207,20 +215,25 @@
         const okBtn = overlay.querySelector('#web-confirm-ok-btn');
         const cancelBtn = overlay.querySelector('#web-confirm-cancel-btn');
 
-        okBtn.addEventListener('click', () => {
-            overlay.remove();
-            if (onConfirm) onConfirm();
-        });
+        if (okBtn) {
+            okBtn.addEventListener('click', () => {
+                overlay.remove();
+                if (onConfirm) onConfirm();
+            });
+        }
 
-        cancelBtn.addEventListener('click', () => {
-            overlay.remove();
-            if (onCancel) onCancel();
-        });
+        if (cancelBtn) {
+            cancelBtn.addEventListener('click', () => {
+                overlay.remove();
+                if (onCancel) onCancel();
+            });
+        }
     };
 
     // Función Toast Notificación
     window.showWebToast = function(message, duration = 3000) {
-        const container = document.getElementById('web-toast-container') || document.body;
+        const container = getToastContainer();
+        if (!container) return;
         const toast = document.createElement('div');
         toast.className = 'web-toast';
         toast.innerHTML = `<i class="fas fa-info-circle" style="color:#f59e0b;"></i> <span>${message}</span>`;
