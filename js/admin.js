@@ -1440,7 +1440,7 @@ async function loadAllData() {
                     // Si el producto semilla tiene imágenes reales pero en la base de datos tiene la foto del logo o imágenes por defecto
                     const existingImg = (existing.images && existing.images.length > 0) ? existing.images[0] : '';
                     const spImg = (sp.images && sp.images.length > 0) ? sp.images[0] : '';
-                    if ((!existingImg || existingImg.includes('casadruettologo1') || existingImg.includes('STD')) && spImg && !spImg.includes('casadruettologo1')) {
+                    if ((!existingImg || existingImg.includes('casadruettologo1') || existingImg.includes('STD') || existingImg.includes('WhatsApp') || JSON.stringify(existing.images) !== JSON.stringify(sp.images)) && spImg && !spImg.includes('casadruettologo1')) {
                         existing.images = sp.images;
                         saveSingleProductRecord(existing).catch(() => {});
                     }
