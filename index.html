@@ -304,8 +304,7 @@
                 </p>
             </div>
             <div class="contact-form-card" style="max-width: 600px; margin: 0 auto;">
-                <form
-                    onsubmit="event.preventDefault(); alert('¡Mensaje enviado con éxito! Nos contactaremos a la brevedad.'); this.reset();">
+                <form onsubmit="handleContactFormSubmit(event, this)">
                     <div class="form-control" style="margin-bottom: 1.5rem;">
                         <label>Nombre Completo</label>
                         <input type="text" required>

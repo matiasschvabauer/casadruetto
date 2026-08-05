@@ -72,19 +72,19 @@
                         </div>
                     </div>
 
-                    <div class="contact-info-item">
+                    <div class="contact-info-item" style="cursor: pointer;" onclick="copyContactDetail('(03404) 481-222', 'Teléfono Fijo')" title="Clic para copiar teléfono fijo">
                         <i class="fas fa-phone" style="color: var(--accent-color);"></i>
                         <div>
-                            <span class="label">Teléfono Fijo</span>
+                            <span class="label">Teléfono Fijo <small style="font-size:0.7rem; color:var(--accent-color);">(Copiar)</small></span>
                             <span class="value">(03404) 481-222</span>
                         </div>
                     </div>
 
-                    <div class="contact-info-item">
+                    <div class="contact-info-item" style="cursor: pointer;" onclick="copyContactDetail('contacto@casadruetto.com.ar', 'Correo Administrativo')" title="Clic para copiar correo electrónico">
                         <i class="fas fa-envelope" style="color: var(--accent-color);"></i>
                         <div>
-                            <span class="label">Correo Administrativo</span>
-                            <a href="mailto:contacto@casadruetto.com.ar" class="value">contacto@casadruetto.com.ar</a>
+                            <span class="label">Correo Administrativo <small style="font-size:0.7rem; color:var(--accent-color);">(Copiar)</small></span>
+                            <span class="value">contacto@casadruetto.com.ar</span>
                         </div>
                     </div>
 
@@ -92,7 +92,7 @@
                         <i class="fas fa-map-marker-alt" style="color: #e53935;"></i>
                         <div>
                             <span class="label">Ubicación</span>
-                            <a href="https://maps.google.com/?q=Galvez,Santa+Fe" target="_blank" class="value">Gálvez, Santa Fe, Argentina</a>
+                            <a href="https://www.google.com/maps/place/Casa+Druetto+S.A./@-32.035929,-61.207568,234m/data=!3m1!1e3!4m15!1m8!3m7!1s0x95b58c7da54f1d8f:0x467de6de146ed6b3!2sG%C3%A1lvez,+Santa+Fe!3b1!8m2!3d-32.029275!4d-61.2244215!16s%2Fm%2F02621k4!3m5!1s0x95b58d1e4b469e6f:0xa0dd74d2bea10c02!8m2!3d-32.0359019!4d-61.2068917!16s%2Fg%2F11fmljcykt" target="_blank" class="value">Av. Jorge Newbery 247 Bis, Gálvez, Santa Fe</a>
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
             <!-- Right Column: Form -->
             <div class="contact-form-card animate-on-scroll delay-200">
                 <h3>Envianos un Mensaje</h3>
-                <form onsubmit="event.preventDefault(); alert('¡Muchas gracias por tu mensaje! Un asesor se pondrá en contacto contigo.'); this.reset();">
+                <form onsubmit="handleContactFormSubmit(event, this)">
                     <div class="contact-form-group">
                         <label for="name">Nombre</label>
                         <input type="text" id="name" required placeholder="Ingresá tu nombre">

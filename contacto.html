@@ -94,19 +94,19 @@
                         </div>
                     </div>
 
-                    <div class="contact-info-item">
+                    <div class="contact-info-item" style="cursor: pointer;" onclick="copyContactDetail('(03404) 481-222', 'Teléfono Fijo')" title="Clic para copiar teléfono fijo">
                         <i class="fas fa-phone" style="color: var(--accent-color);"></i>
                         <div>
-                            <span class="label">Teléfono Fijo</span>
+                            <span class="label">Teléfono Fijo <small style="font-size:0.7rem; color:var(--accent-color);">(Copiar)</small></span>
                             <span class="value">(03404) 481-222</span>
                         </div>
                     </div>
 
-                    <div class="contact-info-item">
+                    <div class="contact-info-item" style="cursor: pointer;" onclick="copyContactDetail('contacto@casadruetto.com.ar', 'Correo Administrativo')" title="Clic para copiar correo electrónico">
                         <i class="fas fa-envelope" style="color: var(--accent-color);"></i>
                         <div>
-                            <span class="label">Correo Administrativo</span>
-                            <a href="mailto:contacto@casadruetto.com.ar" class="value">contacto@casadruetto.com.ar</a>
+                            <span class="label">Correo Administrativo <small style="font-size:0.7rem; color:var(--accent-color);">(Copiar)</small></span>
+                            <span class="value">contacto@casadruetto.com.ar</span>
                         </div>
                     </div>
 
@@ -147,7 +147,7 @@
             <!-- Right Column: Form -->
             <div class="contact-form-card animate-on-scroll delay-200">
                 <h3>Envianos un Mensaje</h3>
-                <form onsubmit="event.preventDefault(); alert('¡Muchas gracias por tu mensaje! Un asesor se pondrá en contacto contigo.'); this.reset();">
+                <form onsubmit="handleContactFormSubmit(event, this)">
                     <div class="contact-form-group">
                         <label for="name">Nombre</label>
                         <input type="text" id="name" required placeholder="Ingresá tu nombre">

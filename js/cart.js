@@ -311,21 +311,28 @@ window.checkoutMercadoPago = async function() {
 // Checkout: Generar texto estructurado para WhatsApp / Transferencia
 window.checkoutOrder = function(paymentMethod = 'whatsapp') {
     if (cart.length === 0) {
-        alert("El carrito está vacío.");
+        if (window.showWebAlert) window.showWebAlert("Carrito Vacío", "El carrito de compras está vacío.", "info");
+        else alert("El carrito está vacío.");
         return;
     }
 
-    const clientName = document.getElementById('checkout-name')?.value || '';
-    const clientPhone = document.getElementById('checkout-phone')?.value || '';
-    const clientNotes = document.getElementById('checkout-notes')?.value || '';
+    const clientName = document.getElementById('checkout-name')?.value.trim() || '';
+    const clientCuit = document.getElementById('checkout-cuit')?.value.trim() || '';
+    const clientPhone = document.getElementById('checkout-phone')?.value.trim() || '';
+    const clientNotes = document.getElementById('checkout-notes')?.value.trim() || '';
     
-    if (!clientName || !clientPhone) {
-        alert("Por favor completa tu Nombre y Teléfono de contacto para realizar el pedido.");
+    if (!clientName || !clientCuit || !clientPhone) {
+        if (window.showWebAlert) {
+            window.showWebAlert("Datos Incompletos", "Por favor completa tu Nombre, DNI/CUIT/CUIL y WhatsApp de contacto para continuar.", "info");
+        } else {
+            alert("Por favor completa tu Nombre, DNI/CUIT/CUIL y Teléfono para realizar el pedido.");
+        }
         return;
     }
 
     let text = `🌾 *CASA DRUETTO - Nuevo Pedido de Tienda Web* 🌾\n\n`;
     text += `*Cliente:* ${clientName}\n`;
+    text += `*DNI / CUIT / CUIL:* ${clientCuit}\n`;
     text += `*WhatsApp:* ${clientPhone}\n`;
     if (clientNotes) text += `*Notas:* ${clientNotes}\n`;
     text += `----------------------------------------------\n\n`;
@@ -338,12 +345,11 @@ window.checkoutOrder = function(paymentMethod = 'whatsapp') {
     });
 
     text += `----------------------------------------------\n`;
-    text += `*TOTAL DEL PEDIDO: $${total.toLocaleString('es-AR', { minimumFractionDigits: 2 })}*\n\n`;
+    text += `*TOTAL DEL PEDIDO: $${total.toLocaleString('es-AR', { minimumFractionDigits: 2 })} USD*\n\n`;
 
     if (paymentMethod === 'bank') {
         text += `*Método de Pago Seleccionado:* Transferencia Bancaria\n`;
-        text += `_Por favor envíe el comprobante de transferencia al CBU indicado._\n\n`;
-        alert(`Datos de Transferencia Bancaria:\n\n${shopConfig.bankDetails}\n\nPresione Aceptar para enviar el pedido por WhatsApp.`);
+        text += `_Deseo recibir confirmación de la cuenta CBU para realizar la transferencia._\n\n`;
     } else if (paymentMethod === 'mp') {
         text += `*Método de Pago Seleccionado:* Mercado Pago / Online\n`;
         text += `_Deseo recibir el link de pago online para abonar._\n\n`;
@@ -351,7 +357,7 @@ window.checkoutOrder = function(paymentMethod = 'whatsapp') {
         text += `*Método de Pago Seleccionado:* Acuerdo con el Vendedor / WhatsApp\n\n`;
     }
 
-    text += `_Pedido enviado desde la Tienda Virtual._`;
+    text += `_Pedido enviado desde la Tienda Virtual casadruetto.com.ar_`;
 
     // Registrar la orden localmente para el panel de admin
     try {
@@ -359,6 +365,7 @@ window.checkoutOrder = function(paymentMethod = 'whatsapp') {
         const newOrder = {
             id: 'ORD-' + Math.floor(100000 + Math.random() * 900000),
             client: clientName,
+            cuit: clientCuit,
             phone: clientPhone,
             notes: clientNotes,
             total: total,
@@ -375,16 +382,37 @@ window.checkoutOrder = function(paymentMethod = 'whatsapp') {
 
     const encodedText = encodeURIComponent(text);
     const waUrl = `https://wa.me/${shopConfig.whatsappNumber}?text=${encodedText}`;
-    
-    cart = [];
-    saveCart();
-    window.toggleCart(false);
 
-    window.open(waUrl, '_blank');
+    if (paymentMethod === 'bank') {
+        const bankMsg = `🏦 *Datos para Transferencia Bancaria:* \n\n• ${shopConfig.bankDetails}\n\nPresione *Aceptar* para enviar el pedido por WhatsApp.`;
+        if (window.showWebConfirm) {
+            window.showWebConfirm("Transferencia Bancaria", bankMsg, () => {
+                cart = [];
+                saveCart();
+                window.toggleCart(false);
+                window.open(waUrl, '_blank');
+            });
+        } else {
+            alert(bankMsg);
+            cart = [];
+            saveCart();
+            window.toggleCart(false);
+            window.open(waUrl, '_blank');
+        }
+    } else {
+        cart = [];
+        saveCart();
+        window.toggleCart(false);
+        window.open(waUrl, '_blank');
+    }
 };
 
 // Notificaciones flotantes rápidas
 function showToast(message) {
+    if (window.showWebToast) {
+        window.showWebToast(message);
+        return;
+    }
     let container = document.getElementById('toast-container');
     if (!container) {
         container = document.createElement('div');
@@ -431,6 +459,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="checkout-form-container">
                     <h4>Datos para concretar la compra:</h4>
                     <input type="text" id="checkout-name" placeholder="Nombre completo *" required>
+                    <input type="text" id="checkout-cuit" placeholder="DNI / CUIT / CUIL *" required>
                     <input type="tel" id="checkout-phone" placeholder="WhatsApp / Teléfono *" required>
                     <textarea id="checkout-notes" placeholder="Notas sobre el envío o detalles especiales"></textarea>
                 </div>

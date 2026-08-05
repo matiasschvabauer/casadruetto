@@ -9313,7 +9313,10 @@ export const SEED_PRODUCTS = [
         "model": "L111801",
         "description": "Correa de transmisión John Deere código L111801. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9337,7 +9340,10 @@ export const SEED_PRODUCTS = [
         "model": "R73785",
         "description": "Correa de transmisión John Deere código R73785. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9361,7 +9367,10 @@ export const SEED_PRODUCTS = [
         "model": "J10052",
         "description": "Correa de transmisión Genérico código J10052. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9385,7 +9394,10 @@ export const SEED_PRODUCTS = [
         "model": "J51805",
         "description": "Correa de transmisión Genérico código J51805. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9409,7 +9421,10 @@ export const SEED_PRODUCTS = [
         "model": "CQ35531",
         "description": "Correa de transmisión John Deere código CQ35531. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9433,7 +9448,10 @@ export const SEED_PRODUCTS = [
         "model": "H125381",
         "description": "Correa de transmisión John Deere código H125381. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (3).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9457,7 +9475,10 @@ export const SEED_PRODUCTS = [
         "model": "H138761EW",
         "description": "Correa de transmisión Genérico código H138761EW. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9481,7 +9502,10 @@ export const SEED_PRODUCTS = [
         "model": "H140404",
         "description": "Correa de transmisión John Deere código H140404. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9505,7 +9529,10 @@ export const SEED_PRODUCTS = [
         "model": "A67976",
         "description": "Correa de transmisión John Deere código A67976. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9529,7 +9556,10 @@ export const SEED_PRODUCTS = [
         "model": "AE43286",
         "description": "Correa de transmisión John Deere código AE43286. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9553,7 +9583,10 @@ export const SEED_PRODUCTS = [
         "model": "AE52287",
         "description": "Correa de transmisión John Deere código AE52287. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9577,7 +9610,10 @@ export const SEED_PRODUCTS = [
         "model": "AE52288",
         "description": "Correa de transmisión John Deere código AE52288. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.33.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9601,7 +9637,10 @@ export const SEED_PRODUCTS = [
         "model": "AE74178",
         "description": "Correa de transmisión John Deere código AE74178. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9625,7 +9664,10 @@ export const SEED_PRODUCTS = [
         "model": "AFH202038",
         "description": "Correa de transmisión John Deere código AFH202038. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9649,7 +9691,10 @@ export const SEED_PRODUCTS = [
         "model": "AH139436",
         "description": "Correa de transmisión John Deere código AH139436. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9673,7 +9718,10 @@ export const SEED_PRODUCTS = [
         "model": "AH158880",
         "description": "Correa de transmisión John Deere código AH158880. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9697,7 +9745,10 @@ export const SEED_PRODUCTS = [
         "model": "AH160080",
         "description": "Correa de transmisión John Deere código AH160080. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (3).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9721,7 +9772,10 @@ export const SEED_PRODUCTS = [
         "model": "AJ58940",
         "description": "Correa de transmisión John Deere código AJ58940. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9745,7 +9799,10 @@ export const SEED_PRODUCTS = [
         "model": "AJ58970",
         "description": "Correa de transmisión John Deere código AJ58970. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9769,7 +9826,10 @@ export const SEED_PRODUCTS = [
         "model": "AR50188",
         "description": "Correa de transmisión John Deere código AR50188. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9793,7 +9853,10 @@ export const SEED_PRODUCTS = [
         "model": "AR56638",
         "description": "Correa de transmisión John Deere código AR56638. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9817,7 +9880,10 @@ export const SEED_PRODUCTS = [
         "model": "AR72036",
         "description": "Correa de transmisión John Deere código AR72036. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9841,7 +9907,10 @@ export const SEED_PRODUCTS = [
         "model": "AT24833",
         "description": "Correa de transmisión John Deere código AT24833. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9865,7 +9934,10 @@ export const SEED_PRODUCTS = [
         "model": "AT262958",
         "description": "Correa de transmisión John Deere código AT262958. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9889,7 +9961,10 @@ export const SEED_PRODUCTS = [
         "model": "AZ39676",
         "description": "Correa de transmisión John Deere código AZ39676. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.33.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9913,7 +9988,10 @@ export const SEED_PRODUCTS = [
         "model": "AZ39677",
         "description": "Correa de transmisión John Deere código AZ39677. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.33.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9937,7 +10015,10 @@ export const SEED_PRODUCTS = [
         "model": "AZ39678",
         "description": "Correa de transmisión John Deere código AZ39678. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9961,7 +10042,10 @@ export const SEED_PRODUCTS = [
         "model": "AZ56225",
         "description": "Correa de transmisión John Deere código AZ56225. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (3).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -9985,7 +10069,10 @@ export const SEED_PRODUCTS = [
         "model": "CA20518",
         "description": "Correa de transmisión John Deere código CA20518. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10009,7 +10096,10 @@ export const SEED_PRODUCTS = [
         "model": "CQ05106",
         "description": "Correa de transmisión John Deere código CQ05106. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10033,7 +10123,10 @@ export const SEED_PRODUCTS = [
         "model": "CQ08238",
         "description": "Correa de transmisión John Deere código CQ08238. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10057,7 +10150,10 @@ export const SEED_PRODUCTS = [
         "model": "CQ08239",
         "description": "Correa de transmisión John Deere código CQ08239. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10081,7 +10177,10 @@ export const SEED_PRODUCTS = [
         "model": "CQ13837",
         "description": "Correa de transmisión John Deere código CQ13837. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10105,7 +10204,10 @@ export const SEED_PRODUCTS = [
         "model": "CQ17755",
         "description": "Correa de transmisión John Deere código CQ17755. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10129,7 +10231,10 @@ export const SEED_PRODUCTS = [
         "model": "CQ33577",
         "description": "Correa de transmisión John Deere código CQ33577. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10153,7 +10258,10 @@ export const SEED_PRODUCTS = [
         "model": "CQ34122",
         "description": "Correa de transmisión John Deere código CQ34122. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10177,7 +10285,10 @@ export const SEED_PRODUCTS = [
         "model": "CQ35426",
         "description": "Correa de transmisión John Deere código CQ35426. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10201,7 +10312,10 @@ export const SEED_PRODUCTS = [
         "model": "CQ35559",
         "description": "Correa de transmisión John Deere código CQ35559. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10225,7 +10339,10 @@ export const SEED_PRODUCTS = [
         "model": "CQ37755",
         "description": "Correa de transmisión John Deere código CQ37755. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.33.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10249,7 +10366,10 @@ export const SEED_PRODUCTS = [
         "model": "CQ48048",
         "description": "Correa de transmisión John Deere código CQ48048. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10273,7 +10393,10 @@ export const SEED_PRODUCTS = [
         "model": "CQ50143",
         "description": "Correa de transmisión John Deere código CQ50143. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10297,7 +10420,10 @@ export const SEED_PRODUCTS = [
         "model": "CQ50815",
         "description": "Correa de transmisión John Deere código CQ50815. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10321,7 +10447,10 @@ export const SEED_PRODUCTS = [
         "model": "CQ51920",
         "description": "Correa de transmisión John Deere código CQ51920. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10345,7 +10474,10 @@ export const SEED_PRODUCTS = [
         "model": "CQ51921",
         "description": "Correa de transmisión John Deere código CQ51921. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10369,7 +10501,10 @@ export const SEED_PRODUCTS = [
         "model": "CQ58873",
         "description": "Correa de transmisión John Deere código CQ58873. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10393,7 +10528,10 @@ export const SEED_PRODUCTS = [
         "model": "DQ16201",
         "description": "Correa de transmisión John Deere código DQ16201. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (3).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10417,7 +10555,10 @@ export const SEED_PRODUCTS = [
         "model": "DQ29594",
         "description": "Correa de transmisión John Deere código DQ29594. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10441,7 +10582,10 @@ export const SEED_PRODUCTS = [
         "model": "E78287",
         "description": "Correa de transmisión John Deere código E78287. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10464,7 +10608,10 @@ export const SEED_PRODUCTS = [
         "model": "GX21395",
         "description": "Correa de transmisión John Deere código GX21395. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10488,7 +10635,10 @@ export const SEED_PRODUCTS = [
         "model": "H101469",
         "description": "Correa de transmisión John Deere código H101469. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10512,7 +10662,10 @@ export const SEED_PRODUCTS = [
         "model": "H126345",
         "description": "Correa de transmisión John Deere código H126345. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10536,7 +10689,10 @@ export const SEED_PRODUCTS = [
         "model": "H132808",
         "description": "Correa de transmisión John Deere código H132808. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.33.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10560,7 +10716,10 @@ export const SEED_PRODUCTS = [
         "model": "H134437",
         "description": "Correa de transmisión John Deere código H134437. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10584,7 +10743,10 @@ export const SEED_PRODUCTS = [
         "model": "H138761",
         "description": "Correa de transmisión John Deere código H138761. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10608,7 +10770,10 @@ export const SEED_PRODUCTS = [
         "model": "H141166",
         "description": "Correa de transmisión John Deere código H141166. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10632,7 +10797,10 @@ export const SEED_PRODUCTS = [
         "model": "H146636",
         "description": "Correa de transmisión John Deere código H146636. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10656,7 +10824,10 @@ export const SEED_PRODUCTS = [
         "model": "H146637",
         "description": "Correa de transmisión John Deere código H146637. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (3).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10680,7 +10851,10 @@ export const SEED_PRODUCTS = [
         "model": "H153297",
         "description": "Correa de transmisión John Deere código H153297. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10704,7 +10878,10 @@ export const SEED_PRODUCTS = [
         "model": "H154723",
         "description": "Correa de transmisión John Deere código H154723. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10728,7 +10905,10 @@ export const SEED_PRODUCTS = [
         "model": "H154731",
         "description": "Correa de transmisión John Deere código H154731. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10752,7 +10932,10 @@ export const SEED_PRODUCTS = [
         "model": "H156796",
         "description": "Correa de transmisión John Deere código H156796. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10776,7 +10959,10 @@ export const SEED_PRODUCTS = [
         "model": "H157105",
         "description": "Correa de transmisión John Deere código H157105. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10800,7 +10986,10 @@ export const SEED_PRODUCTS = [
         "model": "H157514",
         "description": "Correa de transmisión John Deere código H157514. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10824,7 +11013,10 @@ export const SEED_PRODUCTS = [
         "model": "H158512",
         "description": "Correa de transmisión John Deere código H158512. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10848,7 +11040,10 @@ export const SEED_PRODUCTS = [
         "model": "H160171",
         "description": "Correa de transmisión John Deere código H160171. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.33.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10872,7 +11067,10 @@ export const SEED_PRODUCTS = [
         "model": "H161648",
         "description": "Correa de transmisión John Deere código H161648. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.33.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10896,7 +11094,10 @@ export const SEED_PRODUCTS = [
         "model": "H161795",
         "description": "Correa de transmisión John Deere código H161795. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10920,7 +11121,10 @@ export const SEED_PRODUCTS = [
         "model": "H173024",
         "description": "Correa de transmisión John Deere código H173024. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (3).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10944,7 +11148,10 @@ export const SEED_PRODUCTS = [
         "model": "H175587",
         "description": "Correa de transmisión John Deere código H175587. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10968,7 +11175,10 @@ export const SEED_PRODUCTS = [
         "model": "H201334",
         "description": "Correa de transmisión John Deere código H201334. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -10992,7 +11202,10 @@ export const SEED_PRODUCTS = [
         "model": "H201571",
         "description": "Correa de transmisión John Deere código H201571. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11016,7 +11229,10 @@ export const SEED_PRODUCTS = [
         "model": "H201596",
         "description": "Correa de transmisión John Deere código H201596. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11040,7 +11256,10 @@ export const SEED_PRODUCTS = [
         "model": "H203474",
         "description": "Correa de transmisión John Deere código H203474. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11064,7 +11283,10 @@ export const SEED_PRODUCTS = [
         "model": "H204747",
         "description": "Correa de transmisión John Deere código H204747. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11088,7 +11310,10 @@ export const SEED_PRODUCTS = [
         "model": "H205169",
         "description": "Correa de transmisión John Deere código H205169. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11112,7 +11337,10 @@ export const SEED_PRODUCTS = [
         "model": "H206048",
         "description": "Correa de transmisión John Deere código H206048. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11136,7 +11364,10 @@ export const SEED_PRODUCTS = [
         "model": "H206807",
         "description": "Correa de transmisión John Deere código H206807. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11160,7 +11391,10 @@ export const SEED_PRODUCTS = [
         "model": "H210476",
         "description": "Correa de transmisión John Deere código H210476. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11184,7 +11418,10 @@ export const SEED_PRODUCTS = [
         "model": "H211581",
         "description": "Correa de transmisión John Deere código H211581. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.33.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11208,7 +11445,10 @@ export const SEED_PRODUCTS = [
         "model": "H213353",
         "description": "Correa de transmisión John Deere código H213353. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11232,7 +11472,10 @@ export const SEED_PRODUCTS = [
         "model": "H218645",
         "description": "Correa de transmisión John Deere código H218645. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11256,7 +11499,10 @@ export const SEED_PRODUCTS = [
         "model": "H219182",
         "description": "Correa de transmisión John Deere código H219182. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11280,7 +11526,10 @@ export const SEED_PRODUCTS = [
         "model": "H220884",
         "description": "Correa de transmisión John Deere código H220884. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11304,7 +11553,10 @@ export const SEED_PRODUCTS = [
         "model": "H220911",
         "description": "Correa de transmisión John Deere código H220911. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11328,7 +11580,10 @@ export const SEED_PRODUCTS = [
         "model": "H221273",
         "description": "Correa de transmisión John Deere código H221273. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11352,7 +11607,10 @@ export const SEED_PRODUCTS = [
         "model": "H221498",
         "description": "Correa de transmisión John Deere código H221498. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (3).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11376,7 +11634,10 @@ export const SEED_PRODUCTS = [
         "model": "H221731",
         "description": "Correa de transmisión John Deere código H221731. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11400,7 +11661,10 @@ export const SEED_PRODUCTS = [
         "model": "H223230",
         "description": "Correa de transmisión John Deere código H223230. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11424,7 +11688,10 @@ export const SEED_PRODUCTS = [
         "model": "H229018",
         "description": "Correa de transmisión John Deere código H229018. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11448,7 +11715,10 @@ export const SEED_PRODUCTS = [
         "model": "H229019",
         "description": "Correa de transmisión John Deere código H229019. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11472,7 +11742,10 @@ export const SEED_PRODUCTS = [
         "model": "H230909",
         "description": "Correa de transmisión John Deere código H230909. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11496,7 +11769,10 @@ export const SEED_PRODUCTS = [
         "model": "H236472",
         "description": "Correa de transmisión John Deere código H236472. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.33.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11520,7 +11796,10 @@ export const SEED_PRODUCTS = [
         "model": "H23950",
         "description": "Correa de transmisión John Deere código H23950. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11544,7 +11823,10 @@ export const SEED_PRODUCTS = [
         "model": "H31227",
         "description": "Correa de transmisión John Deere código H31227. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11568,7 +11850,10 @@ export const SEED_PRODUCTS = [
         "model": "H81742",
         "description": "Correa de transmisión John Deere código H81742. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11592,7 +11877,10 @@ export const SEED_PRODUCTS = [
         "model": "J57025",
         "description": "Correa de transmisión John Deere código J57025. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11616,7 +11904,10 @@ export const SEED_PRODUCTS = [
         "model": "J57065",
         "description": "Correa de transmisión John Deere código J57065. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (3).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11640,7 +11931,10 @@ export const SEED_PRODUCTS = [
         "model": "J57086",
         "description": "Correa de transmisión John Deere código J57086. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11664,7 +11958,10 @@ export const SEED_PRODUCTS = [
         "model": "M115776",
         "description": "Correa de transmisión John Deere código M115776. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11688,7 +11985,10 @@ export const SEED_PRODUCTS = [
         "model": "M119685",
         "description": "Correa de transmisión John Deere código M119685. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11712,7 +12012,10 @@ export const SEED_PRODUCTS = [
         "model": "M119696",
         "description": "Correa de transmisión John Deere código M119696. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11736,7 +12039,10 @@ export const SEED_PRODUCTS = [
         "model": "M125218",
         "description": "Correa de transmisión John Deere código M125218. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11760,7 +12066,10 @@ export const SEED_PRODUCTS = [
         "model": "M126012",
         "description": "Correa de transmisión John Deere código M126012. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11784,7 +12093,10 @@ export const SEED_PRODUCTS = [
         "model": "M126536",
         "description": "Correa de transmisión John Deere código M126536. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11808,7 +12120,10 @@ export const SEED_PRODUCTS = [
         "model": "M127524",
         "description": "Correa de transmisión John Deere código M127524. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.33.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11832,7 +12147,10 @@ export const SEED_PRODUCTS = [
         "model": "M127926",
         "description": "Correa de transmisión John Deere código M127926. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.33.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11856,7 +12174,10 @@ export const SEED_PRODUCTS = [
         "model": "M128733",
         "description": "Correa de transmisión John Deere código M128733. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11880,7 +12201,10 @@ export const SEED_PRODUCTS = [
         "model": "M143019",
         "description": "Correa de transmisión John Deere código M143019. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (3).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11904,7 +12228,10 @@ export const SEED_PRODUCTS = [
         "model": "M146667",
         "description": "Correa de transmisión John Deere código M146667. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11928,7 +12255,10 @@ export const SEED_PRODUCTS = [
         "model": "M154958",
         "description": "Correa de transmisión John Deere código M154958. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11952,7 +12282,10 @@ export const SEED_PRODUCTS = [
         "model": "M45862",
         "description": "Correa de transmisión John Deere código M45862. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -11976,7 +12309,10 @@ export const SEED_PRODUCTS = [
         "model": "M74747",
         "description": "Correa de transmisión John Deere código M74747. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12000,7 +12336,10 @@ export const SEED_PRODUCTS = [
         "model": "M77988",
         "description": "Correa de transmisión John Deere código M77988. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12024,7 +12363,10 @@ export const SEED_PRODUCTS = [
         "model": "M800347",
         "description": "Correa de transmisión John Deere código M800347. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12048,7 +12390,10 @@ export const SEED_PRODUCTS = [
         "model": "M82461",
         "description": "Correa de transmisión John Deere código M82461. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12072,7 +12417,10 @@ export const SEED_PRODUCTS = [
         "model": "M82462",
         "description": "Correa de transmisión John Deere código M82462. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12096,7 +12444,10 @@ export const SEED_PRODUCTS = [
         "model": "M83837",
         "description": "Correa de transmisión John Deere código M83837. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12120,7 +12471,10 @@ export const SEED_PRODUCTS = [
         "model": "M95728",
         "description": "Correa de transmisión John Deere código M95728. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12144,7 +12498,10 @@ export const SEED_PRODUCTS = [
         "model": "N110085",
         "description": "Correa de transmisión John Deere código N110085. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.33.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12168,7 +12525,10 @@ export const SEED_PRODUCTS = [
         "model": "P40281",
         "description": "Correa de transmisión John Deere código P40281. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12192,7 +12552,10 @@ export const SEED_PRODUCTS = [
         "model": "R106120",
         "description": "Correa de transmisión John Deere código R106120. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12216,7 +12579,10 @@ export const SEED_PRODUCTS = [
         "model": "R106122",
         "description": "Correa de transmisión John Deere código R106122. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12240,7 +12606,10 @@ export const SEED_PRODUCTS = [
         "model": "R123449",
         "description": "Correa de transmisión John Deere código R123449. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12264,7 +12633,10 @@ export const SEED_PRODUCTS = [
         "model": "R123451",
         "description": "Correa de transmisión John Deere código R123451. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12288,7 +12660,10 @@ export const SEED_PRODUCTS = [
         "model": "R135593",
         "description": "Correa de transmisión John Deere código R135593. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12312,7 +12687,10 @@ export const SEED_PRODUCTS = [
         "model": "R135606",
         "description": "Correa de transmisión John Deere código R135606. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (3).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12336,7 +12714,10 @@ export const SEED_PRODUCTS = [
         "model": "R135609",
         "description": "Correa de transmisión John Deere código R135609. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12360,7 +12741,10 @@ export const SEED_PRODUCTS = [
         "model": "R135822",
         "description": "Correa de transmisión John Deere código R135822. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12384,7 +12768,10 @@ export const SEED_PRODUCTS = [
         "model": "R252371",
         "description": "Correa de transmisión John Deere código R252371. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12408,7 +12795,10 @@ export const SEED_PRODUCTS = [
         "model": "R270859",
         "description": "Correa de transmisión John Deere código R270859. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12432,7 +12822,10 @@ export const SEED_PRODUCTS = [
         "model": "R503312",
         "description": "Correa de transmisión John Deere código R503312. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12456,7 +12849,10 @@ export const SEED_PRODUCTS = [
         "model": "R503505",
         "description": "Correa de transmisión John Deere código R503505. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.33.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12480,7 +12876,10 @@ export const SEED_PRODUCTS = [
         "model": "R515127",
         "description": "Correa de transmisión John Deere código R515127. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12504,7 +12903,10 @@ export const SEED_PRODUCTS = [
         "model": "R71603",
         "description": "Correa de transmisión John Deere código R71603. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12528,7 +12930,10 @@ export const SEED_PRODUCTS = [
         "model": "R73189",
         "description": "Correa de transmisión John Deere código R73189. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12552,7 +12957,10 @@ export const SEED_PRODUCTS = [
         "model": "R73784",
         "description": "Correa de transmisión John Deere código R73784. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12576,7 +12984,10 @@ export const SEED_PRODUCTS = [
         "model": "S17044",
         "description": "Correa de transmisión John Deere código S17044. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (3).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12600,7 +13011,10 @@ export const SEED_PRODUCTS = [
         "model": "SA00601",
         "description": "Correa de transmisión John Deere código SA00601. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12624,7 +13038,10 @@ export const SEED_PRODUCTS = [
         "model": "SA02101",
         "description": "Correa de transmisión John Deere código SA02101. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12648,7 +13065,10 @@ export const SEED_PRODUCTS = [
         "model": "TY26395",
         "description": "Correa de transmisión John Deere código TY26395. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12672,7 +13092,10 @@ export const SEED_PRODUCTS = [
         "model": "Z21501",
         "description": "Correa de transmisión John Deere código Z21501. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12696,7 +13119,10 @@ export const SEED_PRODUCTS = [
         "model": "Z30130",
         "description": "Correa de transmisión John Deere código Z30130. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12720,7 +13146,10 @@ export const SEED_PRODUCTS = [
         "model": "Z32190",
         "description": "Correa de transmisión John Deere código Z32190. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12744,7 +13173,10 @@ export const SEED_PRODUCTS = [
         "model": "Z33605",
         "description": "Correa de transmisión John Deere código Z33605. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12768,7 +13200,10 @@ export const SEED_PRODUCTS = [
         "model": "Z33790",
         "description": "Correa de transmisión John Deere código Z33790. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.33.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12792,7 +13227,10 @@ export const SEED_PRODUCTS = [
         "model": "Z34099",
         "description": "Correa de transmisión John Deere código Z34099. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.33.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.34.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12816,7 +13254,10 @@ export const SEED_PRODUCTS = [
         "model": "Z34786",
         "description": "Correa de transmisión John Deere código Z34786. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.35.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12840,7 +13281,10 @@ export const SEED_PRODUCTS = [
         "model": "Z34828",
         "description": "Correa de transmisión John Deere código Z34828. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.20.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (3).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12864,7 +13308,10 @@ export const SEED_PRODUCTS = [
         "model": "Z38186",
         "description": "Correa de transmisión John Deere código Z38186. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.21.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12888,7 +13335,10 @@ export const SEED_PRODUCTS = [
         "model": "Z41178",
         "description": "Correa de transmisión John Deere código Z41178. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.22.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12912,7 +13362,10 @@ export const SEED_PRODUCTS = [
         "model": "Z46463",
         "description": "Correa de transmisión John Deere código Z46463. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.23.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12936,7 +13389,10 @@ export const SEED_PRODUCTS = [
         "model": "Z46709",
         "description": "Correa de transmisión John Deere código Z46709. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.24.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12960,7 +13416,10 @@ export const SEED_PRODUCTS = [
         "model": "Z53288",
         "description": "Correa de transmisión John Deere código Z53288. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25 (3).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -12984,7 +13443,10 @@ export const SEED_PRODUCTS = [
         "model": "Z43890",
         "description": "Correa de transmisión John Deere código Z43890. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.25.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -13008,7 +13470,10 @@ export const SEED_PRODUCTS = [
         "model": "AT11535",
         "description": "Correa de transmisión Genérico código AT11535. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.26.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -13032,7 +13497,10 @@ export const SEED_PRODUCTS = [
         "model": "CQ34345",
         "description": "Correa de transmisión John Deere código CQ34345. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.27.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.28.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29 (1).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -13056,7 +13524,10 @@ export const SEED_PRODUCTS = [
         "model": "DQ23754",
         "description": "Correa de transmisión John Deere código DQ23754. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.29.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (2).jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -13080,7 +13551,10 @@ export const SEED_PRODUCTS = [
         "model": "H125380",
         "description": "Correa de transmisión John Deere código H125380. Repuesto original de alta durabilidad para maquinaria agrícola.",
         "images": [
-            "https://casadruetto.com.ar/assets/img/casadruettologo1.png"
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30 (2).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.30.jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31 (1).jpeg",
+            "assets/img/correas/WhatsApp Image 2026-08-04 at 18.03.31.jpeg"
         ],
         "specs": {
             "Tipo": "Correa de transmisión",
@@ -13573,12 +14047,7 @@ window.renderProductDetailPage = async function() {
 
     const buyMlBtn = document.getElementById('detail-buy-ml-btn');
     if (buyMlBtn) {
-        if (p.mercadolibreLink && p.mercadolibreLink.trim() !== '') {
-            buyMlBtn.style.display = 'inline-flex';
-            buyMlBtn.href = p.mercadolibreLink;
-        } else {
-            buyMlBtn.style.display = 'none';
-        }
+        buyMlBtn.style.display = 'none';
     }
 
     // Lógica de la calculadora de envíos
