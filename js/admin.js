@@ -1403,58 +1403,56 @@ async function loadAllData() {
                     { id: "cat_dro", name: "Drones DJI", slug: "drones" }
                 ];
                 for (const c of defaultCats) {
-                    await setDoc(doc(db, "druetto_categories", c.id), c);
+                    await setDoc(doc(db, "druetto_categories", c.id), c).catch(() => {});
                 }
                 categoriesList = defaultCats;
             }
 
-            // Autosemilla de Productos Iniciales Completo (Lote/Batch atómico rápido)
+            // Autosemilla de Productos Iniciales Completo
             if (productsList.length === 0) {
-                let deletedCount = 0;
                 try {
-                    const delSnap = await getDocs(collection(db, "druetto_deleted_products"));
-                    deletedCount = delSnap.docs.length;
-                } catch (err) {}
-
-                if (deletedCount === 0) {
-                    try {
-                        const { SEED_PRODUCTS } = await import('./products.js');
-                        const batch = writeBatch(db);
-                        
-                        for (const p of SEED_PRODUCTS) {
-                            const docRef = doc(db, "druetto_products", p.id);
-                            batch.set(docRef, p);
-                        }
-                        
-                        await batch.commit();
-                        productsList = [...SEED_PRODUCTS];
-                        console.log("[Firebase Seeding] Catálogo completo (" + SEED_PRODUCTS.length + " productos) sembrado con éxito en un lote (batch) de Firestore.");
-                    } catch (importErr) {
-                        console.error("Error importando/sembrando productos semilla en lote en admin:", importErr);
+                    const { SEED_PRODUCTS } = await import('./products.js');
+                    productsList = [...SEED_PRODUCTS];
+                    for (const p of SEED_PRODUCTS) {
+                        await setDoc(doc(db, "druetto_products", p.id), p).catch(() => {});
                     }
-                }
+                } catch (importErr) {}
             }
-
-            // Intento de órdenes
-            try {
-                const orderSnap = await getDocs(collection(db, "druetto_orders"));
-                ordersList = orderSnap.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-            } catch (err) { ordersList = []; }
         } else {
             // Cargar de Local
             productsList = await localDb.getCollection("products");
             categoriesList = await localDb.getCollection("categories");
             ordersList = await localDb.getCollection("orders");
 
-            if (productsList.length === 0) {
-                const deletedList = await localDb.getCollection("deleted_products");
-                if (deletedList.length === 0) {
-                    const { SEED_PRODUCTS } = await import('./products.js');
-                    await localDb.setCollection("products", SEED_PRODUCTS);
-                    productsList = [...SEED_PRODUCTS];
-                }
+            if (!productsList || productsList.length === 0) {
+                const { SEED_PRODUCTS } = await import('./products.js');
+                await localDb.setCollection("products", SEED_PRODUCTS);
+                productsList = [...SEED_PRODUCTS];
             }
         }
+
+        // ── Sincronizar automáticamente imágenes Semilla (Correas y Productos Nuevos) ──
+        try {
+            const { SEED_PRODUCTS } = await import('./products.js');
+            for (const sp of SEED_PRODUCTS) {
+                const existing = productsList.find(p => p.id === sp.id || p.code === sp.code);
+                if (existing) {
+                    // Si el producto semilla tiene imágenes reales pero en la base de datos tiene la foto del logo o imágenes por defecto
+                    const existingImg = (existing.images && existing.images.length > 0) ? existing.images[0] : '';
+                    const spImg = (sp.images && sp.images.length > 0) ? sp.images[0] : '';
+                    if ((!existingImg || existingImg.includes('casadruettologo1') || existingImg.includes('STD')) && spImg && !spImg.includes('casadruettologo1')) {
+                        existing.images = sp.images;
+                        saveSingleProductRecord(existing).catch(() => {});
+                    }
+                } else {
+                    productsList.push(sp);
+                    saveSingleProductRecord(sp).catch(() => {});
+                }
+            }
+        } catch (syncErr) {
+            console.warn("Error en auto-sincronización de imágenes semilla:", syncErr);
+        }
+
     } catch (e) {
         console.error("Global data loading error:", e);
     }
