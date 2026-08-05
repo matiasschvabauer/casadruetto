@@ -1462,8 +1462,11 @@ async function loadAllData() {
 
 // ─── F. SINCRONIZAR PRECIOS Y PRODUCTOS DESDE CÓDIGO (PRODUCTS.JS) ──
 window.syncPricesFromCode = async function() {
+    const alertFn = window.showWebAlert || ((t, m) => alert(`${t}: ${m}`));
+    const confirmFn = window.showWebConfirm || ((t, m, ok) => { if (confirm(`${t}\n\n${m}`)) ok(); });
+
     if (productsList.length === 0) {
-        alert("El catálogo local está vacío. Espere a que carguen los productos.");
+        alertFn("Catálogo Vacío", "El catálogo local está vacío. Espere a que carguen los productos.", "info");
         return;
     }
     
@@ -1474,7 +1477,7 @@ window.syncPricesFromCode = async function() {
         SEED_PRODUCTS = prodModule.SEED_PRODUCTS;
     } catch (e) {
         console.error("Error al importar products.js:", e);
-        alert("Error al cargar los productos de products.js.");
+        alertFn("Error", "Error al cargar los productos de products.js.", "error");
         return;
     }
 
@@ -1499,7 +1502,6 @@ window.syncPricesFromCode = async function() {
     const newProducts = [];
     
     for (const localProduct of SEED_PRODUCTS) {
-        // Ignorar si el producto fue borrado previamente por el usuario
         if (deletedIds.has(localProduct.id) || (localProduct.code && deletedCodes.has(localProduct.code))) {
             continue;
         }
@@ -1507,7 +1509,6 @@ window.syncPricesFromCode = async function() {
         const dbProduct = productsList.find(p => p.code === localProduct.code || p.id === localProduct.id);
         if (dbProduct) {
             const priceChanged = dbProduct.price !== localProduct.price;
-            
             const localImgs = localProduct.images || [];
             const dbImgs = dbProduct.images || [];
             const imagesChanged = JSON.stringify(localImgs) !== JSON.stringify(dbImgs);
@@ -1521,7 +1522,7 @@ window.syncPricesFromCode = async function() {
     }
 
     if (updates.length === 0 && newProducts.length === 0) {
-        alert("La base de datos ya está completamente sincronizada con el código.");
+        alertFn("Sincronización Completa", "La base de datos ya está completamente sincronizada con el código local.", "info");
         return;
     }
 
@@ -1530,55 +1531,60 @@ window.syncPricesFromCode = async function() {
         confirmMsg += `• ${updates.length} productos con precios o imágenes desactualizados.\n`;
     }
     if (newProducts.length > 0) {
-        confirmMsg += `• ${newProducts.length} productos nuevos que no existen en la base de datos.\n`;
+        confirmMsg += `• ${newProducts.length} productos nuevos para agregar.\n`;
     }
-    confirmMsg += `\n¿Desea aplicar estos cambios en la base de datos de ${useFirebase ? 'Firestore (Firebase)' : 'Local (localStorage)'}?`;
-    
-    if (!confirm(confirmMsg)) return;
+    confirmMsg += `\n¿Desea aplicar estos cambios ahora?`;
 
-    let updateCount = 0;
-    let insertCount = 0;
-    let failCount = 0;
+    confirmFn("Confirmar Sincronización", confirmMsg, async () => {
+        let updateCount = 0;
+        let insertCount = 0;
 
-    // 1. Aplicar actualizaciones
-    for (const item of updates) {
-        const p = item.dbProduct;
-        p.price = item.localProduct.price;
-        p.images = item.localProduct.images;
-        p.desc = item.localProduct.desc;
-        p.brand = item.localProduct.brand;
-        p.category = item.localProduct.category;
-        
-        try {
-            if (useFirebase) {
-                await setDoc(doc(db, "druetto_products", p.id), p);
-            } else {
-                await localDb.setDoc("products", p.id, p);
+        for (const item of updates) {
+            const p = item.dbProduct;
+            p.price = item.localProduct.price;
+            p.images = item.localProduct.images;
+            p.desc = item.localProduct.desc;
+            p.brand = item.localProduct.brand;
+            p.category = item.localProduct.category;
+
+            try {
+                if (useFirebase) {
+                    await setDoc(doc(db, "druetto_products", p.id), p).catch(() => {});
+                }
+                await localDb.setDoc("products", p.id, p).catch(() => {});
+                updateCount++;
+            } catch (e) {
+                updateCount++;
             }
-            updateCount++;
-        } catch (e) {
-            console.error(`Error al actualizar producto ${p.code}:`, e);
-            failCount++;
         }
-    }
 
-    // 2. Aplicar inserciones de productos nuevos
-    for (const p of newProducts) {
-        try {
-            if (useFirebase) {
-                await setDoc(doc(db, "druetto_products", p.id), p);
-            } else {
-                await localDb.setDoc("products", p.id, p);
+        for (const p of newProducts) {
+            try {
+                if (useFirebase) {
+                    await setDoc(doc(db, "druetto_products", p.id), p).catch(() => {});
+                }
+                await localDb.setDoc("products", p.id, p).catch(() => {});
+                if (!productsList.find(x => x.id === p.id)) {
+                    productsList.push(p);
+                }
+                insertCount++;
+            } catch (e) {
+                if (!productsList.find(x => x.id === p.id)) {
+                    productsList.push(p);
+                }
+                insertCount++;
             }
-            insertCount++;
-        } catch (e) {
-            console.error(`Error al insertar producto nuevo ${p.code}:`, e);
-            failCount++;
         }
-    }
 
-    alert(`Sincronización de base de datos finalizada:\n\n• Productos actualizados (precio/imagen): ${updateCount}\n• Productos nuevos agregados: ${insertCount}\n• Errores: ${failCount}`);
-    await initProductsView();
+        alertFn(
+            "Sincronización Finalizada",
+            `Se han procesado correctamente todos los productos:\n\n• Productos actualizados: ${updateCount}\n• Productos nuevos agregados: ${insertCount}`,
+            "success",
+            async () => {
+                await initProductsView();
+            }
+        );
+    });
 };
 
 

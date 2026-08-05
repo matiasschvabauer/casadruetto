@@ -238,16 +238,16 @@
     window.copyContactDetail = function(text, label) {
         if (navigator.clipboard && navigator.clipboard.writeText) {
             navigator.clipboard.writeText(text).then(() => {
-                showWebToast(`📋 ${label} copiado al portapapeles: ${text}`);
+                showWebToast(`📋 ${label} copiado al portapapeles`);
             }).catch(() => {
-                showWebToast(`📋 Copiado: ${text}`);
+                showWebToast(`📋 Copiado al portapapeles`);
             });
         } else {
-            showWebToast(`📋 Copiado: ${text}`);
+            showWebToast(`📋 Copiado al portapapeles`);
         }
     };
 
-    // Handler universal de envío de formulario de contacto por Email / Mailto
+    // Handler universal de envío de formulario de contacto por Gmail / Mailto
     window.handleContactFormSubmit = function(e, form) {
         if (e) e.preventDefault();
         const inputs = form.querySelectorAll('input, textarea');
@@ -272,13 +272,16 @@
             }
         });
 
-        const mailBody = `Hola Casa Druetto S.A.,\n\nMi nombre es: ${name}\nTeléfono/WhatsApp: ${phone}\nCorreo: ${email}\n\nMensaje / Consulta:\n${message}\n\nEnviado desde el formulario web de casadruetto.com.ar`;
+        const mailBody = `Hola Casa Druetto S.A.,\n\nMi nombre es: ${name}\nTeléfono/WhatsApp: ${phone}\nCorreo: ${email}\n\nMensaje / Consulta:\n${message}\n\nEnviado desde el formulario web casadruetto.com.ar`;
+        
+        const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=contacto@casadruetto.com.ar&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(mailBody)}`;
         const mailtoUrl = `mailto:contacto@casadruetto.com.ar?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(mailBody)}`;
 
-        window.location.href = mailtoUrl;
+        // Intentar abrir Gmail en pestaña nueva y mailto como respaldo
+        window.open(gmailUrl, '_blank') || (window.location.href = mailtoUrl);
 
         if (window.showWebAlert) {
-            window.showWebAlert('¡Gracias por tu mensaje!', 'Se ha abierto tu aplicación de correo pre-completada con tu consulta para enviar a contacto@casadruetto.com.ar.', 'success');
+            window.showWebAlert('¡Gracias por tu mensaje!', 'Se ha redactado tu consulta para enviar a contacto@casadruetto.com.ar.', 'success');
         }
         form.reset();
     };
