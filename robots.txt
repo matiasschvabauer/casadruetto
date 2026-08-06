@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /scratch/
+Disallow: /*.json$
+
+Sitemap: https://casadruetto.com.ar/sitemap.xml
