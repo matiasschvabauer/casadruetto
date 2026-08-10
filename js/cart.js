@@ -7,6 +7,7 @@ const CART_TIME_KEY = 'druetto_cart_time';
 
 // Configuración por defecto (Autoadministrable desde admin/configuracion)
 let shopConfig = {
+    email: 'casadruettosa@gmail.com',
     whatsappNumber: '5493404521246',
     address: 'Gálvez, Santa Fe, Argentina',
     bankDetails: 'Banco Nación - Alias: CASA.DRUETTO.AGRO - CBU: 0110123456789012345678',
@@ -317,6 +318,7 @@ window.checkoutOrder = function(paymentMethod = 'whatsapp') {
     }
 
     const clientName = document.getElementById('checkout-name')?.value.trim() || '';
+    const clientEmail = document.getElementById('checkout-email')?.value.trim() || '';
     const clientCuit = document.getElementById('checkout-cuit')?.value.trim() || '';
     const clientPhone = document.getElementById('checkout-phone')?.value.trim() || '';
     const clientNotes = document.getElementById('checkout-notes')?.value.trim() || '';
@@ -332,6 +334,7 @@ window.checkoutOrder = function(paymentMethod = 'whatsapp') {
 
     let text = `🌾 *CASA DRUETTO - Nuevo Pedido de Tienda Web* 🌾\n\n`;
     text += `*Cliente:* ${clientName}\n`;
+    if (clientEmail) text += `*Email:* ${clientEmail}\n`;
     text += `*DNI / CUIT / CUIL:* ${clientCuit}\n`;
     text += `*WhatsApp:* ${clientPhone}\n`;
     if (clientNotes) text += `*Notas:* ${clientNotes}\n`;
@@ -359,11 +362,27 @@ window.checkoutOrder = function(paymentMethod = 'whatsapp') {
 
     text += `_Pedido enviado desde la Tienda Virtual casadruetto.com.ar_`;
 
+    const orderData = {
+        id: 'ORD-' + Math.floor(100000 + Math.random() * 900000),
+        customerName: clientName,
+        customerEmail: clientEmail,
+        customerCuit: clientCuit,
+        customerPhone: clientPhone,
+        customerNotes: clientNotes,
+        totalUSD: total,
+        paymentMethod: paymentMethod,
+        items: cart.map(i => ({ id: i.id, name: i.name, qty: i.qty, price: i.price, code: i.code }))
+    };
+
+    // Notificar envío de correo al administrador y comprobante al cliente
+    if (window.sendOrderToAdmin) window.sendOrderToAdmin(orderData);
+    if (window.sendOrderConfirmationToCustomer && clientEmail) window.sendOrderConfirmationToCustomer(orderData);
+
     // Registrar la orden localmente para el panel de admin
     try {
         const existingOrders = JSON.parse(localStorage.getItem('druetto_orders') || '[]');
-        const newOrder = {
-            id: 'ORD-' + Math.floor(100000 + Math.random() * 900000),
+        existingOrders.push({
+            ...orderData,
             client: clientName,
             cuit: clientCuit,
             phone: clientPhone,
@@ -371,10 +390,8 @@ window.checkoutOrder = function(paymentMethod = 'whatsapp') {
             total: total,
             status: 'pending',
             date: new Date().toLocaleDateString('es-AR'),
-            createdAt: new Date().toISOString(),
-            items: cart.map(i => ({ id: i.id, name: i.name, qty: i.qty, price: i.price }))
-        };
-        existingOrders.push(newOrder);
+            createdAt: new Date().toISOString()
+        });
         localStorage.setItem('druetto_orders', JSON.stringify(existingOrders));
     } catch (e) {
         console.error("Error al registrar orden local:", e);
@@ -459,6 +476,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="checkout-form-container">
                     <h4>Datos para concretar la compra:</h4>
                     <input type="text" id="checkout-name" placeholder="Nombre completo *" required>
+                    <input type="email" id="checkout-email" placeholder="Correo Electrónico (para comprobante) *" required onchange="if(window.sendAbandonedCartReminder && cart.length > 0) window.sendAbandonedCartReminder(cart, this.value.trim());">
                     <input type="text" id="checkout-cuit" placeholder="DNI / CUIT / CUIL *" required>
                     <input type="tel" id="checkout-phone" placeholder="WhatsApp / Teléfono *" required>
                     <textarea id="checkout-notes" placeholder="Notas sobre el envío o detalles especiales"></textarea>

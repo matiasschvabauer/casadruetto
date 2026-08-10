@@ -1355,9 +1355,13 @@ window.deleteCategoryAction = async function (id) {
 // ─── F. CONFIGURATION VIEW ─────────────────────────────────────────
 function initConfigView() {
     const config = localStorage.getItem('druetto_config');
+    const emailField = document.getElementById('conf-email');
+    if (emailField) emailField.value = 'casadruettosa@gmail.com';
+
     if (config) {
         try {
             const data = JSON.parse(config);
+            if (emailField && data.email) emailField.value = data.email;
             document.getElementById('conf-wa').value = data.whatsappNumber || '';
             document.getElementById('conf-address').value = data.address || '';
             document.getElementById('conf-bank').value = data.bankDetails || '';
@@ -1367,12 +1371,14 @@ function initConfigView() {
 }
 
 window.saveConfigForm = function () {
+    const email = document.getElementById('conf-email')?.value.trim() || 'casadruettosa@gmail.com';
     const whatsappNumber = document.getElementById('conf-wa').value.trim();
     const address = document.getElementById('conf-address').value.trim();
     const bankDetails = document.getElementById('conf-bank').value.trim();
     const mpToken = document.getElementById('conf-mp-token').value.trim();
 
     const data = {
+        email,
         whatsappNumber,
         address,
         bankDetails,
