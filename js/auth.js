@@ -14,6 +14,7 @@ import {
 // Lista oficial de correos electrónicos administradores autorizados
 const ADMIN_EMAILS = [
     "matiasschvabauer@gmail.com",
+    "gabygatti94@gmail.com",
     "gaby.gatti94@gmail.com",
     "casadruettosa@gmail.com"
 ];
