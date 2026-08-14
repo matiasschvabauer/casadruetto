@@ -5,6 +5,18 @@
 const CART_KEY = 'druetto_cart';
 const CART_TIME_KEY = 'druetto_cart_time';
 
+// Cargar servicio de correo dinámicamente si no está presente en la página
+function ensureEmailServiceLoaded() {
+    if (!window.sendOrderToAdmin && !document.getElementById('email-service-script')) {
+        const script = document.createElement('script');
+        script.id = 'email-service-script';
+        script.src = 'js/email-service.js';
+        document.head.appendChild(script);
+        console.log('[cart.js] email-service.js inyectado dinámicamente.');
+    }
+}
+ensureEmailServiceLoaded();
+
 // Configuración por defecto (Autoadministrable desde admin/configuracion)
 let shopConfig = {
     email: 'casadruettosa@gmail.com',
@@ -375,8 +387,13 @@ window.checkoutOrder = function(paymentMethod = 'whatsapp') {
     };
 
     // Notificar envío de correo al administrador y comprobante al cliente
-    if (window.sendOrderToAdmin) window.sendOrderToAdmin(orderData);
-    if (window.sendOrderConfirmationToCustomer && clientEmail) window.sendOrderConfirmationToCustomer(orderData);
+    ensureEmailServiceLoaded();
+    if (typeof window.sendOrderToAdmin === 'function') {
+        window.sendOrderToAdmin(orderData);
+    }
+    if (typeof window.sendOrderConfirmationToCustomer === 'function' && clientEmail) {
+        window.sendOrderConfirmationToCustomer(orderData);
+    }
 
     // Registrar la orden localmente para el panel de admin
     try {
