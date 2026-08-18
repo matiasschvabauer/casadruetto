@@ -1591,4 +1591,179 @@ window.syncPricesFromCode = async function() {
     });
 };
 
+// ─── EXPORTAR CATÁLOGO META / WHATSAPP (CSV) ────────────────────────
+window.exportMetaWhatsAppCSV = function() {
+    const rateInput = document.getElementById('meta-usd-rate');
+    let usdRate = rateInput ? parseFloat(rateInput.value) : 1250;
+    if (isNaN(usdRate) || usdRate <= 0) usdRate = 1250;
+
+    if (!productsList || productsList.length === 0) {
+        if (typeof webAlert !== 'undefined') {
+            webAlert("Exportador Meta", "No hay productos cargados en la base para exportar.", "warning");
+        } else {
+            alert("No hay productos cargados en la base para exportar.");
+        }
+        return;
+    }
+
+    const headers = ['id', 'title', 'description', 'availability', 'condition', 'price', 'link', 'image_link', 'additional_image_link', 'brand', 'category', 'custom_label_0'];
+    const rows = [headers.join(',')];
+
+    const conditionMap = {
+        'nuevo': 'new',
+        'usado': 'used',
+        'restaurado': 'refurbished',
+        'reacondicionado': 'refurbished'
+    };
+
+    const domain = "https://casadruetto.com.ar";
+
+    productsList.forEach(p => {
+        const id = p.id || p.code || '';
+        if (!id) return;
+
+        const title = `"${(p.name || '').replace(/"/g, '""')}"`;
+        const desc = `"${(p.desc || p.name || '').replace(/[\r\n]+/g, ' ').replace(/"/g, '""')}"`;
+        const stock = parseInt(p.stock) || 0;
+        const availability = stock > 0 ? 'in stock' : 'out of stock';
+        
+        const condRaw = (p.condition || 'nuevo').toLowerCase().trim();
+        const condition = conditionMap[condRaw] || 'new';
+
+        const basePrice = parseFloat(p.price) || 0;
+        const finalPrice = (basePrice * usdRate).toFixed(2);
+        const priceStr = `"${finalPrice} ARS"`;
+
+        const link = `"${domain}/producto-detalle.html?id=${encodeURIComponent(id)}"`;
+
+        const images = p.images || [];
+        const mainImage = images.length > 0 ? `"${images[0]}"` : '""';
+        const extraImages = images.length > 1 ? `"${images.slice(1).join(',')}"` : '""';
+
+        const brand = `"${(p.brand || 'Casa Druetto').replace(/"/g, '""')}"`;
+        const category = `"${(p.category || '').replace(/"/g, '""')}"`;
+        const customLabel = `"Precio Base: USD ${basePrice}"`;
+
+        rows.push([id, title, desc, availability, condition, priceStr, link, mainImage, extraImages, brand, category, customLabel].join(','));
+    });
+
+    const csvContent = "\uFEFF" + rows.join('\n'); // UTF-8 BOM para soporte con acentos y Excel
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.setAttribute("href", url);
+    link.setAttribute("download", `meta_catalog_feed_${usdRate}ARS.csv`);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    if (typeof webAlert !== 'undefined') {
+        webAlert("Catálogo Exportado", `Se descargó el archivo 'meta_catalog_feed_${usdRate}ARS.csv' con ${productsList.length} productos convertidos a ARS ($${usdRate}).`, "success");
+    }
+};
+
+// ─── SINCRONIZAR CATÁLOGO DIRECTO A CLOUDINARY PARA META/WHATSAPP ───
+window.syncMetaWhatsAppCloudinary = async function() {
+    const rateInput = document.getElementById('meta-usd-rate');
+    let usdRate = rateInput ? parseFloat(rateInput.value) : 1510;
+    if (isNaN(usdRate) || usdRate <= 0) usdRate = 1510;
+
+    if (!productsList || productsList.length === 0) {
+        if (typeof webAlert !== 'undefined') {
+            webAlert("Catálogo WhatsApp", "No hay productos cargados en la base para sincronizar.", "warning");
+        } else {
+            alert("No hay productos cargados en la base para sincronizar.");
+        }
+        return;
+    }
+
+    const syncBtn = document.getElementById('btn-sync-meta-cloudinary');
+    if (syncBtn) {
+        syncBtn.disabled = true;
+        syncBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sincronizando Nube...';
+    }
+
+    try {
+        const headers = ['id', 'title', 'description', 'availability', 'condition', 'price', 'link', 'image_link', 'additional_image_link', 'brand', 'category', 'custom_label_0'];
+        const rows = [headers.join(',')];
+
+        const conditionMap = {
+            'nuevo': 'new',
+            'usado': 'used',
+            'restaurado': 'refurbished',
+            'reacondicionado': 'refurbished'
+        };
+
+        const domain = "https://casadruetto.com.ar";
+
+        productsList.forEach(p => {
+            const id = p.id || p.code || '';
+            if (!id) return;
+
+            const title = `"${(p.name || '').replace(/"/g, '""')}"`;
+            const desc = `"${(p.desc || p.name || '').replace(/[\r\n]+/g, ' ').replace(/"/g, '""')}"`;
+            const stock = parseInt(p.stock) || 0;
+            const availability = stock > 0 ? 'in stock' : 'out of stock';
+            
+            const condRaw = (p.condition || 'nuevo').toLowerCase().trim();
+            const condition = conditionMap[condRaw] || 'new';
+
+            const basePrice = parseFloat(p.price) || 0;
+            const finalPrice = (basePrice * usdRate).toFixed(2);
+            const priceStr = `"${finalPrice} ARS"`;
+
+            const link = `"${domain}/producto-detalle.html?id=${encodeURIComponent(id)}"`;
+
+            const images = p.images || [];
+            const mainImage = images.length > 0 ? `"${images[0]}"` : '""';
+            const extraImages = images.length > 1 ? `"${images.slice(1).join(',')}"` : '""';
+
+            const brand = `"${(p.brand || 'Casa Druetto').replace(/"/g, '""')}"`;
+            const category = `"${(p.category || '').replace(/"/g, '""')}"`;
+            const customLabel = `"Precio Base: USD ${basePrice}"`;
+
+            rows.push([id, title, desc, availability, condition, priceStr, link, mainImage, extraImages, brand, category, customLabel].join(','));
+        });
+
+        const csvContent = "\uFEFF" + rows.join('\n');
+        const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+
+        const formData = new FormData();
+        formData.append('file', blob, 'meta_catalog_feed.csv');
+        formData.append('upload_preset', 'druetto_preset');
+        formData.append('public_id', 'meta_catalog_feed.csv');
+
+        const response = await fetch('https://api.cloudinary.com/v1_1/doissrwhj/raw/upload', {
+            method: 'POST',
+            body: formData
+        });
+
+        const data = await response.json();
+
+        if (response.ok) {
+            if (typeof webAlert !== 'undefined') {
+                webAlert("WhatsApp Sincronizado", `¡Catálogo de ${productsList.length} productos actualizado en la nube con éxito! (Dólar: $${usdRate}). Meta Commerce leerá estos datos automáticamente.`, "success");
+            } else {
+                alert(`¡Catálogo de ${productsList.length} productos actualizado en la nube con éxito! (Dólar: $${usdRate})`);
+            }
+        } else {
+            throw new Error(data.error?.message || "Error al subir a Cloudinary");
+        }
+    } catch (error) {
+        console.error("Error al actualizar catálogo Meta:", error);
+        if (typeof webAlert !== 'undefined') {
+            webAlert("Error de Sincronización", "No se pudo actualizar el catálogo en la nube: " + error.message, "error");
+        } else {
+            alert("Error al actualizar catálogo: " + error.message);
+        }
+    } finally {
+        if (syncBtn) {
+            syncBtn.disabled = false;
+            syncBtn.innerHTML = '<i class="fas fa-cloud-upload-alt"></i> Actualizar en Nube (WhatsApp)';
+        }
+    }
+};
+
+
+
 
