@@ -13747,26 +13747,26 @@ export function renderStoreCatalog(containerId = 'store-catalog-grid', filters =
             const cond = p.condition || 'Nuevo';
             const brandName = p.brand || 'Casa Druetto';
             const detailUrl = `producto-detalle.html?id=${encodeURIComponent(p.id)}`;
+            const badgeClass = cond.toLowerCase().includes('usad') ? 'usado' : (cond.toLowerCase().includes('restaur') ? 'restaurado' : 'nuevo');
 
             return `
-                <div class="product-card">
-                    <div class="product-card-badge">${cond}</div>
-                    <a href="${detailUrl}" class="product-card-img-wrapper">
-                        <img src="${img}" alt="${p.name}" loading="lazy" onerror="this.src='assets/img/casadruettologo1.png'">
-                    </a>
-                    <div class="product-card-content">
-                        <span class="product-card-brand">${brandName}</span>
-                        <h3 class="product-card-title">
-                            <a href="${detailUrl}">${p.name}</a>
-                        </h3>
-                        <div class="product-card-price-box">
-                            <span class="product-card-price-label">Precio:</span>
-                            <span class="product-card-price">$${priceFormatted} <small style="font-size:0.75em; color:#6b7280;">USD</small></span>
+                <div class="product-store-card">
+                    <div class="store-card-img-wrap" onclick="window.location.href='${detailUrl}'">
+                        <span class="store-card-badge ${badgeClass}">${cond}</span>
+                        <img src="${img}" alt="${p.name}" class="store-card-img" loading="lazy" onerror="this.src='assets/img/casadruettologo1.png'">
+                    </div>
+                    <div class="store-card-info">
+                        <div class="store-card-cat">${brandName} • ${p.category || 'Repuestos'}</div>
+                        <h3 class="store-card-title" onclick="window.location.href='${detailUrl}'">${p.name}</h3>
+                        <div class="store-card-code">Código: ${p.code || p.model || 'N/A'}</div>
+                        <div class="store-card-price-row">
+                            <span class="store-card-price">$${priceFormatted} <small style="font-size:0.65em; color:#6b7280; font-weight:normal;">USD</small></span>
+                            <span class="store-card-stock ${(p.stock === undefined || p.stock > 0) ? 'in-stock' : 'out-of-stock'}">${(p.stock === undefined || p.stock > 0) ? 'En Stock' : 'Consultar'}</span>
                         </div>
-                        <div class="product-card-actions">
-                            <a href="${detailUrl}" class="btn btn-outline-sm" style="flex:1; justify-content:center;">Ver Detalle</a>
-                            <button onclick="addToCart && addToCart('${p.id}')" class="btn btn-sm" style="padding:0.6rem 0.8rem;" title="Agregar al Carrito">
-                                <i class="fas fa-shopping-cart"></i>
+                        <div class="store-card-actions">
+                            <a href="${detailUrl}" class="store-card-btn-view"><i class="fas fa-eye"></i> Ver Detalle</a>
+                            <button onclick="if(typeof addToCart==='function'){addToCart('${p.id}');} if(typeof showWebToast==='function'){showWebToast('🛒 Agregado al carrito');}" class="store-card-btn-cart" title="Agregar al Carrito">
+                                <i class="fas fa-shopping-cart"></i> Agregar
                             </button>
                         </div>
                     </div>
@@ -13797,3 +13797,134 @@ export function renderStoreCatalog(containerId = 'store-catalog-grid', filters =
     }
 }
 window.renderStoreCatalog = renderStoreCatalog;
+
+// ─── RENDERIZADO DEL DETALLE DE PRODUCTO ───
+export async function renderProductDetailPage() {
+    const params = new URLSearchParams(window.location.search);
+    const prodId = params.get('id');
+    
+    const titleEl = document.getElementById('detail-title');
+    if (!titleEl) return;
+
+    const allProducts = await loadProductsData();
+    if (!prodId) {
+        titleEl.innerText = "Producto no especificado";
+        return;
+    }
+
+    const product = getProductById(prodId) || allProducts.find(p => p.id === prodId || p.code === prodId);
+    
+    if (!product) {
+        titleEl.innerText = "Producto no encontrado";
+        const descEl = document.getElementById('detail-desc');
+        if (descEl) descEl.innerText = "El producto solicitado no existe o fue removido del catálogo.";
+        return;
+    }
+
+    document.title = `${product.name} | Casa Druetto`;
+    titleEl.innerText = product.name;
+
+    const codeEl = document.getElementById('detail-code');
+    if (codeEl) codeEl.innerText = product.code || product.model || '--';
+
+    const condEl = document.getElementById('detail-condition');
+    if (condEl) condEl.innerText = product.condition || 'Nuevo';
+
+    const catEl = document.getElementById('detail-category');
+    if (catEl) catEl.innerText = product.category || 'General';
+
+    const brandEl = document.getElementById('detail-brand');
+    if (brandEl) brandEl.innerText = product.brand || 'Casa Druetto';
+
+    const priceUSD = parseFloat(product.price) || 0;
+    const priceARS = priceUSD * 1510;
+
+    const priceEl = document.getElementById('detail-price');
+    if (priceEl) priceEl.innerText = `$${priceUSD.toLocaleString('es-AR', {minimumFractionDigits: 2, maximumFractionDigits: 2})} USD`;
+
+    const priceArsEl = document.getElementById('detail-price-ars');
+    if (priceArsEl) priceArsEl.innerText = `$${priceARS.toLocaleString('es-AR', {minimumFractionDigits: 2, maximumFractionDigits: 2})} ARS (TC $1.510,00)`;
+
+    const descEl = document.getElementById('detail-desc');
+    if (descEl) descEl.innerText = product.desc || product.description || "Consulte por características técnicas completas y asesoramiento especializado.";
+
+    const stockEl = document.getElementById('detail-stock');
+    if (stockEl) {
+        const stockQty = product.stock !== undefined ? product.stock : 1;
+        stockEl.className = stockQty > 0 ? "stock-status in-stock" : "stock-status out-of-stock";
+        stockEl.innerText = stockQty > 0 ? `Stock disponible: ${stockQty} unidad${stockQty > 1 ? 'es' : ''}` : "Consultar disponibilidad";
+    }
+
+    const images = (product.images && product.images.length > 0) ? product.images : ['assets/img/casadruettologo1.png'];
+    
+    const thumbsCol = document.getElementById('product-detail-thumbs');
+    const mainImgBox = document.getElementById('product-detail-main-img');
+
+    if (mainImgBox) {
+        mainImgBox.innerHTML = `<img src="${images[0]}" alt="${product.name}" id="main-detail-image" style="max-width:100%; max-height:400px; object-fit:contain;" onerror="this.src='assets/img/casadruettologo1.png'">`;
+    }
+
+    if (thumbsCol) {
+        thumbsCol.innerHTML = images.map((img, idx) => `
+            <div class="ml-thumb-box ${idx === 0 ? 'active' : ''}" onclick="window.switchDetailMainImage('${img}', this)">
+                <img src="${img}" alt="Vista ${idx+1}" onerror="this.src='assets/img/casadruettologo1.png'">
+            </div>
+        `).join('');
+    }
+
+    const specsTable = document.getElementById('detail-specs-table');
+    if (specsTable) {
+        let specsRows = `
+            <tr><th>Marca</th><td>${product.brand || 'Casa Druetto'}</td></tr>
+            <tr><th>Modelo / Código</th><td>${product.code || product.model || 'N/A'}</td></tr>
+            <tr><th>Categoría</th><td>${product.category || 'General'}</td></tr>
+            <tr><th>Condición</th><td>${product.condition || 'Nuevo'}</td></tr>
+        `;
+
+        if (product.specs && typeof product.specs === 'object') {
+            for (const [key, val] of Object.entries(product.specs)) {
+                specsRows += `<tr><th>${key}</th><td>${val}</td></tr>`;
+            }
+        }
+        specsTable.innerHTML = specsRows;
+    }
+
+    const buyBtn = document.getElementById('detail-buy-local-btn');
+    if (buyBtn) {
+        buyBtn.onclick = function() {
+            if (typeof window.addToCart === 'function') {
+                window.addToCart(product.id);
+            }
+            if (typeof window.toggleCart === 'function') {
+                window.toggleCart(true);
+            }
+        };
+    }
+
+    const addCartBtn = document.getElementById('detail-add-cart-btn');
+    if (addCartBtn) {
+        addCartBtn.onclick = function() {
+            if (typeof window.addToCart === 'function') {
+                window.addToCart(product.id);
+            }
+            if (typeof window.showWebToast === 'function') {
+                window.showWebToast(`🛒 ${product.name} agregado al carrito`);
+            }
+        };
+    }
+}
+window.renderProductDetailPage = renderProductDetailPage;
+
+window.switchDetailMainImage = function(src, thumbEl) {
+    const mainImg = document.getElementById('main-detail-image');
+    if (mainImg) mainImg.src = src;
+    document.querySelectorAll('.ml-thumb-box').forEach(b => b.classList.remove('active'));
+    if (thumbEl) thumbEl.classList.add('active');
+};
+
+// Auto-ejecución si estamos en la página de detalle de producto
+document.addEventListener('DOMContentLoaded', () => {
+    if (document.getElementById('detail-title')) {
+        renderProductDetailPage();
+    }
+});

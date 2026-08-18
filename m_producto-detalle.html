@@ -279,6 +279,13 @@
     </div>
 
     <!-- Scripts -->
+    <script type="module">
+        import { loadProductsData, renderProductDetailPage } from './js/products.js?v=2.0';
+        window.renderProductDetailPage = renderProductDetailPage;
+        document.addEventListener('DOMContentLoaded', async () => {
+            await renderProductDetailPage();
+        });
+    </script>
     <script type="module" src="js/firebase-config.js"></script>
     <script type="module" src="js/cart.js"></script>
     <script type="module" src="js/products.js?v=2.0"></script>
