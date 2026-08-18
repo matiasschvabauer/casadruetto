@@ -255,7 +255,8 @@
 
     <!-- Custom Scripts -->
     <script type="module">
-        import { loadProductsData } from './js/products.js?v=2.0';
+        import { loadProductsData, renderStoreCatalog } from './js/products.js?v=2.0';
+        window.renderStoreCatalog = renderStoreCatalog;
         
         // Cargar los productos de inmediato al entrar en la tienda
         document.addEventListener('DOMContentLoaded', async () => {

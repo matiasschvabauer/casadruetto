@@ -13565,7 +13565,6 @@ export const SEED_PRODUCTS = [
         "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948578141-correa-h125380-correa-_JM"
     }
 ];
-
 let products = [];
 
 // Inicialización de la base de datos de productos
@@ -13592,7 +13591,6 @@ export async function loadProductsData() {
                         await batch.commit();
                     } catch (e) {}
                 }
-                // Actualizar precios si variaron por el IVA
                 fbList.forEach(item => {
                     const seed = SEED_PRODUCTS.find(s => s.id === item.id || s.code === item.code);
                     if (seed && item.price !== seed.price) {
@@ -13628,7 +13626,6 @@ export async function loadProductsData() {
                 if (missingSeeds.length > 0) {
                     localList.push(...missingSeeds);
                 }
-                // Actualizar precios si variaron por el IVA
                 localList.forEach(item => {
                     const seed = SEED_PRODUCTS.find(s => s.id === item.id || s.code === item.code);
                     if (seed && item.price !== seed.price) {
@@ -13663,3 +13660,140 @@ export function getProductById(id) {
     return list.find(p => p.id === id || p.code === id) || null;
 }
 
+// ─── RENDERIZADO DEL CATÁLOGO DE LA TIENDA ───
+window.currentPage = window.currentPage || 1;
+window.productsPerPage = window.productsPerPage || 12;
+
+export function renderStoreCatalog(containerId = 'store-catalog-grid', filters = {}) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
+    let items = getProducts();
+
+    if (filters.search && filters.search.trim() !== '') {
+        const q = filters.search.toLowerCase().trim();
+        items = items.filter(p => {
+            const name = (p.name || '').toLowerCase();
+            const code = (p.code || '').toLowerCase();
+            const brand = (p.brand || '').toLowerCase();
+            const category = (p.category || '').toLowerCase();
+            const model = (p.model || '').toLowerCase();
+            const desc = (p.desc || p.description || '').toLowerCase();
+            return name.includes(q) || code.includes(q) || brand.includes(q) || category.includes(q) || model.includes(q) || desc.includes(q);
+        });
+    }
+
+    if (filters.category && filters.category !== 'all') {
+        const catQ = filters.category.toLowerCase().trim();
+        items = items.filter(p => (p.category || '').toLowerCase().trim() === catQ);
+    }
+
+    if (filters.brand && filters.brand !== 'all') {
+        const brandQ = filters.brand.toLowerCase().trim();
+        items = items.filter(p => (p.brand || '').toLowerCase().trim() === brandQ);
+    }
+
+    if (filters.condition && filters.condition !== 'all') {
+        const condQ = filters.condition.toLowerCase().trim();
+        items = items.filter(p => (p.condition || '').toLowerCase().trim() === condQ);
+    }
+
+    if (filters.priceMin && !isNaN(parseFloat(filters.priceMin))) {
+        const minP = parseFloat(filters.priceMin);
+        items = items.filter(p => (parseFloat(p.price) || 0) >= minP);
+    }
+    if (filters.priceMax && !isNaN(parseFloat(filters.priceMax))) {
+        const maxP = parseFloat(filters.priceMax);
+        items = items.filter(p => (parseFloat(p.price) || 0) <= maxP);
+    }
+
+    if (filters.order) {
+        if (filters.order === 'price-asc') {
+            items.sort((a, b) => (parseFloat(a.price) || 0) - (parseFloat(b.price) || 0));
+        } else if (filters.order === 'price-desc') {
+            items.sort((a, b) => (parseFloat(b.price) || 0) - (parseFloat(a.price) || 0));
+        } else if (filters.order === 'name-asc') {
+            items.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+        } else if (filters.order === 'name-desc') {
+            items.sort((a, b) => (b.name || '').localeCompare(a.name || ''));
+        }
+    }
+
+    const totalCountEl = document.getElementById('catalog-total-count');
+    if (totalCountEl) {
+        totalCountEl.innerText = items.length;
+    }
+
+    const perPage = window.productsPerPage || 12;
+    const totalPages = Math.ceil(items.length / perPage) || 1;
+    if (window.currentPage > totalPages) window.currentPage = totalPages;
+    if (window.currentPage < 1) window.currentPage = 1;
+
+    const startIdx = (window.currentPage - 1) * perPage;
+    const paginatedItems = items.slice(startIdx, startIdx + perPage);
+
+    if (paginatedItems.length === 0) {
+        container.innerHTML = `
+            <div style="grid-column: 1 / -1; text-align: center; padding: 4rem 1rem; color: #6b7280;">
+                <i class="fas fa-search" style="font-size: 2.5rem; margin-bottom: 1rem; color: #d1d5db;"></i>
+                <h3 style="font-size: 1.25rem; font-weight: 700; color: #111827;">No se encontraron productos</h3>
+                <p style="font-size: 0.95rem; margin-top: 0.5rem;">Intenta cambiando los filtros o la búsqueda.</p>
+            </div>
+        `;
+    } else {
+        container.innerHTML = paginatedItems.map(p => {
+            const img = (p.images && p.images.length > 0) ? p.images[0] : 'assets/img/casadruettologo1.png';
+            const priceFormatted = (parseFloat(p.price) || 0).toLocaleString('es-AR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            const cond = p.condition || 'Nuevo';
+            const brandName = p.brand || 'Casa Druetto';
+            const detailUrl = `producto-detalle.html?id=${encodeURIComponent(p.id)}`;
+
+            return `
+                <div class="product-card">
+                    <div class="product-card-badge">${cond}</div>
+                    <a href="${detailUrl}" class="product-card-img-wrapper">
+                        <img src="${img}" alt="${p.name}" loading="lazy" onerror="this.src='assets/img/casadruettologo1.png'">
+                    </a>
+                    <div class="product-card-content">
+                        <span class="product-card-brand">${brandName}</span>
+                        <h3 class="product-card-title">
+                            <a href="${detailUrl}">${p.name}</a>
+                        </h3>
+                        <div class="product-card-price-box">
+                            <span class="product-card-price-label">Precio:</span>
+                            <span class="product-card-price">$${priceFormatted} <small style="font-size:0.75em; color:#6b7280;">USD</small></span>
+                        </div>
+                        <div class="product-card-actions">
+                            <a href="${detailUrl}" class="btn btn-outline-sm" style="flex:1; justify-content:center;">Ver Detalle</a>
+                            <button onclick="addToCart && addToCart('${p.id}')" class="btn btn-sm" style="padding:0.6rem 0.8rem;" title="Agregar al Carrito">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    const paginationContainer = document.getElementById('catalog-pagination');
+    if (paginationContainer) {
+        if (totalPages <= 1) {
+            paginationContainer.innerHTML = '';
+        } else {
+            let pagesHtml = '';
+            pagesHtml += `<button onclick="changePage(${window.currentPage - 1})" class="pagination-btn" ${window.currentPage === 1 ? 'disabled' : ''}><i class="fas fa-chevron-left"></i> Anterior</button>`;
+            
+            for (let i = 1; i <= totalPages; i++) {
+                if (i === 1 || i === totalPages || (i >= window.currentPage - 2 && i <= window.currentPage + 2)) {
+                    pagesHtml += `<button onclick="changePage(${i})" class="pagination-btn ${i === window.currentPage ? 'active' : ''}">${i}</button>`;
+                } else if (i === window.currentPage - 3 || i === window.currentPage + 3) {
+                    pagesHtml += `<span class="pagination-ellipsis">...</span>`;
+                }
+            }
+
+            pagesHtml += `<button onclick="changePage(${window.currentPage + 1})" class="pagination-btn" ${window.currentPage === totalPages ? 'disabled' : ''}>Siguiente <i class="fas fa-chevron-right"></i></button>`;
+            paginationContainer.innerHTML = pagesHtml;
+        }
+    }
+}
+window.renderStoreCatalog = renderStoreCatalog;
