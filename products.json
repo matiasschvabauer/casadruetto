@@ -1,13 +1,4 @@
-// ═══════════════════════════════════════════════════════════════════
-// products.js — Gestión del Catálogo y Detalle de Productos
-// ═══════════════════════════════════════════════════════════════════
-
-import { db, useFirebase, localDb } from './firebase-config.js';
-import { collection, getDocs, doc, getDoc, writeBatch } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
-
-
-// Catálogo Oficial Semilla (para inicialización automática)
-export const SEED_PRODUCTS = [
+[
     {
         "id": "dji_agras_t40",
         "name": "Drone Agrícola DJI Agras T40",
@@ -13564,4 +13555,4 @@ export const SEED_PRODUCTS = [
         "featured": false,
         "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948578141-correa-h125380-correa-_JM"
     }
-];
+]

@@ -1443,7 +1443,10 @@ async function loadAllData() {
             for (const sp of SEED_PRODUCTS) {
                 const existing = productsList.find(p => p.id === sp.id || p.code === sp.code);
                 if (existing) {
-                    // Si el producto semilla tiene imágenes reales pero en la base de datos tiene la foto del logo o imágenes por defecto
+                    if (existing.price !== sp.price) {
+                        existing.price = sp.price;
+                        saveSingleProductRecord(existing).catch(() => {});
+                    }
                     const existingImg = (existing.images && existing.images.length > 0) ? existing.images[0] : '';
                     const spImg = (sp.images && sp.images.length > 0) ? sp.images[0] : '';
                     if ((!existingImg || existingImg.includes('casadruettologo1') || existingImg.includes('STD') || existingImg.includes('WhatsApp') || JSON.stringify(existing.images) !== JSON.stringify(sp.images)) && spImg && !spImg.includes('casadruettologo1')) {
