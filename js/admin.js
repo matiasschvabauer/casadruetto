@@ -1417,7 +1417,7 @@ async function loadAllData() {
             // Autosemilla de Productos Iniciales Completo
             if (productsList.length === 0) {
                 try {
-                    const { SEED_PRODUCTS } = await import('./products.js');
+                    const { SEED_PRODUCTS } = await import('./products.js?v=2.0');
                     productsList = [...SEED_PRODUCTS];
                     for (const p of SEED_PRODUCTS) {
                         await setDoc(doc(db, "druetto_products", p.id), p).catch(() => {});
@@ -1431,7 +1431,7 @@ async function loadAllData() {
             ordersList = await localDb.getCollection("orders");
 
             if (!productsList || productsList.length === 0) {
-                const { SEED_PRODUCTS } = await import('./products.js');
+                const { SEED_PRODUCTS } = await import('./products.js?v=2.0');
                 await localDb.setCollection("products", SEED_PRODUCTS);
                 productsList = [...SEED_PRODUCTS];
             }
@@ -1439,7 +1439,7 @@ async function loadAllData() {
 
         // ── Sincronizar automáticamente imágenes Semilla (Correas y Productos Nuevos) ──
         try {
-            const { SEED_PRODUCTS } = await import('./products.js');
+            const { SEED_PRODUCTS } = await import('./products.js?v=2.0');
             for (const sp of SEED_PRODUCTS) {
                 const existing = productsList.find(p => p.id === sp.id || p.code === sp.code);
                 if (existing) {
@@ -1480,7 +1480,7 @@ window.syncPricesFromCode = async function() {
     // Importar SEED_PRODUCTS
     let SEED_PRODUCTS;
     try {
-        const prodModule = await import('./products.js');
+        const prodModule = await import('./products.js?v=2.0');
         SEED_PRODUCTS = prodModule.SEED_PRODUCTS;
     } catch (e) {
         console.error("Error al importar products.js:", e);
