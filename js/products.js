@@ -13565,3 +13565,101 @@ export const SEED_PRODUCTS = [
         "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948578141-correa-h125380-correa-_JM"
     }
 ];
+
+let products = [];
+
+// Inicialización de la base de datos de productos
+export async function loadProductsData() {
+    try {
+        if (useFirebase) {
+            const querySnapshot = await getDocs(collection(db, "druetto_products"));
+            const fbList = [];
+            querySnapshot.forEach((doc) => {
+                fbList.push({ id: doc.id, ...doc.data() });
+            });
+            
+            if (fbList.length > 0) {
+                const existingIds = new Set(fbList.map(p => p.id));
+                const missingSeeds = SEED_PRODUCTS.filter(p => !existingIds.has(p.id));
+                if (missingSeeds.length > 0) {
+                    try {
+                        const batch = writeBatch(db);
+                        for (const p of missingSeeds) {
+                            const docRef = doc(db, "druetto_products", p.id);
+                            batch.set(docRef, p);
+                            fbList.push(p);
+                        }
+                        await batch.commit();
+                    } catch (e) {}
+                }
+                // Actualizar precios si variaron por el IVA
+                fbList.forEach(item => {
+                    const seed = SEED_PRODUCTS.find(s => s.id === item.id || s.code === item.code);
+                    if (seed && item.price !== seed.price) {
+                        item.price = seed.price;
+                    }
+                });
+                products = fbList;
+            } else {
+                let deletedCount = 0;
+                try {
+                    const delSnap = await getDocs(collection(db, "druetto_deleted_products"));
+                    deletedCount = delSnap.docs.length;
+                } catch (err) {}
+
+                if (deletedCount === 0) {
+                    const batch = writeBatch(db);
+                    for (const p of SEED_PRODUCTS) {
+                        const docRef = doc(db, "druetto_products", p.id);
+                        batch.set(docRef, p);
+                    }
+                    await batch.commit();
+                    products = [...SEED_PRODUCTS];
+                } else {
+                    products = [];
+                }
+            }
+        } else {
+            // Local fallback
+            const localList = await localDb.getCollection("products");
+            if (localList.length > 0) {
+                const existingIds = new Set(localList.map(p => p.id));
+                const missingSeeds = SEED_PRODUCTS.filter(p => !existingIds.has(p.id));
+                if (missingSeeds.length > 0) {
+                    localList.push(...missingSeeds);
+                }
+                // Actualizar precios si variaron por el IVA
+                localList.forEach(item => {
+                    const seed = SEED_PRODUCTS.find(s => s.id === item.id || s.code === item.code);
+                    if (seed && item.price !== seed.price) {
+                        item.price = seed.price;
+                    }
+                });
+                await localDb.setCollection("products", localList);
+                products = localList;
+            } else {
+                const deletedList = await localDb.getCollection("deleted_products");
+                if (deletedList.length === 0) {
+                    await localDb.setCollection("products", SEED_PRODUCTS);
+                    products = [...SEED_PRODUCTS];
+                } else {
+                    products = [];
+                }
+            }
+        }
+    } catch (e) {
+        console.error("Error cargando catálogo de productos:", e);
+        products = [...SEED_PRODUCTS];
+    }
+    return products;
+}
+
+export function getProducts() {
+    return products.length > 0 ? products : SEED_PRODUCTS;
+}
+
+export function getProductById(id) {
+    const list = getProducts();
+    return list.find(p => p.id === id || p.code === id) || null;
+}
+
