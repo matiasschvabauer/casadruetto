@@ -13743,7 +13743,12 @@ export function renderStoreCatalog(containerId = 'store-catalog-grid', filters =
     } else {
         container.innerHTML = paginatedItems.map(p => {
             const img = (p.images && p.images.length > 0) ? p.images[0] : 'assets/img/casadruettologo1.png';
-            const priceFormatted = (parseFloat(p.price) || 0).toLocaleString('es-AR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            const priceUSD = parseFloat(p.price) || 0;
+            const priceARS = priceUSD * 1510;
+
+            const priceUSDFormatted = priceUSD.toLocaleString('es-AR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            const priceARSFormatted = priceARS.toLocaleString('es-AR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
             const cond = p.condition || 'Nuevo';
             const brandName = p.brand || 'Casa Druetto';
             const detailUrl = `producto-detalle.html?id=${encodeURIComponent(p.id)}`;
@@ -13759,9 +13764,9 @@ export function renderStoreCatalog(containerId = 'store-catalog-grid', filters =
                         <div class="store-card-cat">${brandName} • ${p.category || 'Repuestos'}</div>
                         <h3 class="store-card-title" onclick="window.location.href='${detailUrl}'">${p.name}</h3>
                         <div class="store-card-code">Código: ${p.code || p.model || 'N/A'}</div>
-                        <div class="store-card-price-row">
-                            <span class="store-card-price">$${priceFormatted} <small style="font-size:0.65em; color:#6b7280; font-weight:normal;">USD</small></span>
-                            <span class="store-card-stock ${(p.stock === undefined || p.stock > 0) ? 'in-stock' : 'out-of-stock'}">${(p.stock === undefined || p.stock > 0) ? 'En Stock' : 'Consultar'}</span>
+                        <div class="store-card-price-row" style="flex-direction:column; align-items:flex-start; gap:0.1rem; margin-bottom:0.8rem;">
+                            <span class="store-card-price" style="font-size:1.15rem;">$${priceUSDFormatted} <small style="font-size:0.65em; color:#6b7280; font-weight:normal;">USD</small></span>
+                            <span style="font-size:0.85rem; color:#059669; font-weight:700;">$${priceARSFormatted} <small style="font-size:0.7em; font-weight:600;">ARS</small></span>
                         </div>
                         <div class="store-card-actions">
                             <a href="${detailUrl}" class="store-card-btn-view"><i class="fas fa-eye"></i> Ver Detalle</a>
@@ -13843,7 +13848,7 @@ export async function renderProductDetailPage() {
     if (priceEl) priceEl.innerText = `$${priceUSD.toLocaleString('es-AR', {minimumFractionDigits: 2, maximumFractionDigits: 2})} USD`;
 
     const priceArsEl = document.getElementById('detail-price-ars');
-    if (priceArsEl) priceArsEl.innerText = `$${priceARS.toLocaleString('es-AR', {minimumFractionDigits: 2, maximumFractionDigits: 2})} ARS (TC $1.510,00)`;
+    if (priceArsEl) priceArsEl.innerText = `$${priceARS.toLocaleString('es-AR', {minimumFractionDigits: 2, maximumFractionDigits: 2})} ARS`;
 
     const descEl = document.getElementById('detail-desc');
     if (descEl) descEl.innerText = product.desc || product.description || "Consulte por características técnicas completas y asesoramiento especializado.";
@@ -13866,9 +13871,7 @@ export async function renderProductDetailPage() {
 
     if (thumbsCol) {
         thumbsCol.innerHTML = images.map((img, idx) => `
-            <div class="ml-thumb-box ${idx === 0 ? 'active' : ''}" onclick="window.switchDetailMainImage('${img}', this)">
-                <img src="${img}" alt="Vista ${idx+1}" onerror="this.src='assets/img/casadruettologo1.png'">
-            </div>
+            <img src="${img}" alt="Vista ${idx+1}" class="thumb-img ${idx === 0 ? 'active' : ''}" onclick="window.switchDetailMainImage('${img}', this)" onerror="this.src='assets/img/casadruettologo1.png'">
         `).join('');
     }
 
@@ -13918,7 +13921,7 @@ window.renderProductDetailPage = renderProductDetailPage;
 window.switchDetailMainImage = function(src, thumbEl) {
     const mainImg = document.getElementById('main-detail-image');
     if (mainImg) mainImg.src = src;
-    document.querySelectorAll('.ml-thumb-box').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.ml-thumbs-col .thumb-img').forEach(b => b.classList.remove('active'));
     if (thumbEl) thumbEl.classList.add('active');
 };
 
