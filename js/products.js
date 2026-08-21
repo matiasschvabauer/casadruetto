@@ -13563,9 +13563,12339 @@ export const SEED_PRODUCTS = [
         },
         "featured": false,
         "mercadolibreLink": "http://articulo.mercadolibre.com.ar/MLA-1948578141-correa-h125380-correa-_JM"
+    },
+    {
+        "id": "bertini_100001",
+        "name": "Repuesto Bertini Maza De Marcador",
+        "code": "100001",
+        "desc": "Repuesto original Bertini código 100001: Maza De Marcador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 35.18,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "100001",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "100001",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_100002",
+        "name": "Repuesto Bertini Porta Reten Del Marcador",
+        "code": "100002",
+        "desc": "Repuesto original Bertini código 100002: Porta Reten Del Marcador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.5,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "100002",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "100002",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_100005",
+        "name": "Repuesto Bertini Maza Mando Alfalfero",
+        "code": "100005",
+        "desc": "Repuesto original Bertini código 100005: Maza Mando Alfalfero. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.01,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "100005",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "100005",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_100014",
+        "name": "Repuesto Bertini Registro De Profundidad",
+        "code": "100014",
+        "desc": "Repuesto original Bertini código 100014: Registro De Profundidad. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 9.16,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "100014",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "100014",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_100017",
+        "name": "Repuesto Bertini Media Maza De Cuchilla",
+        "code": "100017",
+        "desc": "Repuesto original Bertini código 100017: Media Maza De Cuchilla. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.3,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "100017",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "100017",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_100020",
+        "name": "Repuesto Bertini Tapa Cilindro Marcador",
+        "code": "100020",
+        "desc": "Repuesto original Bertini código 100020: Tapa Cilindro Marcador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 18.78,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "100020",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "100020",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_100021",
+        "name": "Repuesto Bertini Buje Soporte",
+        "code": "100021",
+        "desc": "Repuesto original Bertini código 100021: Buje Soporte. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 11.55,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "100021",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "100021",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_100022",
+        "name": "Repuesto Bertini Base De Motor",
+        "code": "100022",
+        "desc": "Repuesto original Bertini código 100022: Base De Motor. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 102.12,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "100022",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "100022",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_100025",
+        "name": "Repuesto Bertini Carcaza Dosificador Alfalfa Fundicion",
+        "code": "100025",
+        "desc": "Repuesto original Bertini código 100025: Carcaza Dosificador Alfalfa Fundicion. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 18.11,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "100025",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "100025",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_100027",
+        "name": "Repuesto Bertini Maza Del Ventilador",
+        "code": "100027",
+        "desc": "Repuesto original Bertini código 100027: Maza Del Ventilador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 57.61,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "100027",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "100027",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_100029",
+        "name": "Repuesto Bertini Tope Mediano",
+        "code": "100029",
+        "desc": "Repuesto original Bertini código 100029: Tope Mediano. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.02,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "100029",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "100029",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_100030",
+        "name": "Repuesto Bertini Tope Grueso",
+        "code": "100030",
+        "desc": "Repuesto original Bertini código 100030: Tope Grueso. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 18.13,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "100030",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "100030",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_100034",
+        "name": "Repuesto Bertini Maza De Mando",
+        "code": "100034",
+        "desc": "Repuesto original Bertini código 100034: Maza De Mando. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.01,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "100034",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "100034",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_100035",
+        "name": "Repuesto Bertini Maza Eje Removedor",
+        "code": "100035",
+        "desc": "Repuesto original Bertini código 100035: Maza Eje Removedor. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.01,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "100035",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "100035",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_100036",
+        "name": "Repuesto Bertini Buje Entrada Y Salida (51006)",
+        "code": "100036",
+        "desc": "Repuesto original Bertini código 100036: Buje Entrada Y Salida (51006). Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 21.26,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "100036",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "100036",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_101010",
+        "name": "Repuesto Bertini Embrague Del Acople Con Alemite",
+        "code": "101010",
+        "desc": "Repuesto original Bertini código 101010: Embrague Del Acople Con Alemite. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.52,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "101010",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "101010",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_101011",
+        "name": "Repuesto Bertini Trinquete Derecho",
+        "code": "101011",
+        "desc": "Repuesto original Bertini código 101011: Trinquete Derecho. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.15,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "101011",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "101011",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_101014",
+        "name": "Repuesto Bertini Tensor De Lanza",
+        "code": "101014",
+        "desc": "Repuesto original Bertini código 101014: Tensor De Lanza. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.32,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "101014",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "101014",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_101016",
+        "name": "Repuesto Bertini Trinquete Izquierdo Caja Lado Izquierdo",
+        "code": "101016",
+        "desc": "Repuesto original Bertini código 101016: Trinquete Izquierdo Caja Lado Izquierdo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.75,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "101016",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "101016",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_101017",
+        "name": "Repuesto Bertini Trinquete Derecho Caja Lado Derecho",
+        "code": "101017",
+        "desc": "Repuesto original Bertini código 101017: Trinquete Derecho Caja Lado Derecho. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.75,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "101017",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "101017",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_101023",
+        "name": "Repuesto Bertini Soporte De Vastago (N. Mod.)",
+        "code": "101023",
+        "desc": "Repuesto original Bertini código 101023: Soporte De Vastago (N. Mod.). Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 30.96,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "101023",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "101023",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_10000",
+        "name": "Repuesto Bertini Enganche Al Tractor",
+        "code": "10000",
+        "desc": "Repuesto original Bertini código 10000: Enganche Al Tractor. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 90.35,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "10000",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "10000",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_101027",
+        "name": "Repuesto Bertini Terminal De Resorte Fertilizacion Entre Lineas",
+        "code": "101027",
+        "desc": "Repuesto original Bertini código 101027: Terminal De Resorte Fertilizacion Entre Lineas. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 11.15,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "101027",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "101027",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_101031",
+        "name": "Repuesto Bertini Soporte Vastago",
+        "code": "101031",
+        "desc": "Repuesto original Bertini código 101031: Soporte Vastago. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 34.06,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "101031",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "101031",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_101032",
+        "name": "Repuesto Bertini Soporte Vastago Siembra Directa",
+        "code": "101032",
+        "desc": "Repuesto original Bertini código 101032: Soporte Vastago Siembra Directa. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 34.06,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "101032",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "101032",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102031",
+        "name": "Repuesto Bertini Soporte Eje Brazo Discos",
+        "code": "102031",
+        "desc": "Repuesto original Bertini código 102031: Soporte Eje Brazo Discos. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 9.57,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102031",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102031",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102075",
+        "name": "Repuesto Bertini Refuerzo Central Marcador",
+        "code": "102075",
+        "desc": "Repuesto original Bertini código 102075: Refuerzo Central Marcador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 36.23,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102075",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102075",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102086",
+        "name": "Repuesto Bertini Soporte Eje De Caja",
+        "code": "102086",
+        "desc": "Repuesto original Bertini código 102086: Soporte Eje De Caja. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.4,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102086",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102086",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102111",
+        "name": "Repuesto Bertini Engranaje Removedor Semillas",
+        "code": "102111",
+        "desc": "Repuesto original Bertini código 102111: Engranaje Removedor Semillas. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 42.03,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102111",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102111",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102113",
+        "name": "Repuesto Bertini Corona De Mando",
+        "code": "102113",
+        "desc": "Repuesto original Bertini código 102113: Corona De Mando. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 13.0,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102113",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102113",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102115",
+        "name": "Repuesto Bertini Engranaje De Mando",
+        "code": "102115",
+        "desc": "Repuesto original Bertini código 102115: Engranaje De Mando. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 41.97,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102115",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102115",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102122",
+        "name": "Repuesto Bertini Engranaje Z 22",
+        "code": "102122",
+        "desc": "Repuesto original Bertini código 102122: Engranaje Z 22. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 9.83,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102122",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102122",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102160",
+        "name": "Repuesto Bertini Placa De Plataforma",
+        "code": "102160",
+        "desc": "Repuesto original Bertini código 102160: Placa De Plataforma. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 59.32,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102160",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102160",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102177",
+        "name": "Repuesto Bertini Tubo Delantero",
+        "code": "102177",
+        "desc": "Repuesto original Bertini código 102177: Tubo Delantero. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 510.76,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102177",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102177",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102183",
+        "name": "Repuesto Bertini Tubo De Bisagra",
+        "code": "102183",
+        "desc": "Repuesto original Bertini código 102183: Tubo De Bisagra. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.48,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102183",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102183",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102208",
+        "name": "Repuesto Bertini Tope De Resortes",
+        "code": "102208",
+        "desc": "Repuesto original Bertini código 102208: Tope De Resortes. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 205.47,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102208",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102208",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102217",
+        "name": "Repuesto Bertini Espesor",
+        "code": "102217",
+        "desc": "Repuesto original Bertini código 102217: Espesor. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 9.83,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102217",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102217",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102249",
+        "name": "Repuesto Bertini Soporte De Bomba",
+        "code": "102249",
+        "desc": "Repuesto original Bertini código 102249: Soporte De Bomba. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 29.66,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102249",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102249",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102264",
+        "name": "Repuesto Bertini \"Engranaje Z 22 P/ Cadena 1/2\"\"",
+        "code": "102264",
+        "desc": "Repuesto original Bertini código 102264: \"Engranaje Z 22 P/ Cadena 1/2\"\". Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.75,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102264",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102264",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_10000",
+        "name": "Repuesto Bertini Bisagra Lateral",
+        "code": "10000",
+        "desc": "Repuesto original Bertini código 10000: Bisagra Lateral. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 91.47,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "10000",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "10000",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102281",
+        "name": "Repuesto Bertini Soporte Central Tolva  Fertilizante Entr",
+        "code": "102281",
+        "desc": "Repuesto original Bertini código 102281: Soporte Central Tolva  Fertilizante Entr. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.05,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102281",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102281",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102282",
+        "name": "Repuesto Bertini Soporte Central Tolva Fertilizante Entre",
+        "code": "102282",
+        "desc": "Repuesto original Bertini código 102282: Soporte Central Tolva Fertilizante Entre. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.05,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102282",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102282",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102366",
+        "name": "Repuesto Bertini Rueda Lateral Interior (Media Ancha)",
+        "code": "102366",
+        "desc": "Repuesto original Bertini código 102366: Rueda Lateral Interior (Media Ancha). Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 25.25,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102366",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102366",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102367",
+        "name": "Repuesto Bertini Rueda Lateral Exterior (Media Fina)",
+        "code": "102367",
+        "desc": "Repuesto original Bertini código 102367: Rueda Lateral Exterior (Media Fina). Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 20.15,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102367",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102367",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102368",
+        "name": "Repuesto Bertini Llanta De Conformadora",
+        "code": "102368",
+        "desc": "Repuesto original Bertini código 102368: Llanta De Conformadora. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 29.15,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102368",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102368",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102369",
+        "name": "Repuesto Bertini Llanta Rueda Conformadora",
+        "code": "102369",
+        "desc": "Repuesto original Bertini código 102369: Llanta Rueda Conformadora. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 26.5,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102369",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102369",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102372",
+        "name": "Repuesto Bertini Maza De Ruedas Laterales",
+        "code": "102372",
+        "desc": "Repuesto original Bertini código 102372: Maza De Ruedas Laterales. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 34.36,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102372",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102372",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102415",
+        "name": "Repuesto Bertini Escuadra Sop. Eje Caja Y Tensor Derecho/",
+        "code": "102415",
+        "desc": "Repuesto original Bertini código 102415: Escuadra Sop. Eje Caja Y Tensor Derecho/. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.96,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102415",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102415",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102427",
+        "name": "Repuesto Bertini Llanta De Rueda Recta Izq.",
+        "code": "102427",
+        "desc": "Repuesto original Bertini código 102427: Llanta De Rueda Recta Izq.. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 40.59,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102427",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102427",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102428",
+        "name": "Repuesto Bertini Llanta De Rueda Recta Derecha",
+        "code": "102428",
+        "desc": "Repuesto original Bertini código 102428: Llanta De Rueda Recta Derecha. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 40.59,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102428",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102428",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102430",
+        "name": "Repuesto Bertini Maza Doble Disco",
+        "code": "102430",
+        "desc": "Repuesto original Bertini código 102430: Maza Doble Disco. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 40.66,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102430",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102430",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102435",
+        "name": "Repuesto Bertini Soporte Tensor Cadena Alfalfero Izquierd",
+        "code": "102435",
+        "desc": "Repuesto original Bertini código 102435: Soporte Tensor Cadena Alfalfero Izquierd. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 11.55,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102435",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102435",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102444",
+        "name": "Repuesto Bertini Rueda Lateral Ciega Para Cubierta Ancha",
+        "code": "102444",
+        "desc": "Repuesto original Bertini código 102444: Rueda Lateral Ciega Para Cubierta Ancha. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 22.96,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102444",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102444",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102521",
+        "name": "Repuesto Bertini Engranaje De Mando_Kit Grano Grueso",
+        "code": "102521",
+        "desc": "Repuesto original Bertini código 102521: Engranaje De Mando_Kit Grano Grueso. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 19.48,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102521",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102521",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102522",
+        "name": "Repuesto Bertini Soporte Engranaje Doble_Kit Grano Grueso",
+        "code": "102522",
+        "desc": "Repuesto original Bertini código 102522: Soporte Engranaje Doble_Kit Grano Grueso. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 59.66,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102522",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102522",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102529",
+        "name": "Repuesto Bertini Media Llanta Interior Trasera",
+        "code": "102529",
+        "desc": "Repuesto original Bertini código 102529: Media Llanta Interior Trasera. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 26.5,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102529",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102529",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102530",
+        "name": "Repuesto Bertini Media Llanta Plana Trasera",
+        "code": "102530",
+        "desc": "Repuesto original Bertini código 102530: Media Llanta Plana Trasera. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 26.5,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102530",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102530",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102569",
+        "name": "Repuesto Bertini Componente De Telescopico",
+        "code": "102569",
+        "desc": "Repuesto original Bertini código 102569: Componente De Telescopico. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 25.84,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102569",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102569",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102637",
+        "name": "Repuesto Bertini Refuerzo De Costilla Derecha",
+        "code": "102637",
+        "desc": "Repuesto original Bertini código 102637: Refuerzo De Costilla Derecha. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 66.18,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102637",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102637",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102638",
+        "name": "Repuesto Bertini Refuerzo De Costilla Izquierda",
+        "code": "102638",
+        "desc": "Repuesto original Bertini código 102638: Refuerzo De Costilla Izquierda. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 66.18,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102638",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102638",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102648",
+        "name": "Repuesto Bertini Maza Rueda Apisonadora",
+        "code": "102648",
+        "desc": "Repuesto original Bertini código 102648: Maza Rueda Apisonadora. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 12.22,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102648",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102648",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102648",
+        "name": "Repuesto Bertini Guardapolvo Para Maza",
+        "code": "102648",
+        "desc": "Repuesto original Bertini código 102648: Guardapolvo Para Maza. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 91.81,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102648",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102648",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102771",
+        "name": "Repuesto Bertini Llanta Trasera En V Embutida",
+        "code": "102771",
+        "desc": "Repuesto original Bertini código 102771: Llanta Trasera En V Embutida. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 29.15,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102771",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102771",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102772",
+        "name": "Repuesto Bertini Llanta Trasera En V",
+        "code": "102772",
+        "desc": "Repuesto original Bertini código 102772: Llanta Trasera En V. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 26.5,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102772",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102772",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102795",
+        "name": "Repuesto Bertini Soporte Derecho De Resorte Amortiguador",
+        "code": "102795",
+        "desc": "Repuesto original Bertini código 102795: Soporte Derecho De Resorte Amortiguador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 9.62,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102795",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102795",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_102797",
+        "name": "Repuesto Bertini Soporte Izquierdo De Resorte Amortiguado",
+        "code": "102797",
+        "desc": "Repuesto original Bertini código 102797: Soporte Izquierdo De Resorte Amortiguado. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 9.62,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "102797",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "102797",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103007",
+        "name": "Repuesto Bertini Eje De Entrada Caja De 81 Cambios",
+        "code": "103007",
+        "desc": "Repuesto original Bertini código 103007: Eje De Entrada Caja De 81 Cambios. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 46.13,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103007",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103007",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103009",
+        "name": "Repuesto Bertini Perno Superior Del Cilindro",
+        "code": "103009",
+        "desc": "Repuesto original Bertini código 103009: Perno Superior Del Cilindro. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.05,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103009",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103009",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103010",
+        "name": "Repuesto Bertini Barra Dosificadora De Abono 10.000",
+        "code": "103010",
+        "desc": "Repuesto original Bertini código 103010: Barra Dosificadora De Abono 10.000. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 62.81,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103010",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103010",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103011",
+        "name": "Repuesto Bertini Eje De Transmision Alfalfero",
+        "code": "103011",
+        "desc": "Repuesto original Bertini código 103011: Eje De Transmision Alfalfero. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 28.43,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103011",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103011",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103019",
+        "name": "Repuesto Bertini Manguito Acople Caja Alfalfero",
+        "code": "103019",
+        "desc": "Repuesto original Bertini código 103019: Manguito Acople Caja Alfalfero. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 9.9,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103019",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103019",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103021",
+        "name": "Repuesto Bertini Eje Pivote De Brazos",
+        "code": "103021",
+        "desc": "Repuesto original Bertini código 103021: Eje Pivote De Brazos. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 39.71,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103021",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103021",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103034",
+        "name": "Repuesto Bertini Eje Largo Brazo De Discos",
+        "code": "103034",
+        "desc": "Repuesto original Bertini código 103034: Eje Largo Brazo De Discos. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 32.61,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103034",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103034",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103035",
+        "name": "Repuesto Bertini Eje Corto Brazo De Discos",
+        "code": "103035",
+        "desc": "Repuesto original Bertini código 103035: Eje Corto Brazo De Discos. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 31.16,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103035",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103035",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103036",
+        "name": "Repuesto Bertini Eje Doble Disco",
+        "code": "103036",
+        "desc": "Repuesto original Bertini código 103036: Eje Doble Disco. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 19.61,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103036",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103036",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103040",
+        "name": "Repuesto Bertini Eje De Cuchilla",
+        "code": "103040",
+        "desc": "Repuesto original Bertini código 103040: Eje De Cuchilla. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 18.76,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103040",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103040",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103055",
+        "name": "Repuesto Bertini Buje Marcador",
+        "code": "103055",
+        "desc": "Repuesto original Bertini código 103055: Buje Marcador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 18.19,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103055",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103055",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103061",
+        "name": "Repuesto Bertini Buje Pivote Largo",
+        "code": "103061",
+        "desc": "Repuesto original Bertini código 103061: Buje Pivote Largo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 12.1,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103061",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103061",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103063",
+        "name": "Repuesto Bertini Buje Soporte Cilindro",
+        "code": "103063",
+        "desc": "Repuesto original Bertini código 103063: Buje Soporte Cilindro. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.18,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103063",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103063",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103064",
+        "name": "Repuesto Bertini Buje Soporte Cilindro",
+        "code": "103064",
+        "desc": "Repuesto original Bertini código 103064: Buje Soporte Cilindro. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 11.62,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103064",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103064",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103068",
+        "name": "Repuesto Bertini Porta Corona",
+        "code": "103068",
+        "desc": "Repuesto original Bertini código 103068: Porta Corona. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.06,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103068",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103068",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103069",
+        "name": "Repuesto Bertini Perno Estriado Interior Z4",
+        "code": "103069",
+        "desc": "Repuesto original Bertini código 103069: Perno Estriado Interior Z4. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 11.67,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103069",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103069",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103073",
+        "name": "Repuesto Bertini Punta De Eje",
+        "code": "103073",
+        "desc": "Repuesto original Bertini código 103073: Punta De Eje. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 248.26,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103073",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103073",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103076",
+        "name": "Repuesto Bertini Buje Pivote",
+        "code": "103076",
+        "desc": "Repuesto original Bertini código 103076: Buje Pivote. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 66.71,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103076",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103076",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103086",
+        "name": "Repuesto Bertini Camisa Cilindro",
+        "code": "103086",
+        "desc": "Repuesto original Bertini código 103086: Camisa Cilindro. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 69.44,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103086",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103086",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103093",
+        "name": "Repuesto Bertini Brazo Del Arco Doble Disco Plantador",
+        "code": "103093",
+        "desc": "Repuesto original Bertini código 103093: Brazo Del Arco Doble Disco Plantador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 26.18,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103093",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103093",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103112",
+        "name": "Repuesto Bertini Eje Mando Removedor Fertilizante",
+        "code": "103112",
+        "desc": "Repuesto original Bertini código 103112: Eje Mando Removedor Fertilizante. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.15,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103112",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103112",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103115",
+        "name": "Repuesto Bertini V Stago Cilindro Marcador",
+        "code": "103115",
+        "desc": "Repuesto original Bertini código 103115: V Stago Cilindro Marcador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 39.51,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103115",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103115",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103116",
+        "name": "Repuesto Bertini Excentrico De Lanza",
+        "code": "103116",
+        "desc": "Repuesto original Bertini código 103116: Excentrico De Lanza. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 24.75,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103116",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103116",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103118",
+        "name": "Repuesto Bertini Biela Derecha",
+        "code": "103118",
+        "desc": "Repuesto original Bertini código 103118: Biela Derecha. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 18.93,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103118",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103118",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103119",
+        "name": "Repuesto Bertini Biela Izquierda",
+        "code": "103119",
+        "desc": "Repuesto original Bertini código 103119: Biela Izquierda. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 18.93,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103119",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103119",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103126",
+        "name": "Repuesto Bertini Rienda Larga",
+        "code": "103126",
+        "desc": "Repuesto original Bertini código 103126: Rienda Larga. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 29.66,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103126",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103126",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103127",
+        "name": "Repuesto Bertini Rienda Corta",
+        "code": "103127",
+        "desc": "Repuesto original Bertini código 103127: Rienda Corta. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 21.13,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103127",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103127",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103133",
+        "name": "Repuesto Bertini Eje Del Ventilador",
+        "code": "103133",
+        "desc": "Repuesto original Bertini código 103133: Eje Del Ventilador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.68,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103133",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103133",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103141",
+        "name": "Repuesto Bertini Eje Largo De Mando Siembra",
+        "code": "103141",
+        "desc": "Repuesto original Bertini código 103141: Eje Largo De Mando Siembra. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 19.41,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103141",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103141",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103143",
+        "name": "Repuesto Bertini Eje Corto De Mando Siembra",
+        "code": "103143",
+        "desc": "Repuesto original Bertini código 103143: Eje Corto De Mando Siembra. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 18.11,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103143",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103143",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103186",
+        "name": "Repuesto Bertini Eje Izquierdo Dosificador",
+        "code": "103186",
+        "desc": "Repuesto original Bertini código 103186: Eje Izquierdo Dosificador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.35,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103186",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103186",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103187",
+        "name": "Repuesto Bertini Eje Derecho Dosificador",
+        "code": "103187",
+        "desc": "Repuesto original Bertini código 103187: Eje Derecho Dosificador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 12.85,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103187",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103187",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103241",
+        "name": "Repuesto Bertini Eje Derecho Rueda Tras. En V",
+        "code": "103241",
+        "desc": "Repuesto original Bertini código 103241: Eje Derecho Rueda Tras. En V. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.01,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103241",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103241",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103246",
+        "name": "Repuesto Bertini Eje Izquierdo Rueda Tras. En V",
+        "code": "103246",
+        "desc": "Repuesto original Bertini código 103246: Eje Izquierdo Rueda Tras. En V. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.01,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103246",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103246",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103256",
+        "name": "Repuesto Bertini Eje Removedor Fertilizante",
+        "code": "103256",
+        "desc": "Repuesto original Bertini código 103256: Eje Removedor Fertilizante. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 62.81,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103256",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103256",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103257",
+        "name": "Repuesto Bertini Eje Alimentador De Siembra",
+        "code": "103257",
+        "desc": "Repuesto original Bertini código 103257: Eje Alimentador De Siembra. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 62.81,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103257",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103257",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103268",
+        "name": "Repuesto Bertini Eje Salida Caja 81 Cambios Sin Safe",
+        "code": "103268",
+        "desc": "Repuesto original Bertini código 103268: Eje Salida Caja 81 Cambios Sin Safe. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 54.62,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103268",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103268",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103277",
+        "name": "Repuesto Bertini Barra De Mando Kit De Grano Grueso 10.00",
+        "code": "103277",
+        "desc": "Repuesto original Bertini código 103277: Barra De Mando Kit De Grano Grueso 10.00. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 62.81,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103277",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103277",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103286",
+        "name": "Repuesto Bertini Barra Mando Corto Cajon Alfalfero",
+        "code": "103286",
+        "desc": "Repuesto original Bertini código 103286: Barra Mando Corto Cajon Alfalfero. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.35,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103286",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103286",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103287",
+        "name": "Repuesto Bertini Barra Mando Largo Cajon Alfalfero",
+        "code": "103287",
+        "desc": "Repuesto original Bertini código 103287: Barra Mando Largo Cajon Alfalfero. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 15.58,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103287",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103287",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103291",
+        "name": "Repuesto Bertini Vastago Recto S/Soldar Templado Y Reven.",
+        "code": "103291",
+        "desc": "Repuesto original Bertini código 103291: Vastago Recto S/Soldar Templado Y Reven.. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 28.01,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103291",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103291",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103293",
+        "name": "Repuesto Bertini Eje Derecho Maza Reg. Profundidad",
+        "code": "103293",
+        "desc": "Repuesto original Bertini código 103293: Eje Derecho Maza Reg. Profundidad. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.01,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103293",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103293",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103294",
+        "name": "Repuesto Bertini Eje Izquierda Maza Reg. Profundidad.",
+        "code": "103294",
+        "desc": "Repuesto original Bertini código 103294: Eje Izquierda Maza Reg. Profundidad.. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.01,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103294",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103294",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103302",
+        "name": "Repuesto Bertini Punta De Eje De Marcador",
+        "code": "103302",
+        "desc": "Repuesto original Bertini código 103302: Punta De Eje De Marcador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 21.73,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103302",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103302",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103359",
+        "name": "Repuesto Bertini Pist¢N Cilindro Buzo",
+        "code": "103359",
+        "desc": "Repuesto original Bertini código 103359: Pist¢N Cilindro Buzo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 199.05,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103359",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103359",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103361",
+        "name": "Repuesto Bertini Maza Doble Fertilizaci¢N Y Siembra",
+        "code": "103361",
+        "desc": "Repuesto original Bertini código 103361: Maza Doble Fertilizaci¢N Y Siembra. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 40.19,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103361",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103361",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103365",
+        "name": "Repuesto Bertini Maza Cuchilla Labranza Macho",
+        "code": "103365",
+        "desc": "Repuesto original Bertini código 103365: Maza Cuchilla Labranza Macho. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 42.87,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103365",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103365",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103366",
+        "name": "Repuesto Bertini Maza Cuchilla Labranza Hembra",
+        "code": "103366",
+        "desc": "Repuesto original Bertini código 103366: Maza Cuchilla Labranza Hembra. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 42.87,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103366",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103366",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103367",
+        "name": "Repuesto Bertini Eje Cuchilla De Labranza",
+        "code": "103367",
+        "desc": "Repuesto original Bertini código 103367: Eje Cuchilla De Labranza. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 20.36,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103367",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103367",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103402",
+        "name": "Repuesto Bertini Buje Separador Horquilla Cuchilla Flotan",
+        "code": "103402",
+        "desc": "Repuesto original Bertini código 103402: Buje Separador Horquilla Cuchilla Flotan. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.43,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103402",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103402",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103405",
+        "name": "Repuesto Bertini Varilla Resorte Amortiguador Patin 10.000",
+        "code": "103405",
+        "desc": "Repuesto original Bertini código 103405: Varilla Resorte Amortiguador Patin 10.000. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 11.33,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103405",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103405",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_103413",
+        "name": "Repuesto Bertini Disco 14 Pulg. Rueda Trasera Dentada Agu",
+        "code": "103413",
+        "desc": "Repuesto original Bertini código 103413: Disco 14 Pulg. Rueda Trasera Dentada Agu. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 49.52,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "103413",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "103413",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104001",
+        "name": "Repuesto Bertini Disco Dentado 14 Pulg",
+        "code": "104001",
+        "desc": "Repuesto original Bertini código 104001: Disco Dentado 14 Pulg. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 49.52,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104001",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104001",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104002",
+        "name": "Repuesto Bertini Tabla Fertilizante",
+        "code": "104002",
+        "desc": "Repuesto original Bertini código 104002: Tabla Fertilizante. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 13.33,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104002",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104002",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104003",
+        "name": "Repuesto Bertini Tabla De Siembra",
+        "code": "104003",
+        "desc": "Repuesto original Bertini código 104003: Tabla De Siembra. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 13.33,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104003",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104003",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104008",
+        "name": "Repuesto Bertini \"Cadena De Mando Asa P 1/2\"\" L=1400",
+        "code": "104008",
+        "desc": "Repuesto original Bertini código 104008: \"Cadena De Mando Asa P 1/2\"\" L=1400. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 15.86,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104008",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104008",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104009",
+        "name": "Repuesto Bertini \"Cadena De Mando Asa 40 P 1/2\"\" L= 1270",
+        "code": "104009",
+        "desc": "Repuesto original Bertini código 104009: \"Cadena De Mando Asa 40 P 1/2\"\" L= 1270. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.35,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104009",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104009",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104010",
+        "name": "Repuesto Bertini \"Cadena De Mando Asa 40 P 1/2\"\" L= 1400",
+        "code": "104010",
+        "desc": "Repuesto original Bertini código 104010: \"Cadena De Mando Asa 40 P 1/2\"\" L= 1400. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 15.86,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104010",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104010",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104011",
+        "name": "Repuesto Bertini \"Cadena De Mando Asa 40 P 1/2\"\" L= 2250",
+        "code": "104011",
+        "desc": "Repuesto original Bertini código 104011: \"Cadena De Mando Asa 40 P 1/2\"\" L= 2250. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 25.43,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104011",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104011",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104012",
+        "name": "Repuesto Bertini \"Cadena De Mando Asa P 1/2\"\" L= 1400",
+        "code": "104012",
+        "desc": "Repuesto original Bertini código 104012: \"Cadena De Mando Asa P 1/2\"\" L= 1400. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 15.86,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104012",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104012",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104017",
+        "name": "Repuesto Bertini Banda De Goma Rueda Lateral",
+        "code": "104017",
+        "desc": "Repuesto original Bertini código 104017: Banda De Goma Rueda Lateral. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 29.62,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104017",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104017",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104024",
+        "name": "Repuesto Bertini Ramal Derecho",
+        "code": "104024",
+        "desc": "Repuesto original Bertini código 104024: Ramal Derecho. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 49.41,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104024",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104024",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104025",
+        "name": "Repuesto Bertini Ramal Izquierdo",
+        "code": "104025",
+        "desc": "Repuesto original Bertini código 104025: Ramal Izquierdo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 49.41,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104025",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104025",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104026",
+        "name": "Repuesto Bertini Ramal Derecho Delantero",
+        "code": "104026",
+        "desc": "Repuesto original Bertini código 104026: Ramal Derecho Delantero. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 49.41,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104026",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104026",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104027",
+        "name": "Repuesto Bertini Ramal Derecho Trasero",
+        "code": "104027",
+        "desc": "Repuesto original Bertini código 104027: Ramal Derecho Trasero. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 49.41,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104027",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104027",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104028",
+        "name": "Repuesto Bertini Ramal Izquierdo Delantero",
+        "code": "104028",
+        "desc": "Repuesto original Bertini código 104028: Ramal Izquierdo Delantero. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 49.41,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104028",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104028",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104029",
+        "name": "Repuesto Bertini Ramal Izquierdo Trasero",
+        "code": "104029",
+        "desc": "Repuesto original Bertini código 104029: Ramal Izquierdo Trasero. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 49.41,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104029",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104029",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104030",
+        "name": "Repuesto Bertini Valvula Secuencial",
+        "code": "104030",
+        "desc": "Repuesto original Bertini código 104030: Valvula Secuencial. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 297.77,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104030",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104030",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104031",
+        "name": "Repuesto Bertini Banda Semineumatica Positiva",
+        "code": "104031",
+        "desc": "Repuesto original Bertini código 104031: Banda Semineumatica Positiva. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 50.03,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104031",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104031",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104037",
+        "name": "Repuesto Bertini \"Disco Plano 1 Filo 13 1/2\"\"",
+        "code": "104037",
+        "desc": "Repuesto original Bertini código 104037: \"Disco Plano 1 Filo 13 1/2\"\". Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 41.26,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104037",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104037",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104040",
+        "name": "Repuesto Bertini Media Llanta Ancha",
+        "code": "104040",
+        "desc": "Repuesto original Bertini código 104040: Media Llanta Ancha. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 22.96,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104040",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104040",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104041",
+        "name": "Repuesto Bertini Media Llanta Angosta",
+        "code": "104041",
+        "desc": "Repuesto original Bertini código 104041: Media Llanta Angosta. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 18.31,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104041",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104041",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104043",
+        "name": "Repuesto Bertini Anillo Roz Friccion Diam 70",
+        "code": "104043",
+        "desc": "Repuesto original Bertini código 104043: Anillo Roz Friccion Diam 70. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.01,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104043",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104043",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104057",
+        "name": "Repuesto Bertini Rotor De Ventilador Chico",
+        "code": "104057",
+        "desc": "Repuesto original Bertini código 104057: Rotor De Ventilador Chico. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 512.32,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104057",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104057",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104058",
+        "name": "Repuesto Bertini Bomba Hidraulica",
+        "code": "104058",
+        "desc": "Repuesto original Bertini código 104058: Bomba Hidraulica. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 1166.21,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104058",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104058",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104059",
+        "name": "Repuesto Bertini Motor Hidraulico",
+        "code": "104059",
+        "desc": "Repuesto original Bertini código 104059: Motor Hidraulico. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 499.14,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104059",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104059",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104063",
+        "name": "Repuesto Bertini Tabla De Fertilizacion",
+        "code": "104063",
+        "desc": "Repuesto original Bertini código 104063: Tabla De Fertilizacion. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 13.33,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104063",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104063",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104064",
+        "name": "Repuesto Bertini Cuchilla Duraflute 16\"",
+        "code": "104064",
+        "desc": "Repuesto original Bertini código 104064: Cuchilla Duraflute 16\". Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 68.73,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104064",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104064",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104066",
+        "name": "Repuesto Bertini Doble Disco Fertilizante Y Semillas Disco Plano 1 Filo 13 1/2\"",
+        "code": "104066",
+        "desc": "Repuesto original Bertini código 104066: Doble Disco Fertilizante Y Semillas Disco Plano 1 Filo 13 1/2\". Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 40.09,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104066",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104066",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104068",
+        "name": "Repuesto Bertini Banda Maciza Conformada",
+        "code": "104068",
+        "desc": "Repuesto original Bertini código 104068: Banda Maciza Conformada. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 21.88,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104068",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104068",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104072",
+        "name": "Repuesto Bertini Filtro De Aceite",
+        "code": "104072",
+        "desc": "Repuesto original Bertini código 104072: Filtro De Aceite. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 52.71,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104072",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104072",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104073",
+        "name": "Repuesto Bertini Prefiltro",
+        "code": "104073",
+        "desc": "Repuesto original Bertini código 104073: Prefiltro. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 13.2,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104073",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104073",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104074",
+        "name": "Repuesto Bertini Cuchilla Reepled 16\"",
+        "code": "104074",
+        "desc": "Repuesto original Bertini código 104074: Cuchilla Reepled 16\". Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 68.73,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104074",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104074",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104075",
+        "name": "Repuesto Bertini Tubo Flexible De Pasaje De Aire",
+        "code": "104075",
+        "desc": "Repuesto original Bertini código 104075: Tubo Flexible De Pasaje De Aire. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 60.49,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104075",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104075",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104078",
+        "name": "Repuesto Bertini Junta Tapa De Caja",
+        "code": "104078",
+        "desc": "Repuesto original Bertini código 104078: Junta Tapa De Caja. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 21.92,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104078",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104078",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104081",
+        "name": "Repuesto Bertini Tabla De Cambios Y Posicion",
+        "code": "104081",
+        "desc": "Repuesto original Bertini código 104081: Tabla De Cambios Y Posicion. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 13.2,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104081",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104081",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_10042",
+        "name": "Repuesto Bertini Tubo Goma Fertilizante",
+        "code": "10042",
+        "desc": "Repuesto original Bertini código 10042: Tubo Goma Fertilizante. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 93.09,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "10042",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "10042",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104090",
+        "name": "Repuesto Bertini \"Manguera 1/4\"\" Ri X 400",
+        "code": "104090",
+        "desc": "Repuesto original Bertini código 104090: \"Manguera 1/4\"\" Ri X 400. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.82,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104090",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104090",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104091",
+        "name": "Repuesto Bertini \"Manguera 1/4\"\" Ri X 560",
+        "code": "104091",
+        "desc": "Repuesto original Bertini código 104091: \"Manguera 1/4\"\" Ri X 560. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 18.78,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104091",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104091",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104092",
+        "name": "Repuesto Bertini \"Manguera 3/2\"\" R2 X 4800",
+        "code": "104092",
+        "desc": "Repuesto original Bertini código 104092: \"Manguera 3/2\"\" R2 X 4800. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 102.12,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104092",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104092",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104093",
+        "name": "Repuesto Bertini \"Manguera 3/8\"\" R1 L= 650",
+        "code": "104093",
+        "desc": "Repuesto original Bertini código 104093: \"Manguera 3/8\"\" R1 L= 650. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 39.71,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104093",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104093",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104094",
+        "name": "Repuesto Bertini \"Manguera 1/2\"\" R1 L= 700",
+        "code": "104094",
+        "desc": "Repuesto original Bertini código 104094: \"Manguera 1/2\"\" R1 L= 700. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 59.32,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104094",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104094",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104095",
+        "name": "Repuesto Bertini \"Manguera 3/4\"\" R1 L= 2200",
+        "code": "104095",
+        "desc": "Repuesto original Bertini código 104095: \"Manguera 3/4\"\" R1 L= 2200. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 110.03,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104095",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104095",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104096",
+        "name": "Repuesto Bertini \"Manguera 1/2\"\" R2 L= 2800",
+        "code": "104096",
+        "desc": "Repuesto original Bertini código 104096: \"Manguera 1/2\"\" R2 L= 2800. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 117.91,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104096",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104096",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104100",
+        "name": "Repuesto Bertini Banda Semineumatica Negativa",
+        "code": "104100",
+        "desc": "Repuesto original Bertini código 104100: Banda Semineumatica Negativa. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 64.35,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104100",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104100",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104102",
+        "name": "Repuesto Bertini Collar De Bomba",
+        "code": "104102",
+        "desc": "Repuesto original Bertini código 104102: Collar De Bomba. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.82,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104102",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104102",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104103",
+        "name": "Repuesto Bertini \"Grillete W 7/16\"\"",
+        "code": "104103",
+        "desc": "Repuesto original Bertini código 104103: \"Grillete W 7/16\"\". Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 24.75,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104103",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104103",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104105",
+        "name": "Repuesto Bertini Cubierta Limitadora De Profundidad Semin",
+        "code": "104105",
+        "desc": "Repuesto original Bertini código 104105: Cubierta Limitadora De Profundidad Semin. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 42.63,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104105",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104105",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104115",
+        "name": "Repuesto Bertini \"Disco Dentado 14\"\" Agujero Grande",
+        "code": "104115",
+        "desc": "Repuesto original Bertini código 104115: \"Disco Dentado 14\"\" Agujero Grande. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 49.52,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104115",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104115",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_104218",
+        "name": "Repuesto Bertini Llanta De 16 Pulg Tiro De Punta 7\"X16X5/16",
+        "code": "104218",
+        "desc": "Repuesto original Bertini código 104218: Llanta De 16 Pulg Tiro De Punta 7\"X16X5/16. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 188.91,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "104218",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "104218",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_105012",
+        "name": "Repuesto Bertini Resorte Amortiguador Grueso",
+        "code": "105012",
+        "desc": "Repuesto original Bertini código 105012: Resorte Amortiguador Grueso. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 11.96,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "105012",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "105012",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_105013",
+        "name": "Repuesto Bertini Resorte Amortiguador",
+        "code": "105013",
+        "desc": "Repuesto original Bertini código 105013: Resorte Amortiguador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 13.71,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "105013",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "105013",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_105016",
+        "name": "Repuesto Bertini Resorte Brazo Para Fertilizante Entre Lineas",
+        "code": "105016",
+        "desc": "Repuesto original Bertini código 105016: Resorte Brazo Para Fertilizante Entre Lineas. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 27.87,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "105016",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "105016",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_105021",
+        "name": "Repuesto Bertini Resorte De Compresion Conv.",
+        "code": "105021",
+        "desc": "Repuesto original Bertini código 105021: Resorte De Compresion Conv.. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 21.8,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "105021",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "105021",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_105032",
+        "name": "Repuesto Bertini Resorte Doble Disco Fertilizante Modific",
+        "code": "105032",
+        "desc": "Repuesto original Bertini código 105032: Resorte Doble Disco Fertilizante Modific. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 24.69,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "105032",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "105032",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_106006",
+        "name": "Repuesto Bertini Taza De La Maza De Rueda",
+        "code": "106006",
+        "desc": "Repuesto original Bertini código 106006: Taza De La Maza De Rueda. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.07,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "106006",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "106006",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_106011",
+        "name": "Repuesto Bertini Caja Dosificadora C/ Bancada",
+        "code": "106011",
+        "desc": "Repuesto original Bertini código 106011: Caja Dosificadora C/ Bancada. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 13.85,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "106011",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "106011",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_106012",
+        "name": "Repuesto Bertini Dosificador Sin Buje",
+        "code": "106012",
+        "desc": "Repuesto original Bertini código 106012: Dosificador Sin Buje. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 13.85,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "106012",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "106012",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_106015",
+        "name": "Repuesto Bertini Caja Distribuidor Neum Tico",
+        "code": "106015",
+        "desc": "Repuesto original Bertini código 106015: Caja Distribuidor Neum Tico. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 156.66,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "106015",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "106015",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_106019",
+        "name": "Repuesto Bertini Tubo De Goma Semilla",
+        "code": "106019",
+        "desc": "Repuesto original Bertini código 106019: Tubo De Goma Semilla. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 32.93,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "106019",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "106019",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_106020",
+        "name": "Repuesto Bertini Codo De Recepcion De Semillas",
+        "code": "106020",
+        "desc": "Repuesto original Bertini código 106020: Codo De Recepcion De Semillas. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 29.66,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "106020",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "106020",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_106021",
+        "name": "Repuesto Bertini Sector De Alfombra",
+        "code": "106021",
+        "desc": "Repuesto original Bertini código 106021: Sector De Alfombra. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 12.11,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "106021",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "106021",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_106022",
+        "name": "Repuesto Bertini Cepillo De 10 Juegos De Cerda",
+        "code": "106022",
+        "desc": "Repuesto original Bertini código 106022: Cepillo De 10 Juegos De Cerda. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 17.68,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "106022",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "106022",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_106023",
+        "name": "Repuesto Bertini Cepillo De 7 Juegos De Cerda (8 Cerdas Amarillo/Verde)",
+        "code": "106023",
+        "desc": "Repuesto original Bertini código 106023: Cepillo De 7 Juegos De Cerda (8 Cerdas Amarillo/Verde). Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 17.68,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "106023",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "106023",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_106027",
+        "name": "Repuesto Bertini Brida De Conexion",
+        "code": "106027",
+        "desc": "Repuesto original Bertini código 106027: Brida De Conexion. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 31.14,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "106027",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "106027",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_106036",
+        "name": "Repuesto Bertini Guia De Vastago",
+        "code": "106036",
+        "desc": "Repuesto original Bertini código 106036: Guia De Vastago. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 20.85,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "106036",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "106036",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_106044",
+        "name": "Repuesto Bertini Buje Del Tapon Caja Cambios",
+        "code": "106044",
+        "desc": "Repuesto original Bertini código 106044: Buje Del Tapon Caja Cambios. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 12.03,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "106044",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "106044",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_106055",
+        "name": "Repuesto Bertini Tabla De Fertilizacion Simple",
+        "code": "106055",
+        "desc": "Repuesto original Bertini código 106055: Tabla De Fertilizacion Simple. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 17.68,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "106055",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "106055",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_106062",
+        "name": "Repuesto Bertini Rotulacion De Sembradora 10,000 Sin Alfa",
+        "code": "106062",
+        "desc": "Repuesto original Bertini código 106062: Rotulacion De Sembradora 10,000 Sin Alfa. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 289.39,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "106062",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "106062",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_106063",
+        "name": "Repuesto Bertini Rotulacion De Sembradora 10,000 Con Alfa",
+        "code": "106063",
+        "desc": "Repuesto original Bertini código 106063: Rotulacion De Sembradora 10,000 Con Alfa. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 271.17,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "106063",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "106063",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_106066",
+        "name": "Repuesto Bertini Calco Rotulacion De Sembradora 10,000 Si",
+        "code": "106066",
+        "desc": "Repuesto original Bertini código 106066: Calco Rotulacion De Sembradora 10,000 Si. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 289.39,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "106066",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "106066",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_113030",
+        "name": "Repuesto Bertini \"Disco Dentado 14\"\"",
+        "code": "113030",
+        "desc": "Repuesto original Bertini código 113030: \"Disco Dentado 14\"\". Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 49.52,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "113030",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "113030",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_113062",
+        "name": "Repuesto Bertini Eje Pivote Del Brazo",
+        "code": "113062",
+        "desc": "Repuesto original Bertini código 113062: Eje Pivote Del Brazo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 39.71,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "113062",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "113062",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_113080",
+        "name": "Repuesto Bertini Eje De Rueda",
+        "code": "113080",
+        "desc": "Repuesto original Bertini código 113080: Eje De Rueda. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 12.17,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "113080",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "113080",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_113085",
+        "name": "Repuesto Bertini Eje De Doble Disco",
+        "code": "113085",
+        "desc": "Repuesto original Bertini código 113085: Eje De Doble Disco. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.38,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "113085",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "113085",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_113092",
+        "name": "Repuesto Bertini Eje Corto De Brazo De Disco",
+        "code": "113092",
+        "desc": "Repuesto original Bertini código 113092: Eje Corto De Brazo De Disco. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 32.61,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "113092",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "113092",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_113093",
+        "name": "Repuesto Bertini Eje Largo De Brazo De Disco",
+        "code": "113093",
+        "desc": "Repuesto original Bertini código 113093: Eje Largo De Brazo De Disco. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 32.61,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "113093",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "113093",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_114009",
+        "name": "Repuesto Bertini Placa Girasol Grado 1",
+        "code": "114009",
+        "desc": "Repuesto original Bertini código 114009: Placa Girasol Grado 1. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.8,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "114009",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "114009",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_114010",
+        "name": "Repuesto Bertini Placa Maiz Grande",
+        "code": "114010",
+        "desc": "Repuesto original Bertini código 114010: Placa Maiz Grande. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.78,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "114010",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "114010",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_114011",
+        "name": "Repuesto Bertini Placa De Soja",
+        "code": "114011",
+        "desc": "Repuesto original Bertini código 114011: Placa De Soja. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.78,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "114011",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "114011",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_114013",
+        "name": "Repuesto Bertini Banda Maciza",
+        "code": "114013",
+        "desc": "Repuesto original Bertini código 114013: Banda Maciza. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.93,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "114013",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "114013",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_114016",
+        "name": "Repuesto Bertini Banda Semineumatica Pos.",
+        "code": "114016",
+        "desc": "Repuesto original Bertini código 114016: Banda Semineumatica Pos.. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 29.11,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "114016",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "114016",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_114017",
+        "name": "Repuesto Bertini Banda De Goma Rueda Lateral",
+        "code": "114017",
+        "desc": "Repuesto original Bertini código 114017: Banda De Goma Rueda Lateral. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 25.7,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "114017",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "114017",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_114018",
+        "name": "Repuesto Bertini Placa De Siembra Maiz Mediano",
+        "code": "114018",
+        "desc": "Repuesto original Bertini código 114018: Placa De Siembra Maiz Mediano. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.78,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "114018",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "114018",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_114019",
+        "name": "Repuesto Bertini Media Llanta Angosta",
+        "code": "114019",
+        "desc": "Repuesto original Bertini código 114019: Media Llanta Angosta. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.15,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "114019",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "114019",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_114025",
+        "name": "Repuesto Bertini Placa Girasol Grado 3",
+        "code": "114025",
+        "desc": "Repuesto original Bertini código 114025: Placa Girasol Grado 3. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 24.75,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "114025",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "114025",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_114077",
+        "name": "Repuesto Bertini Placa De Siembra Sorgo-Trigo",
+        "code": "114077",
+        "desc": "Repuesto original Bertini código 114077: Placa De Siembra Sorgo-Trigo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.78,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "114077",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "114077",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_115007",
+        "name": "Repuesto Bertini Resorte Amortiguador Grueso",
+        "code": "115007",
+        "desc": "Repuesto original Bertini código 115007: Resorte Amortiguador Grueso. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 11.96,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "115007",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "115007",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_140014",
+        "name": "Repuesto Bertini Maza De Rueda 14.000",
+        "code": "140014",
+        "desc": "Repuesto original Bertini código 140014: Maza De Rueda 14.000. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 110.72,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "140014",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "140014",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_140021",
+        "name": "Repuesto Bertini Bancada C/ Buje",
+        "code": "140021",
+        "desc": "Repuesto original Bertini código 140021: Bancada C/ Buje. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.23,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "140021",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "140021",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_140022",
+        "name": "Repuesto Bertini Brazo Fundido De Cuchilla 14.000",
+        "code": "140022",
+        "desc": "Repuesto original Bertini código 140022: Brazo Fundido De Cuchilla 14.000. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 86.4,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "140022",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "140022",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_141007",
+        "name": "Repuesto Bertini Soporte De Carro 14.000 (P)",
+        "code": "141007",
+        "desc": "Repuesto original Bertini código 141007: Soporte De Carro 14.000 (P). Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 24.75,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "141007",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "141007",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_141008",
+        "name": "Repuesto Bertini Palanca Regulacion Tension Resorte Rueda",
+        "code": "141008",
+        "desc": "Repuesto original Bertini código 141008: Palanca Regulacion Tension Resorte Rueda. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.13,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "141008",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "141008",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_141013",
+        "name": "Repuesto Bertini Brazo De Rueda Lateral Izq. 14.000",
+        "code": "141013",
+        "desc": "Repuesto original Bertini código 141013: Brazo De Rueda Lateral Izq. 14.000. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 66.55,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "141013",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "141013",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_141014",
+        "name": "Repuesto Bertini Brazo De Rueda Lateral Der. 14.000",
+        "code": "141014",
+        "desc": "Repuesto original Bertini código 141014: Brazo De Rueda Lateral Der. 14.000. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 66.55,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "141014",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "141014",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_141026",
+        "name": "Repuesto Bertini Bancada Fija Tren Delantero",
+        "code": "141026",
+        "desc": "Repuesto original Bertini código 141026: Bancada Fija Tren Delantero. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 37.53,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "141026",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "141026",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_141030",
+        "name": "Repuesto Bertini Soporte De Vastago Al Carro",
+        "code": "141030",
+        "desc": "Repuesto original Bertini código 141030: Soporte De Vastago Al Carro. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 30.96,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "141030",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "141030",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_141031",
+        "name": "Repuesto Bertini Terminal Rienda Marcador Izquierda",
+        "code": "141031",
+        "desc": "Repuesto original Bertini código 141031: Terminal Rienda Marcador Izquierda. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.26,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "141031",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "141031",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_141032",
+        "name": "Repuesto Bertini Terminal Rienda Marcador Derecha",
+        "code": "141032",
+        "desc": "Repuesto original Bertini código 141032: Terminal Rienda Marcador Derecha. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.26,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "141032",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "141032",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_141035",
+        "name": "Repuesto Bertini Bancada Movil Tren Delantero",
+        "code": "141035",
+        "desc": "Repuesto original Bertini código 141035: Bancada Movil Tren Delantero. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 45.86,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "141035",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "141035",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_141041",
+        "name": "Repuesto Bertini Rejitas Fundicion Acero",
+        "code": "141041",
+        "desc": "Repuesto original Bertini código 141041: Rejitas Fundicion Acero. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 11.55,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "141041",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "141041",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_142026",
+        "name": "Repuesto Bertini Protector De Doble Disco",
+        "code": "142026",
+        "desc": "Repuesto original Bertini código 142026: Protector De Doble Disco. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.01,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "142026",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "142026",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_142096",
+        "name": "Repuesto Bertini Aleta De Marcador",
+        "code": "142096",
+        "desc": "Repuesto original Bertini código 142096: Aleta De Marcador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 13.61,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "142096",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "142096",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_142214",
+        "name": "Repuesto Bertini Tapa Tolva Grano Grueso",
+        "code": "142214",
+        "desc": "Repuesto original Bertini código 142214: Tapa Tolva Grano Grueso. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 24.46,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "142214",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "142214",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_142275",
+        "name": "Repuesto Bertini Pliego Medio",
+        "code": "142275",
+        "desc": "Repuesto original Bertini código 142275: Pliego Medio. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 65.27,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "142275",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "142275",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143037",
+        "name": "Repuesto Bertini Eje De Enganche",
+        "code": "143037",
+        "desc": "Repuesto original Bertini código 143037: Eje De Enganche. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 19.96,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143037",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143037",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143043",
+        "name": "Repuesto Bertini Banana Tercer Tramo",
+        "code": "143043",
+        "desc": "Repuesto original Bertini código 143043: Banana Tercer Tramo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 9.62,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143043",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143043",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143044",
+        "name": "Repuesto Bertini Buje Pivote",
+        "code": "143044",
+        "desc": "Repuesto original Bertini código 143044: Buje Pivote. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 50.29,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143044",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143044",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143046",
+        "name": "Repuesto Bertini Buje De Biela",
+        "code": "143046",
+        "desc": "Repuesto original Bertini código 143046: Buje De Biela. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 19.41,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143046",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143046",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143047",
+        "name": "Repuesto Bertini Eje De Biela",
+        "code": "143047",
+        "desc": "Repuesto original Bertini código 143047: Eje De Biela. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 37.33,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143047",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143047",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143048",
+        "name": "Repuesto Bertini Separador De Banana",
+        "code": "143048",
+        "desc": "Repuesto original Bertini código 143048: Separador De Banana. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 20.78,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143048",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143048",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143052",
+        "name": "Repuesto Bertini Perno De Banana",
+        "code": "143052",
+        "desc": "Repuesto original Bertini código 143052: Perno De Banana. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 36.98,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143052",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143052",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143064",
+        "name": "Repuesto Bertini Separador De Banana",
+        "code": "143064",
+        "desc": "Repuesto original Bertini código 143064: Separador De Banana. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.66,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143064",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143064",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143076",
+        "name": "Repuesto Bertini Rienda De Marcador",
+        "code": "143076",
+        "desc": "Repuesto original Bertini código 143076: Rienda De Marcador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 101.88,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143076",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143076",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143092",
+        "name": "Repuesto Bertini Eje Doble Disco Siembra",
+        "code": "143092",
+        "desc": "Repuesto original Bertini código 143092: Eje Doble Disco Siembra. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 19.61,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143092",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143092",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143138",
+        "name": "Repuesto Bertini Buje Codo Marcador 14.000",
+        "code": "143138",
+        "desc": "Repuesto original Bertini código 143138: Buje Codo Marcador 14.000. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 18.13,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143138",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143138",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143139",
+        "name": "Repuesto Bertini Buje Pivote Tercer Tramo",
+        "code": "143139",
+        "desc": "Repuesto original Bertini código 143139: Buje Pivote Tercer Tramo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 18.5,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143139",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143139",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143145",
+        "name": "Repuesto Bertini Guia Bancada",
+        "code": "143145",
+        "desc": "Repuesto original Bertini código 143145: Guia Bancada. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 9.3,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143145",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143145",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143153",
+        "name": "Repuesto Bertini Punta De Ejes Duales",
+        "code": "143153",
+        "desc": "Repuesto original Bertini código 143153: Punta De Ejes Duales. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 222.33,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143153",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143153",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143213",
+        "name": "Repuesto Bertini Eje Derecho Rueda Niveladora",
+        "code": "143213",
+        "desc": "Repuesto original Bertini código 143213: Eje Derecho Rueda Niveladora. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.77,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143213",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143213",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143217",
+        "name": "Repuesto Bertini Eje Izquierdo Rueda Niveladora",
+        "code": "143217",
+        "desc": "Repuesto original Bertini código 143217: Eje Izquierdo Rueda Niveladora. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.77,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143217",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143217",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143222",
+        "name": "Repuesto Bertini Eje De Rueda Niveladora (Izq./Der)",
+        "code": "143222",
+        "desc": "Repuesto original Bertini código 143222: Eje De Rueda Niveladora (Izq./Der). Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.01,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143222",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143222",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143239",
+        "name": "Repuesto Bertini Eje De Rueda En V Izquierdo",
+        "code": "143239",
+        "desc": "Repuesto original Bertini código 143239: Eje De Rueda En V Izquierdo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.01,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143239",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143239",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143240",
+        "name": "Repuesto Bertini Eje De Rueda En V Derecho",
+        "code": "143240",
+        "desc": "Repuesto original Bertini código 143240: Eje De Rueda En V Derecho. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.01,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143240",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143240",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143252",
+        "name": "Repuesto Bertini Separador De Barra Hexagonal",
+        "code": "143252",
+        "desc": "Repuesto original Bertini código 143252: Separador De Barra Hexagonal. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.01,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143252",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143252",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_143278",
+        "name": "Repuesto Bertini Manguito Reondo Exagonal",
+        "code": "143278",
+        "desc": "Repuesto original Bertini código 143278: Manguito Reondo Exagonal. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 27.09,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "143278",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "143278",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_144004",
+        "name": "Repuesto Bertini Media Llanta Rueda Control De Profundida",
+        "code": "144004",
+        "desc": "Repuesto original Bertini código 144004: Media Llanta Rueda Control De Profundida. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 45.46,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "144004",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "144004",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_144012",
+        "name": "Repuesto Bertini Buje 143214 C/Reten Vulcanizado",
+        "code": "144012",
+        "desc": "Repuesto original Bertini código 144012: Buje 143214 C/Reten Vulcanizado. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 12.35,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "144012",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "144012",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_28000",
+        "name": "Repuesto Bertini Disco 15 Pulg. Siembra Carro",
+        "code": "28000",
+        "desc": "Repuesto original Bertini código 28000: Disco 15 Pulg. Siembra Carro. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 128.8,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "28000",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "28000",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_144017",
+        "name": "Repuesto Bertini Tubo De Abono 10040 Nd",
+        "code": "144017",
+        "desc": "Repuesto original Bertini código 144017: Tubo De Abono 10040 Nd. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 24.88,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "144017",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "144017",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_144032",
+        "name": "Repuesto Bertini Cilindro Hidrau. De Marcador Carr 485Mm",
+        "code": "144032",
+        "desc": "Repuesto original Bertini código 144032: Cilindro Hidrau. De Marcador Carr 485Mm. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 321.23,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "144032",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "144032",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_145001",
+        "name": "Repuesto Bertini Resorte De Presion De Ruedas Conformador",
+        "code": "145001",
+        "desc": "Repuesto original Bertini código 145001: Resorte De Presion De Ruedas Conformador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.69,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "145001",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "145001",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_145002",
+        "name": "Repuesto Bertini Resorte De Presion Paralelogramo",
+        "code": "145002",
+        "desc": "Repuesto original Bertini código 145002: Resorte De Presion Paralelogramo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 41.64,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "145002",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "145002",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_145003",
+        "name": "Repuesto Bertini Muelle",
+        "code": "145003",
+        "desc": "Repuesto original Bertini código 145003: Muelle. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.48,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "145003",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "145003",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_146006",
+        "name": "Repuesto Bertini Perilla",
+        "code": "146006",
+        "desc": "Repuesto original Bertini código 146006: Perilla. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 9.23,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "146006",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "146006",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_146019",
+        "name": "Repuesto Bertini Difosor De Insecticida",
+        "code": "146019",
+        "desc": "Repuesto original Bertini código 146019: Difosor De Insecticida. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.26,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "146019",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "146019",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_146021",
+        "name": "Repuesto Bertini Distribuidor Primera Edicion",
+        "code": "146021",
+        "desc": "Repuesto original Bertini código 146021: Distribuidor Primera Edicion. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 569.4,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "146021",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "146021",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_146028",
+        "name": "Repuesto Bertini Pisagrano Standard",
+        "code": "146028",
+        "desc": "Repuesto original Bertini código 146028: Pisagrano Standard. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.93,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "146028",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "146028",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_146030",
+        "name": "Repuesto Bertini Placa Maiz Chato Chico",
+        "code": "146030",
+        "desc": "Repuesto original Bertini código 146030: Placa Maiz Chato Chico. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.78,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "146030",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "146030",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_146037",
+        "name": "Repuesto Bertini Placa Algodon/Poroto Negro",
+        "code": "146037",
+        "desc": "Repuesto original Bertini código 146037: Placa Algodon/Poroto Negro. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.78,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "146037",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "146037",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_146043",
+        "name": "Repuesto Bertini Placa Poroto Blanco",
+        "code": "146043",
+        "desc": "Repuesto original Bertini código 146043: Placa Poroto Blanco. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.78,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "146043",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "146043",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_146048",
+        "name": "Repuesto Bertini Placa Girasol Grado 1",
+        "code": "146048",
+        "desc": "Repuesto original Bertini código 146048: Placa Girasol Grado 1. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.78,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "146048",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "146048",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_146049",
+        "name": "Repuesto Bertini Placa Girasol Grado 2",
+        "code": "146049",
+        "desc": "Repuesto original Bertini código 146049: Placa Girasol Grado 2. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.78,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "146049",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "146049",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_146050",
+        "name": "Repuesto Bertini Placa Girasol Grado 3",
+        "code": "146050",
+        "desc": "Repuesto original Bertini código 146050: Placa Girasol Grado 3. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.78,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "146050",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "146050",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_146051",
+        "name": "Repuesto Bertini Placa Girasol Grado 4",
+        "code": "146051",
+        "desc": "Repuesto original Bertini código 146051: Placa Girasol Grado 4. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.78,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "146051",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "146051",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_146052",
+        "name": "Repuesto Bertini Codo 90 Grados Pvc Dia 75",
+        "code": "146052",
+        "desc": "Repuesto original Bertini código 146052: Codo 90 Grados Pvc Dia 75. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 17.86,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "146052",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "146052",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_146053",
+        "name": "Repuesto Bertini Codo  45",
+        "code": "146053",
+        "desc": "Repuesto original Bertini código 146053: Codo  45. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 17.86,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "146053",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "146053",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_146054",
+        "name": "Repuesto Bertini Placa Maiz Chato Grande",
+        "code": "146054",
+        "desc": "Repuesto original Bertini código 146054: Placa Maiz Chato Grande. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.78,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "146054",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "146054",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_146075",
+        "name": "Repuesto Bertini Placa De Siembra Soja 120 Inclinada",
+        "code": "146075",
+        "desc": "Repuesto original Bertini código 146075: Placa De Siembra Soja 120 Inclinada. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.78,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "146075",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "146075",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_146076",
+        "name": "Repuesto Bertini Placa De Siembra Soja 180 Inclinada",
+        "code": "146076",
+        "desc": "Repuesto original Bertini código 146076: Placa De Siembra Soja 180 Inclinada. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 18.48,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "146076",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "146076",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_162170",
+        "name": "Repuesto Bertini Engranaje Z=40 Paso 5/8 Aguj. 110 Rueda",
+        "code": "162170",
+        "desc": "Repuesto original Bertini código 162170: Engranaje Z=40 Paso 5/8 Aguj. 110 Rueda. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 47.23,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "162170",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "162170",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_164004",
+        "name": "Repuesto Bertini Llanta Para Cubierta Alliance 550/60-22.",
+        "code": "164004",
+        "desc": "Repuesto original Bertini código 164004: Llanta Para Cubierta Alliance 550/60-22.. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 1236.87,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "164004",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "164004",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_170001",
+        "name": "Repuesto Bertini Triple Bancada Superior",
+        "code": "170001",
+        "desc": "Repuesto original Bertini código 170001: Triple Bancada Superior. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 9.61,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "170001",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "170001",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_173006",
+        "name": "Repuesto Bertini Eje De Selectores",
+        "code": "173006",
+        "desc": "Repuesto original Bertini código 173006: Eje De Selectores. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 57.52,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "173006",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "173006",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_173015",
+        "name": "Repuesto Bertini Eje Intermedio",
+        "code": "173015",
+        "desc": "Repuesto original Bertini código 173015: Eje Intermedio. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 33.76,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "173015",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "173015",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_173034",
+        "name": "Repuesto Bertini Eje De Entrada",
+        "code": "173034",
+        "desc": "Repuesto original Bertini código 173034: Eje De Entrada. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 47.16,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "173034",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "173034",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_173040",
+        "name": "Repuesto Bertini Extremo Eje De Entrada",
+        "code": "173040",
+        "desc": "Repuesto original Bertini código 173040: Extremo Eje De Entrada. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 17.82,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "173040",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "173040",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_173043",
+        "name": "Repuesto Bertini Eje De Salida",
+        "code": "173043",
+        "desc": "Repuesto original Bertini código 173043: Eje De Salida. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 54.62,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "173043",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "173043",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_205100",
+        "name": "Repuesto Bertini Resorte De Tracci¢N 61 Mm Del Cuerpo Arr",
+        "code": "205100",
+        "desc": "Repuesto original Bertini código 205100: Resorte De Tracci¢N 61 Mm Del Cuerpo Arr. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 75.03,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "205100",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "205100",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_210002",
+        "name": "Repuesto Bertini Maza De Rueda Transportin",
+        "code": "210002",
+        "desc": "Repuesto original Bertini código 210002: Maza De Rueda Transportin. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 47.37,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "210002",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "210002",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_210003",
+        "name": "Repuesto Bertini Taza De Rueda Del Carro De Transporte",
+        "code": "210003",
+        "desc": "Repuesto original Bertini código 210003: Taza De Rueda Del Carro De Transporte. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 24.75,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "210003",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "210003",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_220001",
+        "name": "Repuesto Bertini Buje De Mando",
+        "code": "220001",
+        "desc": "Repuesto original Bertini código 220001: Buje De Mando. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 17.44,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "220001",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "220001",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_220004",
+        "name": "Repuesto Bertini Soporte Tensor Cadena",
+        "code": "220004",
+        "desc": "Repuesto original Bertini código 220004: Soporte Tensor Cadena. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 19.17,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "220004",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "220004",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_220012",
+        "name": "Repuesto Bertini Volante Con Chavetero",
+        "code": "220012",
+        "desc": "Repuesto original Bertini código 220012: Volante Con Chavetero. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 32.68,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "220012",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "220012",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_220017",
+        "name": "Repuesto Bertini Disco De Freno",
+        "code": "220017",
+        "desc": "Repuesto original Bertini código 220017: Disco De Freno. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 258.84,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "220017",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "220017",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_221003",
+        "name": "Repuesto Bertini Regulador De Profundidad",
+        "code": "221003",
+        "desc": "Repuesto original Bertini código 221003: Regulador De Profundidad. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 9.08,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "221003",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "221003",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_221008",
+        "name": "Repuesto Bertini Amarre Al Carro",
+        "code": "221008",
+        "desc": "Repuesto original Bertini código 221008: Amarre Al Carro. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 13.46,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "221008",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "221008",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_221010",
+        "name": "Repuesto Bertini Soporte De Cuchillas Entre Lineas Vastag",
+        "code": "221010",
+        "desc": "Repuesto original Bertini código 221010: Soporte De Cuchillas Entre Lineas Vastag. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 38.61,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "221010",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "221010",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_221011",
+        "name": "Repuesto Bertini Soporte De Doble Disco Fertilizacion Ent",
+        "code": "221011",
+        "desc": "Repuesto original Bertini código 221011: Soporte De Doble Disco Fertilizacion Ent. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 52.97,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "221011",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "221011",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_221016",
+        "name": "Repuesto Bertini Brazo De Rueda Control Prof. Derecho",
+        "code": "221016",
+        "desc": "Repuesto original Bertini código 221016: Brazo De Rueda Control Prof. Derecho. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 54.86,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "221016",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "221016",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_221017",
+        "name": "Repuesto Bertini Brazo De Rueda Control Prof. Izquierdo",
+        "code": "221017",
+        "desc": "Repuesto original Bertini código 221017: Brazo De Rueda Control Prof. Izquierdo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 54.6,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "221017",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "221017",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_221019",
+        "name": "Repuesto Bertini Acople Brazo Cuchilla",
+        "code": "221019",
+        "desc": "Repuesto original Bertini código 221019: Acople Brazo Cuchilla. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 32.4,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "221019",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "221019",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_221021",
+        "name": "Repuesto Bertini Soporte Eje De Rueda Dual Lado Transmisi",
+        "code": "221021",
+        "desc": "Repuesto original Bertini código 221021: Soporte Eje De Rueda Dual Lado Transmisi. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 109.57,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "221021",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "221021",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_221022",
+        "name": "Repuesto Bertini Soporte Eje Rueda Dual",
+        "code": "221022",
+        "desc": "Repuesto original Bertini código 221022: Soporte Eje Rueda Dual. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 132.45,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "221022",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "221022",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_221023",
+        "name": "Repuesto Bertini Soporte Derecho Doble De Cuchilla Y D.D.",
+        "code": "221023",
+        "desc": "Repuesto original Bertini código 221023: Soporte Derecho Doble De Cuchilla Y D.D.. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 40.33,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "221023",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "221023",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_221024",
+        "name": "Repuesto Bertini Soporte Izquierdo Doble Cuchilla",
+        "code": "221024",
+        "desc": "Repuesto original Bertini código 221024: Soporte Izquierdo Doble Cuchilla. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 40.33,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "221024",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "221024",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_222014",
+        "name": "Repuesto Bertini Buje Separador De Paralelogramo",
+        "code": "222014",
+        "desc": "Repuesto original Bertini código 222014: Buje Separador De Paralelogramo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 12.78,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "222014",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "222014",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_222033",
+        "name": "Repuesto Bertini Soporte Del  Raspador Y  Del Pisagranos",
+        "code": "222033",
+        "desc": "Repuesto original Bertini código 222033: Soporte Del  Raspador Y  Del Pisagranos. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 13.16,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "222033",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "222033",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_222063",
+        "name": "Repuesto Bertini Tapa Boca Semilla",
+        "code": "222063",
+        "desc": "Repuesto original Bertini código 222063: Tapa Boca Semilla. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 9.56,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "222063",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "222063",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_222116",
+        "name": "Repuesto Bertini Brazo De Rueda Dual",
+        "code": "222116",
+        "desc": "Repuesto original Bertini código 222116: Brazo De Rueda Dual. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 143.73,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "222116",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "222116",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_222178",
+        "name": "Repuesto Bertini Pista De Reten Rueda Dual",
+        "code": "222178",
+        "desc": "Repuesto original Bertini código 222178: Pista De Reten Rueda Dual. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.43,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "222178",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "222178",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_222356",
+        "name": "Repuesto Bertini Caño Bajada Alfalfero 32.000",
+        "code": "222356",
+        "desc": "Repuesto original Bertini código 222356: Caño Bajada Alfalfero 32.000. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 13.68,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "222356",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "222356",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_222424",
+        "name": "Repuesto Bertini Buje De Brazo",
+        "code": "222424",
+        "desc": "Repuesto original Bertini código 222424: Buje De Brazo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 12.3,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "222424",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "222424",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_222770",
+        "name": "Repuesto Bertini Cuchilla Cierre Semillas",
+        "code": "222770",
+        "desc": "Repuesto original Bertini código 222770: Cuchilla Cierre Semillas. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 9.9,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "222770",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "222770",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_222772",
+        "name": "Repuesto Bertini Tope Lateral",
+        "code": "222772",
+        "desc": "Repuesto original Bertini código 222772: Tope Lateral. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.06,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "222772",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "222772",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_222904",
+        "name": "Repuesto Bertini Brida Porta Rodamiento Oscilante Hex. 32",
+        "code": "222904",
+        "desc": "Repuesto original Bertini código 222904: Brida Porta Rodamiento Oscilante Hex. 32. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 11.62,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "222904",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "222904",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_222906",
+        "name": "Repuesto Bertini Bancada Del Rodamiento Oscilante Hex. 32",
+        "code": "222906",
+        "desc": "Repuesto original Bertini código 222906: Bancada Del Rodamiento Oscilante Hex. 32. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 19.27,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "222906",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "222906",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223002",
+        "name": "Repuesto Bertini Buje Separador Carenado",
+        "code": "223002",
+        "desc": "Repuesto original Bertini código 223002: Buje Separador Carenado. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 11.15,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223002",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223002",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223003",
+        "name": "Repuesto Bertini Buje De Paralelogramo",
+        "code": "223003",
+        "desc": "Repuesto original Bertini código 223003: Buje De Paralelogramo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 22.48,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223003",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223003",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223011",
+        "name": "Repuesto Bertini Bajada D.D. Siembra",
+        "code": "223011",
+        "desc": "Repuesto original Bertini código 223011: Bajada D.D. Siembra. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 32.45,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223011",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223011",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223027",
+        "name": "Repuesto Bertini Eje Doble Disco 14 Pulg.",
+        "code": "223027",
+        "desc": "Repuesto original Bertini código 223027: Eje Doble Disco 14 Pulg.. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 19.61,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223027",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223027",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223098",
+        "name": "Repuesto Bertini Amarre D.Disco Fert. Grano Fino",
+        "code": "223098",
+        "desc": "Repuesto original Bertini código 223098: Amarre D.Disco Fert. Grano Fino. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 24.75,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223098",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223098",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223131",
+        "name": "Repuesto Bertini Patin Pisa Rastrojo",
+        "code": "223131",
+        "desc": "Repuesto original Bertini código 223131: Patin Pisa Rastrojo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.45,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223131",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223131",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223145",
+        "name": "Repuesto Bertini Eje Tensor De Cadena Grano Grueso",
+        "code": "223145",
+        "desc": "Repuesto original Bertini código 223145: Eje Tensor De Cadena Grano Grueso. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 11.96,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223145",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223145",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223147",
+        "name": "Repuesto Bertini Pivote Tensor Cadena",
+        "code": "223147",
+        "desc": "Repuesto original Bertini código 223147: Pivote Tensor Cadena. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.01,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223147",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223147",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223153",
+        "name": "Repuesto Bertini Eje Rueda Dual Sin Freno",
+        "code": "223153",
+        "desc": "Repuesto original Bertini código 223153: Eje Rueda Dual Sin Freno. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 560.58,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223153",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223153",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223154",
+        "name": "Repuesto Bertini Maza De Rueda Dual",
+        "code": "223154",
+        "desc": "Repuesto original Bertini código 223154: Maza De Rueda Dual. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 160.74,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223154",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223154",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223158",
+        "name": "Repuesto Bertini Eje Del Brazo De Las Ruedas Laterales",
+        "code": "223158",
+        "desc": "Repuesto original Bertini código 223158: Eje Del Brazo De Las Ruedas Laterales. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 21.65,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223158",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223158",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223170",
+        "name": "Repuesto Bertini Cubeta Macho Derecha",
+        "code": "223170",
+        "desc": "Repuesto original Bertini código 223170: Cubeta Macho Derecha. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 19.41,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223170",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223170",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223171",
+        "name": "Repuesto Bertini Cubeta Macho Izquierda",
+        "code": "223171",
+        "desc": "Repuesto original Bertini código 223171: Cubeta Macho Izquierda. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 19.41,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223171",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223171",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223174",
+        "name": "Repuesto Bertini Eje Derecho",
+        "code": "223174",
+        "desc": "Repuesto original Bertini código 223174: Eje Derecho. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 15.41,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223174",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223174",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223175",
+        "name": "Repuesto Bertini Eje Izquierdo",
+        "code": "223175",
+        "desc": "Repuesto original Bertini código 223175: Eje Izquierdo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 15.41,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223175",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223175",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223198",
+        "name": "Repuesto Bertini Maza Macho Cuchilla Labranza",
+        "code": "223198",
+        "desc": "Repuesto original Bertini código 223198: Maza Macho Cuchilla Labranza. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 42.87,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223198",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223198",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223199",
+        "name": "Repuesto Bertini Maza Hembra Cuchilla Labranza",
+        "code": "223199",
+        "desc": "Repuesto original Bertini código 223199: Maza Hembra Cuchilla Labranza. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 42.87,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223199",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223199",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223200",
+        "name": "Repuesto Bertini Eje De Maza",
+        "code": "223200",
+        "desc": "Repuesto original Bertini código 223200: Eje De Maza. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 20.36,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223200",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223200",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223206",
+        "name": "Repuesto Bertini Rueda Niveladora",
+        "code": "223206",
+        "desc": "Repuesto original Bertini código 223206: Rueda Niveladora. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 105.04,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223206",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223206",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223234",
+        "name": "Repuesto Bertini Rueda Modificada Sin Registro",
+        "code": "223234",
+        "desc": "Repuesto original Bertini código 223234: Rueda Modificada Sin Registro. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 110.93,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223234",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223234",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223263",
+        "name": "Repuesto Bertini Buje De Acople 25-29",
+        "code": "223263",
+        "desc": "Repuesto original Bertini código 223263: Buje De Acople 25-29. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 20.55,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223263",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223263",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223277",
+        "name": "Repuesto Bertini Eje Excentrico Doble Disco Lateral",
+        "code": "223277",
+        "desc": "Repuesto original Bertini código 223277: Eje Excentrico Doble Disco Lateral. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 17.83,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223277",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223277",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223278",
+        "name": "Repuesto Bertini Maza Torica Doble Disco De Siembra Y Abono",
+        "code": "223278",
+        "desc": "Repuesto original Bertini código 223278: Maza Torica Doble Disco De Siembra Y Abono. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 38.59,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223278",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223278",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223280",
+        "name": "Repuesto Bertini Cubeta Macho Derecho De Maza Torica-A",
+        "code": "223280",
+        "desc": "Repuesto original Bertini código 223280: Cubeta Macho Derecho De Maza Torica-A. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 15.72,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223280",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223280",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223281",
+        "name": "Repuesto Bertini Cubeta Macho Izquierdo De Maza Torica",
+        "code": "223281",
+        "desc": "Repuesto original Bertini código 223281: Cubeta Macho Izquierdo De Maza Torica. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 15.72,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223281",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223281",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223283",
+        "name": "Repuesto Bertini Maza Bolas Ajustable Para Rueda Lateral",
+        "code": "223283",
+        "desc": "Repuesto original Bertini código 223283: Maza Bolas Ajustable Para Rueda Lateral. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 35.14,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223283",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223283",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223284",
+        "name": "Repuesto Bertini Cubeta Macho Para Maza Ajustable Derecha",
+        "code": "223284",
+        "desc": "Repuesto original Bertini código 223284: Cubeta Macho Para Maza Ajustable Derecha. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 21.36,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223284",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223284",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223285",
+        "name": "Repuesto Bertini Cubeta Macho Para Maza Ajustable Izquier",
+        "code": "223285",
+        "desc": "Repuesto original Bertini código 223285: Cubeta Macho Para Maza Ajustable Izquier. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 21.36,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223285",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223285",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223286",
+        "name": "Repuesto Bertini Maza A Bolas Ajustable Para Rueda Tapadora",
+        "code": "223286",
+        "desc": "Repuesto original Bertini código 223286: Maza A Bolas Ajustable Para Rueda Tapadora. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 43.41,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223286",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223286",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223299",
+        "name": "Repuesto Bertini Maza De Rueda Dual Con Freno",
+        "code": "223299",
+        "desc": "Repuesto original Bertini código 223299: Maza De Rueda Dual Con Freno. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 148.24,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223299",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223299",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223323",
+        "name": "Repuesto Bertini Eje Dosificador Lateral Chasis 3 Metros",
+        "code": "223323",
+        "desc": "Repuesto original Bertini código 223323: Eje Dosificador Lateral Chasis 3 Metros. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.73,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223323",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223323",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223324",
+        "name": "Repuesto Bertini Eje Dosificador Central Para Chasis 3 Me",
+        "code": "223324",
+        "desc": "Repuesto original Bertini código 223324: Eje Dosificador Central Para Chasis 3 Me. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 28.62,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223324",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223324",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223384",
+        "name": "Repuesto Bertini Buje Espaciador Roscado Paralelogramo In",
+        "code": "223384",
+        "desc": "Repuesto original Bertini código 223384: Buje Espaciador Roscado Paralelogramo In. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 17.63,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223384",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223384",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223393",
+        "name": "Repuesto Bertini Perno Amarre Del Resorte Cuchilla C/Pua",
+        "code": "223393",
+        "desc": "Repuesto original Bertini código 223393: Perno Amarre Del Resorte Cuchilla C/Pua. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 9.54,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223393",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223393",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223404",
+        "name": "Repuesto Bertini Eje Entrada Mando Nuematico Para Alfalfe",
+        "code": "223404",
+        "desc": "Repuesto original Bertini código 223404: Eje Entrada Mando Nuematico Para Alfalfe. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 92.62,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223404",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223404",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223418",
+        "name": "Repuesto Bertini Eje De Mando Placa Para Cardan",
+        "code": "223418",
+        "desc": "Repuesto original Bertini código 223418: Eje De Mando Placa Para Cardan. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 41.55,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223418",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223418",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223420",
+        "name": "Repuesto Bertini Piñon Conico Z18 Modulo2",
+        "code": "223420",
+        "desc": "Repuesto original Bertini código 223420: Piñon Conico Z18 Modulo2. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 20.08,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223420",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223420",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223432",
+        "name": "Repuesto Bertini Punta De Eje Con Extremo Roscado",
+        "code": "223432",
+        "desc": "Repuesto original Bertini código 223432: Punta De Eje Con Extremo Roscado. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 280.29,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223432",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223432",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223468",
+        "name": "Repuesto Bertini Eje Rueda Trasera Derecha Para Raspador",
+        "code": "223468",
+        "desc": "Repuesto original Bertini código 223468: Eje Rueda Trasera Derecha Para Raspador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 22.28,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223468",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223468",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223469",
+        "name": "Repuesto Bertini Eje Rueda Trasera Izquierda Para Raspado",
+        "code": "223469",
+        "desc": "Repuesto original Bertini código 223469: Eje Rueda Trasera Izquierda Para Raspado. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 22.28,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223469",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223469",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223488",
+        "name": "Repuesto Bertini Engranaje Conico Z=12 Modulo 3",
+        "code": "223488",
+        "desc": "Repuesto original Bertini código 223488: Engranaje Conico Z=12 Modulo 3. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 33.76,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223488",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223488",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223499",
+        "name": "Repuesto Bertini Placa De Sacrificio Derecha_Copy1",
+        "code": "223499",
+        "desc": "Repuesto original Bertini código 223499: Placa De Sacrificio Derecha_Copy1. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 20.36,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223499",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223499",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223500",
+        "name": "Repuesto Bertini Placa De Sacrificio Izquierda",
+        "code": "223500",
+        "desc": "Repuesto original Bertini código 223500: Placa De Sacrificio Izquierda. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 20.36,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223500",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223500",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223522",
+        "name": "Repuesto Bertini Placa De Sacrificio Derecha Corta",
+        "code": "223522",
+        "desc": "Repuesto original Bertini código 223522: Placa De Sacrificio Derecha Corta. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 20.36,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223522",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223522",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_223551",
+        "name": "Repuesto Bertini Disco Rueda Trasera Dentada",
+        "code": "223551",
+        "desc": "Repuesto original Bertini código 223551: Disco Rueda Trasera Dentada. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 61.03,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "223551",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "223551",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_224003",
+        "name": "Repuesto Bertini Disco Plano 14 Pulg. X 2.5  1 Filo-A",
+        "code": "224003",
+        "desc": "Repuesto original Bertini código 224003: Disco Plano 14 Pulg. X 2.5  1 Filo-A. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 42.77,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "224003",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "224003",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_224005",
+        "name": "Repuesto Bertini Llanta 10 Para Cubierta 31X13.50X15",
+        "code": "224005",
+        "desc": "Repuesto original Bertini código 224005: Llanta 10 Para Cubierta 31X13.50X15. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 288.05,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "224005",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "224005",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_22000",
+        "name": "Repuesto Bertini Banda De Goma Rueda Niveladora",
+        "code": "22000",
+        "desc": "Repuesto original Bertini código 22000: Banda De Goma Rueda Niveladora. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 200.34,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "22000",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "22000",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_224010",
+        "name": "Repuesto Bertini Cuchilla Turbo 15 Pulg",
+        "code": "224010",
+        "desc": "Repuesto original Bertini código 224010: Cuchilla Turbo 15 Pulg. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 68.73,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "224010",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "224010",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_224012",
+        "name": "Repuesto Bertini Manguera 3/4 X 4100 Mc 3/4 X Tg 1 1/16",
+        "code": "224012",
+        "desc": "Repuesto original Bertini código 224012: Manguera 3/4 X 4100 Mc 3/4 X Tg 1 1/16. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 133.83,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "224012",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "224012",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_224013",
+        "name": "Repuesto Bertini Manguera 1/2 R2 X 5000 Mf 1/2 X Tg 7/8",
+        "code": "224013",
+        "desc": "Repuesto original Bertini código 224013: Manguera 1/2 R2 X 5000 Mf 1/2 X Tg 7/8. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 101.77,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "224013",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "224013",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_224014",
+        "name": "Repuesto Bertini Tubo De Bajada Para Semilla Y Abono",
+        "code": "224014",
+        "desc": "Repuesto original Bertini código 224014: Tubo De Bajada Para Semilla Y Abono. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 24.88,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "224014",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "224014",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_224015",
+        "name": "Repuesto Bertini Llanta Para Cubierta 400/60-15.5 14 Tela",
+        "code": "224015",
+        "desc": "Repuesto original Bertini código 224015: Llanta Para Cubierta 400/60-15.5 14 Tela. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 288.05,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "224015",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "224015",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_224022",
+        "name": "Repuesto Bertini Valvula De Cierre",
+        "code": "224022",
+        "desc": "Repuesto original Bertini código 224022: Valvula De Cierre. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 90.01,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "224022",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "224022",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_224027",
+        "name": "Repuesto Bertini Toma De Aire Chica",
+        "code": "224027",
+        "desc": "Repuesto original Bertini código 224027: Toma De Aire Chica. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 430.16,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "224027",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "224027",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_224037",
+        "name": "Repuesto Bertini Llanta Alemana 17\"X16X3/16X3/8",
+        "code": "224037",
+        "desc": "Repuesto original Bertini código 224037: Llanta Alemana 17\"X16X3/16X3/8. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 665.86,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "224037",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "224037",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_224049",
+        "name": "Repuesto Bertini Llanta Para Cubierta Vikafors 400/60-15.",
+        "code": "224049",
+        "desc": "Repuesto original Bertini código 224049: Llanta Para Cubierta Vikafors 400/60-15.. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 288.05,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "224049",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "224049",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_224051",
+        "name": "Repuesto Bertini Cuchilla Turbo 16 Pulg.",
+        "code": "224051",
+        "desc": "Repuesto original Bertini código 224051: Cuchilla Turbo 16 Pulg.. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 68.73,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "224051",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "224051",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_224052",
+        "name": "Repuesto Bertini Cuchilla Dura Flute 16 Pulg 50 Ondas Anc",
+        "code": "224052",
+        "desc": "Repuesto original Bertini código 224052: Cuchilla Dura Flute 16 Pulg 50 Ondas Anc. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 68.73,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "224052",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "224052",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_224067",
+        "name": "Repuesto Bertini Llanta Alemana 16.00 X 17 Et-35",
+        "code": "224067",
+        "desc": "Repuesto original Bertini código 224067: Llanta Alemana 16.00 X 17 Et-35. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 665.86,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "224067",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "224067",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_224073",
+        "name": "Repuesto Bertini Cuchilla Escotada 15 Pulg.",
+        "code": "224073",
+        "desc": "Repuesto original Bertini código 224073: Cuchilla Escotada 15 Pulg.. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 70.74,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "224073",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "224073",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_224074",
+        "name": "Repuesto Bertini Disco Fertilizante Ingersol_17 Pulg_1Fil",
+        "code": "224074",
+        "desc": "Repuesto original Bertini código 224074: Disco Fertilizante Ingersol_17 Pulg_1Fil. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 87.25,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "224074",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "224074",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_224079",
+        "name": "Repuesto Bertini Cuchilla De 17Pulg.",
+        "code": "224079",
+        "desc": "Repuesto original Bertini código 224079: Cuchilla De 17Pulg.. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 87.25,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "224079",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "224079",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_224084",
+        "name": "Repuesto Bertini Cuchilla  Turbo De 18 Pulg.",
+        "code": "224084",
+        "desc": "Repuesto original Bertini código 224084: Cuchilla  Turbo De 18 Pulg.. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 87.25,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "224084",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "224084",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_225001",
+        "name": "Repuesto Bertini Resorte Ruedas Conformadoras",
+        "code": "225001",
+        "desc": "Repuesto original Bertini código 225001: Resorte Ruedas Conformadoras. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 20.93,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "225001",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "225001",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_225003",
+        "name": "Repuesto Bertini Resorte Del Carro",
+        "code": "225003",
+        "desc": "Repuesto original Bertini código 225003: Resorte Del Carro. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 60.83,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "225003",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "225003",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_225007",
+        "name": "Repuesto Bertini Fleje Soporte Patin",
+        "code": "225007",
+        "desc": "Repuesto original Bertini código 225007: Fleje Soporte Patin. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 9.08,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "225007",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "225007",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_225008",
+        "name": "Repuesto Bertini Resorte Del Carro Con Alambre 9 Mm",
+        "code": "225008",
+        "desc": "Repuesto original Bertini código 225008: Resorte Del Carro Con Alambre 9 Mm. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 84.67,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "225008",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "225008",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_225010",
+        "name": "Repuesto Bertini Resorte D.D. Fert. Entre Lineas",
+        "code": "225010",
+        "desc": "Repuesto original Bertini código 225010: Resorte D.D. Fert. Entre Lineas. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 17.3,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "225010",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "225010",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_225012",
+        "name": "Repuesto Bertini Resorte Doble Fertilizacion Grano Grueso",
+        "code": "225012",
+        "desc": "Repuesto original Bertini código 225012: Resorte Doble Fertilizacion Grano Grueso. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 17.3,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "225012",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "225012",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_225015",
+        "name": "Repuesto Bertini Resorte De Cuchilla Al Chasis",
+        "code": "225015",
+        "desc": "Repuesto original Bertini código 225015: Resorte De Cuchilla Al Chasis. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 32.57,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "225015",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "225015",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_225024",
+        "name": "Repuesto Bertini Resorte Doble Disco Fertilizacion Latera",
+        "code": "225024",
+        "desc": "Repuesto original Bertini código 225024: Resorte Doble Disco Fertilizacion Latera. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 27.55,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "225024",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "225024",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_225039",
+        "name": "Repuesto Bertini Resorte Para Cuchilla Flotante Diametro",
+        "code": "225039",
+        "desc": "Repuesto original Bertini código 225039: Resorte Para Cuchilla Flotante Diametro. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 85.76,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "225039",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "225039",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_226024",
+        "name": "Repuesto Bertini Perno Pastilla De Freno",
+        "code": "226024",
+        "desc": "Repuesto original Bertini código 226024: Perno Pastilla De Freno. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.72,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "226024",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "226024",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_226025",
+        "name": "Repuesto Bertini Pastilla De Freno De Mordaza",
+        "code": "226025",
+        "desc": "Repuesto original Bertini código 226025: Pastilla De Freno De Mordaza. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.45,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "226025",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "226025",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_226027",
+        "name": "Repuesto Bertini Perno Guia Pastilla De Freno",
+        "code": "226027",
+        "desc": "Repuesto original Bertini código 226027: Perno Guia Pastilla De Freno. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.08,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "226027",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "226027",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_226100",
+        "name": "Repuesto Bertini Distribuidor Inyectado 2Da Edicion",
+        "code": "226100",
+        "desc": "Repuesto original Bertini código 226100: Distribuidor Inyectado 2Da Edicion. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 569.4,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "226100",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "226100",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_226101",
+        "name": "Repuesto Bertini Codo Inyectado Distribuidor 2Da Edicion",
+        "code": "226101",
+        "desc": "Repuesto original Bertini código 226101: Codo Inyectado Distribuidor 2Da Edicion. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 32.4,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "226101",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "226101",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_226104",
+        "name": "Repuesto Bertini Media Carcaza Inferior",
+        "code": "226104",
+        "desc": "Repuesto original Bertini código 226104: Media Carcaza Inferior. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.48,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "226104",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "226104",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_226105",
+        "name": "Repuesto Bertini Media Carcaza Superior",
+        "code": "226105",
+        "desc": "Repuesto original Bertini código 226105: Media Carcaza Superior. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.48,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "226105",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "226105",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_240005",
+        "name": "Repuesto Bertini Maza De Rueda 32.000",
+        "code": "240005",
+        "desc": "Repuesto original Bertini código 240005: Maza De Rueda 32.000. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 244.97,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "240005",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "240005",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_240014",
+        "name": "Repuesto Bertini Buje Diam 32 Transmision",
+        "code": "240014",
+        "desc": "Repuesto original Bertini código 240014: Buje Diam 32 Transmision. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 19.17,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "240014",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "240014",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_241005",
+        "name": "Repuesto Bertini Soporte Deslizador De Engranaje",
+        "code": "241005",
+        "desc": "Repuesto original Bertini código 241005: Soporte Deslizador De Engranaje. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 67.81,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "241005",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "241005",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_241006",
+        "name": "Repuesto Bertini Soporte Sup De Botella Izquierda",
+        "code": "241006",
+        "desc": "Repuesto original Bertini código 241006: Soporte Sup De Botella Izquierda. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 59.06,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "241006",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "241006",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_241007",
+        "name": "Repuesto Bertini Soporte Superior Derecho De Botella",
+        "code": "241007",
+        "desc": "Repuesto original Bertini código 241007: Soporte Superior Derecho De Botella. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 59.12,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "241007",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "241007",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_241008",
+        "name": "Repuesto Bertini Soporte Inferior Izquierdo De Botella",
+        "code": "241008",
+        "desc": "Repuesto original Bertini código 241008: Soporte Inferior Izquierdo De Botella. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 59.12,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "241008",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "241008",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_241009",
+        "name": "Repuesto Bertini Soporte Inferior Derecho De Botella",
+        "code": "241009",
+        "desc": "Repuesto original Bertini código 241009: Soporte Inferior Derecho De Botella. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 59.12,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "241009",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "241009",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242004",
+        "name": "Repuesto Bertini Guia Superior Del Perno Traba Horquilla",
+        "code": "242004",
+        "desc": "Repuesto original Bertini código 242004: Guia Superior Del Perno Traba Horquilla. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 24.2,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242004",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242004",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242010",
+        "name": "Repuesto Bertini Tapa Porta Reten",
+        "code": "242010",
+        "desc": "Repuesto original Bertini código 242010: Tapa Porta Reten. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 36.15,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242010",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242010",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242042",
+        "name": "Repuesto Bertini Base De Buje Horquilla Botella",
+        "code": "242042",
+        "desc": "Repuesto original Bertini código 242042: Base De Buje Horquilla Botella. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 34.79,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242042",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242042",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242048",
+        "name": "Repuesto Bertini Separador Buje Primer Tramo",
+        "code": "242048",
+        "desc": "Repuesto original Bertini código 242048: Separador Buje Primer Tramo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.26,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242048",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242048",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242061",
+        "name": "Repuesto Bertini Entrada De Aire",
+        "code": "242061",
+        "desc": "Repuesto original Bertini código 242061: Entrada De Aire. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 43.11,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242061",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242061",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242149",
+        "name": "Repuesto Bertini Camisa Botella Horquilla",
+        "code": "242149",
+        "desc": "Repuesto original Bertini código 242149: Camisa Botella Horquilla. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 33.9,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242149",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242149",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242178",
+        "name": "Repuesto Bertini Tensor De Resorte De Lanza",
+        "code": "242178",
+        "desc": "Repuesto original Bertini código 242178: Tensor De Resorte De Lanza. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 12.37,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242178",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242178",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242179",
+        "name": "Repuesto Bertini Extremo De Biela De Empuje Horquilla",
+        "code": "242179",
+        "desc": "Repuesto original Bertini código 242179: Extremo De Biela De Empuje Horquilla. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.48,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242179",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242179",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242180",
+        "name": "Repuesto Bertini Tubo De Biela",
+        "code": "242180",
+        "desc": "Repuesto original Bertini código 242180: Tubo De Biela. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 16.48,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242180",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242180",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242205",
+        "name": "Repuesto Bertini Placa Sujecion Agujero Diam. 38",
+        "code": "242205",
+        "desc": "Repuesto original Bertini código 242205: Placa Sujecion Agujero Diam. 38. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 316.25,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242205",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242205",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242206",
+        "name": "Repuesto Bertini Placa Sujecion Agujero Diam. 32",
+        "code": "242206",
+        "desc": "Repuesto original Bertini código 242206: Placa Sujecion Agujero Diam. 32. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 137.16,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242206",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242206",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242370",
+        "name": "Repuesto Bertini Soporte Paralelogramo Delantero Derecho",
+        "code": "242370",
+        "desc": "Repuesto original Bertini código 242370: Soporte Paralelogramo Delantero Derecho. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 322.59,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242370",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242370",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242397",
+        "name": "Repuesto Bertini Refuerzo De Lateral Horquilla",
+        "code": "242397",
+        "desc": "Repuesto original Bertini código 242397: Refuerzo De Lateral Horquilla. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 27.53,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242397",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242397",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242506",
+        "name": "Repuesto Bertini Eje Central Removedor De Semillas 32.000",
+        "code": "242506",
+        "desc": "Repuesto original Bertini código 242506: Eje Central Removedor De Semillas 32.000. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 75.39,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242506",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242506",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242507",
+        "name": "Repuesto Bertini Eje Lateral Removedor De Semillas 32.000",
+        "code": "242507",
+        "desc": "Repuesto original Bertini código 242507: Eje Lateral Removedor De Semillas 32.000. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 37.71,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242507",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242507",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242812",
+        "name": "Repuesto Bertini Contrapeso Para Marcador",
+        "code": "242812",
+        "desc": "Repuesto original Bertini código 242812: Contrapeso Para Marcador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 68.35,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242812",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242812",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242839",
+        "name": "Repuesto Bertini Soporte Derecho Lateral Dcf Reforma 2200",
+        "code": "242839",
+        "desc": "Repuesto original Bertini código 242839: Soporte Derecho Lateral Dcf Reforma 2200. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 27.41,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242839",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242839",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242840",
+        "name": "Repuesto Bertini Soporte Izquierdo Lateral Dcf Reforma 22",
+        "code": "242840",
+        "desc": "Repuesto original Bertini código 242840: Soporte Izquierdo Lateral Dcf Reforma 22. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 30.14,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242840",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242840",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242846",
+        "name": "Repuesto Bertini Tapa De Cierre Cilindro Marcador Sembrad",
+        "code": "242846",
+        "desc": "Repuesto original Bertini código 242846: Tapa De Cierre Cilindro Marcador Sembrad. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 34.65,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242846",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242846",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242847",
+        "name": "Repuesto Bertini Horquilla Cilindro Marcador Sembradora 2",
+        "code": "242847",
+        "desc": "Repuesto original Bertini código 242847: Horquilla Cilindro Marcador Sembradora 2. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 32.13,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242847",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242847",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242859",
+        "name": "Repuesto Bertini Maza 22 Mil Reforma Libre_Copy1...",
+        "code": "242859",
+        "desc": "Repuesto original Bertini código 242859: Maza 22 Mil Reforma Libre_Copy1.... Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 160.74,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242859",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242859",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242929",
+        "name": "Repuesto Bertini Adaptacion Tanque 36 Litros",
+        "code": "242929",
+        "desc": "Repuesto original Bertini código 242929: Adaptacion Tanque 36 Litros. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 183.09,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242929",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242929",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_242938",
+        "name": "Repuesto Bertini Engranaje Postizo Z45 A Z31Paso 5/8",
+        "code": "242938",
+        "desc": "Repuesto original Bertini código 242938: Engranaje Postizo Z45 A Z31Paso 5/8. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 41.49,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "242938",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "242938",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_243011",
+        "name": "Repuesto Bertini Eje De Horquilla",
+        "code": "243011",
+        "desc": "Repuesto original Bertini código 243011: Eje De Horquilla. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 243.01,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "243011",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "243011",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_243014",
+        "name": "Repuesto Bertini Perno Traba Horquilla De Mando",
+        "code": "243014",
+        "desc": "Repuesto original Bertini código 243014: Perno Traba Horquilla De Mando. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 38.65,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "243014",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "243014",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_243017",
+        "name": "Repuesto Bertini Engranaje Acople Transmision",
+        "code": "243017",
+        "desc": "Repuesto original Bertini código 243017: Engranaje Acople Transmision. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.98,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "243017",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "243017",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_243033",
+        "name": "Repuesto Bertini Barra Eje",
+        "code": "243033",
+        "desc": "Repuesto original Bertini código 243033: Barra Eje. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 104.98,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "243033",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "243033",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_243044",
+        "name": "Repuesto Bertini Perno De Paralelogramo Maquina 32.000",
+        "code": "243044",
+        "desc": "Repuesto original Bertini código 243044: Perno De Paralelogramo Maquina 32.000. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 84.59,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "243044",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "243044",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_243078",
+        "name": "Repuesto Bertini Eje De Embrague",
+        "code": "243078",
+        "desc": "Repuesto original Bertini código 243078: Eje De Embrague. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 45.74,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "243078",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "243078",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_243081",
+        "name": "Repuesto Bertini Boquilla Acople",
+        "code": "243081",
+        "desc": "Repuesto original Bertini código 243081: Boquilla Acople. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 11.0,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "243081",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "243081",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_243103",
+        "name": "Repuesto Bertini Eje De Rueda",
+        "code": "243103",
+        "desc": "Repuesto original Bertini código 243103: Eje De Rueda. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 66.43,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "243103",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "243103",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_243137",
+        "name": "Repuesto Bertini Eje Mando Granos Gruesos",
+        "code": "243137",
+        "desc": "Repuesto original Bertini código 243137: Eje Mando Granos Gruesos. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 20.65,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "243137",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "243137",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_243205",
+        "name": "Repuesto Bertini Perno Cilindro Hidraulico",
+        "code": "243205",
+        "desc": "Repuesto original Bertini código 243205: Perno Cilindro Hidraulico. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 17.98,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "243205",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "243205",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_243224",
+        "name": "Repuesto Bertini Eje De Paralelogramo",
+        "code": "243224",
+        "desc": "Repuesto original Bertini código 243224: Eje De Paralelogramo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 115.62,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "243224",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "243224",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_243277",
+        "name": "Repuesto Bertini Eje De Rueda",
+        "code": "243277",
+        "desc": "Repuesto original Bertini código 243277: Eje De Rueda. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 241.06,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "243277",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "243277",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_243329",
+        "name": "Repuesto Bertini Bulon De Rueda",
+        "code": "243329",
+        "desc": "Repuesto original Bertini código 243329: Bulon De Rueda. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.87,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "243329",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "243329",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_243377",
+        "name": "Repuesto Bertini Eje De Horquilla De Rueda De Mando Sin E",
+        "code": "243377",
+        "desc": "Repuesto original Bertini código 243377: Eje De Horquilla De Rueda De Mando Sin E. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 336.96,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "243377",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "243377",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_243389",
+        "name": "Repuesto Bertini Eje De Rueda Horquilla De 600",
+        "code": "243389",
+        "desc": "Repuesto original Bertini código 243389: Eje De Rueda Horquilla De 600. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 337.35,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "243389",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "243389",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_243395",
+        "name": "Repuesto Bertini Acople Bomba Multiplicador",
+        "code": "243395",
+        "desc": "Repuesto original Bertini código 243395: Acople Bomba Multiplicador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 73.83,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "243395",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "243395",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_244002",
+        "name": "Repuesto Bertini Llanta Para Goma 400/60 X 15.5",
+        "code": "244002",
+        "desc": "Repuesto original Bertini código 244002: Llanta Para Goma 400/60 X 15.5. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 288.05,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "244002",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "244002",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_244010",
+        "name": "Repuesto Bertini Gato De Lanza",
+        "code": "244010",
+        "desc": "Repuesto original Bertini código 244010: Gato De Lanza. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 121.78,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "244010",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "244010",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_244017",
+        "name": "Repuesto Bertini Manguera De Marcador",
+        "code": "244017",
+        "desc": "Repuesto original Bertini código 244017: Manguera De Marcador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 27.2,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "244017",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "244017",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_244023",
+        "name": "Repuesto Bertini Valvula Restrictora",
+        "code": "244023",
+        "desc": "Repuesto original Bertini código 244023: Valvula Restrictora. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 70.26,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "244023",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "244023",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_244024",
+        "name": "Repuesto Bertini Valvula Compensadora Con Codos",
+        "code": "244024",
+        "desc": "Repuesto original Bertini código 244024: Valvula Compensadora Con Codos. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 480.3,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "244024",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "244024",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_244032",
+        "name": "Repuesto Bertini Manguera Tanque",
+        "code": "244032",
+        "desc": "Repuesto original Bertini código 244032: Manguera Tanque. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 185.1,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "244032",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "244032",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_244044",
+        "name": "Repuesto Bertini Manguera Hidraulica Al Tractor",
+        "code": "244044",
+        "desc": "Repuesto original Bertini código 244044: Manguera Hidraulica Al Tractor. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 140.25,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "244044",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "244044",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_244056",
+        "name": "Repuesto Bertini Cilindro Doble Efecto De 5 Pulgadas",
+        "code": "244056",
+        "desc": "Repuesto original Bertini código 244056: Cilindro Doble Efecto De 5 Pulgadas. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 1045.37,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "244056",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "244056",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_244061",
+        "name": "Repuesto Bertini Valvula Limitadora De Presion",
+        "code": "244061",
+        "desc": "Repuesto original Bertini código 244061: Valvula Limitadora De Presion. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 209.0,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "244061",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "244061",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_244088",
+        "name": "Repuesto Bertini Cubierta Trelleborg 520/50-17",
+        "code": "244088",
+        "desc": "Repuesto original Bertini código 244088: Cubierta Trelleborg 520/50-17. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 1075.44,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "244088",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "244088",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_245001",
+        "name": "Repuesto Bertini Resorte Del Perno Traba Ruedas",
+        "code": "245001",
+        "desc": "Repuesto original Bertini código 245001: Resorte Del Perno Traba Ruedas. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.25,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "245001",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "245001",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_245003",
+        "name": "Repuesto Bertini Resorte De Lanza",
+        "code": "245003",
+        "desc": "Repuesto original Bertini código 245003: Resorte De Lanza. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 48.59,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "245003",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "245003",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_246030",
+        "name": "Repuesto Bertini Rotulacion De Sembradora 32,000 De 6,7 M",
+        "code": "246030",
+        "desc": "Repuesto original Bertini código 246030: Rotulacion De Sembradora 32,000 De 6,7 M. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 368.27,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "246030",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "246030",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_246033",
+        "name": "Repuesto Bertini Rotulacion De Sembradora 32,000 De 6,7 M",
+        "code": "246033",
+        "desc": "Repuesto original Bertini código 246033: Rotulacion De Sembradora 32,000 De 6,7 M. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 368.27,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "246033",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "246033",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_246035",
+        "name": "Repuesto Bertini Rotulacion De Sembradora 32,000 De 8,240",
+        "code": "246035",
+        "desc": "Repuesto original Bertini código 246035: Rotulacion De Sembradora 32,000 De 8,240. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 440.51,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "246035",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "246035",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_301000",
+        "name": "Repuesto Bertini Brazo Rueda Niveladora Izquierdo",
+        "code": "301000",
+        "desc": "Repuesto original Bertini código 301000: Brazo Rueda Niveladora Izquierdo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 66.55,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "301000",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "301000",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_301001",
+        "name": "Repuesto Bertini Brazo Rueda Niveladora Derecho",
+        "code": "301001",
+        "desc": "Repuesto original Bertini código 301001: Brazo Rueda Niveladora Derecho. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 66.55,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "301001",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "301001",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_302002",
+        "name": "Repuesto Bertini Separador Largo Paralelogramo",
+        "code": "302002",
+        "desc": "Repuesto original Bertini código 302002: Separador Largo Paralelogramo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 12.5,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "302002",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "302002",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_302043",
+        "name": "Repuesto Bertini Rueda Niveladora",
+        "code": "302043",
+        "desc": "Repuesto original Bertini código 302043: Rueda Niveladora. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 94.79,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "302043",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "302043",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_302054",
+        "name": "Repuesto Bertini Biela Fijacion Carcaza Cardan",
+        "code": "302054",
+        "desc": "Repuesto original Bertini código 302054: Biela Fijacion Carcaza Cardan. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 12.12,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "302054",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "302054",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_303002",
+        "name": "Repuesto Bertini Buje Rueda Niveladora",
+        "code": "303002",
+        "desc": "Repuesto original Bertini código 303002: Buje Rueda Niveladora. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 15.34,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "303002",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "303002",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_303003",
+        "name": "Repuesto Bertini Eje Doble Disco Siembra",
+        "code": "303003",
+        "desc": "Repuesto original Bertini código 303003: Eje Doble Disco Siembra. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 17.83,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "303003",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "303003",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_303005",
+        "name": "Repuesto Bertini Buje Del Separador Paralelogramo",
+        "code": "303005",
+        "desc": "Repuesto original Bertini código 303005: Buje Del Separador Paralelogramo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.35,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "303005",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "303005",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_303006",
+        "name": "Repuesto Bertini Eje Del Brazo Rueda Niveladora",
+        "code": "303006",
+        "desc": "Repuesto original Bertini código 303006: Eje Del Brazo Rueda Niveladora. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 23.31,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "303006",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "303006",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_303008",
+        "name": "Repuesto Bertini Maza Rueda Niveladora",
+        "code": "303008",
+        "desc": "Repuesto original Bertini código 303008: Maza Rueda Niveladora. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 44.16,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "303008",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "303008",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_303020",
+        "name": "Repuesto Bertini Eje Rueda Lateral Izquierda",
+        "code": "303020",
+        "desc": "Repuesto original Bertini código 303020: Eje Rueda Lateral Izquierda. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 29.06,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "303020",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "303020",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_303021",
+        "name": "Repuesto Bertini Eje Rueda Lateral Derecha",
+        "code": "303021",
+        "desc": "Repuesto original Bertini código 303021: Eje Rueda Lateral Derecha. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 29.06,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "303021",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "303021",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_305001",
+        "name": "Repuesto Bertini Resorte Traccion Paralelogramo",
+        "code": "305001",
+        "desc": "Repuesto original Bertini código 305001: Resorte Traccion Paralelogramo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 19.83,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "305001",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "305001",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_343010",
+        "name": "Repuesto Bertini Eje Doble Disco Fertilizacion",
+        "code": "343010",
+        "desc": "Repuesto original Bertini código 343010: Eje Doble Disco Fertilizacion. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 17.83,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "343010",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "343010",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_366001",
+        "name": "Repuesto Bertini Tabla De Siembra Grano Fino",
+        "code": "366001",
+        "desc": "Repuesto original Bertini código 366001: Tabla De Siembra Grano Fino. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.0,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "366001",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "366001",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_400006",
+        "name": "Repuesto Bertini Volante",
+        "code": "400006",
+        "desc": "Repuesto original Bertini código 400006: Volante. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 21.4,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "400006",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "400006",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500008",
+        "name": "Repuesto Bertini Selector",
+        "code": "500008",
+        "desc": "Repuesto original Bertini código 500008: Selector. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 18.94,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500008",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500008",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500010",
+        "name": "Repuesto Bertini Biela Selector",
+        "code": "500010",
+        "desc": "Repuesto original Bertini código 500010: Biela Selector. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.51,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500010",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500010",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500105",
+        "name": "Repuesto Bertini Zafe Fijo",
+        "code": "500105",
+        "desc": "Repuesto original Bertini código 500105: Zafe Fijo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 13.8,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500105",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500105",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500201",
+        "name": "Repuesto Bertini Engranaje Z=50",
+        "code": "500201",
+        "desc": "Repuesto original Bertini código 500201: Engranaje Z=50. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 84.34,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500201",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500201",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500202",
+        "name": "Repuesto Bertini Engranaje Z=35",
+        "code": "500202",
+        "desc": "Repuesto original Bertini código 500202: Engranaje Z=35. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 49.41,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500202",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500202",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500217",
+        "name": "Repuesto Bertini Chapa Guia De Ejes",
+        "code": "500217",
+        "desc": "Repuesto original Bertini código 500217: Chapa Guia De Ejes. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 17.44,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500217",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500217",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500302",
+        "name": "Repuesto Bertini Eje De Selectores",
+        "code": "500302",
+        "desc": "Repuesto original Bertini código 500302: Eje De Selectores. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 49.69,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500302",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500302",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500305",
+        "name": "Repuesto Bertini Eje Salida Caja 81 Cambios",
+        "code": "500305",
+        "desc": "Repuesto original Bertini código 500305: Eje Salida Caja 81 Cambios. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 46.89,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500305",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500305",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500306",
+        "name": "Repuesto Bertini Engranaje Z=21",
+        "code": "500306",
+        "desc": "Repuesto original Bertini código 500306: Engranaje Z=21. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 24.75,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500306",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500306",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500307",
+        "name": "Repuesto Bertini Engranaje Z=20",
+        "code": "500307",
+        "desc": "Repuesto original Bertini código 500307: Engranaje Z=20. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 24.75,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500307",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500307",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500308",
+        "name": "Repuesto Bertini Engranaje Z=19",
+        "code": "500308",
+        "desc": "Repuesto original Bertini código 500308: Engranaje Z=19. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 24.75,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500308",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500308",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500309",
+        "name": "Repuesto Bertini Engranaje Z=27",
+        "code": "500309",
+        "desc": "Repuesto original Bertini código 500309: Engranaje Z=27. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 29.66,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500309",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500309",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500310",
+        "name": "Repuesto Bertini Engranaje Z=28",
+        "code": "500310",
+        "desc": "Repuesto original Bertini código 500310: Engranaje Z=28. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 29.8,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500310",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500310",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500311",
+        "name": "Repuesto Bertini Engranaje Z=29",
+        "code": "500311",
+        "desc": "Repuesto original Bertini código 500311: Engranaje Z=29. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 33.76,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500311",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500311",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500312",
+        "name": "Repuesto Bertini Engranaje Z=26",
+        "code": "500312",
+        "desc": "Repuesto original Bertini código 500312: Engranaje Z=26. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 29.66,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500312",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500312",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500313",
+        "name": "Repuesto Bertini Engranaje Z=23",
+        "code": "500313",
+        "desc": "Repuesto original Bertini código 500313: Engranaje Z=23. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 24.75,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500313",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500313",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500314",
+        "name": "Repuesto Bertini Engranaje Z=20",
+        "code": "500314",
+        "desc": "Repuesto original Bertini código 500314: Engranaje Z=20. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 24.75,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500314",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500314",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500315",
+        "name": "Repuesto Bertini Engranaje Z=25",
+        "code": "500315",
+        "desc": "Repuesto original Bertini código 500315: Engranaje Z=25. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 27.34,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500315",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500315",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500316",
+        "name": "Repuesto Bertini Engranaje Z=22",
+        "code": "500316",
+        "desc": "Repuesto original Bertini código 500316: Engranaje Z=22. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 26.79,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500316",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500316",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500317",
+        "name": "Repuesto Bertini Engranaje Z=19C",
+        "code": "500317",
+        "desc": "Repuesto original Bertini código 500317: Engranaje Z=19C. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 24.75,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500317",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500317",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500318",
+        "name": "Repuesto Bertini Engranaje Z=25",
+        "code": "500318",
+        "desc": "Repuesto original Bertini código 500318: Engranaje Z=25. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 27.34,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500318",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500318",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500402",
+        "name": "Repuesto Bertini Tabla De Cambios",
+        "code": "500402",
+        "desc": "Repuesto original Bertini código 500402: Tabla De Cambios. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.5,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500402",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500402",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500403",
+        "name": "Repuesto Bertini Placa Posicion De Palancas (C. Siembra)",
+        "code": "500403",
+        "desc": "Repuesto original Bertini código 500403: Placa Posicion De Palancas (C. Siembra). Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.32,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500403",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500403",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_500404",
+        "name": "Repuesto Bertini Placa Posicion De Palancas (C. Fertil.)",
+        "code": "500404",
+        "desc": "Repuesto original Bertini código 500404: Placa Posicion De Palancas (C. Fertil.). Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.32,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "500404",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "500404",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_510004",
+        "name": "Repuesto Bertini Buje De Entrada",
+        "code": "510004",
+        "desc": "Repuesto original Bertini código 510004: Buje De Entrada. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 11.55,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "510004",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "510004",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_510005",
+        "name": "Repuesto Bertini Buje De Salida",
+        "code": "510005",
+        "desc": "Repuesto original Bertini código 510005: Buje De Salida. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.52,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "510005",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "510005",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_100036",
+        "name": "Repuesto Bertini Buje Eje Intermedio",
+        "code": "100036",
+        "desc": "Repuesto original Bertini código 100036: Buje Eje Intermedio. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 456.13,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "100036",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "100036",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_510015",
+        "name": "Repuesto Bertini Zafe Fijo 8.500",
+        "code": "510015",
+        "desc": "Repuesto original Bertini código 510015: Zafe Fijo 8.500. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 13.8,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "510015",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "510015",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_101016",
+        "name": "Repuesto Bertini Trinquete Lado Izquierdo",
+        "code": "101016",
+        "desc": "Repuesto original Bertini código 101016: Trinquete Lado Izquierdo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 456.22,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "101016",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "101016",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_101017",
+        "name": "Repuesto Bertini Trinquete Lado Derecho",
+        "code": "101017",
+        "desc": "Repuesto original Bertini código 101017: Trinquete Lado Derecho. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 456.22,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "101017",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "101017",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_510105",
+        "name": "Repuesto Bertini Zafe Fijo",
+        "code": "510105",
+        "desc": "Repuesto original Bertini código 510105: Zafe Fijo. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 13.8,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "510105",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "510105",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_510315",
+        "name": "Repuesto Bertini Eje De Entrada Caja 81 Cambios",
+        "code": "510315",
+        "desc": "Repuesto original Bertini código 510315: Eje De Entrada Caja 81 Cambios. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 46.13,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "510315",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "510315",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_510603",
+        "name": "Repuesto Bertini Junta De Tapa",
+        "code": "510603",
+        "desc": "Repuesto original Bertini código 510603: Junta De Tapa. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 32.89,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "510603",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "510603",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_750008",
+        "name": "Repuesto Bertini O Ring 2335 Sh 90",
+        "code": "750008",
+        "desc": "Repuesto original Bertini código 750008: O Ring 2335 Sh 90. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 13.25,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "750008",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "750008",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_30205",
+        "name": "Repuesto Bertini Rodamiento",
+        "code": "30205",
+        "desc": "Repuesto original Bertini código 30205: Rodamiento. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 697.61,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "30205",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "30205",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_30204",
+        "name": "Repuesto Bertini Rodamiento",
+        "code": "30204",
+        "desc": "Repuesto original Bertini código 30204: Rodamiento. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 697.61,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "30204",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "30204",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_30208",
+        "name": "Repuesto Bertini Rodamiento",
+        "code": "30208",
+        "desc": "Repuesto original Bertini código 30208: Rodamiento. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 697.61,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "30208",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "30208",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_30210",
+        "name": "Repuesto Bertini Rodamiento",
+        "code": "30210",
+        "desc": "Repuesto original Bertini código 30210: Rodamiento. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 697.61,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "30210",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "30210",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_780007",
+        "name": "Repuesto Bertini Rodamiento 6204 1 Rs",
+        "code": "780007",
+        "desc": "Repuesto original Bertini código 780007: Rodamiento 6204 1 Rs. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 11.62,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "780007",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "780007",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_33015",
+        "name": "Repuesto Bertini Rodamiento Conico",
+        "code": "33015",
+        "desc": "Repuesto original Bertini código 33015: Rodamiento Conico. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 697.61,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "33015",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "33015",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_780010",
+        "name": "Repuesto Bertini Rodamiento 30209 J2/Q",
+        "code": "780010",
+        "desc": "Repuesto original Bertini código 780010: Rodamiento 30209 J2/Q. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 29.88,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "780010",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "780010",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_850004",
+        "name": "Repuesto Bertini Buje Central De Barra",
+        "code": "850004",
+        "desc": "Repuesto original Bertini código 850004: Buje Central De Barra. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.82,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "850004",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "850004",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_850027",
+        "name": "Repuesto Bertini Buje Mando Abono",
+        "code": "850027",
+        "desc": "Repuesto original Bertini código 850027: Buje Mando Abono. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.01,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "850027",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "850027",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_850035",
+        "name": "Repuesto Bertini Maza De Rueda",
+        "code": "850035",
+        "desc": "Repuesto original Bertini código 850035: Maza De Rueda. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 203.94,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "850035",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "850035",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_850047",
+        "name": "Repuesto Bertini Tapa De Tolva Izquierda",
+        "code": "850047",
+        "desc": "Repuesto original Bertini código 850047: Tapa De Tolva Izquierda. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 749.49,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "850047",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "850047",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_852175",
+        "name": "Repuesto Bertini Engranaje Z 70 Cadena 1/2 Mando",
+        "code": "852175",
+        "desc": "Repuesto original Bertini código 852175: Engranaje Z 70 Cadena 1/2 Mando. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 50.24,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "852175",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "852175",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_852318",
+        "name": "Repuesto Bertini Soporte De Eje Brazos Discos",
+        "code": "852318",
+        "desc": "Repuesto original Bertini código 852318: Soporte De Eje Brazos Discos. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 9.57,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "852318",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "852318",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_852375",
+        "name": "Repuesto Bertini Eje Derecho Dosificador",
+        "code": "852375",
+        "desc": "Repuesto original Bertini código 852375: Eje Derecho Dosificador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 12.85,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "852375",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "852375",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_852376",
+        "name": "Repuesto Bertini Eje Izquierdo Dosificador",
+        "code": "852376",
+        "desc": "Repuesto original Bertini código 852376: Eje Izquierdo Dosificador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.35,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "852376",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "852376",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_852393",
+        "name": "Repuesto Bertini Eje De Entrada",
+        "code": "852393",
+        "desc": "Repuesto original Bertini código 852393: Eje De Entrada. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 42.03,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "852393",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "852393",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_852459",
+        "name": "Repuesto Bertini Media Horquilla Der Rueda Compactadora",
+        "code": "852459",
+        "desc": "Repuesto original Bertini código 852459: Media Horquilla Der Rueda Compactadora. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 28.01,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "852459",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "852459",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_853006",
+        "name": "Repuesto Bertini Grampa De Leva De Barra De Levante",
+        "code": "853006",
+        "desc": "Repuesto original Bertini código 853006: Grampa De Leva De Barra De Levante. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.66,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "853006",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "853006",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_853050",
+        "name": "Repuesto Bertini Eje De Transmision",
+        "code": "853050",
+        "desc": "Repuesto original Bertini código 853050: Eje De Transmision. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 62.81,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "853050",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "853050",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_853057",
+        "name": "Repuesto Bertini Eje De Rueda",
+        "code": "853057",
+        "desc": "Repuesto original Bertini código 853057: Eje De Rueda. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 12.17,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "853057",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "853057",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_853067",
+        "name": "Repuesto Bertini Eje Maza Trasera Recta",
+        "code": "853067",
+        "desc": "Repuesto original Bertini código 853067: Eje Maza Trasera Recta. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 12.17,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "853067",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "853067",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_854003",
+        "name": "Repuesto Bertini Tubo Plastico Siembra",
+        "code": "854003",
+        "desc": "Repuesto original Bertini código 854003: Tubo Plastico Siembra. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 9.24,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "854003",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "854003",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_854011",
+        "name": "Repuesto Bertini Tubo De Bajada De Alfalfa Sembradora Modelo 10.000/8000 Diam 18Mm X 500Mm",
+        "code": "854011",
+        "desc": "Repuesto original Bertini código 854011: Tubo De Bajada De Alfalfa Sembradora Modelo 10.000/8000 Diam 18Mm X 500Mm. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 25.56,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "854011",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "854011",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_854016",
+        "name": "Repuesto Bertini Tabla Fertilizante",
+        "code": "854016",
+        "desc": "Repuesto original Bertini código 854016: Tabla Fertilizante. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 13.33,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "854016",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "854016",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_854017",
+        "name": "Repuesto Bertini Llanta 12,4 X 28",
+        "code": "854017",
+        "desc": "Repuesto original Bertini código 854017: Llanta 12,4 X 28. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 518.82,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "854017",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "854017",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_854020",
+        "name": "Repuesto Bertini Tapa Boca Semilla 8.500",
+        "code": "854020",
+        "desc": "Repuesto original Bertini código 854020: Tapa Boca Semilla 8.500. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.26,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "854020",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "854020",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_854023",
+        "name": "Repuesto Bertini Tapa Boca",
+        "code": "854023",
+        "desc": "Repuesto original Bertini código 854023: Tapa Boca. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 11.12,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "854023",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "854023",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_854024",
+        "name": "Repuesto Bertini Vibro De Borra Huella",
+        "code": "854024",
+        "desc": "Repuesto original Bertini código 854024: Vibro De Borra Huella. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 26.38,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "854024",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "854024",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_854029",
+        "name": "Repuesto Bertini \"Disco Plano 0 13 1/2\"\"",
+        "code": "854029",
+        "desc": "Repuesto original Bertini código 854029: \"Disco Plano 0 13 1/2\"\". Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 17.3,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "854029",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "854029",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_10046",
+        "name": "Repuesto Bertini Tubo Goma Siembra",
+        "code": "10046",
+        "desc": "Repuesto original Bertini código 10046: Tubo Goma Siembra. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 763.82,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "10046",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "10046",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_854039",
+        "name": "Repuesto Bertini Carcaza Dosificador",
+        "code": "854039",
+        "desc": "Repuesto original Bertini código 854039: Carcaza Dosificador. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 18.11,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "854039",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "854039",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_854055",
+        "name": "Repuesto Bertini Tabla De Siembra",
+        "code": "854055",
+        "desc": "Repuesto original Bertini código 854055: Tabla De Siembra. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 13.33,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "854055",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "854055",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_855003",
+        "name": "Repuesto Bertini Resorte Amortiguador Grueso",
+        "code": "855003",
+        "desc": "Repuesto original Bertini código 855003: Resorte Amortiguador Grueso. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 11.96,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "855003",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "855003",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_855004",
+        "name": "Repuesto Bertini Resorte Amortiguador Fino",
+        "code": "855004",
+        "desc": "Repuesto original Bertini código 855004: Resorte Amortiguador Fino. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 10.52,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "855004",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "855004",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_86019",
+        "name": "Repuesto Bertini Tabla De Fertilizacion Simple",
+        "code": "86019",
+        "desc": "Repuesto original Bertini código 86019: Tabla De Fertilizacion Simple. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 9.75,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "86019",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "86019",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_86021",
+        "name": "Repuesto Bertini Tabla De Siembra Grano Fino",
+        "code": "86021",
+        "desc": "Repuesto original Bertini código 86021: Tabla De Siembra Grano Fino. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.36,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "86021",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "86021",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_86023",
+        "name": "Repuesto Bertini Rotulacion De Sembradora 8000 Sin Alfalf",
+        "code": "86023",
+        "desc": "Repuesto original Bertini código 86023: Rotulacion De Sembradora 8000 Sin Alfalf. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 192.93,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "86023",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "86023",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_86024",
+        "name": "Repuesto Bertini Rotulacion De Sembradora 8000 Con Alfalf",
+        "code": "86024",
+        "desc": "Repuesto original Bertini código 86024: Rotulacion De Sembradora 8000 Con Alfalf. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 192.93,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "86024",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "86024",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_900002",
+        "name": "Repuesto Bertini Media Maza De Cuchilla",
+        "code": "900002",
+        "desc": "Repuesto original Bertini código 900002: Media Maza De Cuchilla. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 14.82,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "900002",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "900002",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_903018",
+        "name": "Repuesto Bertini Eje De Cuchilla",
+        "code": "903018",
+        "desc": "Repuesto original Bertini código 903018: Eje De Cuchilla. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 9.7,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "903018",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "903018",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_950001",
+        "name": "Repuesto Bertini Soporte De Bancada",
+        "code": "950001",
+        "desc": "Repuesto original Bertini código 950001: Soporte De Bancada. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 12.37,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "950001",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "950001",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
+    },
+    {
+        "id": "bertini_950002",
+        "name": "Repuesto Bertini Bancada",
+        "code": "950002",
+        "desc": "Repuesto original Bertini código 950002: Bancada. Diseñado para máxima durabilidad en sembradoras de siembra directa Bertini.",
+        "price": 12.37,
+        "category": "Repuestos y Accesorios",
+        "condition": "Nuevo",
+        "brand": "Bertini",
+        "model": "950002",
+        "stock": 1,
+        "images": [
+            "assets/img/casadruettologo1.png"
+        ],
+        "videos": [],
+        "mercadolibreLink": "",
+        "specs": {
+            "Marca": "Bertini",
+            "Código Original": "950002",
+            "Tipo": "Repuesto de Sembradora",
+            "Condición": "Nuevo"
+        }
     }
 ];
+
 let products = [];
+const EXCHANGE_RATE_ARS = 1520.0;
 
 // Inicialización de la base de datos de productos
 export async function loadProductsData() {
@@ -13744,7 +26074,7 @@ export function renderStoreCatalog(containerId = 'store-catalog-grid', filters =
         container.innerHTML = paginatedItems.map(p => {
             const img = (p.images && p.images.length > 0) ? p.images[0] : 'assets/img/casadruettologo1.png';
             const priceUSD = parseFloat(p.price) || 0;
-            const priceARS = priceUSD * 1510;
+            const priceARS = priceUSD * EXCHANGE_RATE_ARS;
 
             const priceUSDFormatted = priceUSD.toLocaleString('es-AR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
             const priceARSFormatted = priceARS.toLocaleString('es-AR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
@@ -13842,7 +26172,7 @@ export async function renderProductDetailPage() {
     if (brandEl) brandEl.innerText = product.brand || 'Casa Druetto';
 
     const priceUSD = parseFloat(product.price) || 0;
-    const priceARS = priceUSD * 1510;
+    const priceARS = priceUSD * EXCHANGE_RATE_ARS;
 
     const priceEl = document.getElementById('detail-price');
     if (priceEl) priceEl.innerText = `$${priceUSD.toLocaleString('es-AR', {minimumFractionDigits: 2, maximumFractionDigits: 2})} USD`;
