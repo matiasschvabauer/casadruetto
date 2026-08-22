@@ -25992,7 +25992,7 @@ export function getProductById(id) {
 
 // ─── RENDERIZADO DEL CATÁLOGO DE LA TIENDA ───
 window.currentPage = window.currentPage || 1;
-window.productsPerPage = window.productsPerPage || 12;
+window.productsPerPage = window.productsPerPage || 30;
 
 export function renderStoreCatalog(containerId = 'store-catalog-grid', filters = {}) {
     const container = document.getElementById(containerId);
@@ -26054,7 +26054,7 @@ export function renderStoreCatalog(containerId = 'store-catalog-grid', filters =
         totalCountEl.innerText = items.length;
     }
 
-    const perPage = window.productsPerPage || 12;
+    const perPage = window.productsPerPage || 30;
     const totalPages = Math.ceil(items.length / perPage) || 1;
     if (window.currentPage > totalPages) window.currentPage = totalPages;
     if (window.currentPage < 1) window.currentPage = 1;

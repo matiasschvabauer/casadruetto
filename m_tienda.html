@@ -303,18 +303,98 @@
     <script type="module">
         import { loadProductsData, renderStoreCatalog } from './js/products.js?v=2.0';
         window.renderStoreCatalog = renderStoreCatalog;
+
         document.addEventListener('DOMContentLoaded', async () => {
             await loadProductsData();
-            if (typeof window.applyCatalogFilters === 'function') {
-                window.applyCatalogFilters();
+
+            // Leer y aplicar parámetros de la URL si existen
+            const params = new URLSearchParams(window.location.search);
+            const catParam = params.get('category');
+            const searchParam = params.get('search');
+
+            if (catParam) {
+                const catSelect = document.getElementById('filter-category');
+                if (catSelect) catSelect.value = catParam;
             }
+            if (searchParam) {
+                const searchInput = document.getElementById('filter-search-input') || document.getElementById('catalog-main-search');
+                if (searchInput) searchInput.value = searchParam;
+            }
+
+            applyCatalogFilters();
         });
-    </script>
-    <script type="module" src="js/firebase-config.js"></script>
-    <script type="module" src="js/cart.js"></script>
-    <script type="module" src="js/products.js?v=2.0"></script>
-    <script src="js/mobile-app.js"></script>
-    <script>
+
+        // Sincroniza la barra de búsqueda
+        window.syncAndSearch = function(val) {
+            const sideSearch = document.getElementById('filter-search-input');
+            const mainSearch = document.getElementById('catalog-main-search');
+            if (sideSearch) sideSearch.value = val;
+            if (mainSearch) mainSearch.value = val;
+            applyCatalogFilters();
+        };
+
+        // Cambiar de página
+        window.changePage = function(pageNumber) {
+            window.currentPage = pageNumber;
+            applyCatalogFilters(false);
+            const targetElement = document.querySelector('.store-catalog-section');
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+            }
+        };
+
+        // Cambiar límite de productos por página
+        window.changeLimit = function(limit) {
+            window.productsPerPage = parseInt(limit, 10);
+            window.currentPage = 1;
+            applyCatalogFilters(false);
+        };
+
+        // Aplica todos los filtros seleccionados
+        window.applyCatalogFilters = function(resetPage = true) {
+            if (resetPage) {
+                window.currentPage = 1;
+            }
+
+            const limitSelect = document.getElementById('catalog-limit');
+            if (limitSelect && limitSelect.value) {
+                window.productsPerPage = parseInt(limitSelect.value, 10);
+            } else {
+                window.productsPerPage = window.productsPerPage || 30;
+            }
+
+            const searchInput = document.getElementById('filter-search-input') || document.getElementById('catalog-main-search');
+            const search = searchInput ? searchInput.value : '';
+
+            const catSelect = document.getElementById('filter-category');
+            const category = catSelect ? catSelect.value : 'all';
+
+            const brandSelect = document.getElementById('filter-brand');
+            const brand = brandSelect ? brandSelect.value : 'all';
+
+            const condSelect = document.getElementById('filter-condition');
+            const condition = condSelect ? condSelect.value : 'all';
+
+            const minInput = document.getElementById('filter-price-min');
+            const priceMin = minInput ? minInput.value : '';
+
+            const maxInput = document.getElementById('filter-price-max');
+            const priceMax = maxInput ? maxInput.value : '';
+
+            const sortSelect = document.getElementById('catalog-sort');
+            const order = sortSelect ? sortSelect.value : 'recent';
+
+            window.renderStoreCatalog('store-catalog-grid', {
+                search,
+                category,
+                brand,
+                condition,
+                priceMin,
+                priceMax,
+                order
+            });
+        };
+
         window.filterByChip = function(category, btn) {
             document.querySelectorAll('.m-chip-btn').forEach(b => {
                 b.style.background = '#ffffff';
@@ -331,11 +411,13 @@
             const catSelect = document.getElementById('filter-category');
             if (catSelect) {
                 catSelect.value = category;
-                if (typeof window.applyCatalogFilters === 'function') {
-                    window.applyCatalogFilters();
-                }
+                applyCatalogFilters();
             }
         };
     </script>
+    <script type="module" src="js/firebase-config.js"></script>
+    <script type="module" src="js/cart.js"></script>
+    <script type="module" src="js/products.js?v=2.0"></script>
+    <script src="js/mobile-app.js"></script>
 </body>
 </html>

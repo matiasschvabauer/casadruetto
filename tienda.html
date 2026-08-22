@@ -314,13 +314,34 @@
             if (resetPage) {
                 window.currentPage = 1;
             }
-            const search = document.getElementById('filter-search-input').value;
-            const category = document.getElementById('filter-category').value;
-            const brand = document.getElementById('filter-brand').value;
-            const condition = document.getElementById('filter-condition').value;
-            const priceMin = document.getElementById('filter-price-min').value;
-            const priceMax = document.getElementById('filter-price-max').value;
-            const order = document.getElementById('catalog-sort').value;
+
+            const limitSelect = document.getElementById('catalog-limit');
+            if (limitSelect && limitSelect.value) {
+                window.productsPerPage = parseInt(limitSelect.value, 10);
+            } else {
+                window.productsPerPage = window.productsPerPage || 30;
+            }
+
+            const searchInput = document.getElementById('filter-search-input') || document.getElementById('catalog-main-search');
+            const search = searchInput ? searchInput.value : '';
+
+            const catSelect = document.getElementById('filter-category');
+            const category = catSelect ? catSelect.value : 'all';
+
+            const brandSelect = document.getElementById('filter-brand');
+            const brand = brandSelect ? brandSelect.value : 'all';
+
+            const condSelect = document.getElementById('filter-condition');
+            const condition = condSelect ? condSelect.value : 'all';
+
+            const minInput = document.getElementById('filter-price-min');
+            const priceMin = minInput ? minInput.value : '';
+
+            const maxInput = document.getElementById('filter-price-max');
+            const priceMax = maxInput ? maxInput.value : '';
+
+            const sortSelect = document.getElementById('catalog-sort');
+            const order = sortSelect ? sortSelect.value : 'recent';
 
             window.renderStoreCatalog('store-catalog-grid', {
                 search,
