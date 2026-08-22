@@ -2,567 +2,252 @@
 <html lang="es">
 
 <head>
-    <script src="js/mobile-detect.js"></script>
-    <link rel="icon" href="casadruettologo1.ico" type="image/x-icon">
-    <meta charset="UTF-8">
-    <meta name="google-site-verification" content="s0r05OzJLGZQHh38tVFVby60o-ASBaT3jwbgg7yGjws" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Casa Druetto Móvil</title>
-    <!-- Google Fonts & Material Symbols -->
-    <link rel="stylesheet" href="assets/css/css2.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/mobile-styles.css">
-    <script src="js/web-alerts.js"></script>
-    <script src="js/email-service.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agroguardati (Móvil)</title>
+  <meta name="description" content="Agroguardati: Venta de maquinaria agrícola. Versión móvil.">
+  <link rel="icon" type="image/png" href="AGLOGOCIRC.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/m_styles.css">
+  
+  <!-- Model Viewer 3D -->
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+
+  <script>
+    if (window.innerWidth > 768) {
+        window.location.href = "index.html" + window.location.search + window.location.hash;
+    }
+  </script>
 </head>
 
-<body class="m-body">
+<body>
 
-    <!-- ─── HEADER MÓVIL SUPERIOR ─── -->
-    <header class="m-header">
-        <div class="m-header-top">
-            <a href="m_index.html" class="m-logo-link">
-                <img src="assets/img/casadruettologo1.png" alt="75 Años" class="m-logo-badge">
-                <span class="m-logo-text">CASA <span>DRUETTO</span></span>
-            </a>
-            
-            <div class="m-header-actions">
-                <button onclick="toggleMobileSearch(true)" class="m-header-btn" title="Buscar"><i class="fas fa-search"></i></button>
-                <a href="https://wa.me/5493404521246" target="_blank" class="m-header-btn" title="WhatsApp" style="color:#25d366;"><i class="fab fa-whatsapp"></i></a>
-                <button onclick="toggleCart(true)" class="m-header-btn" title="Ver Carrito">
-                    <i class="fas fa-shopping-cart"></i>
-                    <span id="cart-badge" class="m-cart-badge">0</span>
-                </button>
-                <button onclick="toggleMobileDrawer(true)" class="m-header-btn" title="Menú"><i class="fas fa-bars"></i></button>
-            </div>
+  <!-- Navbar Mobile -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="m_index.html" class="logo-container">
+        <img src="AgroGuardatiLogo.png" alt="Agroguardati Logo">
+        <span>Agro<span style="color: var(--brand-red);">guardati</span></span>
+      </a>
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="m_index.html">Inicio</a></li>
+        <li><a href="m_catalogo.html">Catálogo</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="m_login.html">Acceso <i class="fas fa-lock"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section Mobile -->
+  <header class="hero">
+    <canvas id="gradient-canvas"></canvas>
+    <div class="hero-content">
+      <h1 class="hero-title">Impulsa tu campo con <span class="text-gradient">tecnología</span></h1>
+      <p style="color: var(--brand-gray-dark); margin: 1rem 0 2rem;">Maquinaria confiable y avanzada para maximizar tu rendimiento.</p>
+      <a href="m_catalogo.html" class="btn btn-primary">Ver Catálogo</a>
+      <a href="#contacto" class="btn btn-outline">Contacto</a>
+    </div>
+  </header>
+
+  <!-- Featured Section Mobile -->
+  <section id="destacados" class="section">
+
+    <!-- Stories Bar Mobile (Novedades 24hs) -->
+    <div id="stories-container" class="stories-bar-container container" style="margin-bottom: 1.5rem; display: none;"></div>
+
+    <div class="container" style="text-align: center; margin-bottom: 2rem;">
+      <span class="section-tag">Destacados</span>
+      <h2>Equipos <span class="text-gradient">Premium</span></h2>
+    </div>
+    
+    <div class="featured-carousel-wrapper">
+        <div id="featured-grid" class="featured-grid"></div>
+        <div class="carousel-hint">
+            <i class="fas fa-chevron-left"></i> Desliza para ver más <i class="fas fa-chevron-right"></i>
         </div>
-
-        <!-- Características Rápidas Ticker con Marquee Infinito -->
-        <div class="m-features-ticker">
-            <div class="m-features-marquee">
-                <span class="m-feature-item"><span class="material-symbols-outlined">agriculture</span> 75 Años de Experiencia</span>
-                <span class="m-feature-item"><span class="material-symbols-outlined">delivery_truck_speed</span> Envíos a Todo el País</span>
-                <span class="m-feature-item"><span class="material-symbols-outlined">shield_with_heart</span> Garantía y Confianza</span>
-                <span class="m-feature-item"><span class="material-symbols-outlined">handshake</span> Atención Personalizada</span>
-                <span class="m-feature-item"><span class="material-symbols-outlined">agriculture</span> 75 Años de Experiencia</span>
-                <span class="m-feature-item"><span class="material-symbols-outlined">delivery_truck_speed</span> Envíos a Todo el País</span>
-                <span class="m-feature-item"><span class="material-symbols-outlined">shield_with_heart</span> Garantía y Confianza</span>
-                <span class="m-feature-item"><span class="material-symbols-outlined">handshake</span> Atención Personalizada</span>
-            </div>
-        </div>
-    </header>
-
-    <!-- ─── HERO SECTION WITH BACKGROUND CAROUSEL ─── -->
-    <section class="hero-section">
-        <!-- Diapositivas de fondo -->
-        <div class="hero-slides">
-            <div class="hero-slide active"
-                style="background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('assets/img/b3f28557c245459b451d255276ebd1f2.png');">
-            </div>
-            <div class="hero-slide"
-                style="background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('assets/img/8edfac4772a77b9e7df9391427de01bd.jpg');">
-            </div>
-            <div class="hero-slide"
-                style="background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('assets/img/SaveClip.App_650694366_18093997424030941_5174591973062825057_n.jpg');">
-            </div>
-        </div>
-
-        <!-- Controles de navegación -->
-        <button class="hero-control prev-control" aria-label="Diapositiva anterior"><i class="fas fa-chevron-left"></i></button>
-        <button class="hero-control next-control" aria-label="Diapositiva siguiente"><i class="fas fa-chevron-right"></i></button>
-
-        <!-- Indicadores / Dots -->
-        <div class="hero-indicators">
-            <span class="indicator active" data-slide="0"></span>
-            <span class="indicator" data-slide="1"></span>
-            <span class="indicator" data-slide="2"></span>
-        </div>
-
-        <div class="hero-content">
-            <span class="restoration-badge">Desde 1950</span>
-            <h1 class="hero-title">Soluciones <span>para el Agro</span></h1>
-            <p class="hero-subtitle">Distribución oficial de drones DJI Agras, repuestos originales y agricultura de precisión de última generación.</p>
-            <div class="hero-buttons">
-                <a href="m_tienda.html" class="btn"><i class="fas fa-shopping-bag"></i> Ir a la Tienda</a>
-                <a href="m_contacto.html" class="btn btn-secondary">Contactar Asesor</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ─── CONTENEDOR PRINCIPAL MÓVIL ─── -->
-    <div style="padding: 1rem 0.75rem;">
-
-        <!-- ─── CATEGORÍAS DEL AGRO (Pestañas Interactivas Móvil) ─── -->
-        <section class="section" style="padding-top: 1rem; padding-bottom: 2rem;">
-            <div class="section-header" style="margin-bottom: 1.25rem;">
-                <h2 class="section-title">Categorías del Agro</h2>
-                <p class="section-subtitle">Explora nuestra gama de productos especializados de las mejores marcas del mercado.</p>
-            </div>
-
-            <!-- Botones chiquitos uno al lado del otro -->
-            <div class="m-tabs-row" id="m-category-tabs">
-                <button class="m-tab-btn active" onclick="switchCategoryTab(0)">
-                    <i class="fas fa-tractor"></i>
-                    <span>Maquinaria</span>
-                </button>
-                <button class="m-tab-btn" onclick="switchCategoryTab(1)">
-                    <i class="fas fa-crop-simple"></i>
-                    <span>Precisión</span>
-                </button>
-                <button class="m-tab-btn" onclick="switchCategoryTab(2)">
-                    <i class="fas fa-helicopter-symbol"></i>
-                    <span>Drones DJI</span>
-                </button>
-                <button class="m-tab-btn" onclick="switchCategoryTab(3)">
-                    <i class="fas fa-gears"></i>
-                    <span>Repuestos</span>
-                </button>
-            </div>
-
-            <!-- Tarjeta que muestra la información de la categoría pulsada -->
-            <div class="m-category-display-card" id="m-category-content">
-                <i class="fas fa-tractor category-icon" id="m-cat-icon" style="font-size:2.5rem; color:var(--accent-color); margin-bottom:0.75rem;"></i>
-                <h3 id="m-cat-title" style="font-size:1.15rem; font-weight:700; color:#111827; margin-bottom:0.5rem;">Maquinaria Agrícola y vial</h3>
-                <p id="m-cat-desc" style="font-size:0.88rem; color:var(--text-secondary); line-height:1.5; margin-bottom:1rem;">Tractores, palas mecánicas y sembradoras nuevas y usadas listas para el trabajo pesado.</p>
-                <a href="m_tienda.html?category=Maquinaria%20Agrícola" id="m-cat-link" class="btn btn-secondary btn-sm"><i class="fas fa-arrow-right"></i> Ver Equipamiento</a>
-            </div>
-        </section>
-
-        <!-- ─── RESTAURACIÓN PROFESIONAL (Texto en 1 columna, Imagen abajo) ─── -->
-        <section class="section" style="padding-top: 0; padding-bottom: 2rem;">
-            <div class="restoration-banner m-restoration-banner">
-                <div class="restoration-content">
-                    <span class="restoration-badge"><i class="fas fa-hammer"></i> Taller Artesanal</span>
-                    <h2 style="font-size: 1.35rem; line-height: 1.3; margin-top: 0.5rem; margin-bottom: 0.75rem;">Restauración Profesional de Tractores</h2>
-                    
-                    <details class="m-restoration-details" style="margin-bottom: 1rem;">
-                        <summary style="font-size: 0.85rem; font-weight: 700; color: #111827; background: #f8fafc; padding: 0.65rem 0.85rem; border-radius: 8px; border: 1px solid var(--border-color); cursor: pointer; display: flex; align-items: center; justify-content: space-between; list-style: none;">
-                            <span><i class="fas fa-info-circle" style="color:var(--accent-color);"></i> Ver detalle del taller</span>
-                            <i class="fas fa-chevron-down" style="font-size: 0.8rem; color: #6b7280;"></i>
-                        </summary>
-                        <p style="font-size: 0.85rem; line-height: 1.5; color: var(--text-secondary); background: #ffffff; padding: 0.85rem; border-radius: 8px; border: 1px solid var(--border-color); margin-top: 0.5rem; margin-bottom: 0;">
-                            En Casa Druetto no solo vendemos equipamiento; preservamos y revivimos la historia del campo. Contamos con un taller de restauración especializada donde tomamos tractores clásicos deteriorados y los dejamos en estado de fábrica: rectificación completa de motores, instalación eléctrica nueva, chapa y pintura poliuretánica original.
-                        </p>
-                    </details>
-
-                    <a href="m_galeria.html" class="btn" style="width: 100%; justify-content: center; margin-bottom: 0.5rem;"><i class="fas fa-images"></i> Ver Trabajos y Galería</a>
-                </div>
-                <div class="restoration-img-showcase" style="width: 100%; max-width: 100%; margin-top: 1rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-                    <div class="comparison-slider" id="restoration-slider" style="position: relative; width: 100%; height: 280px; border-radius: 12px; overflow: hidden; user-select: none; touch-action: none; cursor: ew-resize; background: #111827;">
-                        <!-- Después (Imagen de fondo) -->
-                        <img src="assets/img/despues.jpeg" alt="Después de la restauración" class="slider-image after-image" style="position: absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; pointer-events:none;">
-
-                        <!-- Antes (Imagen recortada superior) -->
-                        <div class="before-image-wrapper" style="position: absolute; top:0; left:0; height:100%; width:50%; overflow:hidden; z-index:2; pointer-events:none;">
-                            <img src="assets/img/antes.jpeg" alt="Antes de la restauración" class="slider-image before-image" style="position: absolute; top:0; left:0; height:100%; width:100%; max-width:none; object-fit:cover; pointer-events:none;">
-                        </div>
-
-                        <!-- Barra divisoria y botón de arrastre -->
-                        <div class="slider-handle" style="position: absolute; top:0; left:50%; height:100%; width:4px; background:#ffffff; z-index:10; transform:translateX(-50%); pointer-events:none; box-shadow: 0 0 8px rgba(0,0,0,0.4);">
-                            <div class="handle-button" style="position: absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:40px; height:40px; background:#ffffff; border:3px solid var(--accent-color); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 12px rgba(0,0,0,0.4); color:#111827; font-size:1.1rem; pointer-events:auto;">
-                                <i class="fas fa-arrows-alt-h"></i>
-                            </div>
-                        </div>
-
-                        <!-- Etiquetas -->
-                        <span class="slider-badge before-badge" style="position:absolute; top:10px; left:10px; z-index:5; background:rgba(0,0,0,0.65); color:#fff; padding:4px 10px; border-radius:4px; font-size:0.75rem; font-weight:700; pointer-events:none;">Antes</span>
-                        <span class="slider-badge after-badge" style="position:absolute; top:10px; right:10px; z-index:5; background:rgba(0,0,0,0.65); color:#fff; padding:4px 10px; border-radius:4px; font-size:0.75rem; font-weight:700; pointer-events:none;">Después</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ─── NUESTROS ALIADOS ESTRATÉGICOS (Botones de Logos + Info Abajo) ─── -->
-        <section class="section brand-partners-section" style="padding-top: 0; padding-bottom: 2rem;">
-            <div class="section-header" style="margin-bottom: 1.25rem;">
-                <h2 class="section-title">Nuestros Aliados Estratégicos</h2>
-                <p class="section-subtitle">Trabajamos junto a las empresas referentes del sector agroindustrial y tecnológico para ofrecerte la máxima garantía y calidad.</p>
-            </div>
-
-            <!-- Botones chiquitos con los logos -->
-            <div class="m-brand-nav-tabs" id="m-brand-tabs">
-                <button class="m-brand-tab-btn active" onclick="switchBrandTab(0)" title="DJI Enterprise">
-                    <img src="assets/img/brands/DJI.png" alt="DJI">
-                </button>
-                <button class="m-brand-tab-btn" onclick="switchBrandTab(1)" title="Spraytec">
-                    <img src="assets/img/brands/spaytec.png" alt="Spraytec">
-                </button>
-                <button class="m-brand-tab-btn" onclick="switchBrandTab(2)" title="Taurusvial">
-                    <img src="assets/img/brands/taurus.png" alt="Taurusvial">
-                </button>
-                <button class="m-brand-tab-btn" onclick="switchBrandTab(3)" title="Verion">
-                    <img src="assets/img/brands/verion.png" alt="Verion">
-                </button>
-                <button class="m-brand-tab-btn" onclick="switchBrandTab(4)" title="John Deere">
-                    <img src="assets/img/brands/deer.png" alt="John Deere">
-                </button>
-                <button class="m-brand-tab-btn" onclick="switchBrandTab(5)" title="Bertini">
-                    <img src="assets/img/brands/bertini.png" alt="Bertini">
-                </button>
-            </div>
-
-            <!-- Tarjeta que muestra la información de la marca pulsada -->
-            <div class="m-active-brand-card" id="m-brand-content">
-                <div class="brand-logo-wrapper" style="margin: 0 auto 0.75rem auto; height: 48px; width: 100px; display: flex; align-items: center; justify-content: center;">
-                    <img id="m-brand-logo" src="assets/img/brands/DJI.png" alt="Logo Marca" style="max-height: 100%; max-width: 100%; object-fit: contain;">
-                </div>
-                <span id="m-brand-badge" class="brand-badge" style="display: inline-block; margin-bottom: 0.5rem; background: #ecfdf5; color: #047857; font-size: 0.78rem; font-weight: 700; padding: 0.3rem 0.75rem; border-radius: 20px;">Drones</span>
-                <p id="m-brand-desc" class="brand-desc" style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5; margin: 0;">Tecnología de pulverización aérea y siembra inteligente con sistemas DJI Agras.</p>
-            </div>
-        </section>
-
-        <!-- ─── CONFIANZA Y TRAYECTORIA (Uno debajo del otro) ─── -->
-        <section class="section" style="background-color: var(--bg-secondary); border-radius: 12px; margin-bottom: 2rem; padding: 1.5rem 1rem;">
-            <div class="section-header" style="margin-bottom: 1.25rem;">
-                <h2 class="section-title">Confianza y Trayectoria</h2>
-                <p class="section-subtitle">Por qué los productores eligen a Casa Druetto año tras año.</p>
-            </div>
-            <div class="m-trust-vertical-stack">
-                <div class="m-trust-item">
-                    <i class="fas fa-award m-trust-icon"></i>
-                    <h4>75 Años de Experiencia</h4>
-                    <p>Fundados en 1950, conocemos cada cambio y necesidad del productor argentino de primera mano.</p>
-                </div>
-                <div class="m-trust-item">
-                    <i class="fas fa-handshake m-trust-icon"></i>
-                    <h4>Garantía Oficial</h4>
-                    <p>Cada equipo nuevo o reacondicionado cuenta con soporte de repuestos y asistencia técnica garantizada.</p>
-                </div>
-                <div class="m-trust-item">
-                    <i class="fas fa-headset m-trust-icon"></i>
-                    <h4>Atención Personalizada</h4>
-                    <p>Asesoramiento técnico en campo para configurar tus equipos de agricultura de precisión a medida.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- ─── FORMULARIO DE CONTACTO ─── -->
-        <section class="section">
-            <div class="section-header">
-                <h2 class="section-title">¿Tienes alguna consulta?</h2>
-                <p class="section-subtitle">Envíanos un mensaje y te responderemos por correo o WhatsApp a la brevedad.</p>
-            </div>
-            <div class="contact-form-card" style="max-width: 600px; margin: 0 auto;">
-                <form onsubmit="handleContactFormSubmit(event, this)">
-                    <div class="form-control" style="margin-bottom: 1.5rem;">
-                        <label>Nombre Completo</label>
-                        <input type="text" required>
-                    </div>
-                    <div class="form-control" style="margin-bottom: 1.5rem;">
-                        <label>WhatsApp / Celular</label>
-                        <input type="tel" required>
-                    </div>
-                    <div class="form-control" style="margin-bottom: 1.5rem;">
-                        <label>Correo Electrónico</label>
-                        <input type="email" required>
-                    </div>
-                    <div class="form-control" style="margin-bottom: 2rem;">
-                        <label>Mensaje / Consulta</label>
-                        <textarea required placeholder="Escribe tu consulta aquí..."></textarea>
-                    </div>
-                    <button class="btn btn-secondary" style="width:100%; justify-content:center;" type="submit">Enviar Mensaje</button>
-                </form>
-            </div>
-        </section>
     </div>
 
-    <!-- ─── FOOTER ─── -->
-    <footer class="main-footer">
-        <div class="footer-grid">
-            <div class="footer-col">
-                <div class="logo-link" style="margin-bottom: 1rem;">
-                    <div class="logo-circle-container" style="width:36px; height:36px;">
-                        <img src="assets/img/casadruettologo1.png" alt="75 Años" class="logo-image-badge">
-                    </div>
-                    <span class="logo-text" style="font-size:1.15rem;">CASA <span>DRUETTO</span></span>
-                </div>
-                <p>Soluciones para el agro: maquinaria agrícola, agricultura de precisión, repuestos y servicios técnicos.</p>
-            </div>
-            <div class="footer-col">
-                <h3>Navegación</h3>
-                <ul>
-                    <li><a href="m_tienda.html">Tienda Online</a></li>
-                    <li><a href="m_quienes-somos.html">Quiénes Somos</a></li>
-                    <li><a href="m_servicios.html">Servicios</a></li>
-                    <li><a href="m_galeria.html">Galería</a></li>
-                    <li><a href="m_contacto.html">Contacto</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h3>Contacto</h3>
-                <p><i class="fas fa-map-marker-alt"></i> Av. Jorge Newbery 247 Bis, S2252 Gálvez, Santa Fe</p>
-                <p><i class="fab fa-whatsapp"></i> +54 9 3404 52-1246</p>
-                <p><i class="fas fa-envelope"></i> contacto@casadruetto.com.ar</p>
-            </div>
-        </div>
-        <div class="footer-bottom" style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:1rem;">
-            <span>&copy; 2026 Casa Druetto S.A. Todos los derechos reservados.</span>
-            <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
-                <a href="https://www.afip.gob.ar/sitio/externos/default.asp" target="_blank" title="Data Fiscal ARCA / AFIP - Consultar o Reclamar">
-                    <img src="https://www.afip.gob.ar/images/f960/DATAWEB.jpg" alt="Data Fiscal ARCA" style="height:36px; width:auto; border-radius:4px;">
-                </a>
-                <a href="https://www.santafe.gob.ar/index.php/web/content/view/full/131521" target="_blank" style="color:var(--text-secondary); font-size:0.8rem; text-decoration:underline;" title="Defensa del Consumidor / Botón de Reclamos">
-                    <i class="fas fa-shield-alt"></i> Defensa del Consumidor / Reclamos
-                </a>
-                <span style="font-size:0.8rem; color:var(--text-secondary);">Desarrollado por <a href="https://matiasschvabauer.github.io/portafolio/" target="_blank" rel="noopener noreferrer" style="color:var(--accent-color); font-weight:700;">Schvabauer Matias</a></span>
-            </div>
-        </div>
-        </div>
-    </footer>
+    <div class="container" style="text-align: center; margin-top: 2rem;">
+      <a href="m_catalogo.html" class="btn btn-outline">Ver catálogo completo</a>
+    </div>
+  </section>
 
-    <!-- ─── BOTÓN FLOTANTE WHATSAPP ─── -->
-    <a href="https://wa.me/5493404521246" class="m-floating-wa" target="_blank" title="Contactar por WhatsApp">
+  <!-- 3D Model Section Mobile -->
+  <section class="section container">
+    <div style="text-align: center; margin-bottom: 2rem;">
+      <h2>Visualización <span class="text-gradient">3D</span></h2>
+      <p>Interactúa con nuestro equipo en tiempo real.</p>
+    </div>
+    <div class="model-container">
+      <model-viewer 
+          src="https://res.cloudinary.com/pfskomq5/raw/upload/v1787352709/odfk5npmskuhczywryzv.glb" 
+          alt="Tractor Agroguardati"
+          auto-rotate 
+          camera-controls 
+          shadow-intensity="1" 
+          exposure="1"
+          ar>
+      </model-viewer>
+    </div>
+  </section>
+
+  <!-- Sobre Nosotros Mobile -->
+  <section id="nosotros" class="nosotros-section grass-field-section">
+    <div class="nosotros-intro container section">
+      <div class="nosotros-split">
+        <div class="nosotros-img-wrapper">
+          <img src="https://res.cloudinary.com/pfskomq5/image/upload/v1786455504/ndmgt78pqca9fihxfu1e.jpg" alt="Campo Agroguardati" class="nosotros-img">
+          <div class="nosotros-img-badge">
+            <span class="badge-number" data-target="20">0</span>
+            <span class="badge-text">AÑOS DE EXPERIENCIA</span>
+          </div>
+        </div>
+        
+        <div class="nosotros-text">
+          <span class="section-tag">Sobre Nosotros</span>
+          <h2 style="font-size: 1.8rem; margin-bottom: 1rem;">Pasión por el <span class="text-gradient">crecimiento</span></h2>
+          <p class="nosotros-desc" style="color: var(--text-muted); font-size: 1rem;">Somos una empresa familiar dedicada a brindar soluciones integrales al productor agropecuario.</p>
+          
+          <div class="valores-grid">
+            <div class="valor-card">
+              <i class="fas fa-check-circle"></i>
+              <div>
+                <h4 style="font-size: 0.95rem;">Confianza</h4>
+                <p style="font-size: 0.8rem; color: var(--text-muted);">Trato directo y honesto.</p>
+              </div>
+            </div>
+            <div class="valor-card">
+              <i class="fas fa-certificate"></i>
+              <div>
+                <h4 style="font-size: 0.95rem;">Calidad</h4>
+                <p style="font-size: 0.8rem; color: var(--text-muted);">Maquinaria de primer nivel.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats Mobile -->
+    <div class="stats-bar section">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <span class="stat-number" data-target="20">0</span>
+            <span style="font-size: 0.8rem; opacity: 0.8;">Años</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="500">0</span>
+            <span style="font-size: 0.8rem; opacity: 0.8;">Equipos</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="1200">0</span>
+            <span style="font-size: 0.8rem; opacity: 0.8;">Clientes</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="5">0</span>
+            <span style="font-size: 0.8rem; opacity: 0.8;">Provincias</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Historia Mobile (Timeline) -->
+    <div class="historia-block container section">
+      <div style="text-align: center; margin-bottom: 2rem;">
+        <span class="section-tag">Nuestra Trayectoria</span>
+        <h2>Nuestra <span class="text-gradient">Historia</span></h2>
+      </div>
+      
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2004</span>
+            <h4>Comienzo</h4>
+            <p style="font-size: 0.9rem; color: var(--text-muted);">Apertura del primer local en Av. Jorge Newbery.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2015</span>
+            <h4>Servicio Técnico</h4>
+            <p style="font-size: 0.9rem; color: var(--text-muted);">Inauguración de taller propio especializado.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">Hoy</span>
+            <h4>Actualidad</h4>
+            <p>Líderes en ventas y soporte en la región.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto Mobile -->
+  <section id="contacto" class="section container">
+    <div style="text-align: center; margin-bottom: 2rem;">
+      <span class="section-tag">Contacto</span>
+      <h2>Canales de <span class="text-gradient">atención</span></h2>
+    </div>
+    
+    <div class="map-container" style="margin-bottom: 1.5rem;">
+      <iframe src="https://maps.google.com/maps?q=Av%20Jorge%20Newbery%20526%20bis&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+
+    <div class="contact-cards-grid">
+      <a href="https://wa.me/5493404638524" class="contact-card">
         <i class="fab fa-whatsapp"></i>
-    </a>
-
-    <!-- ─── NAVEGACIÓN INFERIOR FIJA MÓVIL ─── -->
-    <nav class="m-bottom-nav">
-        <a href="m_index.html" class="m-nav-item active">
-            <i class="fas fa-home"></i>
-            <span>Inicio</span>
-        </a>
-        <a href="m_tienda.html" class="m-nav-item">
-            <i class="fas fa-store"></i>
-            <span>Tienda</span>
-        </a>
-        <button onclick="toggleMobileSearch(true)" class="m-nav-item">
-            <i class="fas fa-search"></i>
-            <span>Buscar</span>
-        </button>
-        <button onclick="toggleCart(true)" class="m-nav-item">
-            <i class="fas fa-shopping-cart"></i>
-            <span>Carrito</span>
-        </button>
-        <a href="m_contacto.html" class="m-nav-item">
-            <i class="fas fa-envelope"></i>
-            <span>Contacto</span>
-        </a>
-    </nav>
-
-    <!-- ─── DRAWER MENÚ LATERAL MÓVIL ─── -->
-    <div id="m-drawer" class="m-drawer">
-        <div class="m-drawer-header">
-            <span class="m-drawer-title">MENÚ PRINCIPAL</span>
-            <button onclick="toggleMobileDrawer(false)" class="m-drawer-close">&times;</button>
-        </div>
-        <ul class="m-drawer-menu">
-            <li class="m-drawer-item"><a href="m_index.html"><i class="fas fa-home"></i> Inicio</a></li>
-            <li class="m-drawer-item"><a href="m_tienda.html"><i class="fas fa-store"></i> Tienda Completa</a></li>
-            <li class="m-drawer-item"><a href="m_quienes-somos.html"><i class="fas fa-users"></i> Nosotros</a></li>
-            <li class="m-drawer-item"><a href="m_servicios.html"><i class="fas fa-wrench"></i> Servicios</a></li>
-            <li class="m-drawer-item"><a href="m_galeria.html"><i class="fas fa-images"></i> Galería</a></li>
-            <li class="m-drawer-item"><a href="m_contacto.html"><i class="fas fa-envelope"></i> Contacto</a></li>
-            <li class="m-drawer-item"><a href="m_politicas-de-envio.html"><i class="fas fa-truck"></i> Políticas de Envío</a></li>
-            <li class="m-drawer-item"><a href="m_terminos-y-condiciones.html"><i class="fas fa-file-contract"></i> Términos y Condiciones</a></li>
-            <li class="m-drawer-item"><a href="admin/login.html"><i class="fas fa-user-lock"></i> Panel Admin</a></li>
-        </ul>
+        <h4>WhatsApp</h4>
+      </a>
+      <a href="mailto:ventas@agroguardati.com" class="contact-card">
+        <i class="fas fa-envelope"></i>
+        <h4>Email</h4>
+      </a>
+      <div class="contact-card">
+        <i class="fas fa-map-marker-alt"></i>
+        <h4>Dirección</h4>
+      </div>
+      <div class="contact-card">
+        <i class="fas fa-clock"></i>
+        <h4>Horarios</h4>
+      </div>
     </div>
-    <div id="m-overlay" class="m-overlay" onclick="toggleMobileDrawer(false)"></div>
+  </section>
 
-    <!-- ─── MODAL DE BÚSQUEDA MÓVIL ─── -->
-    <div id="m-search-modal" class="m-search-modal">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
-            <h3 style="font-size:1rem; font-weight:800;">Buscar en Casa Druetto</h3>
-            <button onclick="toggleMobileSearch(false)" style="background:none; border:none; font-size:1.5rem; cursor:pointer;">&times;</button>
-        </div>
-        <div class="m-search-input-box">
-            <i class="fas fa-search" style="color:#9ca3af;"></i>
-            <input type="text" id="m-search-input" placeholder="Buscar maquinaria, repuestos, código..." onkeyup="if(event.key === 'Enter') { executeMobileSearch(this.value); }">
-        </div>
-        <button class="m-btn m-btn-primary" onclick="executeMobileSearch(document.getElementById('m-search-input').value)">Buscar Equipos</button>
+  <footer>
+    <div class="container" style="text-align: center; padding: 2.5rem 0; border-top: 1px solid rgba(0,0,0,0.05);">
+      <p>&copy; 2026 Agroguardati. Todos los derechos reservados.</p>
+      <p style="margin-top: 8px; font-size: 0.85rem; color: var(--text-muted);">
+          Desarrollado por <a href="https://matiasschvabauer.github.io/portafolio/" target="_blank" style="color: var(--brand-red); text-decoration: none; font-weight: 600;">Schvabauer Matías</a>
+      </p>
     </div>
+  </footer>
 
-    <!-- Scripts -->
-    <script type="module" src="js/firebase-config.js"></script>
-    <script type="module" src="js/cart.js"></script>
-    <script src="js/mobile-app.js"></script>
-    <script>
-        // Data arrays para Pestañas Interactivas Móvil
-        const categoryData = [
-            {
-                icon: 'fas fa-tractor',
-                title: 'Maquinaria Agrícola y vial',
-                desc: 'Tractores, palas mecánicas y sembradoras nuevas y usadas listas para el trabajo pesado.',
-                linkText: 'Ver Equipamiento',
-                linkUrl: 'm_tienda.html?category=Maquinaria%20Agrícola'
-            },
-            {
-                icon: 'fas fa-crop-simple',
-                title: 'Agricultura de Precisión',
-                desc: 'Pantallas, pilotos automáticos y banderilleros satelitales para optimizar tus lotes.',
-                linkText: 'Ver Soluciones',
-                linkUrl: 'm_tienda.html?category=Agricultura%20de%20Precisión'
-            },
-            {
-                icon: 'fas fa-helicopter-symbol',
-                title: 'Drones DJI',
-                desc: 'Equipos DJI Agras y Enterprise, accesorios oficiales para pulverización aérea inteligente.',
-                linkText: 'Ver Drones',
-                linkUrl: 'm_tienda.html?category=Drones%20DJI'
-            },
-            {
-                icon: 'fas fa-gears',
-                title: 'Repuestos y Accesorios',
-                desc: 'Amplio stock de componentes originales para reparaciones rápidas en campaña.',
-                linkText: 'Ver Repuestos',
-                linkUrl: 'm_tienda.html?category=Repuestos%20y%20Accesorios'
-            }
-        ];
-
-        window.switchCategoryTab = function(idx) {
-            const tabs = document.querySelectorAll('#m-category-tabs .m-tab-btn');
-            tabs.forEach((tab, i) => {
-                if (i === idx) tab.classList.add('active');
-                else tab.classList.remove('active');
-            });
-            const item = categoryData[idx];
-            if (item) {
-                document.getElementById('m-cat-icon').className = item.icon + ' category-icon';
-                document.getElementById('m-cat-title').innerText = item.title;
-                document.getElementById('m-cat-desc').innerText = item.desc;
-                const link = document.getElementById('m-cat-link');
-                link.innerHTML = '<i class="fas fa-arrow-right"></i> ' + item.linkText;
-                link.href = item.linkUrl;
-            }
-        };
-
-        const brandData = [
-            {
-                logo: 'assets/img/brands/DJI.png',
-                badge: 'Drones',
-                desc: 'Tecnología de pulverización aérea y siembra inteligente con sistemas DJI Agras.'
-            },
-            {
-                logo: 'assets/img/brands/spaytec.png',
-                badge: 'Pulverización',
-                desc: 'Tecnología, adyuvantes y soluciones avanzadas para pulverización agrícola.'
-            },
-            {
-                logo: 'assets/img/brands/taurus.png',
-                badge: 'Maquinaria vial y agrícola',
-                desc: 'Palas cargadoras, excavadoras y equipamiento pesado para el campo y la obra.'
-            },
-            {
-                logo: 'assets/img/brands/verion.png',
-                badge: 'Maquinaria fertilizadora',
-                desc: 'Equipos de fertilización, distribuidores y tecnología de aplicación de precisión.'
-            },
-            {
-                logo: 'assets/img/brands/deer.png',
-                badge: 'Cosechadora, sembradora y tractores',
-                desc: 'Cosechadoras, sembradoras, tractores y repuestos originales de calidad.'
-            },
-            {
-                logo: 'assets/img/brands/bertini.png',
-                badge: 'Sembradoras',
-                desc: 'Sembradoras de siembra directa de alta precisión y repuestos originales Ing. Bertini.'
-            }
-        ];
-
-        window.switchBrandTab = function(idx) {
-            const tabs = document.querySelectorAll('#m-brand-tabs .m-brand-tab-btn');
-            tabs.forEach((tab, i) => {
-                if (i === idx) tab.classList.add('active');
-                else tab.classList.remove('active');
-            });
-            const item = brandData[idx];
-            if (item) {
-                document.getElementById('m-brand-logo').src = item.logo;
-                document.getElementById('m-brand-badge').innerText = item.badge;
-                document.getElementById('m-brand-desc').innerText = item.desc;
-            }
-        };
-
-        // Inicializador de carrusel hero y slider comparativo
-        document.addEventListener('DOMContentLoaded', () => {
-            const slides = document.querySelectorAll('.hero-slide');
-            const indicators = document.querySelectorAll('.indicator');
-            let currentSlide = 0;
-
-            function goToSlide(n) {
-                slides[currentSlide].classList.remove('active');
-                indicators[currentSlide].classList.remove('active');
-                currentSlide = (n + slides.length) % slides.length;
-                slides[currentSlide].classList.add('active');
-                indicators[currentSlide].classList.add('active');
-            }
-
-            document.querySelector('.next-control')?.addEventListener('click', () => goToSlide(currentSlide + 1));
-            document.querySelector('.prev-control')?.addEventListener('click', () => goToSlide(currentSlide - 1));
-
-            indicators.forEach((ind, idx) => {
-                ind.addEventListener('click', () => goToSlide(idx));
-            });
-
-            setInterval(() => goToSlide(currentSlide + 1), 6000);
-
-            // Comparison Slider con sincronización de ancho exacto y arrastre táctil fluido
-            const slider = document.getElementById('restoration-slider');
-            if (slider) {
-                const beforeWrapper = slider.querySelector('.before-image-wrapper');
-                const beforeImage = beforeWrapper ? beforeWrapper.querySelector('.before-image') : null;
-                const handle = slider.querySelector('.slider-handle');
-                let isDragging = false;
-
-                function updateImageWidth() {
-                    if (slider && beforeImage) {
-                        const w = slider.offsetWidth;
-                        if (w > 0) {
-                            beforeImage.style.width = w + 'px';
-                            beforeImage.style.minWidth = w + 'px';
-                        }
-                    }
-                }
-
-                window.addEventListener('resize', updateImageWidth);
-                setInterval(updateImageWidth, 300);
-                updateImageWidth();
-                if (beforeImage) {
-                    if (beforeImage.complete) updateImageWidth();
-                    else beforeImage.addEventListener('load', updateImageWidth);
-                }
-
-                function move(clientX) {
-                    const rect = slider.getBoundingClientRect();
-                    let x = clientX - rect.left;
-                    if (x < 0) x = 0;
-                    if (x > rect.width) x = rect.width;
-                    const percentage = (x / rect.width) * 100;
-                    if (beforeWrapper) beforeWrapper.style.width = percentage + '%';
-                    if (handle) handle.style.left = percentage + '%';
-                }
-
-                const handleStart = (e) => {
-                    isDragging = true;
-                    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
-                    move(clientX);
-                };
-
-                const handleMove = (e) => {
-                    if (!isDragging) return;
-                    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
-                    move(clientX);
-                    if (e.cancelable) e.preventDefault();
-                };
-
-                const handleEnd = () => {
-                    isDragging = false;
-                };
-
-                slider.addEventListener('mousedown', handleStart);
-                window.addEventListener('mousemove', handleMove);
-                window.addEventListener('mouseup', handleEnd);
-
-                slider.addEventListener('touchstart', handleStart, { passive: false });
-                window.addEventListener('touchmove', handleMove, { passive: false });
-                window.addEventListener('touchend', handleEnd);
-                window.addEventListener('touchcancel', handleEnd);
-            }
-        });
-    </script>
+  <!-- Firebase & Admin Scripts -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+  <script src="js/firebase-config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/stories.js"></script>
+  <script src="js/admin-bar.js"></script>
+  <script src="js/grass-field.js"></script>
+  <script src="js/m_app.js"></script>
 </body>
 </html>

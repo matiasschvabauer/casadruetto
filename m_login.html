@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso Administrativo (Móvil) - Agroguardati</title>
+    <link rel="icon" type="image/png" href="AGLOGOCIRC.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --brand-blue: #1d5497;
+            --brand-red: #d32f2f;
+            --white: #ffffff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; text-decoration: none !important; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #153f71;
+            padding: 1.25rem;
+        }
+
+        .login-container {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            padding: 2.25rem 1.25rem;
+            width: 100%;
+            max-width: 380px;
+            text-align: center;
+        }
+
+        .logo-login {
+            width: 70px;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            color: white;
+            font-size: 1.5rem;
+            margin-bottom: 0.4rem;
+        }
+
+        p {
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 1.75rem;
+            font-size: 0.9rem;
+        }
+
+        .btn-google {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            padding: 0.9rem 1.2rem;
+            background: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: 700;
+            color: #1e293b;
+            cursor: pointer;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+            transition: transform 0.15s ease;
+        }
+
+        .btn-google:active {
+            transform: scale(0.98);
+        }
+
+        .back-link {
+            display: block;
+            margin-top: 1.75rem;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.85rem;
+        }
+
+        .alert {
+            background: rgba(211, 47, 47, 0.3);
+            border: 1px solid var(--brand-red);
+            color: white;
+            padding: 0.75rem;
+            border-radius: 10px;
+            margin-bottom: 1.25rem;
+            font-size: 0.8rem;
+            display: none;
+        }
+    </style>
+
+    <!-- Firebase App SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+</head>
+<body>
+    <div class="login-container">
+        <img src="AGLOGOCIRC.png" alt="Logo" class="logo-login">
+        <h1>Panel de Gestión</h1>
+        <p>Agro<span style="color: var(--brand-red); font-weight: 700;">guardati</span> &bull; Móvil</p>
+        
+        <div id="login-alert" class="alert"></div>
+
+        <button id="btn-google-login" class="btn-google">
+            <svg width="20" height="20" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/></svg>
+            Iniciar Sesión con Google
+        </button>
+
+        <p style="font-size: 0.78rem; color: rgba(255,255,255,0.5); margin-top: 1.25rem; margin-bottom: 0;">Acceso para administradores autorizados</p>
+
+        <a href="m_index.html" class="back-link"><i class="fas fa-arrow-left"></i> Volver al inicio</a>
+    </div>
+
+    <script src="js/firebase-config.js"></script>
+    <script>
+        const config = window.AGRO_CONFIG?.firebase;
+        if (config && config.apiKey && !config.apiKey.includes('TU_API_KEY')) {
+            if (!firebase.apps.length) firebase.initializeApp(config);
+
+            firebase.auth().onAuthStateChanged(user => {
+                if (user) {
+                    const allowedEmails = window.AGRO_CONFIG?.adminEmails || window.AGRO_ADMIN_EMAILS || ["matiasschvabauer@gmail.com", "guillermoguardati@gmail.com", "Lucioguardati1@gmail.com", "lucioguardati1@gmail.com"];
+                    if (allowedEmails.some(e => e.toLowerCase() === user.email.toLowerCase())) {
+                        window.location.href = "admin.html";
+                    } else {
+                        firebase.auth().signOut();
+                        const alertEl = document.getElementById('login-alert');
+                        alertEl.style.display = 'block';
+                        alertEl.textContent = `Acceso denegado a ${user.email}.`;
+                    }
+                }
+            });
+
+            document.getElementById('btn-google-login').addEventListener('click', () => {
+                const provider = new firebase.auth.GoogleAuthProvider();
+                firebase.auth().signInWithPopup(provider).catch(err => {
+                    const alertEl = document.getElementById('login-alert');
+                    alertEl.style.display = 'block';
+                    if (err.code === 'auth/unauthorized-domain') {
+                        const currentDomain = window.location.hostname;
+                        alertEl.innerHTML = `<strong>Dominio no autorizado:</strong> Debes agregar <code>${currentDomain}</code> en Firebase Console &rarr; Authentication &rarr; Settings &rarr; Authorized domains.`;
+                    } else {
+                        alertEl.textContent = 'Error al iniciar sesión: ' + err.message;
+                    }
+                });
+            });
+        } else {
+            document.getElementById('btn-google-login').addEventListener('click', () => {
+                window.location.href = "admin.html";
+            });
+        }
+
+        if (window.innerWidth > 768) {
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+</html>

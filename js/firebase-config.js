@@ -1,73 +1,23 @@
-// ═══════════════════════════════════════════════════════════════════
-// firebase-config.js — Configuración de Firebase y Fallback Local
-// ═══════════════════════════════════════════════════════════════════
+// --- AGROGUARDATI - CONFIGURACIÓN DE FIREBASE Y CLOUDINARY ---
 
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
-import { getFirestore } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
-import { getStorage } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-storage.js";
-import { getAuth } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js";
+window.AGRO_CONFIG = {
+  // Configuración de Cloudinary para subida directa de imágenes
+  cloudinary: {
+    cloudName: "pfskomq5",
+    uploadPreset: "nwrslkmw"
+  },
 
-// Reemplazar con las credenciales del nuevo proyecto de Firebase cuando esté listo
+  // Configuración de Firebase (Auth Google + Firestore Database)
+  firebase: {
+    apiKey: "AIzaSyA92iepzPYW09tQoHDbRhsPGlyp9GQh46w",
+    authDomain: "agroguardati.firebaseapp.com",
+    projectId: "agroguardati",
+    storageBucket: "agroguardati.firebasestorage.app",
+    messagingSenderId: "515227534943",
+    appId: "1:515227534943:web:178c960ad6cdd065f2bdea"
+  },
 
-const firebaseConfig = {
-    apiKey: "AIzaSyBbcpIukZJcQL1zR3IHH7UhBE0-xMVTkEM",
-    authDomain: "casa-druetto.firebaseapp.com",
-    projectId: "casa-druetto",
-    storageBucket: "casa-druetto.firebasestorage.app",
-    messagingSenderId: "659125798479",
-    appId: "1:659125798479:web:91a6b90020513aa10a0c3a"
+  // Email de Administrador Autorizado
+  adminEmail: "matiasschvabauer@gmail.com",
+  adminEmails: ["matiasschvabauer@gmail.com", "guillermoguardati@gmail.com", "Lucioguardati1@gmail.com", "lucioguardati1@gmail.com"]
 };
-
-let app, db, storage, auth;
-let useFirebase = false;
-
-// Intentar inicializar Firebase (si las credenciales son válidas)
-if (firebaseConfig.apiKey && firebaseConfig.apiKey !== "YOUR_API_KEY_HERE") {
-    try {
-        app = initializeApp(firebaseConfig);
-        db = getFirestore(app);
-        storage = getStorage(app);
-        auth = getAuth(app);
-        useFirebase = true;
-        console.log("[Firebase] Inicializado con éxito.");
-    } catch (e) {
-        console.warn("[Firebase] Error al conectar. Usando base de datos local de respaldo.", e);
-    }
-} else {
-    console.log("[Firebase] Sin credenciales configuradas. Usando base de datos local (Fallback).");
-}
-
-// ─── Base de Datos Local de Respaldo (Fallback local en localStorage) ───
-const localDb = {
-    // Simula operaciones básicas de Firestore
-    async getCollection(colName) {
-        const stored = localStorage.getItem(`druetto_local_${colName}`);
-        return stored ? JSON.parse(stored) : [];
-    },
-    async setCollection(colName, data) {
-        localStorage.setItem(`druetto_local_${colName}`, JSON.stringify(data));
-    },
-    async getDoc(colName, docId) {
-        const items = await this.getCollection(colName);
-        return items.find(i => i.id === docId) || null;
-    },
-    async setDoc(colName, docId, data) {
-        const items = await this.getCollection(colName);
-        const idx = items.findIndex(i => i.id === docId);
-        const updatedDoc = { id: docId, ...data };
-        if (idx !== -1) {
-            items[idx] = updatedDoc;
-        } else {
-            items.push(updatedDoc);
-        }
-        await this.setCollection(colName, items);
-        return updatedDoc;
-    },
-    async deleteDoc(colName, docId) {
-        let items = await this.getCollection(colName);
-        items = items.filter(i => i.id !== docId);
-        await this.setCollection(colName, items);
-    }
-};
-
-export { app, db, storage, auth, useFirebase, localDb };
