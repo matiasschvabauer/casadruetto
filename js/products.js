@@ -26245,6 +26245,64 @@ export async function renderProductDetailPage() {
             }
         };
     }
+
+    // Configuración del calculador de envío
+    const calcBtn = document.getElementById('calc-btn');
+    const calcZip = document.getElementById('calc-zipcode');
+    const calcResults = document.getElementById('calc-results');
+
+    if (calcBtn && calcZip && calcResults) {
+        // Remover listener previo si existe (para evitar duplicaciones)
+        const newCalcBtn = calcBtn.cloneNode(true);
+        calcBtn.parentNode.replaceChild(newCalcBtn, calcBtn);
+
+        newCalcBtn.addEventListener('click', () => {
+            const zipVal = calcZip.value.trim();
+            if (!zipVal) {
+                alert("Por favor, ingrese un código postal.");
+                return;
+            }
+            
+            // Simular costos de envío aproximados
+            let costCorreo = 4500;
+            let costAndreani = 5200;
+            
+            const cleanZip = zipVal.replace(/\D/g, '');
+            if (cleanZip) {
+                const num = parseInt(cleanZip, 10);
+                if (num >= 2000 && num < 4000) { // Región Santa Fe / Córdoba / Entre Ríos
+                    costCorreo = 3800;
+                    costAndreani = 4400;
+                } else if (num >= 1000 && num < 2000) { // Buenos Aires
+                    costCorreo = 4200;
+                    costAndreani = 4900;
+                } else { // Resto del país
+                    costCorreo = 5800;
+                    costAndreani = 6500;
+                }
+            }
+
+            calcResults.innerHTML = `
+                <div style="display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.8rem; color: var(--text-primary); margin-top: 0.5rem;">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start; padding: 0.5rem 0; border-bottom: 1px dashed var(--border-color); gap: 10px;">
+                        <div>
+                           <strong style="display:block; margin-bottom:2px;"><i class="fas fa-box" style="color:var(--accent-color);"></i> Correo Argentino (Domicilio)</strong>
+                           <span style="font-size: 0.72rem; color: var(--text-secondary); line-height:1.2; display:block;">(Envío aproximado, a coordinar con el vendedor)</span>
+                        </div>
+                        <span style="font-weight: 700; color: var(--success-color); white-space: nowrap;">$${costCorreo.toLocaleString('es-AR')} ARS</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start; padding: 0.5rem 0; gap: 10px;">
+                        <div>
+                           <strong style="display:block; margin-bottom:2px;"><i class="fas fa-truck" style="color:var(--accent-color);"></i> Andreani (Sucursal)</strong>
+                           <span style="font-size: 0.72rem; color: var(--text-secondary); line-height:1.2; display:block;">(Envío aproximado, a coordinar con el vendedor)</span>
+                        </div>
+                        <span style="font-weight: 700; color: var(--success-color); white-space: nowrap;">$${costAndreani.toLocaleString('es-AR')} ARS</span>
+                    </div>
+                </div>
+            `;
+            calcResults.style.display = 'flex';
+        });
+    }
 }
 window.renderProductDetailPage = renderProductDetailPage;
 

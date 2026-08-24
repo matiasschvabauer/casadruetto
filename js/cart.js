@@ -191,6 +191,23 @@ function renderCartItems() {
     if (totalEl) {
         totalEl.innerText = `$${grandTotalUSD.toLocaleString('es-AR', { minimumFractionDigits: 2 })} USD`;
     }
+
+    // Alerta de envío no incluido en el carrito
+    const noticeWrapper = document.getElementById('cart-shipping-notice-wrapper');
+    if (noticeWrapper) {
+        if (cart.length > 0) {
+            noticeWrapper.innerHTML = `
+                <div class="cart-shipping-notice" style="margin-top: 0.5rem; margin-bottom: 0.85rem; padding: 0.65rem 0.85rem; background-color: rgba(245, 158, 11, 0.1); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 6px; color: #d97706; font-size: 0.75rem; display: flex; align-items: flex-start; gap: 0.5rem; line-height: 1.35;">
+                    <i class="fas fa-exclamation-circle" style="margin-top: 0.15rem; font-size: 0.85rem;"></i>
+                    <span><strong>Atención:</strong> El importe total no incluye los gastos de envío. El envío se coordinará y abonará directamente con el vendedor.</span>
+                </div>
+            `;
+            noticeWrapper.style.display = 'block';
+        } else {
+            noticeWrapper.innerHTML = '';
+            noticeWrapper.style.display = 'none';
+        }
+    }
 }
 
 // Abre/Cierra el Drawer del Carrito
@@ -489,6 +506,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <span>Total:</span>
                     <span id="cart-total-amount">$0.00</span>
                 </div>
+                <div id="cart-shipping-notice-wrapper"></div>
                 
                 <div class="checkout-form-container">
                     <h4>Datos para concretar la compra:</h4>
@@ -568,6 +586,41 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (e) {}
 
         showToast("🎉 ¡Pago acreditado con éxito por Mercado Pago! Tu orden fue registrada.");
+        
+        // Redireccionar a WhatsApp para coordinar envío de Mercado Pago
+        let clientName = '';
+        let orderId = '';
+        let itemsText = '';
+        try {
+            const existingOrders = JSON.parse(localStorage.getItem('druetto_orders') || '[]');
+            if (existingOrders.length > 0) {
+                const lastOrder = existingOrders[existingOrders.length - 1];
+                if (lastOrder) {
+                    clientName = lastOrder.client || '';
+                    orderId = lastOrder.id || '';
+                    if (lastOrder.items) {
+                        itemsText = lastOrder.items.map(i => `• ${i.qty}x ${i.name}`).join('\n');
+                    }
+                }
+            }
+        } catch (e) {}
+
+        let text = `🌾 *CASA DRUETTO - Envío de Pago Mercado Pago* 🌾\n\n`;
+        text += `¡Hola! Acabo de completar el pago de mi compra a través de Mercado Pago y quiero coordinar el envío.\n\n`;
+        if (clientName) text += `*Cliente:* ${clientName}\n`;
+        if (orderId) text += `*Orden:* ${orderId}\n`;
+        if (itemsText) {
+            text += `*Detalle del Pedido:*\n${itemsText}\n`;
+        }
+        text += `\n_Quedo a la espera para coordinar el despacho._`;
+        
+        const encodedText = encodeURIComponent(text);
+        const waUrl = `https://wa.me/${shopConfig.whatsappNumber || '5493404521246'}?text=${encodedText}`;
+        
+        setTimeout(() => {
+            window.open(waUrl, '_blank');
+        }, 2000);
+
         window.history.replaceState({}, document.title, window.location.pathname);
     }
 });
