@@ -94,24 +94,39 @@ async function fetchCurrentDollarRate() {
 
 // Método global para agregar al carrito
 window.addToCart = function(id, name, code, price, img, qty = 1) {
+    let finalName = name;
+    let finalCode = code;
+    let finalPrice = price;
+    let finalImg = img;
+
+    if (!finalName && typeof window.getProductById === 'function') {
+        const prod = window.getProductById(id);
+        if (prod) {
+            finalName = prod.name;
+            finalCode = prod.code;
+            finalPrice = prod.price;
+            finalImg = (prod.images && prod.images.length > 0) ? prod.images[0] : prod.img;
+        }
+    }
+
     const existing = cart.find(item => item.id === id);
-    const parsedPrice = parseFloat(price) || 0;
+    const parsedPrice = parseFloat(finalPrice) || 0;
     
     if (existing) {
         existing.qty += qty;
     } else {
         cart.push({
             id,
-            name,
-            code: code || 'S/C',
+            name: finalName || 'Producto',
+            code: finalCode || 'S/C',
             price: parsedPrice,
             currency: 'USD',
-            img: img || 'assets/img/casadruettologo1.png',
+            img: finalImg || 'assets/img/casadruettologo1.png',
             qty
         });
     }
     saveCart();
-    showToast(`"${name}" agregado al carrito.`);
+    showToast(`"${finalName || 'Producto'}" agregado al carrito.`);
 };
 
 window.removeFromCart = function(id) {

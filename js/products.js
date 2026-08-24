@@ -26305,6 +26305,7 @@ export async function renderProductDetailPage() {
     }
 }
 window.renderProductDetailPage = renderProductDetailPage;
+window.getProductById = getProductById;
 
 window.switchDetailMainImage = function(src, thumbEl) {
     const mainImg = document.getElementById('main-detail-image');
